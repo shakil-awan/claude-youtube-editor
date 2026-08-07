@@ -8,4 +8,4 @@ this repo is what remembers. Never delete rows; corrections edit in place.
 
 | date | project | video id | title | format | topic | publishAt slot | notes |
 |---|---|---|---|---|---|---|---|
-| 2026-08-07 | short-001 | T08Tm92yv0E | 3 AI Tools That Are 100% Free (No Card Needed) | listicle | free tools: NotebookLM, AI Studio, ElevenLabs | 2026-08-08T15:00:00Z | first channel upload; owner to review in Studio before the slot fires |
+| 2026-08-07 | short-001 | T08Tm92yv0E | You Are Overpaying for AI: Use These 3 Tools Instead #ai #tech #shorts | listicle | free tools: NotebookLM, AI Studio, ElevenLabs | 2026-08-08T15:00:00Z | first channel upload; title edited in Studio post-upload (API-confirmed); schedule held via API |

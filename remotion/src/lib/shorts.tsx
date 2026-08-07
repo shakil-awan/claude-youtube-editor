@@ -123,6 +123,33 @@ export const ProgressBar: React.FC = () => {
 };
 
 // =============================================================================
+// CoverImage — the "thumbnail" layer. Shorts can't have uploaded thumbnails:
+// YouTube shows FRAME 0 in the feed/grid, so the hook frame IS the thumbnail.
+// Full-bleed Nano Banana art (tools/gen_image.py --model fast --aspect 9:16,
+// NO text in the image — text is HookTitle's job, in brand type) under a scrim
+// that keeps the payoff line legible. Reuse at the loop point so the last
+// frame resolves back into the cover and the replay is seamless.
+// =============================================================================
+export const CoverImage: React.FC<{
+  src: string; // staticFile path, e.g. 'projects/short-007/cover.png'
+  at?: number; // fade-in start frame (0 for the hook)
+  out?: number; // start of fade-out (omit to stay)
+  opacity?: number; // art intensity under the scrim
+}> = ({ src, at = 0, out, opacity = 1 }) => {
+  const frame = useCurrentFrame();
+  const fadeIn = interpolate(frame, [at, at + 8], [0, 1], { ...CLAMP, easing: EASINGS.easeOut });
+  const fadeOut = out === undefined ? 1 : 1 - interpolate(frame, [out, out + 10], [0, 1], { ...CLAMP, easing: EASINGS.easeIn });
+  const op = opacity * Math.min(fadeIn, fadeOut);
+  return (
+    <AbsoluteFill style={{ opacity: op }}>
+      <Img src={staticFile(src)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+      {/* scrim: darkens top for the hook text, feathers to paper at the bottom for captions */}
+      <AbsoluteFill style={{ background: `linear-gradient(180deg, ${COLORS.ink}99 0%, ${COLORS.ink}33 34%, transparent 55%, ${COLORS.paper}ee 88%)` }} />
+    </AbsoluteFill>
+  );
+};
+
+// =============================================================================
 // Watermark — persistent channel mark, top-left under the progress bar. Pass
 // `src` (a staticFile path like 'library/logos/channel-mark.png') once a real
 // logo exists in media/library/logos/; with no src it renders the BRAND

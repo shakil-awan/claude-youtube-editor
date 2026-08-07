@@ -57,6 +57,16 @@ hope the voice fits.
      hook layout so the replay is invisible (frame 0 ≈ final frame), and make frame 0 carry the
      full payoff statement — YouTube uses it as the de-facto thumbnail in the Shorts feed.
      Reference craft: hassancs91/claude-faceless-shorts-creator (12 worked TSX productions).
+   - **The cover frame (mandatory):** Shorts can't have uploaded thumbnails, so frame 0 IS the
+     thumbnail — make it thumbnail-grade. Generate ONE dramatic backdrop per Short:
+     `python tools/gen_image.py --prompt "<single bold subject matching the hook, cinematic
+     light, high contrast, emerald/gold palette accents, NO text, no watermarks>" --model fast
+     --aspect 9:16 --out media/projects/short-NNN/cover.png`, then layer
+     `<CoverImage src='projects/short-NNN/cover.png' out={HOOK_OUT} />` UNDER `HookTitle` for
+     the hook, and bring it back at the loop point (`at={CTA}`) so last frame = first frame.
+     Text never lives in the image — `HookTitle` renders it in brand type. QA the actual frame 0
+     still: payoff readable at feed size? subject visible? then it ships. (`--model pro` only
+     when a video is a big bet.)
 
 4. **Register + render.** From the repo root:
    ```

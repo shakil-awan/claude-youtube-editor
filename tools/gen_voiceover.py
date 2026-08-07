@@ -34,7 +34,7 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API_URL = "https://api.elevenlabs.io/v1/text-to-speech/{voice_id}/with-timestamps"
-DEFAULT_VOICE = "pNInz6obpgDQGcFmaJgB"  # ElevenLabs premade "Adam" — replace via ELEVENLABS_VOICE_ID
+DEFAULT_VOICE = "TX3LPaxmHKxFdv7VOQHJ"  # ElevenLabs "Liam" — ToolMint's locked brand voice (brand.md §1); override via ELEVENLABS_VOICE_ID
 DEFAULT_MODEL = "eleven_multilingual_v2"
 
 

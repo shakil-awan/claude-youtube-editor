@@ -1,6 +1,6 @@
 import React from 'react';
-import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from 'remotion';
-import { COLORS, EASINGS, GRADIENT, RADIUS, SHADOW } from '../brand';
+import { AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
+import { BRAND, COLORS, EASINGS, GRADIENT, RADIUS, SHADOW } from '../brand';
 import { FONT_DISPLAY, FONT_BODY, FONT_MONO } from '../fonts';
 import { CLAMP } from './kit';
 
@@ -118,6 +118,34 @@ export const ProgressBar: React.FC = () => {
   return (
     <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 10, background: `${COLORS.line}66` }}>
       <div style={{ height: '100%', width: `${p * 100}%`, background: GRADIENT, borderRadius: '0 5px 5px 0' }} />
+    </div>
+  );
+};
+
+// =============================================================================
+// Watermark — persistent channel mark, top-left under the progress bar. Pass
+// `src` (a staticFile path like 'library/logos/channel-mark.png') once a real
+// logo exists in media/library/logos/; with no src it renders the BRAND
+// wordmark from brand.ts, so it is never wrong — only more generic. Branding
+// every frame is part of the originality defense (NICHE-STRATEGY.md §5).
+// =============================================================================
+export const Watermark: React.FC<{ src?: string; at?: number }> = ({ src, at = 0 }) => {
+  const frame = useCurrentFrame();
+  const op = interpolate(frame, [at, at + 12], [0, 0.92], { ...CLAMP, easing: EASINGS.easeOut });
+  return (
+    <div style={{ position: 'absolute', top: 34, left: SAFE.side, opacity: op }}>
+      {src ? (
+        <Img src={staticFile(src)} style={{ height: 56, borderRadius: 14 }} />
+      ) : (
+        <div style={{
+          background: `${COLORS.paper}d9`, border: `2px solid ${COLORS.line}`, borderRadius: RADIUS.pill,
+          padding: '8px 24px', fontFamily: FONT_DISPLAY, fontWeight: 700, fontSize: 30, letterSpacing: 0.5,
+        }}>
+          <span style={{ color: COLORS.ink }}>{BRAND.wordmark[0]}</span>
+          <span style={{ color: COLORS.accent }}>{BRAND.wordmark[1]}</span>
+          <span style={{ color: COLORS.ink }}>{BRAND.wordmark[2]}</span>
+        </div>
+      )}
     </div>
   );
 };

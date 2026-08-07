@@ -19,28 +19,51 @@ so a weak or unverified script cannot be fixed later. Scripts are cheap; renders
 
 ## Workflow
 
-1. **Research the day** (once, then script 2–3 Shorts from it). Hunt in order:
-   - **News-jacks (best when found):** AI tool launches/updates in the last 24–48h — search
-     "<big lab> release", "new AI tool launch", Product Hunt AI leaderboard, changelog pages of
-     the big tools. A real launch beats any evergreen topic.
-   - **Evergreen listicles:** free/cheap tools around one money outcome (save $X on Y, automate Z).
-   - **Replacements/versus:** "paid tool X vs free tool Y" where the claim is honestly defensible.
-2. **Pick topic + format** per the strategy §2 mix (listicle ~60%, news-jack when one exists,
-   replacement, versus). Check `learnings.md` for hooks/topics to favor or avoid.
-3. **Fact-check gate (hard).** Every claim about a tool — pricing, free tier, feature, platform —
+1. **Research the day — once, comprehensively, written down.** The output is a dated research doc
+   `videos/research/YYYY-MM-DD.md` (committed — research is part of the reproducible pipeline),
+   and 2–3 Shorts are scripted FROM it. Sweep four angles; each contributes candidates:
+   - **Launch surfaces (news-jacks — best when found):** AI releases in the last 24–48h — the
+     official blogs/changelogs of OpenAI, Google/DeepMind, Anthropic, Meta AI; Product Hunt's AI
+     leaderboard; "released today AI tool" searches. A real launch beats any evergreen topic.
+   - **Community heat:** what builders are actually excited about — Hacker News front page,
+     r/artificial + r/ChatGPT hot posts, X/AI newsletters. Heat without a launch = evergreen
+     angle with proven interest.
+   - **Competitor breakouts:** what over-performed in the niche in the last 7 days (vidIQ MCP
+     outliers when connected, else YouTube search sorted by views, filtered to this week,
+     restricted to Shorts). We are not copying videos — we are reading which SUB-TOPICS the
+     audience is bingeing right now.
+   - **Coverage gaps:** formats/topics the strategy §2 mix says we owe (e.g. no versus in 2
+     weeks) and anything `learnings.md` says to double down on.
+2. **Score every candidate** in the research doc's table, 1–5 each — pick the top 2–3:
+   - **Freshness** (launched today = 5, evergreen = 2)
+   - **Money angle** (concrete $/time saved = 5, "cool" = 1)
+   - **Provability** (we can show real numbers/UI in the proof slot = 5, hand-waving = 1)
+   - **Saturation** (nobody covered it yet = 5, everywhere this week = 1)
+   - **Learnings fit** (matches a proven hook/topic pattern = 5, contradicts one = 1)
+   A candidate scoring under 15/25 doesn't get made. Record WHY the winners won — /shorts-report
+   later checks whether the rubric's predictions held.
+3. **Dedup against the last 14 days** — `ls videos/research/` + recent `short-*/script/short.md`
+   topics. A repeat sub-topic is allowed only as an explicit follow-up to an outlier (§7).
+4. **Fact-check gate (hard).** Every claim about a tool — pricing, free tier, feature, platform —
    verified against the tool's OWN site/docs today. One fabricated feature kills channel trust
    (strategy §5). Record the source URL per claim in `short.md`.
-4. **Write the script.** Structure:
-   - **Hook (≤ 12 words):** number + "free" (when true) + money outcome. Stated in the first
-     spoken line AND designed to appear on screen at 0s.
+5. **Write the script.** Structure:
+   - **Hook — write 3 variants (≤ 12 words each):** number + "free" (when true) + money outcome.
+     Pick the one `learnings.md`'s hook patterns favor; keep the other two in `short.md` (they
+     seed follow-ups and A/B ideas). The winner is stated in the first spoken line AND designed
+     to appear on screen at 0s. Design the CTA so the loop back to the hook feels seamless —
+     Shorts replay, and a clean loop reads as a second watch.
    - **Beats:** one tool ≈ 2 sentences — *name → what it does for your wallet → the specific
      number/use-case.* 3–5 beats for a listicle.
    - **CTA (one line):** "Follow for daily AI tools" family. No begging, no double CTAs.
    - **Length:** 80–120 words ≈ 30–45s at ~2.6 words/s. Never past 150 words (60s wall).
    - Write for the EAR: short sentences, no parentheticals, numbers as words ("thirty", not "30")
      when the TTS should speak them naturally.
-5. **Affiliate pass** (strategy §3): if a covered tool has an affiliate program, note it in
+6. **Affiliate pass** (strategy §3): if a covered tool has an affiliate program, note it in
    `metadata.md` with an `AFFILIATE-LINK-HERE` placeholder — never force a worse tool in to get one.
+7. **Pinned comment** (in `metadata.md`): one open question that invites replies ("Which of these
+   do you actually use?") plus the affiliate/disclosure line. Comments are an algorithm signal we
+   can legitimately engineer; a question outperforms a link-dump.
 
 ## Outputs — a new `videos/short-NNN/` project
 

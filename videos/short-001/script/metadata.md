@@ -7,5 +7,7 @@
   ▸ ElevenLabs: AFFILIATE-LINK-HERE
   Some links are affiliate links — they support the channel at no cost to you.
 - **Hashtags:** #ai #aitools #free
-- **Publish slot:** 11:00 US-Eastern
+- **Publish slot:** 11:00 US-Eastern (concrete publishAt lives in ../publish.json via tools/next_slot.py)
+- **Pinned comment:** Which of these do you actually use? 👇 (ElevenLabs link in bio — affiliate,
+  supports the channel at no cost to you)
 - **Video ID:** (fill after upload — /shorts-report reads this)

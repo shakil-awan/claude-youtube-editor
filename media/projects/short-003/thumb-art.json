@@ -1,0 +1,9 @@
+{
+  "prompt": "Premium tech-editorial photograph, vertical composition with the subject in the LOWER TWO THIRDS and empty dark space at the top. A sleek chrome robotic hand reaching upward with glowing emerald holographic panels floating around the fingers, warm gold rim light. dramatic studio lighting, shallow depth of field, very high contrast, dark charcoal background, subtle film grain. Absolutely NO text, NO letters, NO numbers, NO words, NO logos, NO brand names, NO watermarks anywhere in the image.",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": 12,
+  "refs": [],
+  "created": "2026-08-07T14:43:31"
+}

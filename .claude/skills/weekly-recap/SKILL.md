@@ -33,8 +33,21 @@ Nobody else in the faceless space can do this without re-editing; we re-render.
    `tools/verify_short.py videos/recap-NNN --file output/recap-NNN.mp4` for the audio checks
    (ignore its vertical-resolution failure — that check is Shorts-only) and READ frames at each
    segment boundary.
-6. **Package**: `/packaging` — full title + 3 thumbnail bets (long-form thumbnails matter, unlike
-   Shorts). Upload via publish.json; weekend slot (Sat 11:00 ET) unless learnings say otherwise.
+6. **Package** — long-form thumbnails are LANDSCAPE and they matter (unlike Shorts, the 16:9
+   shelf is the real surface). Same split as Shorts: the model paints, Remotion sets the type.
+   ```
+   ./venv/bin/python tools/gen_image.py --aspect 16:9 \
+     --prompt "<hero subject on the RIGHT half, empty dark space on the left>, dramatic studio
+       light, emerald/gold accents, dark charcoal bg. Absolutely NO text, NO logos, NO brand names." \
+     --out media/projects/recap-NNN/thumb-art.png
+   cd remotion && npx remotion still RecapThumbnail --browser-executable=<headless shell> \
+     ../videos/recap-NNN/packaging/thumb.png \
+     --props='{"art":"projects/recap-NNN/thumb-art.png","line1":"7 AI TOOLS","line2":"THAT MATTERED","accent":"line1","kicker":"THIS WEEK"}'
+   ```
+   `RecapThumbnail` (1920×1080) carries the ToolMint mark, so every surface is branded. Use
+   `/packaging` for the title + the 3 thumbnail BETS (vary `line1/line2/art` per bet and let
+   YouTube's A/B test pick). Upload via publish.json; weekend slot (Sat 11:00 ET) unless
+   learnings say otherwise.
 7. **Ledger**: append a `recap` row to `videos/publish-log.md`.
 
 ## Cadence

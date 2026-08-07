@@ -57,12 +57,8 @@ hope the voice fits.
      hook layout so the replay is invisible (frame 0 ≈ final frame), and make frame 0 carry the
      full payoff statement — YouTube uses it as the de-facto thumbnail in the Shorts feed.
      Reference craft: hassancs91/claude-faceless-shorts-creator (12 worked TSX productions).
-     **Frame 0 is where thumbnail effort pays off for Shorts** — an uploaded 16:9 thumbnail only
-     serves Studio/search/browse, and vertical surfaces crop its sides (a 16:9 headline loses its
-     first and last words). Uploaded thumbnails: keep them 16:9 and compose the headline toward
-     centre. A 9:16 uploaded thumbnail fills vertical tiles but needs `--model fast --size 2K`
-     (the lite tier caps at 768px wide, under YouTube's 1280 minimum) — only worth it if the
-     data says so.
+     **Frame 0 is where thumbnail effort pays off for Shorts** — the feed always shows it. The
+     uploaded thumbnail serves Studio/search/browse and the Shorts tab (see step 4b).
    - **Generated-image QA — trademark check:** image models hallucinate real brand marks (an
      NVIDIA logo appeared on a chip during testing). Reject any render containing a third-party
      logo or brand name; regenerate with the brand named in the negative list.
@@ -121,6 +117,27 @@ hope the voice fits.
    the human review gate stays intact: upload early, review any time before the slot, pull the
    `publishAt` in Studio if it shouldn't ship. On an unaudited API project YouTube may ignore
    API-set publishAt — then the schedule is set with one click in Studio from the same plan.
+7b. **Thumbnail — VERTICAL, brand type set in Remotion (never in the image model).**
+   Verified behaviour: YouTube normalises every custom thumbnail to 16:9, letterboxing a 9:16
+   upload with a blurred fill of its own art — so a vertical design shows perfectly in the
+   Shorts tab / vertical tiles AND stays readable in 16:9 surfaces. Vertical is the house format.
+   ```
+   # 1. art only — the model must render NO text (it garbles words and hallucinates brand logos)
+   ./venv/bin/python tools/gen_image.py --aspect 9:16 \
+     --prompt "<subject in the LOWER TWO THIRDS, empty dark space at top>, dramatic studio light,
+       high contrast, emerald/gold accents, dark charcoal bg, film grain.
+       Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names." \
+     --out media/projects/short-NNN/thumb-art.png
+   # 2. Remotion sets the type + the ToolMint mark (1440x2560, crisp brand fonts, never misspelled)
+   cd remotion && npx remotion still ShortThumbnail --browser-executable=<headless shell> \
+     ../videos/short-NNN/packaging/thumb-v.png \
+     --props='{"art":"projects/short-NNN/thumb-art.png","line1":"TWO WORDS","line2":"PAYOFF","accent":"line2"}'
+   # 3. PNG -> JPG under YouTube's 2MB cap (PIL, quality 95 down until it fits), then attach
+   ```
+   Headline: 2–4 words per line, max 2 lines, the accent line carries the money word — it must be
+   readable at ~120px tall. **QA the render**: read it back; reject any third-party logo the art
+   model hallucinated (an NVIDIA mark appeared during testing) and regenerate with that brand in
+   the negative list.
 8. **Upload the draft** (only when asked, or the user pre-authorized the day's batch):
    ```
    venv/Scripts/python tools/yt_upload.py upload videos/short-NNN/publish.json --dry-run   # preview

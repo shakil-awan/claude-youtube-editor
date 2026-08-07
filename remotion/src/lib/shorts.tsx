@@ -1,6 +1,6 @@
 import React from 'react';
-import { AbsoluteFill, interpolate, useCurrentFrame } from 'remotion';
-import { COLORS, EASINGS, RADIUS, SHADOW } from '../brand';
+import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from 'remotion';
+import { COLORS, EASINGS, GRADIENT, RADIUS, SHADOW } from '../brand';
 import { FONT_DISPLAY, FONT_BODY, FONT_MONO } from '../fonts';
 import { CLAMP } from './kit';
 
@@ -46,7 +46,7 @@ export const CaptionTrack: React.FC<{
   centerY?: number; // px from top; default sits just above the bottom safe area
   fontSize?: number;
   fps?: number;
-}> = ({ words, groupSize = 3, centerY = SHORT.H - SAFE.bottom - 160, fontSize = 76, fps = SHORT.FPS }) => {
+}> = ({ words, groupSize = 3, centerY = SHORT.H - SAFE.bottom - 260, fontSize = 84, fps = SHORT.FPS }) => {
   const frame = useCurrentFrame();
   if (words.length === 0) return null;
 
@@ -77,26 +77,47 @@ export const CaptionTrack: React.FC<{
 
   return (
     <div style={{
-      position: 'absolute', left: SAFE.side, right: SAFE.side, top: centerY,
+      position: 'absolute', left: SAFE.side - 20, right: SAFE.side - 20, top: centerY,
       display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center',
-      columnGap: 22, rowGap: 6, opacity: pageOp, textAlign: 'center',
+      columnGap: 8, rowGap: 12, opacity: pageOp, textAlign: 'center',
     }}>
       {page.map((w, i) => {
         const wf = secToFrame(w.start_s, fps);
         const active = t >= w.start_s && t < w.end_s + 0.06;
-        const pop = interpolate(frame, [wf, wf + 5], [0.92, 1], { ...CLAMP, easing: EASINGS.overshoot });
         const spoken = t >= w.start_s;
+        // pop with a manual overshoot peak; every word carries the pill padding so the
+        // active highlight never reflows the line
+        const pop = interpolate(frame, [wf, wf + 4, wf + 9], [0.86, 1.07, 1], { ...CLAMP, easing: EASINGS.easeOut });
+        const lift = interpolate(frame, [wf, wf + 6], [10, 0], { ...CLAMP, easing: EASINGS.easeOut });
         return (
           <span key={`${w.word}-${i}`} style={{
-            fontFamily: FONT_DISPLAY, fontWeight: 700, fontSize, lineHeight: 1.15,
-            color: active ? COLORS.accent : spoken ? COLORS.ink : `${COLORS.ink}55`,
-            transform: `scale(${spoken ? pop : 0.92})`,
-            textShadow: `0 2px 18px ${COLORS.paper}`,
+            fontFamily: FONT_DISPLAY, fontWeight: 700, fontSize, lineHeight: 1.18,
+            padding: '4px 20px', borderRadius: 20,
+            background: active ? COLORS.accent : 'transparent',
+            boxShadow: active ? `0 10px 34px ${COLORS.accent}55` : 'none',
+            color: active ? COLORS.paper : spoken ? COLORS.ink : `${COLORS.ink}40`,
+            transform: `scale(${spoken ? pop : 0.86}) translateY(${spoken ? lift : 10}px)`,
+            textShadow: active ? 'none' : `0 2px 18px ${COLORS.paper}`,
           }}>
             {w.word}
           </span>
         );
       })}
+    </div>
+  );
+};
+
+// =============================================================================
+// ProgressBar — thin gradient bar across the very top, filling with playback.
+// A quiet retention device: the viewer's brain registers "almost done, stay".
+// =============================================================================
+export const ProgressBar: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { durationInFrames } = useVideoConfig();
+  const p = durationInFrames > 1 ? frame / (durationInFrames - 1) : 0;
+  return (
+    <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 10, background: `${COLORS.line}66` }}>
+      <div style={{ height: '100%', width: `${p * 100}%`, background: GRADIENT, borderRadius: '0 5px 5px 0' }} />
     </div>
   );
 };
@@ -126,14 +147,26 @@ export const HookTitle: React.FC<{
           {kicker}
         </div>
       ) : null}
-      {lines.map((l, i) => (
-        <h1 key={i} style={{
-          ...rise(at + 5 + i * 6), margin: 0, fontFamily: FONT_DISPLAY, fontWeight: 700,
-          fontSize, lineHeight: 1.04, color: l.accent ? COLORS.accent : COLORS.ink,
-        }}>
-          {l.text}
-        </h1>
-      ))}
+      {lines.map((l, i) => {
+        // accent lines get a highlight sweep drawing underneath as they land
+        const sweep = interpolate(frame, [at + 14 + i * 6, at + 30 + i * 6], [0, 1], { ...CLAMP, easing: EASINGS.easeOut });
+        return (
+          <h1 key={i} style={{
+            ...rise(at + 5 + i * 6), margin: 0, fontFamily: FONT_DISPLAY, fontWeight: 700,
+            fontSize, lineHeight: 1.08, color: l.accent ? COLORS.accent : COLORS.ink,
+            position: 'relative', display: 'inline-block',
+          }}>
+            {l.accent ? (
+              <span style={{
+                position: 'absolute', left: -10, right: -10, bottom: 8, height: 26,
+                background: `${COLORS.signal}55`, borderRadius: 8,
+                transform: `scaleX(${sweep})`, transformOrigin: 'left', zIndex: 0,
+              }} />
+            ) : null}
+            <span style={{ position: 'relative', zIndex: 1 }}>{l.text}</span>
+          </h1>
+        );
+      })}
     </div>
   );
 };
@@ -150,8 +183,8 @@ export const CountBadge: React.FC<{ n: number; of: number; at?: number; color?: 
       position: 'absolute', top: SAFE.top + 20, left: '50%',
       transform: `translateX(-50%) scale(${pop})`, opacity: op,
       background: color, color: COLORS.paper, borderRadius: RADIUS.pill,
-      fontFamily: FONT_MONO, fontWeight: 700, fontSize: 34, padding: '12px 34px',
-      boxShadow: SHADOW.soft, letterSpacing: 2,
+      fontFamily: FONT_MONO, fontWeight: 700, fontSize: 36, padding: '14px 38px',
+      boxShadow: `0 10px 30px ${color}55`, letterSpacing: 2,
     }}>
       {n} / {of}
     </div>
@@ -173,27 +206,30 @@ export const ToolCard: React.FC<{
 }> = ({ name, tagline, chip, chipColor = COLORS.signal, at = 0, children }) => {
   const frame = useCurrentFrame();
   const op = interpolate(frame, [at, at + 12], [0, 1], { ...CLAMP, easing: EASINGS.easeOut });
-  const y = interpolate(frame, [at, at + 14], [44, 0], { ...CLAMP, easing: EASINGS.easeOut });
+  const y = interpolate(frame, [at, at + 16], [60, 0], { ...CLAMP, easing: EASINGS.easeOut });
+  const s = interpolate(frame, [at, at + 18], [0.94, 1], { ...CLAMP, easing: EASINGS.overshoot });
+  const chipPop = interpolate(frame, [at + 8, at + 18], [0, 1], { ...CLAMP, easing: EASINGS.overshoot });
   return (
     <div style={{
       position: 'absolute', left: SAFE.side, right: SAFE.side, top: SAFE.top + 210,
-      opacity: op, transform: `translateY(${y}px)`,
+      opacity: op, transform: `translateY(${y}px) scale(${s})`, transformOrigin: '50% 30%',
       background: COLORS.paper, border: `2px solid ${COLORS.line}`, borderRadius: RADIUS.card,
-      boxShadow: SHADOW.card, padding: '44px 44px 40px', display: 'flex', flexDirection: 'column', gap: 22,
+      boxShadow: SHADOW.card, padding: '48px 48px 44px', display: 'flex', flexDirection: 'column', gap: 24,
     }}>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 18 }}>
-        <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 700, fontSize: 66, color: COLORS.ink, lineHeight: 1.05 }}>{name}</div>
+        <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 700, fontSize: 74, color: COLORS.ink, lineHeight: 1.05 }}>{name}</div>
         {chip ? (
           <div style={{
             background: chipColor, color: COLORS.paper, borderRadius: RADIUS.pill,
-            fontFamily: FONT_MONO, fontWeight: 700, fontSize: 30, padding: '10px 26px', whiteSpace: 'nowrap',
+            fontFamily: FONT_MONO, fontWeight: 700, fontSize: 32, padding: '12px 28px', whiteSpace: 'nowrap',
+            transform: `scale(${chipPop})`, boxShadow: `0 8px 26px ${chipColor}66`,
           }}>
             {chip}
           </div>
         ) : null}
       </div>
-      <div style={{ fontFamily: FONT_BODY, fontWeight: 500, fontSize: 40, lineHeight: 1.3, color: COLORS.muted }}>{tagline}</div>
-      {children ? <div style={{ marginTop: 10 }}>{children}</div> : null}
+      <div style={{ fontFamily: FONT_BODY, fontWeight: 500, fontSize: 44, lineHeight: 1.32, color: COLORS.muted }}>{tagline}</div>
+      {children ? <div style={{ marginTop: 12 }}>{children}</div> : null}
     </div>
   );
 };

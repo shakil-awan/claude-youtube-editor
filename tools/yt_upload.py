@@ -54,8 +54,15 @@ DEFAULT_CATEGORY = 28
 
 
 def rp(p: str) -> Path:
+    # Resolve relative paths against the CWD first (this repo's convention: run from the repo
+    # root), then the repo itself, then the legacy monorepo parent — first hit wins.
     q = Path(p)
-    return q if q.is_absolute() else ROOT / q
+    if q.is_absolute():
+        return q
+    for base in (Path.cwd(), REPO, ROOT):
+        if (base / q).exists():
+            return base / q
+    return ROOT / q
 
 
 def load_plan(path: Path) -> dict:

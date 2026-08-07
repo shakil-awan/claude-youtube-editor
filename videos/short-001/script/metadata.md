@@ -10,4 +10,4 @@
 - **Publish slot:** 11:00 US-Eastern (concrete publishAt lives in ../publish.json via tools/next_slot.py)
 - **Pinned comment:** Which of these do you actually use? 👇 (ElevenLabs link in bio — affiliate,
   supports the channel at no cost to you)
-- **Video ID:** (fill after upload — /shorts-report reads this)
+- **Video ID:** T08Tm92yv0E (uploaded 2026-08-07, private, publishAt 2026-08-08T15:00:00Z)

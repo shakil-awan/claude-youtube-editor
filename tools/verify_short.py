@@ -80,6 +80,11 @@ def main():
                 warns.append(f"frame rate {fps:.2f} (expected ~30)")
         except (ValueError, ZeroDivisionError):
             warns.append("could not parse frame rate")
+        # full-range yuvj420p (Remotion's jpeg pipeline default) breaks some browser players —
+        # the /make-short mux re-encodes to yuv420p; a stream-copied mux skips that fix.
+        if v.get("pix_fmt") not in (None, "yuv420p"):
+            fails.append(f"pixel format {v.get('pix_fmt')} — re-encode the mux to yuv420p "
+                         "(+faststart) per /make-short step 5; some players won't play this")
 
     duration = float(info.get("format", {}).get("duration", 0.0))
     if duration >= 59.5:

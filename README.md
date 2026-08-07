@@ -25,6 +25,17 @@ and composited over your cut.
 Plus **`/brand-setup`** — makes all of it look like *your* channel, not the one it came from.
 And **`/vidtsx-2d-generator`** — the low-level rules that keep a Remotion shot from crashing.
 
+## The Shorts engine (this fork's addition)
+
+This fork adds a second pipeline that runs the editor **backwards** for faceless YouTube Shorts:
+no footage — the script is the master. `/write-short` researches and scripts in the niche locked
+by [`NICHE-STRATEGY.md`](NICHE-STRATEGY.md) (data-backed, vidIQ-sourced), `tools/gen_voiceover.py`
+turns it into an ElevenLabs voiceover **with word timestamps**, and `/make-short` builds a
+1080×1920 Remotion shot where captions and beats sync to those words (`remotion/src/lib/shorts.tsx`
+— worked example in `remotion/src/shots/shorts-demo/`). `/shorts-report` closes the loop weekly:
+real stats → `learnings.md` → better scripts. Same brand contract, same asset library, same
+uploader as the long-form pipeline.
+
 ## What you record vs what it builds
 
 **You record:** yourself, talking. That's the whole shot list.

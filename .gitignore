@@ -27,6 +27,8 @@ videos/*/reference/
 
 # heavy / regenerable per-video artifacts (rebuilt by the pipeline)
 videos/*/work/audio/
+# Shorts narration audio is regenerable from script/narration.txt (words.json stays committed)
+videos/*/work/voiceover/*.mp3
 videos/*/work/render/
 videos/*/work/editor/*.mp4
 videos/*/work/editor/*.png

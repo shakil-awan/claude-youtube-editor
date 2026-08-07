@@ -23,6 +23,24 @@ videos/video-1/
 out of git — this repo carries the *reproducible pipeline* (plans, cuts, transcripts, shots), not
 your camera files. That's deliberate: the plans are small and diffable, the footage is not.
 
+## Shorts projects (`short-NNN/`)
+
+Faceless Shorts use the same folder, numbered `short-001/`, `short-002/`, … and run script-first
+(no raw footage). `/write-short` creates the structure; `/make-short` fills it:
+
+```
+videos/short-001/
+├─ script/
+│  ├─ short.md                   topic, format, hook, beats + claim sources, visual intent
+│  ├─ narration.txt              the spoken words only — tools/gen_voiceover.py reads this
+│  └─ metadata.md                title, description (+affiliate placeholders), hashtags, video id
+├─ work/voiceover/               voiceover.mp3 + words.json (git-ignored, regenerable)
+└─ output/short-001.mp4          the final vertical master (git-ignored)
+```
+
+The shot itself lives in `remotion/src/shots/short-001/` (committed) — worked example in
+`remotion/src/shots/shorts-demo/`.
+
 ## Where's the example?
 
 The worked example is **37 Remotion shots** in `remotion/src/shots/example/` — the visual beats from

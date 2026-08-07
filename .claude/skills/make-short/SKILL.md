@@ -52,10 +52,13 @@ hope the voice fits.
    cd remotion && npm run gen && npx remotion render ShortNNN out/short-NNN-video.mp4 && cd ..
    ```
 
-5. **Mux the voiceover** (video renders silent; the mp3 is the audio track):
+5. **Mux the voiceover** (video renders silent; the mp3 is the audio track). Re-encode — don't
+   stream-copy: Remotion's jpeg pipeline emits full-range `yuvj420p`, which some players refuse,
+   and `+faststart` is what lets browsers start playback before the download finishes:
    ```
    ffmpeg -y -i remotion/out/short-NNN-video.mp4 -i videos/short-NNN/work/voiceover/voiceover.mp3 \
-     -c:v copy -c:a aac -b:a 192k -map 0:v:0 -map 1:a:0 -shortest videos/short-NNN/output/short-NNN.mp4
+     -map 0:v:0 -map 1:a:0 -c:v libx264 -profile:v high -pix_fmt yuv420p -preset fast -crf 20 \
+     -c:a aac -b:a 192k -movflags +faststart videos/short-NNN/output/short-NNN.mp4
    ```
    Optional polish before the mux, same as long-form: `/suggest-sfx` for 2–3 cues on the biggest
    beats, a quiet music bed via `tools/mix_music.py`. Taste per `brand.md` §10 — under the voice, always.

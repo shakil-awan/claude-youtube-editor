@@ -54,8 +54,13 @@ so a weak or unverified script cannot be fixed later. Scripts are cheap; renders
      to appear on screen at 0s. Design the CTA so the loop back to the hook feels seamless —
      Shorts replay, and a clean loop reads as a second watch.
    - **Beats:** one tool ≈ 2 sentences — *name → what it does for your wallet → the specific
-     number/use-case.* 3–5 beats for a listicle.
-   - **CTA (one line):** "Follow for daily AI tools" family. No begging, no double CTAs.
+     number/use-case.* 3–5 beats for a listicle. For news-jacks/replacements, prefer the
+     retention beat grammar (per hassancs91's shorts engine): **HOOK → SETUP → QUIZ (make them
+     predict) → REVEAL → TWIST** — a mid-video open question measurably holds swipers.
+   - **Ending — write for the LOOP:** Shorts replay automatically, and a seamless loop reads as
+     a rewatch to the algorithm. Script the last line so it lands back on the hook's frame
+     (e.g. close with the hook's claim restated). CTA is one short line at most, never a
+     dated "like and subscribe" outro — and test CTA-free loops vs CTA via learnings.md.
    - **Length:** 80–120 words ≈ 30–45s at ~2.6 words/s. Never past 150 words (60s wall).
    - Write for the EAR: short sentences, no parentheticals, numbers as words ("thirty", not "30")
      when the TTS should speak them naturally.

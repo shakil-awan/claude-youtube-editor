@@ -34,7 +34,9 @@ turns it into an ElevenLabs voiceover **with word timestamps**, and `/make-short
 1080×1920 Remotion shot where captions and beats sync to those words (`remotion/src/lib/shorts.tsx`
 — worked example in `remotion/src/shots/shorts-demo/`). `/shorts-report` closes the loop weekly:
 real stats → `learnings.md` → better scripts. Same brand contract, same asset library, same
-uploader as the long-form pipeline.
+uploader as the long-form pipeline. To run the whole thing on a schedule with a human review
+gate, see [`AUTOMATION.md`](AUTOMATION.md). Every produced Short passes
+`tools/verify_short.py` before upload.
 
 ## What you record vs what it builds
 

@@ -93,7 +93,8 @@ current brand (wordmark, palette, type) so you can see it. `/brand-setup` uses i
   SFX/music library `clips/*.mp3` ARE committed (there is deliberately no blanket `*.mp3` ignore).
 
 - **QA is not optional:** render frames and READ them before declaring a shot done; run
-  `verify_cut.py` on every cut render (it catches ghost speech + A/V drift); audit the SFX cue sheet
+  `verify_cut.py` on every cut render (it catches ghost speech + A/V drift) and `verify_short.py`
+  on every produced Short (missed mux, A/V drift, over-60s, clipping); audit the SFX cue sheet
   before mixing. Scratch renders/frames go in a scratch dir, not the project.
 
 - **The brand contract is three files.** `brand.md`, `remotion/src/brand.ts`, `remotion/src/fonts.ts`.

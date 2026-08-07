@@ -60,11 +60,14 @@ hope the voice fits.
    Optional polish before the mux, same as long-form: `/suggest-sfx` for 2–3 cues on the biggest
    beats, a quiet music bed via `tools/mix_music.py`. Taste per `brand.md` §10 — under the voice, always.
 
-6. **QA — not optional.** Render stills at the hook, each beat's landing frame, and one mid-caption
-   moment (`npx remotion still ShortNNN --frame=N <scratch>/f-N.png`) and **READ them**: hook
-   legible in 1.5s? captions inside SAFE? proof slot actually proving? Then check the mux:
-   `ffprobe` duration matches voiceover +0.5s, audio present, file < 60s. Stills go in a scratch
-   dir, never the project.
+6. **QA — not optional.** Two gates, both must pass:
+   - **Machine gate:** `python tools/verify_short.py videos/short-NNN` — verifies 1080×1920,
+     under 60s, audio present (the classic missed-mux), A/V durations (video = voiceover +
+     ~0.5s tail), peak levels, captions not outliving the video. Exit 0 required.
+   - **Eye gate:** extract frames from the FINAL mp4 (`ffmpeg -ss <t> -i .../short-NNN.mp4
+     -frames:v 1 <scratch>/f.png`) at the hook, each beat's landing, and one mid-caption moment,
+     and **READ them**: hook legible in 1.5s? captions inside SAFE? proof slot actually proving?
+     Stills go in a scratch dir, never the project.
 
 7. **Upload as a private draft** (only when asked, or the user pre-authorized the day's batch):
    ```

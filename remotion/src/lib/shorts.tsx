@@ -50,9 +50,19 @@ export const CaptionTrack: React.FC<{
   const frame = useCurrentFrame();
   if (words.length === 0) return null;
 
+  // Pages fill to groupSize but always break at sentence punctuation — a page never
+  // mixes the end of one sentence with the start of the next (it reads wrong on screen).
   const size = Math.max(1, groupSize);
   const pages: CaptionWord[][] = [];
-  for (let i = 0; i < words.length; i += size) pages.push(words.slice(i, i + size));
+  let cur: CaptionWord[] = [];
+  for (const w of words) {
+    cur.push(w);
+    if (cur.length >= size || /[.!?…]["')\]]?$/.test(w.word)) {
+      pages.push(cur);
+      cur = [];
+    }
+  }
+  if (cur.length > 0) pages.push(cur);
 
   const t = frame / fps;
   // last page holds briefly so the closing words don't vanish mid-read

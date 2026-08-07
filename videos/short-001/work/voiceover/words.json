@@ -1,0 +1,443 @@
+{
+  "text": "Stop paying for AI tools. These three are completely free. Number one, NotebookLM. Drop in any PDF and it turns it into a podcast you can listen to on your commute. Number two, Google AI Studio. The full Gemini model, free in your browser. People pay twenty dollars a month for less. Number three, ElevenLabs. Studio quality voiceovers, and the free tier gives you ten minutes every month. That is a faceless YouTube channel, for zero dollars. Follow for one money making AI tool every single day.",
+  "voice_id": "pNInz6obpgDQGcFmaJgB",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 36.389,
+  "words": [
+    {
+      "word": "Stop",
+      "start_s": 0.0,
+      "end_s": 0.372
+    },
+    {
+      "word": "paying",
+      "start_s": 0.488,
+      "end_s": 0.848
+    },
+    {
+      "word": "for",
+      "start_s": 0.917,
+      "end_s": 1.022
+    },
+    {
+      "word": "AI",
+      "start_s": 1.103,
+      "end_s": 1.463
+    },
+    {
+      "word": "tools.",
+      "start_s": 1.533,
+      "end_s": 2.101
+    },
+    {
+      "word": "These",
+      "start_s": 2.276,
+      "end_s": 2.519
+    },
+    {
+      "word": "three",
+      "start_s": 2.566,
+      "end_s": 2.786
+    },
+    {
+      "word": "are",
+      "start_s": 2.821,
+      "end_s": 2.926
+    },
+    {
+      "word": "completely",
+      "start_s": 2.961,
+      "end_s": 3.471
+    },
+    {
+      "word": "free.",
+      "start_s": 3.541,
+      "end_s": 4.017
+    },
+    {
+      "word": "Number",
+      "start_s": 4.261,
+      "end_s": 4.54
+    },
+    {
+      "word": "one,",
+      "start_s": 4.621,
+      "end_s": 4.992
+    },
+    {
+      "word": "NotebookLM.",
+      "start_s": 5.143,
+      "end_s": 6.49
+    },
+    {
+      "word": "Drop",
+      "start_s": 6.664,
+      "end_s": 6.931
+    },
+    {
+      "word": "in",
+      "start_s": 7.001,
+      "end_s": 7.07
+    },
+    {
+      "word": "any",
+      "start_s": 7.117,
+      "end_s": 7.268
+    },
+    {
+      "word": "PDF",
+      "start_s": 7.338,
+      "end_s": 7.906
+    },
+    {
+      "word": "and",
+      "start_s": 8.081,
+      "end_s": 8.29
+    },
+    {
+      "word": "it",
+      "start_s": 8.348,
+      "end_s": 8.417
+    },
+    {
+      "word": "turns",
+      "start_s": 8.452,
+      "end_s": 8.766
+    },
+    {
+      "word": "it",
+      "start_s": 8.812,
+      "end_s": 8.882
+    },
+    {
+      "word": "into",
+      "start_s": 8.928,
+      "end_s": 9.137
+    },
+    {
+      "word": "a",
+      "start_s": 9.253,
+      "end_s": 9.276
+    },
+    {
+      "word": "podcast",
+      "start_s": 9.346,
+      "end_s": 9.996
+    },
+    {
+      "word": "you",
+      "start_s": 10.043,
+      "end_s": 10.124
+    },
+    {
+      "word": "can",
+      "start_s": 10.17,
+      "end_s": 10.298
+    },
+    {
+      "word": "listen",
+      "start_s": 10.356,
+      "end_s": 10.612
+    },
+    {
+      "word": "to",
+      "start_s": 10.67,
+      "end_s": 10.774
+    },
+    {
+      "word": "on",
+      "start_s": 10.89,
+      "end_s": 11.018
+    },
+    {
+      "word": "your",
+      "start_s": 11.064,
+      "end_s": 11.18
+    },
+    {
+      "word": "commute.",
+      "start_s": 11.227,
+      "end_s": 11.784
+    },
+    {
+      "word": "Number",
+      "start_s": 12.225,
+      "end_s": 12.481
+    },
+    {
+      "word": "two,",
+      "start_s": 12.527,
+      "end_s": 13.026
+    },
+    {
+      "word": "Google",
+      "start_s": 13.201,
+      "end_s": 13.653
+    },
+    {
+      "word": "AI",
+      "start_s": 13.735,
+      "end_s": 14.129
+    },
+    {
+      "word": "Studio.",
+      "start_s": 14.222,
+      "end_s": 14.954
+    },
+    {
+      "word": "The",
+      "start_s": 15.197,
+      "end_s": 15.314
+    },
+    {
+      "word": "full",
+      "start_s": 15.36,
+      "end_s": 15.569
+    },
+    {
+      "word": "Gemini",
+      "start_s": 15.639,
+      "end_s": 16.057
+    },
+    {
+      "word": "model,",
+      "start_s": 16.138,
+      "end_s": 16.567
+    },
+    {
+      "word": "free",
+      "start_s": 16.742,
+      "end_s": 17.067
+    },
+    {
+      "word": "in",
+      "start_s": 17.125,
+      "end_s": 17.195
+    },
+    {
+      "word": "your",
+      "start_s": 17.241,
+      "end_s": 17.369
+    },
+    {
+      "word": "browser.",
+      "start_s": 17.415,
+      "end_s": 18.031
+    },
+    {
+      "word": "People",
+      "start_s": 18.356,
+      "end_s": 18.693
+    },
+    {
+      "word": "pay",
+      "start_s": 18.739,
+      "end_s": 18.948
+    },
+    {
+      "word": "twenty",
+      "start_s": 19.018,
+      "end_s": 19.308
+    },
+    {
+      "word": "dollars",
+      "start_s": 19.354,
+      "end_s": 19.679
+    },
+    {
+      "word": "a",
+      "start_s": 19.714,
+      "end_s": 19.749
+    },
+    {
+      "word": "month",
+      "start_s": 19.807,
+      "end_s": 20.039
+    },
+    {
+      "word": "for",
+      "start_s": 20.086,
+      "end_s": 20.202
+    },
+    {
+      "word": "less.",
+      "start_s": 20.26,
+      "end_s": 20.817
+    },
+    {
+      "word": "Number",
+      "start_s": 21.142,
+      "end_s": 21.409
+    },
+    {
+      "word": "three,",
+      "start_s": 21.467,
+      "end_s": 21.908
+    },
+    {
+      "word": "ElevenLabs.",
+      "start_s": 22.083,
+      "end_s": 23.313
+    },
+    {
+      "word": "Studio",
+      "start_s": 23.522,
+      "end_s": 23.963
+    },
+    {
+      "word": "quality",
+      "start_s": 24.033,
+      "end_s": 24.451
+    },
+    {
+      "word": "voiceovers,",
+      "start_s": 24.521,
+      "end_s": 25.357
+    },
+    {
+      "word": "and",
+      "start_s": 25.508,
+      "end_s": 25.647
+    },
+    {
+      "word": "the",
+      "start_s": 25.693,
+      "end_s": 25.763
+    },
+    {
+      "word": "free",
+      "start_s": 25.821,
+      "end_s": 26.076
+    },
+    {
+      "word": "tier",
+      "start_s": 26.135,
+      "end_s": 26.402
+    },
+    {
+      "word": "gives",
+      "start_s": 26.471,
+      "end_s": 26.657
+    },
+    {
+      "word": "you",
+      "start_s": 26.692,
+      "end_s": 26.785
+    },
+    {
+      "word": "ten",
+      "start_s": 26.854,
+      "end_s": 27.075
+    },
+    {
+      "word": "minutes",
+      "start_s": 27.133,
+      "end_s": 27.423
+    },
+    {
+      "word": "every",
+      "start_s": 27.47,
+      "end_s": 27.667
+    },
+    {
+      "word": "month.",
+      "start_s": 27.737,
+      "end_s": 28.224
+    },
+    {
+      "word": "That",
+      "start_s": 28.468,
+      "end_s": 28.654
+    },
+    {
+      "word": "is",
+      "start_s": 28.7,
+      "end_s": 28.793
+    },
+    {
+      "word": "a",
+      "start_s": 28.84,
+      "end_s": 28.874
+    },
+    {
+      "word": "faceless",
+      "start_s": 28.991,
+      "end_s": 29.536
+    },
+    {
+      "word": "YouTube",
+      "start_s": 29.594,
+      "end_s": 30.14
+    },
+    {
+      "word": "channel,",
+      "start_s": 30.175,
+      "end_s": 30.604
+    },
+    {
+      "word": "for",
+      "start_s": 30.639,
+      "end_s": 30.79
+    },
+    {
+      "word": "zero",
+      "start_s": 30.86,
+      "end_s": 31.208
+    },
+    {
+      "word": "dollars.",
+      "start_s": 31.266,
+      "end_s": 31.916
+    },
+    {
+      "word": "Follow",
+      "start_s": 32.299,
+      "end_s": 32.648
+    },
+    {
+      "word": "for",
+      "start_s": 32.717,
+      "end_s": 32.845
+    },
+    {
+      "word": "one",
+      "start_s": 32.926,
+      "end_s": 33.147
+    },
+    {
+      "word": "money",
+      "start_s": 33.193,
+      "end_s": 33.414
+    },
+    {
+      "word": "making",
+      "start_s": 33.472,
+      "end_s": 33.785
+    },
+    {
+      "word": "AI",
+      "start_s": 33.902,
+      "end_s": 34.354
+    },
+    {
+      "word": "tool",
+      "start_s": 34.424,
+      "end_s": 34.784
+    },
+    {
+      "word": "every",
+      "start_s": 34.935,
+      "end_s": 35.248
+    },
+    {
+      "word": "single",
+      "start_s": 35.318,
+      "end_s": 35.678
+    },
+    {
+      "word": "day.",
+      "start_s": 35.724,
+      "end_s": 36.363
+    }
+  ]
+}

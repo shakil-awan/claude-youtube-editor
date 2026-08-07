@@ -1,0 +1,11 @@
+# short-001 — packaging
+
+- **Title:** 3 AI Tools That Are 100% Free (No Card Needed)
+- **Description:**
+  Three genuinely free AI tools: NotebookLM (PDF → podcast), Google AI Studio (Gemini free in
+  the browser), ElevenLabs (10 free minutes of studio voiceover monthly).
+  ▸ ElevenLabs: AFFILIATE-LINK-HERE
+  Some links are affiliate links — they support the channel at no cost to you.
+- **Hashtags:** #ai #aitools #free
+- **Publish slot:** 11:00 US-Eastern
+- **Video ID:** (fill after upload — /shorts-report reads this)

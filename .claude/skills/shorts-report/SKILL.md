@@ -11,8 +11,9 @@ the faceless-shorts space closes this loop; closing it is the compounding edge.
 
 ## Inputs
 
-- **Published Shorts list** — every `videos/short-NNN/` with an uploaded video id (keep ids in
-  `metadata.md` after publishing; if missing, ask the user or check Studio).
+- **`videos/publish-log.md`** — the definitive ledger of what was uploaded (id, title, format,
+  topic, slot). This is the list to pull stats for; a `short-NNN/` with no ledger row means
+  /make-short step 9 was skipped — backfill the row (ids also live in `metadata.md`, or ask).
 - **`tools/yt_stats.py`** — per-video Data API + Analytics API numbers. One-time auth:
   `venv/Scripts/python tools/yt_stats.py auth`. Then per video:
   `venv/Scripts/python tools/yt_stats.py fetch <VIDEO_ID> --json`.

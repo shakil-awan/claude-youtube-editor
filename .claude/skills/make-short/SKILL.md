@@ -57,6 +57,15 @@ hope the voice fits.
      hook layout so the replay is invisible (frame 0 ≈ final frame), and make frame 0 carry the
      full payoff statement — YouTube uses it as the de-facto thumbnail in the Shorts feed.
      Reference craft: hassancs91/claude-faceless-shorts-creator (12 worked TSX productions).
+     **Frame 0 is where thumbnail effort pays off for Shorts** — an uploaded 16:9 thumbnail only
+     serves Studio/search/browse, and vertical surfaces crop its sides (a 16:9 headline loses its
+     first and last words). Uploaded thumbnails: keep them 16:9 and compose the headline toward
+     centre. A 9:16 uploaded thumbnail fills vertical tiles but needs `--model fast --size 2K`
+     (the lite tier caps at 768px wide, under YouTube's 1280 minimum) — only worth it if the
+     data says so.
+   - **Generated-image QA — trademark check:** image models hallucinate real brand marks (an
+     NVIDIA logo appeared on a chip during testing). Reject any render containing a third-party
+     logo or brand name; regenerate with the brand named in the negative list.
    - **The cover frame (mandatory):** Shorts can't have uploaded thumbnails, so frame 0 IS the
      thumbnail — make it thumbnail-grade. Generate ONE dramatic backdrop per Short:
      `python tools/gen_image.py --prompt "<single bold subject matching the hook, cinematic

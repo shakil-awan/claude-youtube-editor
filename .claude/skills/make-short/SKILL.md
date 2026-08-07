@@ -101,6 +101,10 @@ hope the voice fits.
    ```
    It prints the Studio link — that link is what goes to the owner for approval. **Private always**
    until the owner approves — the review gate is the demonetization firewall (strategy §4).
+9. **Append the ledger row** — add this Short to `videos/publish-log.md` (date, project, video id
+   from the upload output, title, format, topic, publishAt slot, notes) and mirror the video id
+   into `script/metadata.md`. The ledger is the channel's cross-session memory: dedup, stats,
+   and the weekly recap all read it. An upload without a ledger row is an unfinished step 8.
 
 ## Output layout
 

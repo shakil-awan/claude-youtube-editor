@@ -38,9 +38,12 @@ summary of what was made to logs/daily-$(date +\%F).md" \
 learnings.md if it changed" --permission-mode acceptEdits >> logs/cron.log 2>&1
 ```
 
-Your morning routine is then: open YouTube Studio → review 2 drafts → schedule them into the
-11:00/17:00 ET slots (strategy §4) → done. If a draft is wrong, tell Claude Code what was wrong —
-that note belongs in `learnings.md`.
+Your morning routine is then: open YouTube Studio → review 2 drafts → done. Each draft already
+carries a `publishAt` from `tools/next_slot.py` (the strategy §4 slots, DST-aware), so an approved
+draft publishes itself at its slot; pull the schedule in Studio if one shouldn't ship. (On an
+unaudited API project YouTube may ignore API-set publishAt — then scheduling is one click in
+Studio from the same plan.) If a draft is wrong, tell Claude Code what was wrong — that note
+belongs in `learnings.md`.
 
 **No server?** Claude Code on the web runs sessions in the cloud against this repo and supports
 scheduled recurring tasks (Routines) — same prompts, no cron of your own. A cheap VPS also works;

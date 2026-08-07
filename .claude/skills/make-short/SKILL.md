@@ -45,6 +45,9 @@ hope the voice fits.
      walkthrough, a `lib/browser.tsx`/`vscode.tsx` clone, a logo from `media/library/`. This slot
      is the channel's moat (strategy §5: original generated visuals, not stock) — never leave every
      card text-only. Raw TSX rules: `/vidtsx-2d-generator` (vertical preset, safe areas §layout).
+   - Add `<Watermark />` (+ `<ProgressBar />`) — persistent channel branding on every frame is
+     part of the originality defense. Pass `src='library/logos/<channel-mark>.png'` once a real
+     logo exists in `media/library/logos/`; with no src it renders the `brand.ts` wordmark.
    - Keep primary content inside `SAFE` — the Shorts UI covers the bottom ~460px and right edge.
 
 4. **Register + render.** From the repo root:
@@ -55,9 +58,12 @@ hope the voice fits.
 5. **Mux the voiceover** (video renders silent; the mp3 is the audio track). Re-encode — don't
    stream-copy: Remotion's jpeg pipeline emits full-range `yuvj420p`, which some players refuse,
    and `+faststart` is what lets browsers start playback before the download finishes:
+   The `loudnorm` pass matters: TTS output level varies run to run, and Shorts compete at
+   ~-14 LUFS — a quiet voice reads as low quality before a single word registers.
    ```
    ffmpeg -y -i remotion/out/short-NNN-video.mp4 -i videos/short-NNN/work/voiceover/voiceover.mp3 \
      -map 0:v:0 -map 1:a:0 -c:v libx264 -profile:v high -pix_fmt yuv420p -preset fast -crf 20 \
+     -af loudnorm=I=-14:TP=-1.5:LRA=11 \
      -c:a aac -b:a 192k -movflags +faststart videos/short-NNN/output/short-NNN.mp4
    ```
    Optional polish before the mux, same as long-form: `/suggest-sfx` for 2–3 cues on the biggest
@@ -72,13 +78,29 @@ hope the voice fits.
      and **READ them**: hook legible in 1.5s? captions inside SAFE? proof slot actually proving?
      Stills go in a scratch dir, never the project.
 
-7. **Upload as a private draft** (only when asked, or the user pre-authorized the day's batch):
+7. **Author `videos/short-NNN/publish.json`** — the upload plan `tools/yt_upload.py` consumes:
+   ```json
+   {
+     "video": "videos/short-NNN/output/short-NNN.mp4",
+     "title": "<from metadata.md>",
+     "description": "<from metadata.md — include #Shorts and the disclosure line>",
+     "tags": ["ai", "ai tools"],
+     "privacy": "private",
+     "publishAt": "<next free slot: python tools/next_slot.py>"
+   }
    ```
-   venv/Scripts/python tools/yt_upload.py videos/short-NNN/output/short-NNN.mp4 \
-     --title "<from metadata.md>" --description-file <(see metadata.md) --privacy private
+   `publishAt` comes from `tools/next_slot.py` (the strategy §4 slots, DST-aware, skipping slots
+   other plans claimed). YouTube holds the video PRIVATE and flips it public at that moment — so
+   the human review gate stays intact: upload early, review any time before the slot, pull the
+   `publishAt` in Studio if it shouldn't ship. On an unaudited API project YouTube may ignore
+   API-set publishAt — then the schedule is set with one click in Studio from the same plan.
+8. **Upload the draft** (only when asked, or the user pre-authorized the day's batch):
    ```
-   Check `tools/yt_upload.py --help` for exact flags. **Private always** — the human review gate
-   before anything goes public is the demonetization firewall (strategy §4).
+   venv/Scripts/python tools/yt_upload.py upload videos/short-NNN/publish.json --dry-run   # preview
+   venv/Scripts/python tools/yt_upload.py upload videos/short-NNN/publish.json             # real
+   ```
+   It prints the Studio link — that link is what goes to the owner for approval. **Private always**
+   until the owner approves — the review gate is the demonetization firewall (strategy §4).
 
 ## Output layout
 

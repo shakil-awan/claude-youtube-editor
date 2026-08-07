@@ -3,7 +3,7 @@ import { AbsoluteFill, interpolate, useCurrentFrame } from 'remotion';
 import { COLORS, EASINGS, RADIUS } from '../../brand';
 import { FONT_BODY, FONT_MONO } from '../../fonts';
 import { CLAMP } from '../../lib/kit';
-import { CaptionTrack, CountBadge, HookTitle, ProgressBar, SAFE, ShortBg, ToolCard, secToFrame } from '../../lib/shorts';
+import { CaptionTrack, CountBadge, HookTitle, ProgressBar, SAFE, ShortBg, ToolCard, Watermark, secToFrame } from '../../lib/shorts';
 import { WORDS } from './words';
 
 // =============================================================================
@@ -96,6 +96,7 @@ const Short001: React.FC = () => {
       <HookTitle at={CTA} kicker="EVERY SINGLE DAY" lines={[{ text: 'Follow for one' }, { text: 'money-making', accent: true }, { text: 'AI tool' }]} fontSize={104} />
 
       <CaptionTrack words={WORDS} />
+      <Watermark at={12} />
       <ProgressBar />
     </AbsoluteFill>
   );

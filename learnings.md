@@ -28,6 +28,11 @@ Rules for updating (for the skill, or a human):
 
 *(no data yet)*
 
+## Market patterns (from /study-competitors)
+
+*(max 5 active, date-stamped, each marked `untested` until our own data confirms it — patterns
+here never override lessons proven on our channel; no sweep run yet)*
+
 ## Retired lessons
 
 *(nothing retired yet)*

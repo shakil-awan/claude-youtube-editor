@@ -12,14 +12,14 @@ import { WORDS } from './words';
 // words.json): each card enters on its "Number N" and hands off on the next.
 // Mux videos/short-001/work/voiceover/voiceover.mp3 over the render (/make-short §5).
 // =============================================================================
-export const compositionConfig = { id: 'Short001', durationInSeconds: 36.9, fps: 30, width: 1080, height: 1920 };
+export const compositionConfig = { id: 'Short001', durationInSeconds: 38.2, fps: 30, width: 1080, height: 1920 };
 
-// beat anchors, from words.ts (seconds → frames)
-const B1 = secToFrame(4.261); // "Number one"
-const B2 = secToFrame(12.225); // "Number two"
-const B3 = secToFrame(21.142); // "Number three"
-const PAYOFF = secToFrame(28.468); // "That is a faceless YouTube channel..."
-const CTA = secToFrame(32.299); // "Follow for..."
+// beat anchors, from words.ts (seconds → frames) — Liam voiceover, 2026-08-07
+const B1 = secToFrame(5.143); // "Number one"
+const B2 = secToFrame(12.771); // "Number two"
+const B3 = secToFrame(22.291); // "Number three"
+const PAYOFF = secToFrame(30.197); // "That is a faceless YouTube channel..."
+const CTA = secToFrame(34.098); // "Follow for..."
 
 const FadeOut: React.FC<{ at: number; children: React.ReactNode }> = ({ at, children }) => {
   const frame = useCurrentFrame();

@@ -3,7 +3,7 @@ import { AbsoluteFill, interpolate, useCurrentFrame } from 'remotion';
 import { COLORS, EASINGS, RADIUS } from '../../brand';
 import { FONT_BODY, FONT_MONO } from '../../fonts';
 import { CLAMP } from '../../lib/kit';
-import { CaptionTrack, CountBadge, HookTitle, SAFE, ShortBg, ToolCard, secToFrame } from '../../lib/shorts';
+import { CaptionTrack, CountBadge, HookTitle, ProgressBar, SAFE, ShortBg, ToolCard, secToFrame } from '../../lib/shorts';
 import { WORDS } from './words';
 
 // =============================================================================
@@ -33,9 +33,15 @@ const WAVE = [18, 34, 52, 40, 64, 48, 70, 38, 58, 44, 66, 30, 54, 62, 36, 50, 68
 const Short001: React.FC = () => {
   const frame = useCurrentFrame();
 
+  // the glow tracks the beat color: indigo hook/beat1 → violet beat2 → teal beat3 → indigo close
+  const glow2 = interpolate(frame, [B2 - 10, B2 + 10, B3 - 10, B3 + 10], [0, 1, 1, 0], CLAMP);
+  const glow3 = interpolate(frame, [B3 - 10, B3 + 10, PAYOFF - 10, PAYOFF + 10], [0, 1, 1, 0], CLAMP);
+
   return (
     <AbsoluteFill>
       <ShortBg />
+      <AbsoluteFill style={{ opacity: glow2, background: `radial-gradient(900px 1100px at 50% -8%, ${COLORS.accent2}33, transparent 62%)` }} />
+      <AbsoluteFill style={{ opacity: glow3, background: `radial-gradient(900px 1100px at 50% -8%, ${COLORS.signal}30, transparent 62%)` }} />
 
       {/* hook — "Stop paying for AI tools. These three are completely free." */}
       <FadeOut at={B1}>
@@ -90,6 +96,7 @@ const Short001: React.FC = () => {
       <HookTitle at={CTA} kicker="EVERY SINGLE DAY" lines={[{ text: 'Follow for one' }, { text: 'money-making', accent: true }, { text: 'AI tool' }]} fontSize={104} />
 
       <CaptionTrack words={WORDS} />
+      <ProgressBar />
     </AbsoluteFill>
   );
 };

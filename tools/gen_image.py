@@ -33,7 +33,13 @@ PRESETS = {
     "fast": "gemini-3.1-flash-image",
     "lite": "gemini-3.1-flash-lite-image",
 }
-DEFAULT_MODEL = "fast"
+# Cost-conscious default: lite renders 1K (≈768×1376 at 9:16) — already above what a
+# 1080×1920 Short needs after the CoverImage scrim, at the cheapest per-image tier.
+# Step up with --model fast/pro only when an image carries the beat on its own.
+DEFAULT_MODEL = "lite"
+# The lite tier only accepts 1K; asking for 2K/4K is a hard 400. Clamp instead of crashing
+# an unattended batch run.
+MAX_SIZE = {"gemini-3.1-flash-lite-image": "1K"}
 RESPONSE_MODALITIES = ["TEXT", "IMAGE"]
 
 
@@ -84,7 +90,10 @@ def main():
     model = get_arg(args, "--model", DEFAULT_MODEL)
     model = PRESETS.get(model, model)
     aspect = get_arg(args, "--aspect", "9:16")
-    size = get_arg(args, "--size", "2K")
+    size = get_arg(args, "--size", "1K")
+    if model in MAX_SIZE and size != MAX_SIZE[model]:
+        print(f"  ! {model} only supports {MAX_SIZE[model]} — using that instead of {size}")
+        size = MAX_SIZE[model]
     seed = get_arg(args, "--seed")
     seed = int(seed) if seed is not None else None
     refs = [r for r in get_args_multi(args, "--ref") if os.path.exists(r)]

@@ -42,7 +42,16 @@ import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACE_DIR = os.path.join(ROOT, "media", "library", "faces")
-DEFAULT_MODEL = "gemini-3-pro-image"          # Nano Banana Pro; override with --model
+PRESETS = {                                   # same names as tools/gen_image.py
+    "pro": "gemini-3-pro-image",              # Nano Banana Pro — the hero tier
+    "fast": "gemini-3.1-flash-image",
+    "lite": "gemini-3.1-flash-lite-image",
+}
+# Cost-conscious default: lite at 1K renders ≈1376×768, already above YouTube's
+# recommended 1280×720 thumbnail. Use --model pro for a long-form hero thumbnail
+# where CTR justifies the step up (and let the CTR data decide, not taste).
+DEFAULT_MODEL = "lite"
+MAX_SIZE = {"gemini-3.1-flash-lite-image": "1K"}   # lite rejects 2K/4K with a hard 400
 # Image models can emit a "thinking" text part alongside the image. If the API
 # rejects ["IMAGE"] on your model, switch to ["TEXT", "IMAGE"] here.
 RESPONSE_MODALITIES = ["IMAGE"]
@@ -119,8 +128,12 @@ def main():
         sys.exit("need --prompt/--prompt-file and --out. See --help in the file header.")
 
     model = get_arg(args, "--model", DEFAULT_MODEL)
+    model = PRESETS.get(model, model)
     aspect = get_arg(args, "--aspect", "16:9")
-    size = get_arg(args, "--size", "2K")
+    size = get_arg(args, "--size", "1K")
+    if model in MAX_SIZE and size != MAX_SIZE[model]:
+        print(f"  ! {model} only supports {MAX_SIZE[model]} — using that instead of {size}")
+        size = MAX_SIZE[model]
     seed = get_arg(args, "--seed")
     seed = int(seed) if seed is not None else None
 

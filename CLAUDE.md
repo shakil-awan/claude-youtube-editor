@@ -17,6 +17,8 @@ your cut. No screen recording, no video editor. The right skill is picked from t
 | research + script a faceless Short | `/write-short` | `videos/short-NNN/script/{short.md, narration.txt, metadata.md}` |
 | produce a Short (voice → captions → render) | `/make-short` | `remotion/src/shots/short-NNN/` + `videos/short-NNN/output/short-NNN.mp4` |
 | weekly Shorts performance review | `/shorts-report` | updated `learnings.md` + the week's report |
+| the week's Shorts as one long-form video | `/weekly-recap` | `videos/recap-NNN/` + horizontal shots (needs ≥2 weeks of ledger) |
+| monthly competitor intelligence | `/study-competitors` | `videos/research/competitors-YYYY-MM.md` + Market patterns in `learnings.md` |
 
 The long-form pipeline order is: **cut → visuals → voice → SFX → packaging → upload.**
 

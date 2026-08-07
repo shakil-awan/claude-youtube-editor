@@ -18,8 +18,14 @@
 
 ## 1. Identity & voice
 
+- **Channel: ToolMint** — "one money-making AI tool, every day." Mint = money being minted +
+  freshly minted tools. Faceless Shorts-first (NICHE-STRATEGY.md is the niche contract).
+- **Narration voice (locked): ElevenLabs "Liam"** (`TX3LPaxmHKxFdv7VOQHJ`, set as
+  `ELEVENLABS_VOICE_ID` in `.env`) — energetic social-media creator read. The voice IS the
+  faceless channel's face: never change it casually; an audition + owner sign-off is required.
 - **Positioning:** modern **AI-studio** aesthetic — light, airy, whitespace, soft depth, tasteful
   motion. Reference polish: **Linear / Vercel / Anthropic**. Premium and calm, never loud or cluttered.
+  Light background is deliberate: the Shorts feed is saturated with dark-mode AI channels.
 - **Voice:** direct, confident, generous (free resources), personal (the presenter in the loop). No
   hype-filler. On-screen text deliberately **avoids em-dashes** — keep that in overlays too.
 - **Energy for video:** clean and premium, not MrBeast-loud. Motion is *tasteful*, not bouncy/cartoonish.
@@ -27,10 +33,10 @@
 
 ## 2. Logo / wordmark
 
-- **Wordmark:** your channel wordmark — set it once and reuse it as the brand lockup. It renders in
-  three parts with the **middle part in the accent color**, in the display font, tight. Set it in
-  `BRAND.wordmark` in `remotion/src/brand.ts` (`['Acme','Labs','']` for a two-part mark); `EndCard`
-  and `BrandProof` read it from there, so one edit re-brands every card.
+- **Wordmark: `Tool`+`Mint`** — "Mint" renders in the accent emerald, display font, tight. Set in
+  `BRAND.wordmark` in `remotion/src/brand.ts`; `EndCard`, `BrandProof`, and the Shorts `Watermark`
+  read it from there, so one edit re-brands every card. Channel art (avatar + banner) renders from
+  `remotion/src/shots/brand/` — regenerate it whenever the palette or wordmark changes.
 - No standalone logo mark is required (a favicon is enough). Use the wordmark as the lockup.
 - Drop any portrait / brand-bumper assets you want to reuse under `media/library/` (e.g. a `logos/`
   or `faces/` entry) and reference them from shots via `staticFile('library/...')`.
@@ -39,22 +45,22 @@
 
 | Role | Name | Hex | Use in video |
 |---|---|---|---|
-| **Primary accent** | indigo | `#6366F1` | key words, highlights, active state, progress, CTAs, the accent word |
-| Secondary accent | violet | `#9b7cc4` | pairs with indigo in gradients, secondary emphasis |
-| Success / positive | teal | `#4db8a8` | "free", confirms, checkmarks, positive callouts |
-| Success alt | green | `#4ecdc4` | teal companion for gradients/success |
+| **Primary accent** | emerald | `#059669` | key words, highlights, active caption pill, progress, CTAs, "Mint" |
+| Secondary accent | gold | `#D97706` | money emphasis, secondary beats, gradient warmth |
+| Success / positive | teal | `#0D9488` | "FREE" chips, confirms, checkmarks, positive callouts |
+| Success alt | mint | `#34D399` | light companion for gradients/success |
 | Warn / attention | yellow | `#f5d76e` | highlight sweeps, "watch this", attention pops |
 | Danger / contrast | pink | `#e8879f` | errors, "the hard/expensive way", negative contrast |
-| Ink (text/dark) | ink | `#1a1a2e` | primary text on light; base dark bg |
-| Muted text | muted | `#6b6b7b` | secondary text, captions |
-| Surface (paper) | paper | `#fffef7` | light full-screen bg, cards |
-| Surface 2 (cream) | cream | `#faf8f5` | alt light band |
+| Ink (text/dark) | ink | `#122019` | primary text on light (green-tinted near-black) |
+| Muted text | muted | `#5F6E66` | secondary text, captions |
+| Surface (paper) | paper | `#FBFDF9` | mint-tinted white full-screen bg, cards |
+| Surface 2 (cream) | cream | `#F3F8F4` | alt light band |
 
 **Dark UI / terminal scale** (GitHub-ink — for Claude Code terminal & code mockups):
 `#0d1117` (bg) · `#161b22` (panel) · `#30363d` (border) · `#8b949e` (dim text) · `#c9d1d9` (text).
 
-**Signature gradient:** indigo → violet → teal (`#6366F1 → #9b7cc4 → #4db8a8`). Used for dividers and
-full-screen animated backgrounds.
+**Signature gradient:** emerald → gold → teal (`#059669 → #D97706 → #0D9488`) — "mint being minted".
+Used for dividers, the Shorts progress bar, and full-screen animated backgrounds.
 
 ## 4. Typography (3-font system)
 
@@ -102,6 +108,9 @@ Translated to video (Remotion, 60fps):
   for small persistent CTAs/badges; visuals sync to narration and never pre-empt it; real UI / real pages
   for config and service facts.
 - **Captions:** overlays only (not word-level captions) for long-form.
+- **Shorts delivery** (the Shorts pipeline): 1080×1920 @ 30fps, ≤ 58s, word-synced `CaptionTrack`
+  captions, `Watermark` on every frame, voice **Liam** (§1), loudness **-14 LUFS / -1.5 dBTP**
+  (the /make-short mux enforces it), publish via `publishAt` slots (`tools/next_slot.py`).
 
 ## 8. Asset & source locations
 

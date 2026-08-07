@@ -9,27 +9,27 @@ import { Easing } from 'remotion';
 
 // Channel identity. Any shot that puts your name on screen reads it from here,
 // so one edit re-brands every video you have ever made in this repo.
+// ToolMint — "one money-making AI tool, every day". Mint = money being minted +
+// freshly minted tools. Set by the owner round 2026-08-07; /brand-setup refines.
 export const BRAND = {
   // The wordmark, split in three so the MIDDLE part renders in the accent color.
-  // e.g. ['Build', 'With', 'AI'] renders the word "With" in indigo.
-  // Use ['Acme', 'Labs', ''] for a two-part mark.
-  wordmark: ['Your', 'Channel', ''] as readonly string[],
-  signoff: 'See you in the next one',
+  wordmark: ['Tool', 'Mint', ''] as readonly string[],
+  signoff: 'One tool a day. See you tomorrow.',
 } as const;
 
 export const COLORS = {
-  // roles
-  accent: '#6366F1', // indigo — primary
-  accent2: '#9b7cc4', // violet — secondary
-  signal: '#4db8a8', // teal — success / "free"
-  signalAlt: '#4ecdc4', // teal-green companion
+  // roles — money-coded: emerald (mint) primary, gold secondary, teal success
+  accent: '#059669', // emerald — primary; key words, active caption pill, CTAs
+  accent2: '#D97706', // gold — money emphasis, secondary beats, gradient warmth
+  signal: '#0D9488', // teal — success / "FREE" chips / confirms
+  signalAlt: '#34D399', // light mint companion
   warn: '#f5d76e', // yellow — attention
-  danger: '#e8879f', // pink — contrast / error
-  ink: '#1a1a2e', // primary text on light
-  muted: '#6b6b7b', // secondary text
-  paper: '#fffef7', // light surface / bg
-  cream: '#faf8f5', // alt light band
-  line: '#e7e3da', // 1px borders on light
+  danger: '#e8879f', // pink — contrast / error / "the expensive way"
+  ink: '#122019', // green-tinted near-black text on light
+  muted: '#5F6E66', // secondary text
+  paper: '#FBFDF9', // mint-tinted white bg
+  cream: '#F3F8F4', // alt light band
+  line: '#DFE8E1', // 1px borders on light
   // dark UI / terminal scale (GitHub-ink)
   d900: '#0d1117',
   d800: '#161b22',
@@ -38,7 +38,7 @@ export const COLORS = {
   d300: '#c9d1d9',
 } as const;
 
-// signature gradient: indigo -> violet -> teal
+// signature gradient: emerald -> gold -> teal (mint being minted)
 export const GRADIENT = `linear-gradient(120deg, ${COLORS.accent}, ${COLORS.accent2}, ${COLORS.signal})`;
 
 export const RADIUS = { card: 16, panel: 14, window: 10, pill: 999 } as const;

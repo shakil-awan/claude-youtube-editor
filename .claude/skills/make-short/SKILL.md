@@ -49,6 +49,10 @@ hope the voice fits.
      part of the originality defense. Pass `src='library/logos/<channel-mark>.png'` once a real
      logo exists in `media/library/logos/`; with no src it renders the `brand.ts` wordmark.
    - Keep primary content inside `SAFE` — the Shorts UI covers the bottom ~460px and right edge.
+   - **Seamless loop + frame-0 thumbnail:** design the LAST beat to visually resolve into the
+     hook layout so the replay is invisible (frame 0 ≈ final frame), and make frame 0 carry the
+     full payoff statement — YouTube uses it as the de-facto thumbnail in the Shorts feed.
+     Reference craft: hassancs91/claude-faceless-shorts-creator (12 worked TSX productions).
 
 4. **Register + render.** From the repo root:
    ```

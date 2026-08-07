@@ -137,7 +137,9 @@ export const CoverImage: React.FC<{
   opacity?: number; // art intensity under the scrim
 }> = ({ src, at = 0, out, opacity = 1 }) => {
   const frame = useCurrentFrame();
-  const fadeIn = interpolate(frame, [at, at + 8], [0, 1], { ...CLAMP, easing: EASINGS.easeOut });
+  // at=0 must be FULLY visible on frame 0 — frame 0 is the feed thumbnail; a fade-in
+  // there would put an empty frame on the shelf. Fades only apply to mid-video entries.
+  const fadeIn = at === 0 ? 1 : interpolate(frame, [at, at + 8], [0, 1], { ...CLAMP, easing: EASINGS.easeOut });
   const fadeOut = out === undefined ? 1 : 1 - interpolate(frame, [out, out + 10], [0, 1], { ...CLAMP, easing: EASINGS.easeIn });
   const op = opacity * Math.min(fadeIn, fadeOut);
   return (

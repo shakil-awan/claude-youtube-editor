@@ -14,8 +14,18 @@ your cut. No screen recording, no video editor. The right skill is picked from t
 | add SFX / sound-design a beat | `/suggest-sfx` | `videos/<project>/work/sfx-plan.json` + an audition mix |
 | package a video / titles + thumbnails | `/packaging` | `videos/<project>/packaging/` (1 title × 3 thumbnail bets + rendered thumbs) |
 | upload it | `tools/yt_upload.py` | a private draft on YouTube |
+| research + script a faceless Short | `/write-short` | `videos/short-NNN/script/{short.md, narration.txt, metadata.md}` |
+| produce a Short (voice → captions → render) | `/make-short` | `remotion/src/shots/short-NNN/` + `videos/short-NNN/output/short-NNN.mp4` |
+| weekly Shorts performance review | `/shorts-report` | updated `learnings.md` + the week's report |
 
-The pipeline order is: **cut → visuals → voice → SFX → packaging → upload.**
+The long-form pipeline order is: **cut → visuals → voice → SFX → packaging → upload.**
+
+**The Shorts pipeline runs backwards — there is no footage.** The script is the master:
+**script (`/write-short`) → voice (`tools/gen_voiceover.py`, word timestamps) → visuals synced to
+the words (`/make-short`, vertical kit in `remotion/src/lib/shorts.tsx`) → render + mux → upload.**
+Its contracts are `NICHE-STRATEGY.md` (the niche, data-locked) and `learnings.md` (what our own
+stats proved — written by `/shorts-report`, read by `/write-short`). Shorts projects are
+`videos/short-NNN/`; the worked example is `remotion/src/shots/shorts-demo/`.
 
 `brand.md` is the style contract every step-2+ skill reads (palette, motion, delivery specs, SFX
 taste). `remotion/src/brand.ts` + `fonts.ts` are the same contract as code — **`/brand-setup` owns all

@@ -45,6 +45,10 @@ hope the voice fits.
      walkthrough, a `lib/browser.tsx`/`vscode.tsx` clone, a logo from `media/library/`. This slot
      is the channel's moat (strategy §5: original generated visuals, not stock) — never leave every
      card text-only. Raw TSX rules: `/vidtsx-2d-generator` (vertical preset, safe areas §layout).
+     When a beat needs an illustration no real UI can give (a concept, an atmosphere), generate it:
+     `python tools/gen_image.py --prompt "..." --model fast --aspect 9:16 --out media/projects/short-NNN/x.png`
+     (Nano Banana 2 for drafts/in-video art; `--model pro` = Nano Banana Pro only when the image
+     carries the beat). Real tool UI still beats generated art for tool claims — prefer the clone.
    - Add `<Watermark />` (+ `<ProgressBar />`) — persistent channel branding on every frame is
      part of the originality defense. Pass `src='library/logos/<channel-mark>.png'` once a real
      logo exists in `media/library/logos/`; with no src it renders the `brand.ts` wordmark.

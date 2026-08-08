@@ -64,13 +64,22 @@ Shorts ad RPM is low. Grounded estimate (vidIQ calculator, Tech niche, US-weight
 | Layer | Needs | When |
 |---|---|---|
 | **1. Affiliate links** (description + pinned comment) | nothing — day one | **Primary revenue.** AI tools pay 20–50% recurring (ElevenLabs, Notion, Jasper, Pictory, HubSpot… verify current terms per program). One video → recurring commissions. |
-| 2. YPP fan funding | 500 subs + 3M Shorts views/90d + 3 uploads/90d | milestone 1 |
+| 2. YPP fan funding | 500 subs + 3M Shorts views/90d + 3 uploads/90d | milestone 1 — **also unlocks custom Shorts thumbnails** (see below) |
 | 3. YPP ad revenue | 1,000 subs + 10M Shorts views/90d | milestone 2 |
 | 4. Sponsorships | ~10K+ subs | AI startups pay $200–500+ per Short in this niche |
 | 5. Long-form funnel | when Shorts prove which topics retain | 10–30× RPM — and the fork's ORIGINAL pipeline is already built for it |
 
 Rule: **every Short covers at least one tool with an affiliate program when a genuinely good one
 fits the topic** — never force a worse tool into a list because it pays. Trust compounds; commissions follow.
+
+**Packaging constraint until YPP (verified 2026-08-08):** custom thumbnails on Shorts are a
+YouTube Partner Program feature. Off-YPP, `thumbnails.set` succeeds and YouTube stores the image,
+but every Shorts surface renders a **frame from the video** instead — confirmed by API
+(`isChannelMonetizationEnabled: false`) and by a manual Studio upload that also failed to display.
+So the **frame IS the packaging**: design the held cover at frame 0 and make every beat
+poster-worthy (`/make-short`), and use the mobile app's **Edit cover** picker on any Short worth
+the 30 seconds. Thumbnails keep being generated and attached — they cost fractions of a cent and
+switch on by themselves the day the channel crosses into YPP.
 
 ## 4. Cadence & operating rules
 

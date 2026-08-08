@@ -57,10 +57,18 @@ hope the voice fits.
      hook layout so the replay is invisible (frame 0 ≈ final frame), and make frame 0 carry the
      full payoff statement — YouTube uses it as the de-facto thumbnail in the Shorts feed.
      Reference craft: hassancs91/claude-faceless-shorts-creator (12 worked TSX productions).
-   - **THE SHORTS SHELF SHOWS A VIDEO FRAME, NOT THE UPLOADED THUMBNAIL** — verified on the live
-     channel: two published Shorts with custom thumbnails attached still displayed mid-video
-     frames on the channel's Shorts shelf. The uploaded thumbnail (step 7b) serves Studio,
-     search, browse and embeds; the shelf and feed pick a frame from the video itself.
+   - **⚠ CUSTOM SHORTS THUMBNAILS ARE GATED BEHIND THE YOUTUBE PARTNER PROGRAM.** Root-caused
+     2026-08-08 on the live channel: `channels.list(part=status)` returned
+     `isChannelMonetizationEnabled: false`, and every published Short displayed a mid-video
+     frame — via the API AND after a manual Studio upload. `thumbnails.set` returns 200 and
+     YouTube *stores* the image (it fetches back from the CDN at 1280×720), but a non-YPP
+     channel's Shorts render a VIDEO FRAME everywhere. Do not read a successful attach, or a
+     successful CDN fetch, as "the thumbnail is live" — it is stored, not shown.
+     **Until YPP, the video's frames ARE the thumbnail.** Keep attaching thumbnails anyway
+     (fractions of a cent, and they activate automatically on YPP entry), but put the design
+     effort in the frames. The only creator control today is the YouTube MOBILE app →
+     Short → Edit → **Cover** → pick a frame; that works off-YPP and is worth 30 seconds on
+     any Short that starts performing.
      **So every frame must be shelf-worthy, and the opening must be a designed cover:**
      1. **Hold the cover — three props, all required together.** Frames 0–24 (~0.8s) render the
         FULL cover: art + the complete payoff headline, static, with nothing else on top.

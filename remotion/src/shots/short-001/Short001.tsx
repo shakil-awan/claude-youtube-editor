@@ -3,7 +3,7 @@ import { AbsoluteFill, interpolate, useCurrentFrame } from 'remotion';
 import { COLORS, EASINGS, RADIUS } from '../../brand';
 import { FONT_BODY, FONT_MONO } from '../../fonts';
 import { CLAMP } from '../../lib/kit';
-import { CaptionTrack, CountBadge, HookTitle, ProgressBar, SAFE, ShortBg, ToolCard, Watermark, secToFrame } from '../../lib/shorts';
+import { CaptionTrack, CountBadge, CoverImage, HookTitle, ProgressBar, SAFE, ShortBg, ToolCard, Watermark, secToFrame } from '../../lib/shorts';
 import { WORDS } from './words';
 
 // =============================================================================
@@ -43,9 +43,12 @@ const Short001: React.FC = () => {
       <AbsoluteFill style={{ opacity: glow2, background: `radial-gradient(900px 1100px at 50% -8%, ${COLORS.accent2}33, transparent 62%)` }} />
       <AbsoluteFill style={{ opacity: glow3, background: `radial-gradient(900px 1100px at 50% -8%, ${COLORS.signal}30, transparent 62%)` }} />
 
-      {/* hook — "Stop paying for AI tools. These three are completely free." */}
+      {/* hook — "Stop paying for AI tools. These three are completely free."
+          Cover art + a HELD title: frame 0 is a shelf-tile candidate, so it renders fully
+          formed with no entrance animation and no captions over it (CaptionTrack startAt). */}
       <FadeOut at={B1}>
-        <HookTitle kicker="STOP PAYING" lines={[{ text: '3 AI tools' }, { text: 'completely FREE', accent: true }]} />
+        <CoverImage src="projects/short-001/thumb-art.png" out={B1 - 10} />
+        <HookTitle hold onDark kicker="STOP PAYING" lines={[{ text: '3 AI tools' }, { text: 'completely FREE', accent: true }]} />
       </FadeOut>
 
       {/* beat 1 — NotebookLM: PDF → podcast */}

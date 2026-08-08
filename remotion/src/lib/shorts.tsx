@@ -46,9 +46,14 @@ export const CaptionTrack: React.FC<{
   centerY?: number; // px from top; default sits just above the bottom safe area
   fontSize?: number;
   fps?: number;
-}> = ({ words, groupSize = 3, centerY = SHORT.H - SAFE.bottom - 260, fontSize = 84, fps = SHORT.FPS }) => {
+  // Captions stay OFF until this frame. Default 24 (~0.8s) keeps the opening cover clean:
+  // frame 0 is what YouTube may sample for the shelf tile, and a caption burned across it
+  // turns a designed poster into a busy transition frame. The hook headline already says
+  // the line, so nothing is lost in that window.
+  startAt?: number;
+}> = ({ words, groupSize = 3, centerY = SHORT.H - SAFE.bottom - 260, fontSize = 84, fps = SHORT.FPS, startAt = 24 }) => {
   const frame = useCurrentFrame();
-  if (words.length === 0) return null;
+  if (words.length === 0 || frame < startAt) return null;
 
   // Pages fill to groupSize but always break at sentence punctuation — a page never
   // mixes the end of one sentence with the start of the next (it reads wrong on screen).
@@ -145,8 +150,10 @@ export const CoverImage: React.FC<{
   return (
     <AbsoluteFill style={{ opacity: op }}>
       <Img src={staticFile(src)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-      {/* scrim: darkens top for the hook text, feathers to paper at the bottom for captions */}
-      <AbsoluteFill style={{ background: `linear-gradient(180deg, ${COLORS.ink}99 0%, ${COLORS.ink}33 34%, transparent 55%, ${COLORS.paper}ee 88%)` }} />
+      {/* scrim: darkens top so the hook headline reads, keeps the art clear through the middle,
+          and darkens (never whitens) the bottom — a light fade over dark cinematic art looks
+          like a render bug on the shelf tile. Captions are hidden during the cover hold anyway. */}
+      <AbsoluteFill style={{ background: 'linear-gradient(180deg, rgba(6,14,10,0.88) 0%, rgba(6,14,10,0.45) 32%, rgba(6,14,10,0.05) 55%, rgba(6,14,10,0.55) 90%, rgba(6,14,10,0.8) 100%)' }} />
     </AbsoluteFill>
   );
 };
@@ -188,9 +195,16 @@ export const HookTitle: React.FC<{
   lines: readonly { text: string; accent?: boolean }[];
   at?: number; // start frame
   fontSize?: number;
-}> = ({ kicker, lines, at = 0, fontSize = 116 }) => {
+  // `hold` renders the title FULLY FORMED with no entrance animation. Use it on the opening
+  // hook: frame 0 is a thumbnail candidate, and a half-risen, overlapping headline reads as a
+  // glitch on the shelf. Animate later titles; never the one at frame 0.
+  hold?: boolean;
+  // `onDark` is REQUIRED whenever the title sits over a CoverImage — the default ink is
+  // near-black and disappears into dark cover art. Switches to white + a legibility shadow.
+  onDark?: boolean;
+}> = ({ kicker, lines, at = 0, fontSize = 116, hold = false, onDark = false }) => {
   const frame = useCurrentFrame();
-  const rise = (start: number) => ({
+  const rise = (start: number) => hold ? { opacity: 1, transform: 'translateY(0px)' } : ({
     opacity: interpolate(frame, [start, start + 12], [0, 1], { ...CLAMP, easing: EASINGS.easeOut }),
     transform: `translateY(${interpolate(frame, [start, start + 12], [30, 0], { ...CLAMP, easing: EASINGS.easeOut })}px)`,
   });
@@ -200,17 +214,22 @@ export const HookTitle: React.FC<{
       display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: 8,
     }}>
       {kicker ? (
-        <div style={{ ...rise(at), fontFamily: FONT_MONO, fontSize: 30, letterSpacing: 6, color: COLORS.muted, marginBottom: 26 }}>
+        <div style={{
+          ...rise(at), fontFamily: FONT_MONO, fontSize: 30, letterSpacing: 6, marginBottom: 26,
+          color: onDark ? 'rgba(255,255,255,0.78)' : COLORS.muted,
+        }}>
           {kicker}
         </div>
       ) : null}
       {lines.map((l, i) => {
         // accent lines get a highlight sweep drawing underneath as they land
-        const sweep = interpolate(frame, [at + 14 + i * 6, at + 30 + i * 6], [0, 1], { ...CLAMP, easing: EASINGS.easeOut });
+        const sweep = hold ? 1 : interpolate(frame, [at + 14 + i * 6, at + 30 + i * 6], [0, 1], { ...CLAMP, easing: EASINGS.easeOut });
         return (
           <h1 key={i} style={{
             ...rise(at + 5 + i * 6), margin: 0, fontFamily: FONT_DISPLAY, fontWeight: 700,
-            fontSize, lineHeight: 1.08, color: l.accent ? COLORS.accent : COLORS.ink,
+            fontSize, lineHeight: 1.08,
+            color: l.accent ? (onDark ? COLORS.signalAlt : COLORS.accent) : (onDark ? '#ffffff' : COLORS.ink),
+            textShadow: onDark ? '0 6px 34px rgba(0,0,0,0.9), 0 2px 8px rgba(0,0,0,0.85)' : 'none',
             position: 'relative', display: 'inline-block',
           }}>
             {l.accent ? (

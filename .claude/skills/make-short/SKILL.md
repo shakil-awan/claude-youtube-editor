@@ -62,9 +62,13 @@ hope the voice fits.
      frames on the channel's Shorts shelf. The uploaded thumbnail (step 7b) serves Studio,
      search, browse and embeds; the shelf and feed pick a frame from the video itself.
      **So every frame must be shelf-worthy, and the opening must be a designed cover:**
-     1. **Hold the cover.** Frames 0–24 (the first ~0.8s) render the FULL cover: art + the
-        complete payoff headline, static — no animation in, nothing half-faded. If YouTube
-        samples an early frame it must get a finished design, not a transition.
+     1. **Hold the cover — three props, all required together.** Frames 0–24 (~0.8s) render the
+        FULL cover: art + the complete payoff headline, static, with nothing else on top.
+        `<CoverImage src=… out={HOOK_OUT}/>` + `<HookTitle hold onDark …/>` +
+        `<CaptionTrack startAt={24} …/>` (the default). Each exists for a defect seen in a
+        shipped video: without `hold` the headline is caught mid-rise with lines overlapping;
+        without `onDark` the non-accent line renders near-black on dark art and vanishes;
+        without `startAt` a burned-in caption cuts across the poster. Verify frame 0 by eye.
      2. **Every beat is a candidate.** A tool card mid-video may be what the shelf shows, so
         each beat must read as a poster on its own: name + payoff line visible, nothing
         clipped, no lone caption word on an empty background.

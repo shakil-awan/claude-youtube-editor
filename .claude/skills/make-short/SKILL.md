@@ -57,8 +57,21 @@ hope the voice fits.
      hook layout so the replay is invisible (frame 0 ≈ final frame), and make frame 0 carry the
      full payoff statement — YouTube uses it as the de-facto thumbnail in the Shorts feed.
      Reference craft: hassancs91/claude-faceless-shorts-creator (12 worked TSX productions).
-     **Frame 0 is where thumbnail effort pays off for Shorts** — the feed always shows it. The
-     uploaded thumbnail serves Studio/search/browse and the Shorts tab (see step 4b).
+   - **THE SHORTS SHELF SHOWS A VIDEO FRAME, NOT THE UPLOADED THUMBNAIL** — verified on the live
+     channel: two published Shorts with custom thumbnails attached still displayed mid-video
+     frames on the channel's Shorts shelf. The uploaded thumbnail (step 7b) serves Studio,
+     search, browse and embeds; the shelf and feed pick a frame from the video itself.
+     **So every frame must be shelf-worthy, and the opening must be a designed cover:**
+     1. **Hold the cover.** Frames 0–24 (the first ~0.8s) render the FULL cover: art + the
+        complete payoff headline, static — no animation in, nothing half-faded. If YouTube
+        samples an early frame it must get a finished design, not a transition.
+     2. **Every beat is a candidate.** A tool card mid-video may be what the shelf shows, so
+        each beat must read as a poster on its own: name + payoff line visible, nothing
+        clipped, no lone caption word on an empty background.
+     3. **Loop back to it.** The final beat resolves into the cover layout, so the last frame
+        is also a designed frame.
+     The only *guaranteed* control is manual: the YouTube mobile app's **Edit cover** picker
+     (Shorts → edit → cover) — worth 30 seconds on a video that over-performs.
    - **Generated-image QA — trademark check:** image models hallucinate real brand marks (an
      NVIDIA logo appeared on a chip during testing). Reject any render containing a third-party
      logo or brand name; regenerate with the brand named in the negative list.
@@ -100,6 +113,11 @@ hope the voice fits.
      -frames:v 1 <scratch>/f.png`) at the hook, each beat's landing, and one mid-caption moment,
      and **READ them**: hook legible in 1.5s? captions inside SAFE? proof slot actually proving?
      Stills go in a scratch dir, never the project.
+   - **Shelf gate (because the shelf picks its own frame):** sample the final mp4 at
+     **0s, 25%, 50%, 75% and the last frame** and ask of each one — *would this work as the
+     tile someone sees on the channel page?* Any frame that is mid-transition, half-faded, or
+     shows a lone caption word on empty background is a defect: retime that beat so the
+     composition holds. Do not ship until all five sampled frames are poster-worthy.
 
 7. **Author `videos/short-NNN/publish.json`** — the upload plan `tools/yt_upload.py` consumes:
    ```json

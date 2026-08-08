@@ -11,6 +11,8 @@ this repo is what remembers. Never delete rows; corrections edit in place.
 | 2026-08-07 | short-002 | okUWYDWq0z0 | This AI Costs 14 Cents Per Million Tokens | news-jack | DeepSeek V4 Flash pricing | 2026-08-07T15:00:00Z | **CHANNEL'S FIRST PUBLIC VIDEO.** From the first automated batch. 16 views at +10h. Vertical branded thumbnail attached. |
 | 2026-08-07 | short-003 | Nepl7Jwjdk0 | 3 Free Tools That Run Your Business For You | listicle | Microsoft Clarity, Otter.ai, + 1 | 2026-08-07T21:00:00Z | Same batch. Published +4h, 1 view at check. Vertical branded thumbnail attached. |
 | 2026-08-07 | short-001 | T08Tm92yv0E | You Are Overpaying for AI: Use These 3 Tools Instead #ai #tech #shorts | listicle | free tools: NotebookLM, AI Studio, ElevenLabs | 2026-08-08T15:00:00Z | First upload built by hand in-session; title edited in Studio post-upload (API-confirmed). Scheduled, still private at 2026-08-08T01:14Z. |
+| 2026-08-08 | short-004* | qIhWADBgNFc | ChatGPT's $20 Plan Just Became Free | news-jack | GPT-5.6 Luna free default | 2026-08-08T21:00:00Z | Batch #2. Branded vertical thumbnail VERIFIED on CDN ("$20 PLAN / NOW FREE"). *Repo artifacts stranded in the batch session — push blocked again; rows reconstructed from the API. |
+| 2026-08-08 | short-005* | SrrorDG0X6Y | Skip The $20 AI Subscription — This Tool Is Free | replacement | Ollama local models | 2026-08-09T15:00:00Z | Batch #2. Branded vertical thumbnail VERIFIED on CDN ("$20 A MONTH / OR JUST $0"). Same stranded-artifacts note; GH_PAT push fix shipped after this run. |
 
 **Baseline for `/shorts-report`** — first-week numbers are a cold start on an 11-subscriber
 channel, not a verdict on the niche. Grade the trend across ~10 videos (NICHE-STRATEGY.md §7),

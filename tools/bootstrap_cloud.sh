@@ -15,6 +15,20 @@ else
   python3 tools/restore_youtube_auth.py
 fi
 
+echo "-- [1b] git push credential"
+if [ -n "${GH_PAT:-}" ]; then
+  git remote set-url origin "https://x-access-token:${GH_PAT}@github.com/shakil-awan/claude-youtube-editor.git"
+  git config user.name "ToolMint Automation"
+  git config user.email "toolmint-automation@users.noreply.github.com"
+  if git push --dry-run origin HEAD:main >/dev/null 2>&1; then
+    echo "push: ENABLED via GH_PAT (dry-run OK)"
+  else
+    echo "push: GH_PAT set but dry-run FAILED — check the token's Contents permission"
+  fi
+else
+  echo "push: GH_PAT not set — pushes will fail; the batch must use its patch fallback"
+fi
+
 echo "-- [2/5] python venv + deps"
 [ -d venv ] || python3 -m venv venv
 ./venv/bin/pip -q install --upgrade pip >/dev/null

@@ -18,7 +18,23 @@ Rules for updating (for the skill, or a human):
 
 ## Topics & tools that worked
 
-*(no data yet)*
+**EARLY SIGNAL (2026-08-09, 4 published videos — below the ≥3-per-side bar, treat as directional,
+not proven): news-jacks are outperforming listicles ~4×.**
+
+| Format | Video | Views |
+|---|---|---|
+| news-jack | ChatGPT's $20 Plan Just Became Free (`qIhWADBgNFc`) | **45** |
+| news-jack | This AI Costs 14 Cents Per Million Tokens (`okUWYDWq0z0`) | 26 |
+| listicle | You Are Overpaying for AI (`T08Tm92yv0E`) | 10 |
+| listicle | 3 Free Tools That Run Your Business (`Nepl7Jwjdk0`) | 6 |
+
+News-jack mean 35.5 vs listicle mean 8. Both news-jacks name a **specific product and a specific
+price change** ("$20 plan → free", "14 cents per million"); both listicles are generic
+"free tools" roundups. Working hypothesis: **the specific number + named brand is doing the work,
+not the format label** — a listicle with a hard number in the hook may perform like a news-jack.
+Action for `/write-short`: bias toward news-jacks while this holds, and when writing a listicle,
+put a specific figure and a named product in the hook. `/shorts-report` should confirm or kill
+this once ~10 videos are live; NICHE-STRATEGY.md §2's 60% listicle mix is provisional until then.
 
 ## Formats & pacing
 

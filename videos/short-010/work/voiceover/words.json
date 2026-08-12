@@ -1,0 +1,468 @@
+{
+  "text": "OpenAI just cut its AI prices by eighty percent. GPT five point six Luna now costs twenty cents per million input tokens. Three weeks ago, that was a dollar. Here is what eighty percent off actually buys you. A million tokens is roughly seven hundred and fifty thousand words. So you can now process an entire novel for twenty cents. Terra dropped too, down twenty percent to two dollars. The flagship, Sol, did not move at all. So if you are building anything with AI, move your cheap tasks to Luna today.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 34.821,
+  "words": [
+    {
+      "word": "OpenAI",
+      "start_s": 0.0,
+      "end_s": 0.569
+    },
+    {
+      "word": "just",
+      "start_s": 0.662,
+      "end_s": 0.848
+    },
+    {
+      "word": "cut",
+      "start_s": 0.906,
+      "end_s": 1.103
+    },
+    {
+      "word": "its",
+      "start_s": 1.149,
+      "end_s": 1.265
+    },
+    {
+      "word": "AI",
+      "start_s": 1.347,
+      "end_s": 1.591
+    },
+    {
+      "word": "prices",
+      "start_s": 1.649,
+      "end_s": 2.02
+    },
+    {
+      "word": "by",
+      "start_s": 2.078,
+      "end_s": 2.229
+    },
+    {
+      "word": "eighty",
+      "start_s": 2.345,
+      "end_s": 2.589
+    },
+    {
+      "word": "percent.",
+      "start_s": 2.647,
+      "end_s": 3.17
+    },
+    {
+      "word": "GPT",
+      "start_s": 3.866,
+      "end_s": 4.307
+    },
+    {
+      "word": "five",
+      "start_s": 4.458,
+      "end_s": 4.702
+    },
+    {
+      "word": "point",
+      "start_s": 4.748,
+      "end_s": 4.957
+    },
+    {
+      "word": "six",
+      "start_s": 5.039,
+      "end_s": 5.387
+    },
+    {
+      "word": "Luna",
+      "start_s": 6.2,
+      "end_s": 6.49
+    },
+    {
+      "word": "now",
+      "start_s": 6.548,
+      "end_s": 6.687
+    },
+    {
+      "word": "costs",
+      "start_s": 6.769,
+      "end_s": 7.07
+    },
+    {
+      "word": "twenty",
+      "start_s": 7.117,
+      "end_s": 7.419
+    },
+    {
+      "word": "cents",
+      "start_s": 7.465,
+      "end_s": 7.697
+    },
+    {
+      "word": "per",
+      "start_s": 7.744,
+      "end_s": 7.86
+    },
+    {
+      "word": "million",
+      "start_s": 7.918,
+      "end_s": 8.22
+    },
+    {
+      "word": "input",
+      "start_s": 8.29,
+      "end_s": 8.58
+    },
+    {
+      "word": "tokens.",
+      "start_s": 8.603,
+      "end_s": 9.149
+    },
+    {
+      "word": "Three",
+      "start_s": 9.845,
+      "end_s": 10.089
+    },
+    {
+      "word": "weeks",
+      "start_s": 10.124,
+      "end_s": 10.333
+    },
+    {
+      "word": "ago,",
+      "start_s": 10.368,
+      "end_s": 10.6
+    },
+    {
+      "word": "that",
+      "start_s": 10.623,
+      "end_s": 10.739
+    },
+    {
+      "word": "was",
+      "start_s": 10.774,
+      "end_s": 10.855
+    },
+    {
+      "word": "a",
+      "start_s": 10.89,
+      "end_s": 10.925
+    },
+    {
+      "word": "dollar.",
+      "start_s": 10.96,
+      "end_s": 11.436
+    },
+    {
+      "word": "Here",
+      "start_s": 12.04,
+      "end_s": 12.237
+    },
+    {
+      "word": "is",
+      "start_s": 12.272,
+      "end_s": 12.33
+    },
+    {
+      "word": "what",
+      "start_s": 12.365,
+      "end_s": 12.504
+    },
+    {
+      "word": "eighty",
+      "start_s": 12.597,
+      "end_s": 12.829
+    },
+    {
+      "word": "percent",
+      "start_s": 12.887,
+      "end_s": 13.189
+    },
+    {
+      "word": "off",
+      "start_s": 13.235,
+      "end_s": 13.34
+    },
+    {
+      "word": "actually",
+      "start_s": 13.41,
+      "end_s": 13.769
+    },
+    {
+      "word": "buys",
+      "start_s": 13.816,
+      "end_s": 14.06
+    },
+    {
+      "word": "you.",
+      "start_s": 14.118,
+      "end_s": 14.42
+    },
+    {
+      "word": "A",
+      "start_s": 15.116,
+      "end_s": 15.186
+    },
+    {
+      "word": "million",
+      "start_s": 15.302,
+      "end_s": 15.639
+    },
+    {
+      "word": "tokens",
+      "start_s": 15.697,
+      "end_s": 16.103
+    },
+    {
+      "word": "is",
+      "start_s": 16.161,
+      "end_s": 16.243
+    },
+    {
+      "word": "roughly",
+      "start_s": 16.312,
+      "end_s": 16.614
+    },
+    {
+      "word": "seven",
+      "start_s": 16.684,
+      "end_s": 16.951
+    },
+    {
+      "word": "hundred",
+      "start_s": 16.986,
+      "end_s": 17.218
+    },
+    {
+      "word": "and",
+      "start_s": 17.241,
+      "end_s": 17.311
+    },
+    {
+      "word": "fifty",
+      "start_s": 17.381,
+      "end_s": 17.648
+    },
+    {
+      "word": "thousand",
+      "start_s": 17.706,
+      "end_s": 18.066
+    },
+    {
+      "word": "words.",
+      "start_s": 18.135,
+      "end_s": 18.634
+    },
+    {
+      "word": "So",
+      "start_s": 19.018,
+      "end_s": 19.145
+    },
+    {
+      "word": "you",
+      "start_s": 19.203,
+      "end_s": 19.273
+    },
+    {
+      "word": "can",
+      "start_s": 19.319,
+      "end_s": 19.436
+    },
+    {
+      "word": "now",
+      "start_s": 19.505,
+      "end_s": 19.691
+    },
+    {
+      "word": "process",
+      "start_s": 19.807,
+      "end_s": 20.318
+    },
+    {
+      "word": "an",
+      "start_s": 20.353,
+      "end_s": 20.411
+    },
+    {
+      "word": "entire",
+      "start_s": 20.457,
+      "end_s": 20.887
+    },
+    {
+      "word": "novel",
+      "start_s": 20.933,
+      "end_s": 21.212
+    },
+    {
+      "word": "for",
+      "start_s": 21.27,
+      "end_s": 21.374
+    },
+    {
+      "word": "twenty",
+      "start_s": 21.432,
+      "end_s": 21.7
+    },
+    {
+      "word": "cents.",
+      "start_s": 21.758,
+      "end_s": 22.268
+    },
+    {
+      "word": "Terra",
+      "start_s": 22.872,
+      "end_s": 23.174
+    },
+    {
+      "word": "dropped",
+      "start_s": 23.22,
+      "end_s": 23.511
+    },
+    {
+      "word": "too,",
+      "start_s": 23.569,
+      "end_s": 23.987
+    },
+    {
+      "word": "down",
+      "start_s": 24.196,
+      "end_s": 24.416
+    },
+    {
+      "word": "twenty",
+      "start_s": 24.463,
+      "end_s": 24.707
+    },
+    {
+      "word": "percent",
+      "start_s": 24.753,
+      "end_s": 25.066
+    },
+    {
+      "word": "to",
+      "start_s": 25.101,
+      "end_s": 25.159
+    },
+    {
+      "word": "two",
+      "start_s": 25.206,
+      "end_s": 25.322
+    },
+    {
+      "word": "dollars.",
+      "start_s": 25.38,
+      "end_s": 25.937
+    },
+    {
+      "word": "The",
+      "start_s": 26.889,
+      "end_s": 27.005
+    },
+    {
+      "word": "flagship,",
+      "start_s": 27.063,
+      "end_s": 27.655
+    },
+    {
+      "word": "Sol,",
+      "start_s": 27.702,
+      "end_s": 28.213
+    },
+    {
+      "word": "did",
+      "start_s": 28.422,
+      "end_s": 28.584
+    },
+    {
+      "word": "not",
+      "start_s": 28.642,
+      "end_s": 28.782
+    },
+    {
+      "word": "move",
+      "start_s": 28.828,
+      "end_s": 28.991
+    },
+    {
+      "word": "at",
+      "start_s": 29.025,
+      "end_s": 29.072
+    },
+    {
+      "word": "all.",
+      "start_s": 29.107,
+      "end_s": 29.455
+    },
+    {
+      "word": "So",
+      "start_s": 30.059,
+      "end_s": 30.21
+    },
+    {
+      "word": "if",
+      "start_s": 30.268,
+      "end_s": 30.337
+    },
+    {
+      "word": "you",
+      "start_s": 30.384,
+      "end_s": 30.465
+    },
+    {
+      "word": "are",
+      "start_s": 30.523,
+      "end_s": 30.639
+    },
+    {
+      "word": "building",
+      "start_s": 30.674,
+      "end_s": 30.987
+    },
+    {
+      "word": "anything",
+      "start_s": 31.057,
+      "end_s": 31.452
+    },
+    {
+      "word": "with",
+      "start_s": 31.498,
+      "end_s": 31.626
+    },
+    {
+      "word": "AI,",
+      "start_s": 31.684,
+      "end_s": 32.276
+    },
+    {
+      "word": "move",
+      "start_s": 32.601,
+      "end_s": 32.833
+    },
+    {
+      "word": "your",
+      "start_s": 32.868,
+      "end_s": 32.984
+    },
+    {
+      "word": "cheap",
+      "start_s": 33.031,
+      "end_s": 33.251
+    },
+    {
+      "word": "tasks",
+      "start_s": 33.298,
+      "end_s": 33.646
+    },
+    {
+      "word": "to",
+      "start_s": 33.693,
+      "end_s": 33.762
+    },
+    {
+      "word": "Luna",
+      "start_s": 33.844,
+      "end_s": 34.087
+    },
+    {
+      "word": "today.",
+      "start_s": 34.145,
+      "end_s": 34.784
+    }
+  ]
+}

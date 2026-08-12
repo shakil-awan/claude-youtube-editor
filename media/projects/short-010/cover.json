@@ -1,0 +1,10 @@
+{
+  "prompt": "Premium tech-editorial photograph, vertical composition, subject in the LOWER TWO THIRDS with empty dark space at the top. A dramatic downward-pointing glowing emerald green arrow made of light slicing through a stack of gold coins on a dark reflective surface, coins scattering, warm gold sparks, cinematic studio lighting, shallow depth of field, very high contrast, dark charcoal background, subtle film grain. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": 41,
+  "refs": [],
+  "created": "2026-08-12T12:26:19"
+}

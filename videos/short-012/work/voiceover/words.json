@@ -1,0 +1,493 @@
+{
+  "text": "Google is giving away one and a half million AI tokens every single day. Not a trial. Every day. It is called Google AI Studio, and all you need is a Google account. No credit card. No subscription. That quota stretches across Gemini two point five Flash and one point five Pro on the same account. The catch? Rate limits. Ten to thirty requests per minute depending on the model. And since April, the Pro models are paid only on the API. But for building and testing, a million and a half tokens a day is enormous.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 37.93,
+  "words": [
+    {
+      "word": "Google",
+      "start_s": 0.0,
+      "end_s": 0.372
+    },
+    {
+      "word": "is",
+      "start_s": 0.406,
+      "end_s": 0.476
+    },
+    {
+      "word": "giving",
+      "start_s": 0.522,
+      "end_s": 0.743
+    },
+    {
+      "word": "away",
+      "start_s": 0.789,
+      "end_s": 0.987
+    },
+    {
+      "word": "one",
+      "start_s": 1.068,
+      "end_s": 1.254
+    },
+    {
+      "word": "and",
+      "start_s": 1.277,
+      "end_s": 1.347
+    },
+    {
+      "word": "a",
+      "start_s": 1.393,
+      "end_s": 1.416
+    },
+    {
+      "word": "half",
+      "start_s": 1.474,
+      "end_s": 1.66
+    },
+    {
+      "word": "million",
+      "start_s": 1.776,
+      "end_s": 2.113
+    },
+    {
+      "word": "AI",
+      "start_s": 2.183,
+      "end_s": 2.415
+    },
+    {
+      "word": "tokens",
+      "start_s": 2.473,
+      "end_s": 2.914
+    },
+    {
+      "word": "every",
+      "start_s": 3.03,
+      "end_s": 3.32
+    },
+    {
+      "word": "single",
+      "start_s": 3.379,
+      "end_s": 3.657
+    },
+    {
+      "word": "day.",
+      "start_s": 3.692,
+      "end_s": 4.075
+    },
+    {
+      "word": "Not",
+      "start_s": 4.772,
+      "end_s": 4.946
+    },
+    {
+      "word": "a",
+      "start_s": 4.992,
+      "end_s": 5.016
+    },
+    {
+      "word": "trial.",
+      "start_s": 5.062,
+      "end_s": 5.561
+    },
+    {
+      "word": "Every",
+      "start_s": 6.165,
+      "end_s": 6.455
+    },
+    {
+      "word": "day.",
+      "start_s": 6.502,
+      "end_s": 6.873
+    },
+    {
+      "word": "It",
+      "start_s": 7.477,
+      "end_s": 7.605
+    },
+    {
+      "word": "is",
+      "start_s": 7.639,
+      "end_s": 7.709
+    },
+    {
+      "word": "called",
+      "start_s": 7.767,
+      "end_s": 7.988
+    },
+    {
+      "word": "Google",
+      "start_s": 8.046,
+      "end_s": 8.382
+    },
+    {
+      "word": "AI",
+      "start_s": 8.452,
+      "end_s": 8.777
+    },
+    {
+      "word": "Studio,",
+      "start_s": 8.893,
+      "end_s": 9.532
+    },
+    {
+      "word": "and",
+      "start_s": 9.915,
+      "end_s": 10.054
+    },
+    {
+      "word": "all",
+      "start_s": 10.112,
+      "end_s": 10.228
+    },
+    {
+      "word": "you",
+      "start_s": 10.286,
+      "end_s": 10.368
+    },
+    {
+      "word": "need",
+      "start_s": 10.426,
+      "end_s": 10.577
+    },
+    {
+      "word": "is",
+      "start_s": 10.623,
+      "end_s": 10.693
+    },
+    {
+      "word": "a",
+      "start_s": 10.739,
+      "end_s": 10.762
+    },
+    {
+      "word": "Google",
+      "start_s": 10.844,
+      "end_s": 11.146
+    },
+    {
+      "word": "account.",
+      "start_s": 11.169,
+      "end_s": 11.68
+    },
+    {
+      "word": "No",
+      "start_s": 12.283,
+      "end_s": 12.423
+    },
+    {
+      "word": "credit",
+      "start_s": 12.492,
+      "end_s": 12.748
+    },
+    {
+      "word": "card.",
+      "start_s": 12.783,
+      "end_s": 13.177
+    },
+    {
+      "word": "No",
+      "start_s": 13.688,
+      "end_s": 13.839
+    },
+    {
+      "word": "subscription.",
+      "start_s": 13.92,
+      "end_s": 14.663
+    },
+    {
+      "word": "That",
+      "start_s": 15.36,
+      "end_s": 15.546
+    },
+    {
+      "word": "quota",
+      "start_s": 15.615,
+      "end_s": 15.882
+    },
+    {
+      "word": "stretches",
+      "start_s": 15.952,
+      "end_s": 16.324
+    },
+    {
+      "word": "across",
+      "start_s": 16.37,
+      "end_s": 16.718
+    },
+    {
+      "word": "Gemini",
+      "start_s": 16.788,
+      "end_s": 17.171
+    },
+    {
+      "word": "two",
+      "start_s": 17.264,
+      "end_s": 17.426
+    },
+    {
+      "word": "point",
+      "start_s": 17.507,
+      "end_s": 17.716
+    },
+    {
+      "word": "five",
+      "start_s": 17.763,
+      "end_s": 18.007
+    },
+    {
+      "word": "Flash",
+      "start_s": 18.042,
+      "end_s": 18.448
+    },
+    {
+      "word": "and",
+      "start_s": 18.657,
+      "end_s": 18.947
+    },
+    {
+      "word": "one",
+      "start_s": 19.04,
+      "end_s": 19.272
+    },
+    {
+      "word": "point",
+      "start_s": 19.33,
+      "end_s": 19.574
+    },
+    {
+      "word": "five",
+      "start_s": 19.632,
+      "end_s": 19.888
+    },
+    {
+      "word": "Pro",
+      "start_s": 19.934,
+      "end_s": 20.178
+    },
+    {
+      "word": "on",
+      "start_s": 20.271,
+      "end_s": 20.375
+    },
+    {
+      "word": "the",
+      "start_s": 20.422,
+      "end_s": 20.491
+    },
+    {
+      "word": "same",
+      "start_s": 20.561,
+      "end_s": 20.805
+    },
+    {
+      "word": "account.",
+      "start_s": 20.828,
+      "end_s": 21.374
+    },
+    {
+      "word": "The",
+      "start_s": 22.186,
+      "end_s": 22.314
+    },
+    {
+      "word": "catch?",
+      "start_s": 22.372,
+      "end_s": 22.883
+    },
+    {
+      "word": "Rate",
+      "start_s": 23.579,
+      "end_s": 23.812
+    },
+    {
+      "word": "limits.",
+      "start_s": 23.847,
+      "end_s": 24.427
+    },
+    {
+      "word": "Ten",
+      "start_s": 25.124,
+      "end_s": 25.367
+    },
+    {
+      "word": "to",
+      "start_s": 25.414,
+      "end_s": 25.472
+    },
+    {
+      "word": "thirty",
+      "start_s": 25.542,
+      "end_s": 25.785
+    },
+    {
+      "word": "requests",
+      "start_s": 25.843,
+      "end_s": 26.331
+    },
+    {
+      "word": "per",
+      "start_s": 26.401,
+      "end_s": 26.54
+    },
+    {
+      "word": "minute",
+      "start_s": 26.598,
+      "end_s": 26.842
+    },
+    {
+      "word": "depending",
+      "start_s": 26.877,
+      "end_s": 27.364
+    },
+    {
+      "word": "on",
+      "start_s": 27.446,
+      "end_s": 27.573
+    },
+    {
+      "word": "the",
+      "start_s": 27.608,
+      "end_s": 27.678
+    },
+    {
+      "word": "model.",
+      "start_s": 27.724,
+      "end_s": 28.212
+    },
+    {
+      "word": "And",
+      "start_s": 28.908,
+      "end_s": 29.071
+    },
+    {
+      "word": "since",
+      "start_s": 29.141,
+      "end_s": 29.384
+    },
+    {
+      "word": "April,",
+      "start_s": 29.443,
+      "end_s": 29.919
+    },
+    {
+      "word": "the",
+      "start_s": 30.035,
+      "end_s": 30.128
+    },
+    {
+      "word": "Pro",
+      "start_s": 30.186,
+      "end_s": 30.371
+    },
+    {
+      "word": "models",
+      "start_s": 30.453,
+      "end_s": 30.766
+    },
+    {
+      "word": "are",
+      "start_s": 30.824,
+      "end_s": 30.94
+    },
+    {
+      "word": "paid",
+      "start_s": 30.987,
+      "end_s": 31.196
+    },
+    {
+      "word": "only",
+      "start_s": 31.277,
+      "end_s": 31.556
+    },
+    {
+      "word": "on",
+      "start_s": 31.625,
+      "end_s": 31.706
+    },
+    {
+      "word": "the",
+      "start_s": 31.741,
+      "end_s": 31.811
+    },
+    {
+      "word": "API.",
+      "start_s": 31.869,
+      "end_s": 32.577
+    },
+    {
+      "word": "But",
+      "start_s": 33.181,
+      "end_s": 33.343
+    },
+    {
+      "word": "for",
+      "start_s": 33.39,
+      "end_s": 33.506
+    },
+    {
+      "word": "building",
+      "start_s": 33.576,
+      "end_s": 33.912
+    },
+    {
+      "word": "and",
+      "start_s": 33.959,
+      "end_s": 34.028
+    },
+    {
+      "word": "testing,",
+      "start_s": 34.087,
+      "end_s": 34.725
+    },
+    {
+      "word": "a",
+      "start_s": 34.969,
+      "end_s": 35.039
+    },
+    {
+      "word": "million",
+      "start_s": 35.155,
+      "end_s": 35.456
+    },
+    {
+      "word": "and",
+      "start_s": 35.503,
+      "end_s": 35.573
+    },
+    {
+      "word": "a",
+      "start_s": 35.619,
+      "end_s": 35.654
+    },
+    {
+      "word": "half",
+      "start_s": 35.724,
+      "end_s": 35.898
+    },
+    {
+      "word": "tokens",
+      "start_s": 35.956,
+      "end_s": 36.327
+    },
+    {
+      "word": "a",
+      "start_s": 36.374,
+      "end_s": 36.397
+    },
+    {
+      "word": "day",
+      "start_s": 36.467,
+      "end_s": 36.722
+    },
+    {
+      "word": "is",
+      "start_s": 36.815,
+      "end_s": 36.943
+    },
+    {
+      "word": "enormous.",
+      "start_s": 37.012,
+      "end_s": 37.895
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "prompt": "Premium tech-editorial photograph, vertical composition, subject in the LOWER TWO THIRDS with empty dark space at the top. Two glowing orbs of light facing each other on a dark reflective surface — one emerald green and clearly brighter and larger, one cold amber and dimmer behind a faint locked barrier of light. Cinematic studio lighting, shallow depth of field, very high contrast, dark charcoal background, subtle film grain. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": 51,
+  "refs": [],
+  "created": "2026-08-12T12:36:45"
+}

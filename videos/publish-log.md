@@ -23,6 +23,8 @@ this repo is what remembers. Never delete rows; corrections edit in place.
 could not push (see below), so their scripts/shots/research docs exist only in their own expired
 sessions. The video IDs and slots are authoritative; the project folders do not exist in git.
 | 2026-08-12 | short-010 | x9sa7gNK0bI | OpenAI Just Cut AI Prices By 80% | news-jack | GPT-5.6 Luna/Terra/Sol price cuts | 2026-08-12T15:00:00Z | Produced by hand in-session after 4 straight cloud batches died at bootstrap; ended the publishing gap. First video through the fixed cover-frame system (held frame 0, onDark title, captions off till f24). |
+| 2026-08-12 | short-011 | tKQvmWrm-iA | The Cheaper AI Model Is Also The Better One | versus | Claude Opus 5 vs GPT-5.6 Sol price + access | 2026-08-12T21:00:00Z | Produced in-session. Both gates passed. |
+| 2026-08-12 | short-012 | xsdRLTJVMTI | Google Gives You 1.5 Million Free AI Tokens Daily | listicle+number | Google AI Studio free tier | 2026-08-13T15:00:00Z | Produced in-session. **Deliberate test of the learnings.md hypothesis**: a non-news-jack with a hard number in the hook. |
 
 **⚠ THE PUSH FAILURE IS NOT COSMETIC — IT BREAKS DEDUP.** This ledger is the 14-day topic memory
 `/write-short` reads. When a batch cannot push, the next batch starts blind and re-covers the same

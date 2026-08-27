@@ -25,12 +25,26 @@ sessions. The video IDs and slots are authoritative; the project folders do not 
 | 2026-08-12 | short-010 | x9sa7gNK0bI | OpenAI Just Cut AI Prices By 80% | news-jack | GPT-5.6 Luna/Terra/Sol price cuts | 2026-08-12T15:00:00Z | Produced by hand in-session after 4 straight cloud batches died at bootstrap; ended the publishing gap. First video through the fixed cover-frame system (held frame 0, onDark title, captions off till f24). |
 | 2026-08-12 | short-011 | tKQvmWrm-iA | The Cheaper AI Model Is Also The Better One | versus | Claude Opus 5 vs GPT-5.6 Sol price + access | 2026-08-12T21:00:00Z | Produced in-session. Both gates passed. |
 | 2026-08-12 | short-012 | xsdRLTJVMTI | Google Gives You 1.5 Million Free AI Tokens Daily | listicle+number | Google AI Studio free tier | 2026-08-13T15:00:00Z | Produced in-session. **Deliberate test of the learnings.md hypothesis**: a non-news-jack with a hard number in the hook. |
+| 2026-08-27 | short-013 | oalvGUdTeeY | Claude Just Cancelled A 50% Price Hike | news-jack | Claude Sonnet 5 pricing made permanent ($2/$10, cancelled Sept 1 hike) | 2026-08-27T15:00:00Z | Cloud batch, from videos/research/2026-08-27.md. Fact-checked live on Anthropic's own pricing docs the same day. Both gates passed. **Row reconstructed on the owner's machine** — the batch produced commit 7a49d5d but the sandbox git proxy refused the push, so the project folder is not in git. |
+| 2026-08-27 | short-014 | VrEimwXvzKY | 30 Billion Parameters. Zero Dollars. Forever. | replacement | Meta Muse Glimmer — free 30B open-weight model (Apache 2.0), runs locally on one consumer GPU | 2026-08-27T21:00:00Z | Same batch; chosen partly to close a format-mix gap (replacement was 1/12 of recent Shorts vs the ~15% target). Cover art took 3 attempts (one transient Replicate error, one rejected for hallucinated text). **Row reconstructed on the owner's machine** — same blocked push. |
 
-**⚠ THE PUSH FAILURE IS NOT COSMETIC — IT BREAKS DEDUP.** This ledger is the 14-day topic memory
+**⚠ THE PUSH FAILURE IS NOT COSMETIC — IT BREAKS DEDUP.**
 `/write-short` reads. When a batch cannot push, the next batch starts blind and re-covers the same
 ground: short-007 and short-008 are the same idea, scheduled 6 hours apart. Repetitious content is
 the single named risk in NICHE-STRATEGY.md §5. **A batch that cannot push must be treated as a
 failed batch**, not a partial success.
+
+**Mitigation added 2026-08-27:** `./venv/bin/python tools/ledger_from_youtube.py` rebuilds this
+history from the channel itself — every video, including ones still private and scheduled. A push
+failure can no longer make the batch topic-blind. Run it (or `--merge`) at the start of research.
+
+**THE 14-DAY OUTAGE (2026-08-13 .. 2026-08-27).** The channel published nothing between
+short-012's slot and short-013's. The cause was not YouTube, not OAuth, and not this ledger:
+Claude Code's sandbox permission classifier refused to execute `tools/bootstrap_cloud.sh`
+("Blocked by classifier") because the script used indirect expansion over secret names, grepped
+`.env`, and put a token in a remote URL. 13 daily batches died in ~4 minutes each, and every one
+of them reported SUCCEEDED because the session exited cleanly. Secret handling now lives in
+`tools/preflight.py`; the shell layer names no secret. See AUTOMATION.md.
 
 **Baseline for `/shorts-report`** — first-week numbers are a cold start on an 11-subscriber
 channel, not a verdict on the niche. Grade the trend across ~10 videos (NICHE-STRATEGY.md §7),

@@ -115,6 +115,7 @@ def check_images() -> None:
 
 # ---------------------------------------------------------------- 4. git push
 def git(*args: str, **kw) -> subprocess.CompletedProcess:
+    kw.setdefault("timeout", 60)
     return subprocess.run(["git", *args], cwd=REPO, capture_output=True, text=True, **kw)
 
 
@@ -143,7 +144,14 @@ def check_push() -> None:
         _push_fallback_note()
         return
 
-    probe = git("push", "--dry-run", "origin", "HEAD:main", timeout=90)
+    try:
+        probe = git("push", "--dry-run", "origin", "HEAD:main", timeout=90)
+    except Exception as exc:                          # noqa: BLE001
+        # A hung or unavailable probe must never block production: push is a nice-to-have, and
+        # crashing here would fail bootstrap over something that does not stop a single video.
+        degraded.append(f"push dry-run could not complete ({type(exc).__name__}) — assuming push is unavailable")
+        _push_fallback_note()
+        return
     if probe.returncode == 0:
         print("    ENABLED (dry-run OK)")
         return

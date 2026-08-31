@@ -23,12 +23,30 @@ venv built, `.env` filled, `ffmpeg`/`node` on PATH, and YouTube OAuth done once 
 
 **The daily batch (cron, weekdays+weekends):**
 ```cron
-# 07:00 local — research, script, produce, upload 2 drafts; write a summary to logs/
+# 07:00 local — research, script, produce, upload; write a summary to logs/
 0 7 * * * cd /path/to/claude-youtube-editor && claude -p "Run the daily Shorts batch: \
-/write-short two shorts from today's research, then /make-short each one, run \
-tools/verify_short.py on both, upload both as PRIVATE drafts, and write a one-paragraph \
-summary of what was made to logs/daily-$(date +\%F).md" \
+run 'python3 tools/next_slot.py --fill 2 --max 4' and produce ONE Short per slot it prints \
+(none = the queue is full, stop). /write-short them, then /make-short each one, run \
+tools/verify_short.py on all of them, upload as PRIVATE drafts one per slot in order, then \
+prove it with 'python3 tools/watchdog.py --hours 24 --min 2'" \
 --permission-mode acceptEdits >> logs/cron.log 2>&1
+```
+
+**The batch produces to a TARGET, not to a count** (2026-08-31). It used to script "two shorts"
+unconditionally, which sounds like 2/day and is not: a day whose batch died published nothing, and
+no later run ever made it up. `next_slot.py --fill 2` instead returns *every unfilled slot in
+today and tomorrow*, read from the channel itself — so the steady state is 2/day with the next day
+already banked, a dead batch costs nothing (its day was filled yesterday), and the run after a
+dead batch automatically produces 4 to refill the buffer. `--max` caps the catch-up so a long
+outage cannot order a 10-video day. Produce in the order the slots come out: today's slots take
+the fresh news-jack, tomorrow's buffer slots take an evergreen format (listicle / replacement /
+versus) that will not have aged by its slot.
+
+**The publish watchdog (cheap, stdlib-only, independent of the batch):**
+```cron
+# 13:00 UTC — did the batch actually fill today? (exit 1 = the channel is going dark)
+0 13 * * * cd /path/to/claude-youtube-editor && python3 tools/watchdog.py --hours 24 --min 2 \
+>> logs/watchdog.log 2>&1
 ```
 
 **The weekly feedback loop (Layer 3's engine):**
@@ -62,7 +80,8 @@ strategy changes.
 ## Budgets & tripwires (check monthly)
 
 - **ElevenLabs:** one ~90-word Short ≈ 500 credits. Free tier 10k ≈ 20 Shorts/mo; 2/day needs
-  the Starter tier. `gen_voiceover.py` prints duration; it warns past 58s.
+  the Starter tier. `gen_voiceover.py` prints duration; it warns past 58s. A catch-up day produces
+  up to `--max` Shorts (4 by default), so budget for the rate, not for the average day.
 - **Claude:** the daily batch is one session; watch your plan's usage the first week.
 - **Tripwires that stop the cron until a human looks:** `verify_short.py` non-zero, a YouTube
   upload error, or ElevenLabs quota errors — the batch prompt tells Claude to stop and write the
@@ -82,8 +101,9 @@ cloned the repo, failed bootstrap, wrote a polite explanation and stopped is a S
 Between 2026-08-14 and 2026-08-26 thirteen consecutive daily batches did exactly that. The push
 notifications all said the batch had finished, and the channel went dark for 14 days.
 
-**The only trustworthy signal is the channel.** A batch worked if, and only if, new videos exist
-with a future `publishAt`. `tools/watchdog.py` checks precisely that; run it, don't trust status.
+**The only trustworthy signal is the channel.** A batch worked if, and only if, the day's slots
+hold videos with a future `publishAt` — plural, because half a day is a failed day too.
+`tools/watchdog.py` checks precisely that; run it, don't trust status.
 
 ### 2. The sandbox permission classifier can refuse the bootstrap script
 This is what caused the 14-day outage. `bootstrap_cloud.sh` used to check secrets in shell:
@@ -122,3 +142,29 @@ for OAuth clients left in "Testing" publishing status. This project's client is 
 the token issued 2026-08-07 still refreshed successfully on 2026-08-27, twenty days later.
 Before rewriting auth, prove it is broken — `./venv/bin/python tools/yt_upload.py whoami` costs
 nothing and answers the question outright.
+
+### 5. A pending permission request hangs the batch as effectively as a denial
+On 2026-08-30 the batch fired at 11:08 UTC and stopped two minutes later, not on an error but on
+an approval prompt: `python3 tools/preflight.py` was held for permission, nobody was awake to
+approve it, and the session sat in REQUIRES_ACTION until it was recorded ABANDONED. Zero videos.
+
+This is the classifier problem of failure mode 2 wearing a different face — preflight.py is the
+file that now handles the secrets, so it is the file that draws the scrutiny — and RULE 0 of the
+batch prompt did not cover it, because RULE 0 only talked about *denials*. It does now: **a
+pending approval that does not return is a denial that has not admitted it yet.** Do not wait on
+it. Retry, and if it stays blocked, run the ordinary toolchain steps directly and continue.
+
+### 6. Nothing anywhere enforced "two a day"
+The strategy says 2/day (NICHE-STRATEGY.md §4). Until 2026-08-31 no code did:
+
+- the batch prompt asked for "two shorts" as a fixed count, so a failed day was simply lost —
+  nothing produced 2 the next day to make it up;
+- `next_slot.py` picked slots from local `videos/*/publish.json`, a file that a refused push never
+  writes to git — so a fresh cloud clone thought slots that already held a video were free;
+- `watchdog.py` passed on `>= 1` video in its window, so a half-empty day printed "WATCHDOG OK".
+
+The channel averaged one video a day for four days (2 on 08-27, 0 on 08-28, 2 on 08-29, 0 on
+08-30) and every automated check reported healthy throughout. The fix is in all three places:
+production targets the unfilled slots on the channel, slot selection reads the channel, and the
+watchdog counts against the 2/day target and warns when the one-day buffer is eaten.
+`python3 tools/selftest_queue.py` covers all of it against a synthetic queue, offline.

@@ -46,6 +46,15 @@ Claude Code's sandbox permission classifier refused to execute `tools/bootstrap_
 of them reported SUCCEEDED because the session exited cleanly. Secret handling now lives in
 `tools/preflight.py`; the shell layer names no secret. See AUTOMATION.md.
 
+**THE HALF-RATE STRETCH (2026-08-27 .. 2026-08-31).** The channel ran at one video a day against a
+2/day policy — 2 on 08-27, none on 08-28, 2 on 08-29, none on 08-30, none queued on 08-31 — and
+nothing alarmed. Three separate causes, all fixed on 2026-08-31 (AUTOMATION.md failure modes 5–6):
+the 08-30 batch hung on a permission prompt for `tools/preflight.py` and was recorded ABANDONED
+after two minutes; the batch prompt asked for a fixed "two shorts" so a dead day was never made up;
+and `watchdog.py` passed on one queued video, so a half-empty day printed "WATCHDOG OK". Production
+now targets the unfilled slots on the channel (`next_slot.py --fill 2`, which also keeps one day of
+buffer so a single dead batch costs nothing), and the watchdog counts against 2/day.
+
 **Baseline for `/shorts-report`** — first-week numbers are a cold start on an 11-subscriber
 channel, not a verdict on the niche. Grade the trend across ~10 videos (NICHE-STRATEGY.md §7),
 never a single video's first day.

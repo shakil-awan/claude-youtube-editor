@@ -42,6 +42,13 @@ so a weak or unverified script cannot be fixed later. Scripts are cheap; renders
    - **Learnings fit** (matches a proven hook/topic pattern = 5, contradicts one = 1)
    A candidate scoring under 15/25 doesn't get made. Record WHY the winners won — /shorts-report
    later checks whether the rubric's predictions held.
+
+   **How many to script is a queue question, not a habit.** Run `python3 tools/next_slot.py
+   --fill 2 --max 4`: it prints one timestamp per unfilled publish slot in today and tomorrow,
+   read from the channel itself. Script exactly that many — no slots printed means the queue is
+   full and today's job is research only, four means yesterday's batch died and today makes it up.
+   Assign the freshest news-jack to the earliest slot and give tomorrow's buffer slots evergreen
+   formats (listicle / replacement / versus), which will not have aged by the time they publish.
 3. **Dedup against the last 14 days** — `ls videos/research/` + recent `short-*/script/short.md`
    topics. A repeat sub-topic is allowed only as an explicit follow-up to an outlier (§7).
 4. **Fact-check gate (hard).** Every claim about a tool — pricing, free tier, feature, platform —

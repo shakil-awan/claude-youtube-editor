@@ -142,8 +142,12 @@ hope the voice fits.
      "publishAt": "<next free slot: python tools/next_slot.py>"
    }
    ```
-   `publishAt` comes from `tools/next_slot.py` (the strategy §4 slots, DST-aware, skipping slots
-   other plans claimed). YouTube holds the video PRIVATE and flips it public at that moment — so
+   `publishAt` comes from `tools/next_slot.py` (the strategy §4 slots, DST-aware). It skips every
+   slot that is already taken — by another local plan AND by a video already on the channel, which
+   is the only way a batch that could not push its `publish.json` cannot double-book a slot a
+   previous batch filled. Producing a whole day (or catching one up) is `--fill 2`, which prints
+   one slot per Short to make: claim them in the order printed, one per project.
+   YouTube holds the video PRIVATE and flips it public at that moment — so
    the human review gate stays intact: upload early, review any time before the slot, pull the
    `publishAt` in Studio if it shouldn't ship. On an unaudited API project YouTube may ignore
    API-set publishAt — then the schedule is set with one click in Studio from the same plan.

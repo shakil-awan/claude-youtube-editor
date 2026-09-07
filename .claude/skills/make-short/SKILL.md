@@ -142,6 +142,13 @@ hope the voice fits.
      "publishAt": "<next free slot: python tools/next_slot.py>"
    }
    ```
+   **Do not hand-write the details fields.** The AI/altered-content disclosure
+   (`containsSyntheticMedia: true`), the recording date (today), and the title/audio languages
+   (`en-US`) are applied by `yt_upload.py` to every upload, read back from the channel afterwards,
+   and patched if they did not stick. Add a key only to *deviate* — `"language"`,
+   `"audioLanguage"`, `"recordingDate"`, `"containsSyntheticMedia"`. Studio's **Video location**
+   box has no API left (`recordingDetails.location` is deprecated and discarded); the channel's
+   country covers it, once, in Studio → Settings → Channel → Advanced.
    `publishAt` comes from `tools/next_slot.py` (the strategy §4 slots, DST-aware). It skips every
    slot that is already taken — by another local plan AND by a video already on the channel, which
    is the only way a batch that could not push its `publish.json` cannot double-book a slot a
@@ -177,6 +184,9 @@ hope the voice fits.
    venv/Scripts/python tools/yt_upload.py upload videos/short-NNN/publish.json --dry-run   # preview
    venv/Scripts/python tools/yt_upload.py upload videos/short-NNN/publish.json             # real
    ```
+   The upload is not done when the bytes land: it reads the video back and reports
+   `✓ details confirmed on the channel`. Anything that did not stick is patched automatically;
+   anything the API refused is named so it can be set in Studio.
    It prints the Studio link — that link is what goes to the owner for approval. **Private always**
    until the owner approves — the review gate is the demonetization firewall (strategy §4).
 9. **Append the ledger row** — add this Short to `videos/publish-log.md` (date, project, video id

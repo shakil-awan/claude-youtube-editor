@@ -56,7 +56,14 @@ versus) that will not have aged by its slot.
 learnings.md if it changed" --permission-mode acceptEdits >> logs/cron.log 2>&1
 ```
 
-Your morning routine is then: open YouTube Studio → review 2 drafts → done. Each draft already
+Your morning routine is then: open YouTube Studio → review 2 drafts → done. The drafts arrive with
+their **details fields already filled** — "Altered or synthetic content" ticked, recording date =
+the day it was made, video and audio language `en-US` — set on upload by `tools/yt_upload.py`,
+read back from the channel, and patched if they did not stick. Videos uploaded before 2026-09-07
+are missing them; `./venv/bin/python tools/yt_upload.py backfill` shows what, `--apply` fills it.
+The one field the API cannot set is Studio's **Video location** (`recordingDetails.location` has
+been deprecated since 2017) — the channel country in Studio → Settings → Channel → Advanced covers
+it once for everything. Each draft already
 carries a `publishAt` from `tools/next_slot.py` (the strategy §4 slots, DST-aware), so an approved
 draft publishes itself at its slot; pull the schedule in Studio if one shouldn't ship. (On an
 unaudited API project YouTube may ignore API-set publishAt — then scheduling is one click in
@@ -67,6 +74,36 @@ belongs in `learnings.md`.
 scheduled recurring tasks (Routines) — same prompts, no cron of your own. A cheap VPS also works;
 renders need ~2+ CPU cores (`--concurrency` ≤ cores − 1; the render is the slow step, ~3–6 min
 per Short on 4 cores).
+
+### Stopping the batch from asking for permission (2026-09-07)
+
+Three levers, and only one of them lives in this repo. Getting this wrong has cost this channel
+more days than any bug (failure modes 2 and 5 below).
+
+1. **`.claude/settings.json` — committed, and it works everywhere, cloud runs included.** Its
+   `permissions.allow` list names every command the batch runs, one script per rule. A *narrow*
+   Bash allow rule is resolved BEFORE the auto-mode classifier, so those calls neither prompt nor
+   wait on a verdict. Broad rules (`Bash(*)`, a bare interpreter like `Bash(python3 *)`) are
+   deliberately suspended in auto mode and would buy nothing — which is also why an improvised
+   `python3 - <<EOF` heredoc still gets classified. **Add the tool to the allow list rather than
+   inlining a script.** The `deny` list is the other half: `.env`, `.youtube/`, force-push and
+   `rm -rf` are refused in every mode, so the allow list is not a blank cheque.
+2. **The session's permission mode — set where the session is launched, not in the repo.**
+   Locally that is `claude --permission-mode bypassPermissions` (or `--dangerously-skip-permissions`)
+   in the cron line. For the cloud Routine it is the environment's own setting on claude.ai.
+   `permissions.defaultMode: "bypassPermissions"` in a settings file is **ignored** — from project
+   settings always, and from any settings file in a web session. That is deliberate: a repository
+   is not allowed to switch off its own reviewer. Don't spend an afternoon on it.
+3. **`autoMode.environment` — teaches the classifier what this project legitimately does.** It is
+   NOT read from project settings; put it in `~/.claude/settings.json` on the machine that runs
+   the batch, or in the Routine's environment config. `CLAUDE.md` §"Unattended runs" is the part
+   the classifier *does* read from the repo, and it names the batch's real operations (private
+   uploads to the owner's channel, pushes to this repo's own remote, secrets restored by
+   `preflight.py` and never printed).
+
+**A cloud Routine only picks up `.claude/settings.json` if the repo is a SOURCE on its
+environment.** A batch that `git clone`s the repo mid-session has already started without those
+settings — which is the same missing configuration that blocks its push (failure mode 3).
 
 ## Layer 3 — the self-improvement loop (already wired)
 
@@ -168,3 +205,24 @@ The channel averaged one video a day for four days (2 on 08-27, 0 on 08-28, 2 on
 production targets the unfilled slots on the channel, slot selection reads the channel, and the
 watchdog counts against the 2/day target and warns when the one-day buffer is eaten.
 `python3 tools/selftest_queue.py` covers all of it against a synthetic queue, offline.
+
+### 7. The self-test that failed every afternoon
+`selftest_queue.py` built its fixtures from *today's* two slots and read the real wall clock, so
+after ~14:15 UTC `next_slot.py` correctly stopped offering the 15:00Z slot (its 45-minute lead had
+passed) and seven cases "failed". A check whose verdict depends on the hour teaches its operator to
+wave it away — which is fatal for the one file whose job is catching a channel silently running at
+half rate. Both tools are now pinned to 08:00Z on today's date inside the test, so the suite
+returns the same verdict at any hour. `bootstrap_cloud.sh` runs it, and `selftest_upload.py`, on
+every batch and reports a failure as DEGRADED.
+
+### 8. Every draft landed with four empty fields
+Until 2026-09-07 each upload arrived with "Altered or synthetic content", the recording date and
+both language fields blank, and the owner typed them into Studio on every video — roughly 700
+fields a year of hand-work that the Data API has accepted all along
+(`status.containsSyntheticMedia` since 2024-10-30). They are set on upload now, defaulted by
+policy, and confirmed by reading the video back: `videos.insert` has been observed to accept a body
+and store only part of it, which nobody notices until a human opens Studio. Anything the API
+refuses is shed one field at a time and retried, so a metadata field can never cost the upload
+itself. `python3 tools/selftest_upload.py` covers the defaults, the validation, the update merge
+(a `videos.update` REPLACES each part it is given — the wrong body wipes a title) and the backfill,
+offline.

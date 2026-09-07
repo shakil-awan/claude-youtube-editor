@@ -246,6 +246,19 @@ def parts_of(body: dict) -> str:
     return ",".join(k for k in ("snippet", "status", "recordingDetails") if body.get(k))
 
 
+def same_value(field: str, want, have) -> bool:
+    """Does the channel already hold what we want?
+
+    recordingDate is the one field YouTube may echo back in a different-but-equal shape
+    (`…T00:00:00Z` vs `…T00:00:00.000Z`), and comparing the strings would make every run decide
+    the patch had not stuck and re-send it — a write loop that never converges. Only the day is
+    ever meaningful here, so only the day is compared.
+    """
+    if field == "recordingDate":
+        return bool(want) and bool(have) and str(want)[:10] == str(have)[:10]
+    return want == have
+
+
 def preview(plan: dict, body: dict) -> None:
     s, st, rec = body["snippet"], body["status"], body.get("recordingDetails", {})
     thumb = plan.get("thumbnail")
@@ -403,7 +416,7 @@ def settle(yt, vid: str, wanted: dict, *, skip: set[str] | None = None) -> None:
         if f"{part}.{field}" in skip or field not in wanted.get(part, {}):
             continue
         want, have = wanted[part][field], item.get(part, {}).get(field)
-        if want == have:
+        if same_value(field, want, have):
             continue
         fixes.append(f"{part}.{field}: {have!r} → {want!r}")
         patch.setdefault(part, {})[field] = want
@@ -523,9 +536,9 @@ def backfill_patch(item: dict, pol: dict, *, force: bool = False) -> tuple[dict,
         # for a video already on the channel.
         published = snip.get("publishedAt", "")[:10] or f"{today_utc():%Y-%m-%d}"
         want = f"{min(published, f'{today_utc():%Y-%m-%d}')}T00:00:00Z"
-        if rec.get("recordingDate") != want:
+        if not same_value("recordingDate", want, rec.get("recordingDate")):
             patch.setdefault("recordingDetails", {})["recordingDate"] = want
-            reasons.append(f"recordingDate — → {want[:10]}")
+            reasons.append(f"recordingDate {(rec.get('recordingDate') or '—')[:10]} → {want[:10]}")
 
     return patch, reasons
 

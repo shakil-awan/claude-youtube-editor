@@ -192,6 +192,17 @@ def test_backfill_patch() -> None:
     check("5.9 a channel that is not AI-generated never gets the disclosure forced on", patch, {})
     clear_env()
 
+    # The one that decides whether `backfill --apply` on every batch converges or writes forever:
+    # YouTube may echo the recording date back with milliseconds. Comparing strings would call
+    # that a miss and re-send the same patch on every run, every day, at 50 quota units a video.
+    millis = dict(done, recordingDetails={"recordingDate": "2026-08-13T00:00:00.000Z"})
+    patch, _ = yu.backfill_patch(millis, pol)
+    check("5.10 a date echoed back with millis is the same date — backfill converges", patch, {})
+    ok("5.11 …and the comparison is day-level, not string-level",
+       yu.same_value("recordingDate", "2026-08-13T00:00:00Z", "2026-08-13T00:00:00.000Z")
+       and not yu.same_value("recordingDate", "2026-08-13T00:00:00Z", "2026-08-14T00:00:00Z")
+       and not yu.same_value("recordingDate", "2026-08-13T00:00:00Z", None))
+
 
 # ── 6. the retry ladder sheds one field at a time, upload last ──────────────
 def test_retry_ladder() -> None:

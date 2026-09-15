@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+  "_README": [
+    "Template for .claude/settings.json — NOT active where it sits.",
+    "Install:  cp tools/claude-settings.template.json .claude/settings.json",
+    "Why: without a permission allowlist, every fresh cloud clone the daily Routines",
+    "spawn prompts on the first `python3 tools/preflight.py`, and a pending prompt",
+    "kills the batch exactly like AUTOMATION.md failure mode 5 (2026-08-30).",
+    "See AUTOMATION.md > 'Permissions: why the batch used to ask every morning'."
+  ],
+
+  "permissions": {
+    "defaultMode": "acceptEdits",
+
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit",
+      "Write",
+      "WebSearch",
+      "WebFetch",
+      "mcp__vidIQ_for_Claude",
+
+      "Bash(python3 tools/:*)",
+      "Bash(python tools/:*)",
+      "Bash(./venv/bin/python tools/:*)",
+      "Bash(./venv/bin/python3 tools/:*)",
+      "Bash(venv/bin/python tools/:*)",
+      "Bash(venv/Scripts/python tools/:*)",
+
+      "Bash(bash tools/bootstrap_cloud.sh:*)",
+      "Bash(./tools/bootstrap_cloud.sh:*)",
+
+      "Bash(python3 -m venv:*)",
+      "Bash(python -m venv:*)",
+      "Bash(./venv/bin/pip:*)",
+      "Bash(venv/bin/pip:*)",
+      "Bash(./venv/bin/python -m pip:*)",
+      "Bash(pip install -r requirements.txt:*)",
+
+      "Bash(npm install:*)",
+      "Bash(npm ci:*)",
+      "Bash(npm run:*)",
+      "Bash(npx remotion:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node scripts/:*)",
+
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "Bash(apt-get update:*)",
+      "Bash(apt-get install -y -qq ffmpeg:*)",
+
+      "Bash(git status:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git fetch:*)",
+      "Bash(git checkout:*)",
+      "Bash(git switch:*)",
+      "Bash(git branch:*)",
+      "Bash(git merge:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git remote -v:*)",
+
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(sed:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(find:*)",
+      "Bash(jq:*)",
+      "Bash(wc:*)",
+      "Bash(du:*)",
+      "Bash(df:*)",
+      "Bash(echo:*)",
+      "Bash(printf:*)",
+      "Bash(date:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(touch:*)",
+      "Bash(cd:*)",
+      "Bash(test:*)",
+      "Bash(which:*)",
+      "Bash(command -v:*)"
+    ],
+
+    "deny": [
+      "Read(./.env)",
+      "Bash(cat .env:*)",
+      "Bash(cat ./.env:*)",
+      "Bash(rm -rf /:*)",
+      "Bash(rm -rf ~:*)",
+      "Bash(sudo rm:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)"
+    ]
+  }
+}

@@ -56,7 +56,14 @@ versus) that will not have aged by its slot.
 learnings.md if it changed" --permission-mode acceptEdits >> logs/cron.log 2>&1
 ```
 
-Your morning routine is then: open YouTube Studio → review 2 drafts → done. Each draft already
+Your morning routine is then: open YouTube Studio → review 2 drafts → done. The drafts arrive with
+their **details fields already filled** — "Altered or synthetic content" ticked, recording date =
+the day it was made, video and audio language `en-US` — set on upload by `tools/yt_upload.py`,
+read back from the channel, and patched if they did not stick. Videos uploaded before 2026-09-07
+are missing them; `./venv/bin/python tools/yt_upload.py backfill` shows what, `--apply` fills it.
+The one field the API cannot set is Studio's **Video location** (`recordingDetails.location` has
+been deprecated since 2017) — the channel country in Studio → Settings → Channel → Advanced covers
+it once for everything. Each draft already
 carries a `publishAt` from `tools/next_slot.py` (the strategy §4 slots, DST-aware), so an approved
 draft publishes itself at its slot; pull the schedule in Studio if one shouldn't ship. (On an
 unaudited API project YouTube may ignore API-set publishAt — then scheduling is one click in
@@ -67,6 +74,36 @@ belongs in `learnings.md`.
 scheduled recurring tasks (Routines) — same prompts, no cron of your own. A cheap VPS also works;
 renders need ~2+ CPU cores (`--concurrency` ≤ cores − 1; the render is the slow step, ~3–6 min
 per Short on 4 cores).
+
+### Stopping the batch from asking for permission (2026-09-07)
+
+Three levers, and only one of them lives in this repo. Getting this wrong has cost this channel
+more days than any bug (failure modes 2 and 5 below).
+
+1. **`.claude/settings.json` — committed, and it works everywhere, cloud runs included.** Its
+   `permissions.allow` list names every command the batch runs, one script per rule. A *narrow*
+   Bash allow rule is resolved BEFORE the auto-mode classifier, so those calls neither prompt nor
+   wait on a verdict. Broad rules (`Bash(*)`, a bare interpreter like `Bash(python3 *)`) are
+   deliberately suspended in auto mode and would buy nothing — which is also why an improvised
+   `python3 - <<EOF` heredoc still gets classified. **Add the tool to the allow list rather than
+   inlining a script.** The `deny` list is the other half: `.env`, `.youtube/`, force-push and
+   `rm -rf` are refused in every mode, so the allow list is not a blank cheque.
+2. **The session's permission mode — set where the session is launched, not in the repo.**
+   Locally that is `claude --permission-mode bypassPermissions` (or `--dangerously-skip-permissions`)
+   in the cron line. For the cloud Routine it is the environment's own setting on claude.ai.
+   `permissions.defaultMode: "bypassPermissions"` in a settings file is **ignored** — from project
+   settings always, and from any settings file in a web session. That is deliberate: a repository
+   is not allowed to switch off its own reviewer. Don't spend an afternoon on it.
+3. **`autoMode.environment` — teaches the classifier what this project legitimately does.** It is
+   NOT read from project settings; put it in `~/.claude/settings.json` on the machine that runs
+   the batch, or in the Routine's environment config. `CLAUDE.md` §"Unattended runs" is the part
+   the classifier *does* read from the repo, and it names the batch's real operations (private
+   uploads to the owner's channel, pushes to this repo's own remote, secrets restored by
+   `preflight.py` and never printed).
+
+**A cloud Routine only picks up `.claude/settings.json` if the repo is a SOURCE on its
+environment.** A batch that `git clone`s the repo mid-session has already started without those
+settings — which is the same missing configuration that blocks its push (failure mode 3).
 
 ## Layer 3 — the self-improvement loop (already wired)
 

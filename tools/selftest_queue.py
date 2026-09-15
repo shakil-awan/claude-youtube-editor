@@ -29,6 +29,39 @@ NOW = dt.datetime.now(dt.timezone.utc)
 TODAY = NOW.date()
 failures: list[str] = []
 
+# THE CLOCK IS FROZEN, AND THAT IS THE POINT (2026-09-07)
+# ------------------------------------------------------
+# Every fixture below is built from TODAY's two slots (15:00Z / 21:00Z). Run before ~14:15Z the
+# suite passed; run after it, seven cases failed — next_slot.py had correctly stopped offering a
+# slot that was less than its 45-minute lead away, and the assertions still expected it. A
+# self-test whose verdict depends on the hour is worse than no self-test: it cries wolf every
+# afternoon, and the one thing it is here to catch (the channel silently running at half rate)
+# is exactly the kind of finding an operator learns to wave away. So both tools are pinned to
+# 08:00Z on today's date — before every slot, on the same calendar day in ET — and the suite
+# now returns the same verdict at any hour.
+FROZEN = dt.datetime.combine(TODAY, dt.time(8, 0), tzinfo=dt.timezone.utc)
+
+
+class _FrozenDatetime(dt.datetime):
+    """dt.datetime with now() pinned to FROZEN. Everything else behaves normally."""
+
+    @classmethod
+    def now(cls, tz=None):
+        return FROZEN.astimezone(tz) if tz else FROZEN.replace(tzinfo=None)
+
+
+class _FrozenModule:
+    """Stands in for the `datetime` module where a tool imported it as `dt`."""
+    datetime = _FrozenDatetime
+    timezone = dt.timezone
+    timedelta = dt.timedelta
+    date = dt.date
+    time = dt.time
+
+
+next_slot.datetime = _FrozenDatetime          # `from datetime import datetime, ...`
+watchdog.dt = _FrozenModule                   # `import datetime as dt`
+
 
 def slot(day_offset: int, hour: int) -> dt.datetime:
     """A UTC publish slot `day_offset` days out (15:00Z / 21:00Z = the 11:00/17:00 ET slots)."""

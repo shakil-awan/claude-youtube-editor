@@ -62,12 +62,30 @@ fi
 # ---------------------------------------------------------------- 3. channel identity
 say ""
 say "-- channel identity"
-CH=$(./venv/bin/python tools/yt_upload.py whoami 2>&1 | tail -1)
+# whoami prints the channel title on its own line and the upload defaults INDENTED under it
+# (added 2026-09-07). Take the last unindented line, so this survives both the extra detail
+# lines and any warning the google client writes to stderr first.
+CH=$(./venv/bin/python tools/yt_upload.py whoami 2>&1 | grep -v '^[[:space:]]' | tail -1)
 if [ "$CH" = "ToolMint" ]; then
   say "    channel: ToolMint ✓"
 else
   CRITICAL+=("whoami returned '$CH' instead of ToolMint — wrong or missing YouTube token")
 fi
+
+# ---------------------------------------------------------------- 4. logic self-tests
+# Offline, no credentials, ~1s. They cover the four tools that decide how many Shorts a day gets
+# made (next_slot/watchdog/ytqueue) and what metadata every upload carries (yt_upload) — the
+# code whose failures are silent. DEGRADED, not CRITICAL, per DESIGN RULE 1: a self-test that
+# can stop the day is a self-test that eventually costs a day.
+say ""
+say "-- logic self-tests"
+for t in selftest_queue selftest_upload; do
+  if OUT=$(python3 "tools/$t.py" 2>&1); then
+    say "    $t OK"
+  else
+    DEGRADED+=("$t FAILED — the batch can still run, but read it: $(printf '%s' "$OUT" | tail -2 | tr '\n' ' ')")
+  fi
+done
 
 # ---------------------------------------------------------------- summary
 say ""

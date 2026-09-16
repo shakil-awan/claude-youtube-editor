@@ -1,43 +1,99 @@
-# Thumbnail generation — Nano Banana Pro (the render engine behind Stage 5)
+# Thumbnail generation — the render engine behind Stage 5
 
 Stage 3 of `SKILL.md` produces thumbnail **concepts** (text). This file is how those
-concepts become **actual images**: the model, the tool, the reusable prompt template,
-the verify loop, and the failure modes. Tune it as you learn what your audience clicks.
+concepts become **actual images**. Default is `PackagingThumbnail` — no image API, zero
+cost. Nano Banana Pro is a paid, owner-authorized opt-in for the rare bet it alone can serve.
+Tune the defaults as you learn what your audience clicks.
 
 ## The decisions (locked in)
 
-- **Model renders the text.** Nano Banana Pro draws the hook word itself (FREE / UNLIMITED /
-  $0.62) — no separate compositing layer. So we use the **Pro** tier, whose headline feature
-  is legible in-image text. The tradeoff (AI can misspell/garble a word) is caught by the
-  **verify loop** below, not avoided.
-- **One reusable face.** The creator's identity anchor lives in `media/library/faces/` and is passed as
-  a reference on **every** render. It grows over time (more expressions = better). See that
-  folder's README.
+- **Remotion renders the text, not a model.** `PackagingThumbnail` sets the headline word
+  directly, so it can never be garbled/misspelled — that was the #1 failure mode of
+  model-rendered text, and it's now structurally impossible rather than caught by a verify loop.
+- **The real presenter photo, placed as-is.** `media/library/faces/` (git-ignored, you supply
+  it — see that folder's README) still anchors identity, but `PackagingThumbnail` places the
+  actual photo directly (feathered into the color block at its edge) instead of asking a model
+  to re-pose/re-express it into a generated scene. Honest, free, and there is no "face drifts
+  from the reference" failure mode to chase.
 - **This lives inside `/packaging`**, as Stage 5 — one skill packages a video end to end.
 
 ## The loud-vs-calm rule (do NOT reconcile these)
 
 `brand.md` is deliberately **calm/premium** (Linear/Anthropic) for what's *inside* the video.
-The **thumbnail is the opposite by design** — big shocked face, giant saturated word, high
-energy — because it lives on the browse wall and plays by CTR rules, not brand rules. The
-loud frame consistently out-clicks the tasteful one there (see `channel-calibration.md` to
-confirm it on your own data). Never "tone down" a thumbnail to match the in-video brand.
-Two systems, on purpose.
+The **thumbnail is the opposite by design** — big saturated color block, giant headline word,
+starburst energy — because it lives on the browse wall and plays by CTR rules, not brand rules.
+`PackagingThumbnail`'s two-tone diagonal + starburst backdrop is intentionally louder than
+`GeneratedArt` (the calm in-video cover art) for exactly this reason. Never "tone down" a
+thumbnail to match the in-video brand. Two systems, on purpose.
 
-## Model + specs
+## The tool (default — no API, no cost)
 
-- **Model id:** `gemini-3-pro-image` (Nano Banana Pro). Fallbacks if unavailable:
-  `gemini-3.1-flash-image` (Nano Banana 2, faster/cheaper, slightly weaker text). Confirm the
-  live id with `GET /v1beta/models` if a call 404s — Google renames these often.
-- **Output:** 16:9, `image_size` **2K** default (4K for the final keeper). YouTube spec =
-  1280×720 min, 2560×1440 ideal, **<2MB**, JPG/PNG. `--jpg` emits the spec-compliant deliverable.
+`remotion/src/shots/brand/PackagingThumbnail.tsx`, 1920×1080. Props:
+
+| prop | required | notes |
+|---|---|---|
+| `word` | yes | the ONE dominant hook — huge, single focal element (Thumbnail Checklist #1) |
+| `sub` | no | 1–3 word fragment; combines with the title, never repeats it |
+| `photo` | no | staticFile path to a REAL photo in `media/library/faces/`; omit for a text-only bet |
+| `bg` | no | `emerald` \| `gold` \| `teal` — default `emerald` |
+
+```
+cd remotion && npx remotion still PackagingThumbnail ../videos/<project>/packaging/thumbs/A.png \
+  --props='{"word":"FREE","sub":"no card needed","bg":"emerald","photo":"library/faces/face-ref-01.jpg"}'
+```
+
+Generate the 3 A/B/C concepts into `thumbs/A.png|B.png|C.png`. Keep each variant's props in
+`thumbs/A.json` etc. so refinements are diffs, not rewrites. Then convert to the YouTube-spec
+JPG (`PIL`, quality stepped down until <2MB) and attach.
+
+**Comparing variants:** stitch the final A/B/C into one labeled side-by-side
+(`thumbs/_ABC-set.jpg`, e.g. with `PIL`) so you can eyeball the test set together, the way the
+browse wall will.
+
+**Photo placement notes:**
+
+- The photo fills the right ~54% of the frame, top-anchored, `object-fit: cover`; a portrait or
+  head-and-shoulders shot with the subject roughly centered works best.
+- Its left edge feathers into the `bg` color via a CSS mask — no manual cutout/background-removal
+  needed. A plain-ish background on the source photo blends more cleanly than a busy one.
+- Omitting `photo` entirely is a legitimate concept, not a fallback to apologize for — a bold
+  color block + huge word + logo is a real, proven thumbnail style on its own.
+
+## The verify loop (run on EVERY render before surfacing it)
+
+Read the generated image back and check — adjust props and re-render if any fail:
+
+1. **One dominant hook.** No second competing text block; the frame is not busy.
+2. **Bright + saturated + positive.** The `bg` color reads punchy, not muddy; the starburst is
+   visible without overpowering the headline.
+3. **Photo (if used) sits naturally.** The feathered edge shouldn't show a hard seam — if it
+   does, the source photo's background is too busy or too different in tone from `bg`; try a
+   different `bg` or crop.
+4. **On-theme + wholesome.** No IP concerns — a real photo of the actual presenter has none of
+   the "hallucinated logo" or "held prop" risk a generative render carries.
+5. **Spec.** 16:9, ≥1280px wide (1920×1080 native), exports <2MB as JPG.
+
+Only surface renders that pass. Review A/B/C together and steer from there.
+
+## Iterating (the back-and-forth)
+
+- Change one field at a time (`bg` OR `word` OR `photo`) so cause↔effect is clear.
+- Since rendering is instant and free, iterate freely — there's no per-render cost pressure like
+  the paid path had.
+- Keep each variation's props in `thumbs/A.json` etc.
+
+## Paid opt-in — Nano Banana Pro (owner-authorized only)
+
+Reach for this only when a bet specifically needs a fully re-imagined photoreal scene —
+a staged environment, a re-posed/re-expressed face — that `PackagingThumbnail`'s real-photo
+placement can't give, and only with the owner's explicit sign-off on the spend. It is the
+exception path, not a fallback to reach for by default.
+
+- **Model id:** `gemini-3-pro-image` (Nano Banana Pro). Fallback: `gemini-3.1-flash-image`
+  (Nano Banana 2, faster/cheaper, slightly weaker text).
 - **Access:** `GEMINI_API_KEY` in `.env`; Gemini API enabled + billing on the Google project.
-
-## The tool
-
-`tools/gen_thumbnail.py` — passes the prompt + the whole `media/library/faces/` kit to the model,
-saves the PNG + a sidecar `.json` (prompt, model, seed, refs) so any render is reproducible, and
-optionally emits the YouTube-spec JPG.
+- **The tool:** `tools/gen_thumbnail.py` — passes the prompt + the `media/library/faces/` kit to
+  the model, saves the PNG + a sidecar `.json` (prompt, model, seed, refs).
 
 ```
 python tools/gen_thumbnail.py --prompt "…full prompt…" --out videos/video-N/packaging/thumbs/A.png --jpg
@@ -45,21 +101,13 @@ python tools/gen_thumbnail.py --prompt-file A.txt --out A.png --size 4K --seed 4
 python tools/gen_thumbnail.py --prompt "…" --out A.png --dry-run                    # validate, no billing
 ```
 
-Generate the 3 A/B/C concepts into `thumbs/A.png|B.png|C.png`. Keep the `.txt` prompt per
-variation so refinements are diffs, not rewrites.
+**Passing a brand/product logo:** pass the real logo as an extra `--ref` so the model reproduces
+it faithfully (e.g. `media/library/logos/claude-code-bot.png`). Any explicit `--ref` you pass
+*replaces* the default `media/library/faces/` kit, so include the face ref explicitly too:
+`--ref media/library/faces/face-ref-01.jpg --ref media/library/logos/claude-code-bot.png`. In the
+prompt, name the roles: "Image 1 = the creator's identity, Image 2 = the Claude Code logo."
 
-**Passing a brand/product logo:** for Claude videos, pass the real logo as an extra `--ref` so the
-model reproduces it faithfully (e.g. the Claude Code mascot at
-`media/library/logos/claude-code-bot.png`, used as the toggle knob / laptop screen /
-corner badge). **Gotcha:** any explicit `--ref` you pass *replaces* the default `media/library/faces/`
-kit, so include the face ref explicitly too:
-`--ref media/library/faces/face-ref-01.jpg --ref media/library/logos/claude-code-bot.png`.
-In the prompt, name the roles: "Image 1 = the creator's identity, Image 2 = the Claude Code logo."
-
-**Comparing variants:** stitch the final A/B/C into one labeled side-by-side
-(`thumbs/_ABC-set.jpg`) so you can eyeball the test set together, the way the browse wall will.
-
-## How to prompt Nano Banana Pro
+### How to prompt Nano Banana Pro
 
 Write the prompt as a **detailed brief for a human artist**, not a keyword list. Five rules
 that measurably improved output (Google's official guidance, confirmed in practice):
@@ -79,7 +127,7 @@ that measurably improved output (Google's official guidance, confirmed in practi
 5. **Text = quoted word + described font + placement.** `"FREE" (F-R-E-E)`, heavy bold
    condensed sans-serif, color, outline, where it sits. One dominant hook only.
 
-## Template 1 — graphic composite (the loud A/B style)
+### Template 1 — graphic composite (the loud A/B style)
 
 ```
 A high-energy, photorealistic YouTube thumbnail, 16:9, in a bold saturated modern-tech style.
@@ -107,7 +155,7 @@ STYLE: clean, punchy, professional high-CTR thumbnail — bright, saturated, hig
 uncluttered, with the headline dominant.
 ```
 
-## Template 2 — realistic office photo (the authentic C style)
+### Template 2 — realistic office photo (the authentic C style)
 
 ```
 A bright, authentic DSLR photograph used as a YouTube thumbnail, 16:9 — one genuinely
@@ -133,7 +181,7 @@ on face and signs; natural color grade.
 STYLE: a believable candid desk photo — premium, bright, wholesome.
 ```
 
-## The verify loop (run on EVERY render before surfacing it)
+### The verify loop for the paid path (run on EVERY render before surfacing it)
 
 Read the generated image back and check — regenerate if any fail:
 
@@ -154,18 +202,7 @@ Read the generated image back and check — regenerate if any fail:
    real product brands) unless you okay it.
 8. **Spec.** 16:9, ≥1280px wide, exports <2MB as JPG.
 
-Only surface renders that pass. Review A/B/C together and steer from there.
-
-## Iterating (the back-and-forth)
-
-- Change one thing at a time (expression OR color OR word placement) so cause↔effect is clear.
-- Reuse `--seed` to hold composition steady while nudging the prompt; change the seed to explore
-  a genuinely different composition of the same concept.
-- Keep each variation's prompt in `thumbs/A.txt` etc. — refinements are diffs.
-- Optional **style anchoring:** feed 2–3 of your real top-CTR thumbnails as extra `--ref`
-  images so renders inherit your look, not generic AI gloss. (Your face ref stays first.)
-
-## Failure modes → fixes
+### Failure modes → fixes (paid path only)
 
 | Symptom | Fix |
 |---|---|

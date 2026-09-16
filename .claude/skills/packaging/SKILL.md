@@ -7,7 +7,7 @@ description: Generates click-optimized YouTube packaging — 3 thumbnail bets un
 
 Turns a video idea into **one locked title + 3 distinct thumbnail bets** built for YouTube's native
 A/B/C thumbnail test, plus one value-forward description — then **renders the three thumbnails as
-real images** with Nano Banana Pro.
+real images** — no image API, rendered in code by default (paid opt-in only for a specific bet).
 
 The whole skill optimizes for one number: **CTR** (click-through rate). It's the metric YouTube
 Studio reports per thumbnail, and the only one that isolates *packaging* from topic and algorithm.
@@ -158,28 +158,37 @@ goal is **3 you're willing to ship**, not one.
 
 ---
 
-### Stage 5 — Render the thumbnails (Nano Banana Pro)
+### Stage 5 — Render the thumbnails (default: no API, zero cost)
 
-Turn the 3 locked concepts into actual images. Mechanics, prompt template, and model details live in
-**`references/thumbnail-generation.md`** — load it before generating. The flow:
+Turn the 3 locked concepts into actual images with **`PackagingThumbnail`**
+(`remotion/src/shots/brand/PackagingThumbnail.tsx`) — a code-rendered 16:9 thumbnail, no image
+model call. Mechanics, props, and the paid opt-in live in **`references/thumbnail-generation.md`**
+— load it before generating. The flow:
 
-1. **Build a prompt per concept** from its Stage 3 fields using the template in the reference doc.
-   Nano Banana Pro **renders the hook word itself** (deliberate), so state the exact word, spell it
-   letter-by-letter, and forbid all other text.
-2. **Generate** into `videos/<project>/packaging/thumbs/A|B|C.png` with `tools/gen_thumbnail.py`,
-   passing the `media/library/faces/` kit as reference so the face stays consistent. (You supply that
-   kit — see its README. No face kit, no face renders.)
-3. **Verify every render before showing it** — run the verify checklist in the reference doc (text
-   spelled right + legible, face reads as the creator, one dominant hook, bright/saturated/positive,
-   sane hands, 16:9 <2MB). Regenerate any that fail; only surface passes. This catches the one real
-   risk of model-rendered text: a garbled word.
-4. **Iterate** — review A/B/C together; change one thing at a time, holding `--seed` to keep
-   composition steady. Keep each prompt in `thumbs/A.txt` so refinements are diffs.
-5. **Deliver** the 3 finals to YouTube spec (`--jpg`, ≤2MB) plus prompts/seeds, so any winner is
+1. **Build props per concept** from its Stage 3 fields: `word` (the one dominant hook, Remotion
+   sets it directly so it can never be garbled/misspelled — the #1 failure of model-rendered text),
+   `sub` (the 1-3 word fragment), `bg` (`emerald`/`gold`/`teal`), and `photo` — a REAL photo from
+   `media/library/faces/`, placed as-is and feathered into the color block (no AI re-pose; you
+   supply that kit, see its README — omit `photo` for a text-only bet, still a valid concept).
+2. **Render** into `videos/<project>/packaging/thumbs/A|B|C.png`:
+   `cd remotion && npx remotion still PackagingThumbnail ../videos/<project>/packaging/thumbs/A.png
+   --props='{"word":"FREE","sub":"no card needed","bg":"emerald","photo":"library/faces/face-ref-01.jpg"}'`
+3. **Verify every render before showing it** — the checklist in the reference doc (one dominant
+   hook, bright/saturated/positive, face reads naturally at its feathered edge, 16:9 <2MB). Since
+   the headline is Remotion type, not model output, there is no garbled-text or phantom-hand risk
+   to check for.
+4. **Iterate** — review A/B/C together; change one field at a time (`bg`, `word`, `sub`, `photo`).
+   Keep each variant's props in `thumbs/A.json` etc. so refinements are diffs.
+5. **Deliver** the 3 finals to YouTube spec (PNG→JPG ≤2MB via PIL) plus the props, so any winner is
    re-renderable later.
 
-Remember the **loud-vs-calm rule**: the thumbnail is intentionally louder than the calm in-video
-brand (`brand.md`) — never tone it down to match. See the reference doc.
+**Paid opt-in (Nano Banana Pro):** only when a bet specifically needs a fully re-imagined photoreal
+scene (a staged environment, a re-posed/re-expressed face) that `PackagingThumbnail` can't give —
+and only with the owner's authorization for the spend. `tools/gen_thumbnail.py` and its prompt
+template still live in the reference doc for that case; it is the exception, not the default.
+
+Remember the **loud-vs-calm rule** either way: the thumbnail is intentionally louder than the calm
+in-video brand (`brand.md`) — never tone it down to match. See the reference doc.
 
 ---
 
@@ -242,6 +251,7 @@ Ranked by signal strength. Re-rank against your own data once calibrated.
 - `references/channel-calibration.md` — how to pull your own CTR from Studio (it is **not** in the
   API), build the dataset, derive your baseline and your real levers, and reconcile them back into
   this file. Run it once you have ~10+ long-form videos.
-- `references/thumbnail-generation.md` — Stage 5 render engine: the Nano Banana Pro model/tool
-  (`tools/gen_thumbnail.py`), the `media/library/faces/` reference kit, the prompt template, the
-  per-render verify loop, the loud-vs-calm brand rule, and failure-mode fixes. Load before rendering.
+- `references/thumbnail-generation.md` — Stage 5 render engine: `PackagingThumbnail` (no-API
+  default), the `media/library/faces/` reference kit, the verify loop, the loud-vs-calm brand
+  rule, and the Nano Banana Pro paid opt-in (`tools/gen_thumbnail.py`) for the rare bet that
+  needs a fully re-imagined photoreal scene. Load before rendering.

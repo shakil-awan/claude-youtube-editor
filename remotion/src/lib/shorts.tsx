@@ -2,7 +2,7 @@ import React from 'react';
 import { AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { BRAND, COLORS, EASINGS, GRADIENT, RADIUS, SHADOW } from '../brand';
 import { FONT_DISPLAY, FONT_BODY, FONT_MONO } from '../fonts';
-import { CLAMP } from './kit';
+import { CLAMP, GeneratedArt } from './kit';
 
 // =============================================================================
 // shorts.tsx — the vertical (1080×1920) kit for YouTube Shorts.
@@ -130,17 +130,19 @@ export const ProgressBar: React.FC = () => {
 // =============================================================================
 // CoverImage — the "thumbnail" layer. Shorts can't have uploaded thumbnails:
 // YouTube shows FRAME 0 in the feed/grid, so the hook frame IS the thumbnail.
-// Full-bleed Nano Banana art (tools/gen_image.py --model fast --aspect 9:16,
-// NO text in the image — text is HookTitle's job, in brand type) under a scrim
-// that keeps the payoff line legible. Reuse at the loop point so the last
-// frame resolves back into the cover and the replay is seamless.
+// Default is `GeneratedArt` — a procedural, no-API backdrop seeded from the
+// video's own topic/title, so every cover looks different with zero image-
+// model cost. Pass `src` (tools/gen_image.py output) only when a video is a
+// deliberate bet on photoreal AI art; otherwise omit it and pass `seed`.
+// Reused at the loop point so the last frame resolves back into the cover.
 // =============================================================================
 export const CoverImage: React.FC<{
-  src: string; // staticFile path, e.g. 'projects/short-007/cover.png'
+  src?: string; // staticFile path, e.g. 'projects/short-007/cover.png' — omit for GeneratedArt
+  seed?: string; // seeds GeneratedArt when src is omitted (e.g. the short's title/topic)
   at?: number; // fade-in start frame (0 for the hook)
   out?: number; // start of fade-out (omit to stay)
   opacity?: number; // art intensity under the scrim
-}> = ({ src, at = 0, out, opacity = 1 }) => {
+}> = ({ src, seed = 'cover', at = 0, out, opacity = 1 }) => {
   const frame = useCurrentFrame();
   // at=0 must be FULLY visible on frame 0 — frame 0 is the feed thumbnail; a fade-in
   // there would put an empty frame on the shelf. Fades only apply to mid-video entries.
@@ -149,7 +151,11 @@ export const CoverImage: React.FC<{
   const op = opacity * Math.min(fadeIn, fadeOut);
   return (
     <AbsoluteFill style={{ opacity: op }}>
-      <Img src={staticFile(src)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+      {src ? (
+        <Img src={staticFile(src)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+      ) : (
+        <GeneratedArt seed={seed} />
+      )}
       {/* scrim: darkens top so the hook headline reads, keeps the art clear through the middle,
           and darkens (never whitens) the bottom — a light fade over dark cinematic art looks
           like a render bug on the shelf tile. Captions are hidden during the cover hold anyway. */}

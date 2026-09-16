@@ -2,19 +2,22 @@ import React from 'react';
 import { AbsoluteFill, Img, getInputProps, staticFile } from 'remotion';
 import { BRAND, COLORS, GRADIENT } from '../../brand';
 import { FONT_DISPLAY, FONT_MONO } from '../../fonts';
+import { GeneratedArt } from '../../lib/kit';
 
 // =============================================================================
 // ShortThumbnail — the VERTICAL (9:16) thumbnail for a Short, composed here
-// rather than inside the image model. The model paints the art; Remotion sets
-// the type, so headlines are never garbled/misspelled and the ToolMint mark is
-// pixel-exact brand, on every thumbnail.
+// rather than inside the image model. Remotion sets the type, so headlines are
+// never garbled/misspelled and the ToolMint mark is pixel-exact brand, on
+// every thumbnail. Backdrop defaults to `GeneratedArt` — a procedural, no-API
+// composition seeded from the headline, so no image model call is required.
 //
 // Render (props are per-video, no file-per-video needed):
-//   npx remotion still ShortThumbnail out/t.png --props='{"art":"projects/short-002/thumb-art.png",
-//     "line1":"AI FOR","line2":"14 CENTS?","accent":"line2"}'
+//   npx remotion still ShortThumbnail out/t.png --props='{"line1":"AI FOR","line2":"14 CENTS?","accent":"line2"}'
 //
-// art = a staticFile path under media/ (generate with tools/gen_image.py --aspect 9:16,
-// prompting for NO text in the image). 1440x2560 clears YouTube's 1280 minimum width.
+// art (optional) = a staticFile path under media/ (tools/gen_image.py --aspect 9:16,
+// prompting for NO text in the image) for the rare video that's a deliberate bet on
+// photoreal AI art. Omit it — the default — for the free procedural backdrop.
+// 1440x2560 clears YouTube's 1280 minimum width.
 // =============================================================================
 export const compositionConfig = { id: 'ShortThumbnail', durationInSeconds: 0.2, fps: 30, width: 1440, height: 2560 };
 
@@ -36,7 +39,11 @@ const ShortThumbnail: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: COLORS.ink }}>
-      {art ? <Img src={staticFile(art)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : null}
+      {art ? (
+        <Img src={staticFile(art)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+      ) : (
+        <GeneratedArt seed={`${line1}${line2 ?? ''}`} drift={false} />
+      )}
 
       {/* scrim: heavy at the top for the headline, feathered so the art stays visible */}
       <AbsoluteFill style={{ background: 'linear-gradient(180deg, rgba(6,14,10,0.92) 0%, rgba(6,14,10,0.62) 30%, rgba(6,14,10,0.12) 52%, rgba(6,14,10,0.55) 88%, rgba(6,14,10,0.85) 100%)' }} />

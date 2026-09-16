@@ -45,10 +45,11 @@ hope the voice fits.
      walkthrough, a `lib/browser.tsx`/`vscode.tsx` clone, a logo from `media/library/`. This slot
      is the channel's moat (strategy §5: original generated visuals, not stock) — never leave every
      card text-only. Raw TSX rules: `/vidtsx-2d-generator` (vertical preset, safe areas §layout).
-     When a beat needs an illustration no real UI can give (a concept, an atmosphere), generate it:
-     `python tools/gen_image.py --prompt "..." --model fast --aspect 9:16 --out media/projects/short-NNN/x.png`
-     (Nano Banana 2 for drafts/in-video art; `--model pro` = Nano Banana Pro only when the image
-     carries the beat). Real tool UI still beats generated art for tool claims — prefer the clone.
+     Default to no-API evidence: a real UI clone or a Playwright screenshot of the vendor's own
+     page beats generated art for a tool claim anyway (it's real proof, and free). Only reach for
+     `tools/gen_image.py` (paid, Replicate/Gemini) when a beat needs an illustration no real UI or
+     screenshot can give — a concept, an atmosphere — and treat it as an owner-authorized upgrade,
+     never the default.
    - Add `<Watermark />` (+ `<ProgressBar />`) — persistent channel branding on every frame is
      part of the originality defense. Pass `src='library/logos/<channel-mark>.png'` once a real
      logo exists in `media/library/logos/`; with no src it renders the `brand.ts` wordmark.
@@ -88,15 +89,14 @@ hope the voice fits.
      NVIDIA logo appeared on a chip during testing). Reject any render containing a third-party
      logo or brand name; regenerate with the brand named in the negative list.
    - **The cover frame (mandatory):** Shorts can't have uploaded thumbnails, so frame 0 IS the
-     thumbnail — make it thumbnail-grade. Generate ONE dramatic backdrop per Short:
-     `python tools/gen_image.py --prompt "<single bold subject matching the hook, cinematic
-     light, high contrast, emerald/gold palette accents, NO text, no watermarks>" --model fast
-     --aspect 9:16 --out media/projects/short-NNN/cover.png`, then layer
-     `<CoverImage src='projects/short-NNN/cover.png' out={HOOK_OUT} />` UNDER `HookTitle` for
-     the hook, and bring it back at the loop point (`at={CTA}`) so last frame = first frame.
-     Text never lives in the image — `HookTitle` renders it in brand type. QA the actual frame 0
-     still: payoff readable at feed size? subject visible? then it ships. (`--model pro` only
-     when a video is a big bet.)
+     thumbnail — make it thumbnail-grade. Default is `<CoverImage seed="short-NNN topic" out={HOOK_OUT} />`
+     UNDER `HookTitle` for the hook (no `src` needed — `GeneratedArt` paints a procedural,
+     no-API backdrop from `remotion/src/lib/kit.tsx`, seeded from the short's own topic so it
+     never repeats), then bring it back at the loop point (`at={CTA}`) so last frame = first
+     frame. Only pass `src` (from `tools/gen_image.py`, paid Replicate/Gemini) on a video that's
+     a deliberate, owner-authorized bet on photoreal AI art — never as the default. Text never
+     lives in the image either way — `HookTitle` renders it in brand type. QA the actual frame 0
+     still: payoff readable at feed size? subject visible? then it ships.
 
 4. **Register + render.** From the repo root:
    ```
@@ -163,22 +163,18 @@ hope the voice fits.
    upload with a blurred fill of its own art — so a vertical design shows perfectly in the
    Shorts tab / vertical tiles AND stays readable in 16:9 surfaces. Vertical is the house format.
    ```
-   # 1. art only — the model must render NO text (it garbles words and hallucinates brand logos)
-   ./venv/bin/python tools/gen_image.py --aspect 9:16 \
-     --prompt "<subject in the LOWER TWO THIRDS, empty dark space at top>, dramatic studio light,
-       high contrast, emerald/gold accents, dark charcoal bg, film grain.
-       Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names." \
-     --out media/projects/short-NNN/thumb-art.png
-   # 2. Remotion sets the type + the ToolMint mark (1440x2560, crisp brand fonts, never misspelled)
+   # 1. no `art` prop needed — ShortThumbnail defaults to GeneratedArt (no-API, procedural,
+   #    seeded from the headline) when `art` is omitted. Only pass `art` (a tools/gen_image.py
+   #    PNG) for an owner-authorized photoreal bet.
    cd remotion && npx remotion still ShortThumbnail --browser-executable=<headless shell> \
      ../videos/short-NNN/packaging/thumb-v.png \
-     --props='{"art":"projects/short-NNN/thumb-art.png","line1":"TWO WORDS","line2":"PAYOFF","accent":"line2"}'
-   # 3. PNG -> JPG under YouTube's 2MB cap (PIL, quality 95 down until it fits), then attach
+     --props='{"line1":"TWO WORDS","line2":"PAYOFF","accent":"line2"}'
+   # 2. PNG -> JPG under YouTube's 2MB cap (PIL, quality 95 down until it fits), then attach
    ```
    Headline: 2–4 words per line, max 2 lines, the accent line carries the money word — it must be
-   readable at ~120px tall. **QA the render**: read it back; reject any third-party logo the art
-   model hallucinated (an NVIDIA mark appeared during testing) and regenerate with that brand in
-   the negative list.
+   readable at ~120px tall. **QA the render**: read it back. If you did pass `art`, reject any
+   third-party logo the model hallucinated (an NVIDIA mark appeared during testing) and
+   regenerate with that brand in the negative list.
 8. **Upload the draft** (only when asked, or the user pre-authorized the day's batch):
    ```
    venv/Scripts/python tools/yt_upload.py upload videos/short-NNN/publish.json --dry-run   # preview

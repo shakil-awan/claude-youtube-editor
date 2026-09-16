@@ -2,6 +2,13 @@
 """
 gen_image.py — in-video AI images, from Replicate (FLUX) or the direct Google Gemini API.
 
+OPTIONAL, PAID, OWNER-AUTHORIZED ONLY. Cover frames and thumbnails no longer need this: their
+Remotion components (CoverImage, ShortThumbnail, RecapThumbnail) default to `GeneratedArt`
+(remotion/src/lib/kit.tsx) — a procedural, no-API backdrop seeded from the video's own title/
+topic, so the same seed always reproduces the same art with zero cost and zero external call.
+Reach for this script only when a beat needs an illustration no real UI/screenshot can give
+and the owner has explicitly signed off on the spend — never as the pipeline's default.
+
 Generates the art for a video beat / cover frame / thumbnail background, saves PNG + a
 sidecar .json (prompt, model, refs, seed) so any render can be reproduced or re-rolled.
 

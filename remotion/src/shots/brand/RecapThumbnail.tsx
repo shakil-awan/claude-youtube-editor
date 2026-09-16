@@ -2,17 +2,20 @@ import React from 'react';
 import { AbsoluteFill, Img, getInputProps, staticFile } from 'remotion';
 import { BRAND, COLORS, GRADIENT } from '../../brand';
 import { FONT_DISPLAY, FONT_MONO } from '../../fonts';
+import { GeneratedArt } from '../../lib/kit';
 
 // =============================================================================
 // RecapThumbnail — the LANDSCAPE (16:9) thumbnail for long-form: the weekly
-// recap video. Same system as ShortThumbnail (model paints the art, Remotion
-// sets the type + the ToolMint mark), laid out for a 16:9 shelf: headline left,
-// art breathing right, mark bottom-left.
+// recap video. Same system as ShortThumbnail (Remotion sets the type + the
+// ToolMint mark), laid out for a 16:9 shelf: headline left, art breathing
+// right, mark bottom-left. Backdrop defaults to `GeneratedArt` — no image
+// model call required.
 //
 // Render:
-//   npx remotion still RecapThumbnail out/t.png --props='{"art":"projects/recap-001/thumb-art.png",
-//     "line1":"7 AI TOOLS","line2":"THAT MATTERED","accent":"line1","kicker":"THIS WEEK"}'
+//   npx remotion still RecapThumbnail out/t.png --props='{"line1":"7 AI TOOLS",
+//     "line2":"THAT MATTERED","accent":"line1","kicker":"THIS WEEK"}'
 //
+// art (optional) = a staticFile path, for the rare recap worth a photoreal bet.
 // 1920x1080 — well above YouTube's 1280x720 recommendation.
 // =============================================================================
 export const compositionConfig = { id: 'RecapThumbnail', durationInSeconds: 0.2, fps: 30, width: 1920, height: 1080 };
@@ -36,7 +39,11 @@ const RecapThumbnail: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: COLORS.ink }}>
-      {art ? <Img src={staticFile(art)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : null}
+      {art ? (
+        <Img src={staticFile(art)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+      ) : (
+        <GeneratedArt seed={`${line1}${line2 ?? ''}`} drift={false} />
+      )}
 
       {/* scrim: dark on the left where the type lives, clearing to the art on the right */}
       <AbsoluteFill style={{ background: 'linear-gradient(90deg, rgba(6,14,10,0.94) 0%, rgba(6,14,10,0.82) 42%, rgba(6,14,10,0.25) 68%, rgba(6,14,10,0.15) 100%)' }} />

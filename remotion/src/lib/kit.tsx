@@ -25,6 +25,68 @@ export const BrandBg: React.FC<{ glow?: string }> = ({ glow = COLORS.accent }) =
   </>
 );
 
+// =============================================================================
+// GeneratedArt — a fully procedural cover/thumbnail backdrop: no image API,
+// no external asset, no per-video generation step to wait on or pay for.
+// Brand-color aurora blobs (position/size/hue derived from a seed string) over
+// a dark charcoal base, plus a fine grain texture and a vignette so headline
+// type never fights the art. Deterministic — the same seed always renders the
+// same composition, so nothing needs to be saved to disk to be reproducible.
+// =============================================================================
+const seededRandom = (seed: string) => {
+  let h = 1779033703 ^ seed.length;
+  for (let i = 0; i < seed.length; i++) {
+    h = Math.imul(h ^ seed.charCodeAt(i), 3432918353);
+    h = (h << 13) | (h >>> 19);
+  }
+  return () => {
+    h = Math.imul(h ^ (h >>> 16), 2246822507);
+    h = Math.imul(h ^ (h >>> 13), 3266489909);
+    h ^= h >>> 16;
+    return (h >>> 0) / 4294967296;
+  };
+};
+
+export const GeneratedArt: React.FC<{ seed: string; drift?: boolean }> = ({ seed, drift = true }) => {
+  const frame = useCurrentFrame();
+  const rand = seededRandom(seed);
+  // one blob per brand color, in a shuffled quadrant so every render uses the
+  // whole palette (never washes out to a single hue) while still varying by seed.
+  const palette = [COLORS.accent, COLORS.accent2, COLORS.signal, COLORS.signalAlt];
+  const quadrants = [{ x: 22, y: 22 }, { x: 78, y: 18 }, { x: 26, y: 80 }, { x: 80, y: 82 }]
+    .map((q) => ({ ...q, order: rand() }))
+    .sort((a, b) => a.order - b.order);
+  const blobs = palette.map((color, i) => ({
+    x: quadrants[i].x + (rand() - 0.5) * 16,
+    y: quadrants[i].y + (rand() - 0.5) * 16,
+    size: 26 + rand() * 16,
+    color,
+    phase: rand() * Math.PI * 2,
+  }));
+  const t = frame / 30;
+  return (
+    <AbsoluteFill style={{ backgroundColor: COLORS.d900 }}>
+      {blobs.map((b, i) => {
+        const dx = drift ? Math.sin(t * 0.16 + b.phase) * 2.5 : 0;
+        const dy = drift ? Math.cos(t * 0.13 + b.phase) * 2.5 : 0;
+        return (
+          <AbsoluteFill key={i} style={{
+            background: `radial-gradient(${b.size}% ${b.size}% at ${b.x + dx}% ${b.y + dy}%, ${b.color}b3, transparent 72%)`,
+            mixBlendMode: 'screen' as const,
+          }} />
+        );
+      })}
+      {/* fine grain — keeps flat gradients from reading as a plain css background */}
+      <AbsoluteFill style={{
+        backgroundImage: `radial-gradient(${COLORS.d300} 1px, transparent 1px)`,
+        backgroundSize: '4px 4px', opacity: 0.05, mixBlendMode: 'overlay' as const,
+      }} />
+      {/* vignette — edges stay dark so headline type never fights the art */}
+      <AbsoluteFill style={{ background: 'radial-gradient(120% 85% at 50% 38%, transparent 45%, rgba(0,0,0,0.6) 100%)' }} />
+    </AbsoluteFill>
+  );
+};
+
 // rise-in (fade + translateY), driven by the current frame
 export const useRise = () => {
   const frame = useCurrentFrame();

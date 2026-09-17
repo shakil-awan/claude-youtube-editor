@@ -1,0 +1,10 @@
+{
+  "prompt": "A single stylized fox silhouette made of glowing emerald and gold light streaks, mid-leap, positioned in the lower two-thirds of the frame, empty dark space at the top, cinematic dramatic studio lighting, high contrast, dark charcoal background, film grain, premium tech art, abstract digital energy trails. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-17T12:02:33"
+}

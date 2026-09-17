@@ -1,0 +1,10 @@
+{
+  "prompt": "A single massive open padlock made of glowing emerald and gold circuitry, unlocked shackle floating above the body, faint neural network light-trails emanating from its core, cinematic dramatic studio light, high contrast, dark charcoal background, empty dark space at the top, the padlock sits in the lower two thirds of the frame, film grain, premium tech art. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-17T12:12:56"
+}

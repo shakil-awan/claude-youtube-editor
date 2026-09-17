@@ -1,5 +1,7 @@
 # short-013 — packaging
 
+- **YouTube video id:** XVQuoas9zPs (private draft, https://studio.youtube.com/video/XVQuoas9zPs/edit)
+
 - **Title:** Firefox Just Killed The $19 AI Browser Subscription
 - **Description:**
   Firefox's new Smart Window puts a free, built-in AI assistant right in your browser — powered

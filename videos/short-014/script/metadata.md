@@ -1,5 +1,7 @@
 # short-014 — packaging
 
+- **YouTube video id:** nweCxzRTPRM (private draft, https://studio.youtube.com/video/nweCxzRTPRM/edit)
+
 - **Title:** Stop Paying $10 Per Million Tokens. This AI Is Free.
 - **Description:**
   Atria Dawn Preview is a free, MIT-licensed, 744-billion-parameter AI model from Shanghai AI

@@ -1,0 +1,578 @@
+{
+  "text": "Stop paying ten dollars per million tokens. This AI model is free. It's called Atria Dawn Preview, a seven hundred forty four billion parameter agentic model from a lab in Shanghai, released under the MIT license. That means you can download it, run it yourself, and even sell products built on it, with zero royalties. Compare that to Claude Fable five point one or GPT six Astra, which both charge ten dollars per million input tokens and fifty per million output. The lab says its model beats those benchmarks, though no outside lab has verified that yet. Verified or not, the download itself is completely free. Ten dollars versus zero. You do the math.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 46.002,
+  "words": [
+    {
+      "word": "Stop",
+      "start_s": 0.0,
+      "end_s": 0.337
+    },
+    {
+      "word": "paying",
+      "start_s": 0.395,
+      "end_s": 0.65
+    },
+    {
+      "word": "ten",
+      "start_s": 0.72,
+      "end_s": 0.952
+    },
+    {
+      "word": "dollars",
+      "start_s": 1.022,
+      "end_s": 1.347
+    },
+    {
+      "word": "per",
+      "start_s": 1.416,
+      "end_s": 1.544
+    },
+    {
+      "word": "million",
+      "start_s": 1.614,
+      "end_s": 1.904
+    },
+    {
+      "word": "tokens.",
+      "start_s": 1.95,
+      "end_s": 2.554
+    },
+    {
+      "word": "This",
+      "start_s": 3.065,
+      "end_s": 3.262
+    },
+    {
+      "word": "AI",
+      "start_s": 3.344,
+      "end_s": 3.599
+    },
+    {
+      "word": "model",
+      "start_s": 3.669,
+      "end_s": 3.924
+    },
+    {
+      "word": "is",
+      "start_s": 3.982,
+      "end_s": 4.063
+    },
+    {
+      "word": "free.",
+      "start_s": 4.133,
+      "end_s": 4.609
+    },
+    {
+      "word": "It's",
+      "start_s": 4.853,
+      "end_s": 5.027
+    },
+    {
+      "word": "called",
+      "start_s": 5.062,
+      "end_s": 5.283
+    },
+    {
+      "word": "Atria",
+      "start_s": 5.375,
+      "end_s": 5.933
+    },
+    {
+      "word": "Dawn",
+      "start_s": 6.049,
+      "end_s": 6.362
+    },
+    {
+      "word": "Preview,",
+      "start_s": 6.432,
+      "end_s": 7.047
+    },
+    {
+      "word": "a",
+      "start_s": 7.326,
+      "end_s": 7.384
+    },
+    {
+      "word": "seven",
+      "start_s": 7.5,
+      "end_s": 7.79
+    },
+    {
+      "word": "hundred",
+      "start_s": 7.837,
+      "end_s": 8.104
+    },
+    {
+      "word": "forty",
+      "start_s": 8.22,
+      "end_s": 8.51
+    },
+    {
+      "word": "four",
+      "start_s": 8.568,
+      "end_s": 8.766
+    },
+    {
+      "word": "billion",
+      "start_s": 8.824,
+      "end_s": 9.137
+    },
+    {
+      "word": "parameter",
+      "start_s": 9.207,
+      "end_s": 9.683
+    },
+    {
+      "word": "agentic",
+      "start_s": 9.776,
+      "end_s": 10.194
+    },
+    {
+      "word": "model",
+      "start_s": 10.252,
+      "end_s": 10.565
+    },
+    {
+      "word": "from",
+      "start_s": 10.844,
+      "end_s": 11.029
+    },
+    {
+      "word": "a",
+      "start_s": 11.088,
+      "end_s": 11.111
+    },
+    {
+      "word": "lab",
+      "start_s": 11.169,
+      "end_s": 11.389
+    },
+    {
+      "word": "in",
+      "start_s": 11.447,
+      "end_s": 11.505
+    },
+    {
+      "word": "Shanghai,",
+      "start_s": 11.587,
+      "end_s": 12.341
+    },
+    {
+      "word": "released",
+      "start_s": 12.585,
+      "end_s": 12.957
+    },
+    {
+      "word": "under",
+      "start_s": 13.026,
+      "end_s": 13.212
+    },
+    {
+      "word": "the",
+      "start_s": 13.259,
+      "end_s": 13.34
+    },
+    {
+      "word": "MIT",
+      "start_s": 13.433,
+      "end_s": 13.793
+    },
+    {
+      "word": "license.",
+      "start_s": 13.909,
+      "end_s": 14.489
+    },
+    {
+      "word": "That",
+      "start_s": 15.186,
+      "end_s": 15.372
+    },
+    {
+      "word": "means",
+      "start_s": 15.418,
+      "end_s": 15.604
+    },
+    {
+      "word": "you",
+      "start_s": 15.65,
+      "end_s": 15.72
+    },
+    {
+      "word": "can",
+      "start_s": 15.778,
+      "end_s": 15.894
+    },
+    {
+      "word": "download",
+      "start_s": 15.964,
+      "end_s": 16.417
+    },
+    {
+      "word": "it,",
+      "start_s": 16.452,
+      "end_s": 16.684
+    },
+    {
+      "word": "run",
+      "start_s": 16.835,
+      "end_s": 16.986
+    },
+    {
+      "word": "it",
+      "start_s": 17.021,
+      "end_s": 17.079
+    },
+    {
+      "word": "yourself,",
+      "start_s": 17.125,
+      "end_s": 17.775
+    },
+    {
+      "word": "and",
+      "start_s": 17.926,
+      "end_s": 18.065
+    },
+    {
+      "word": "even",
+      "start_s": 18.123,
+      "end_s": 18.298
+    },
+    {
+      "word": "sell",
+      "start_s": 18.356,
+      "end_s": 18.541
+    },
+    {
+      "word": "products",
+      "start_s": 18.623,
+      "end_s": 18.971
+    },
+    {
+      "word": "built",
+      "start_s": 19.041,
+      "end_s": 19.284
+    },
+    {
+      "word": "on",
+      "start_s": 19.354,
+      "end_s": 19.447
+    },
+    {
+      "word": "it,",
+      "start_s": 19.493,
+      "end_s": 19.714
+    },
+    {
+      "word": "with",
+      "start_s": 19.83,
+      "end_s": 20.004
+    },
+    {
+      "word": "zero",
+      "start_s": 20.074,
+      "end_s": 20.434
+    },
+    {
+      "word": "royalties.",
+      "start_s": 20.515,
+      "end_s": 21.27
+    },
+    {
+      "word": "Compare",
+      "start_s": 22.082,
+      "end_s": 22.431
+    },
+    {
+      "word": "that",
+      "start_s": 22.466,
+      "end_s": 22.593
+    },
+    {
+      "word": "to",
+      "start_s": 22.628,
+      "end_s": 22.675
+    },
+    {
+      "word": "Claude",
+      "start_s": 22.744,
+      "end_s": 23.035
+    },
+    {
+      "word": "Fable",
+      "start_s": 23.081,
+      "end_s": 23.441
+    },
+    {
+      "word": "five",
+      "start_s": 23.499,
+      "end_s": 23.766
+    },
+    {
+      "word": "point",
+      "start_s": 23.801,
+      "end_s": 24.021
+    },
+    {
+      "word": "one",
+      "start_s": 24.091,
+      "end_s": 24.37
+    },
+    {
+      "word": "or",
+      "start_s": 24.486,
+      "end_s": 24.648
+    },
+    {
+      "word": "GPT",
+      "start_s": 24.741,
+      "end_s": 25.194
+    },
+    {
+      "word": "six",
+      "start_s": 25.345,
+      "end_s": 25.589
+    },
+    {
+      "word": "Astra,",
+      "start_s": 25.705,
+      "end_s": 26.32
+    },
+    {
+      "word": "which",
+      "start_s": 26.564,
+      "end_s": 26.761
+    },
+    {
+      "word": "both",
+      "start_s": 26.819,
+      "end_s": 27.063
+    },
+    {
+      "word": "charge",
+      "start_s": 27.11,
+      "end_s": 27.411
+    },
+    {
+      "word": "ten",
+      "start_s": 27.458,
+      "end_s": 27.655
+    },
+    {
+      "word": "dollars",
+      "start_s": 27.713,
+      "end_s": 28.004
+    },
+    {
+      "word": "per",
+      "start_s": 28.062,
+      "end_s": 28.178
+    },
+    {
+      "word": "million",
+      "start_s": 28.224,
+      "end_s": 28.503
+    },
+    {
+      "word": "input",
+      "start_s": 28.584,
+      "end_s": 28.886
+    },
+    {
+      "word": "tokens",
+      "start_s": 28.921,
+      "end_s": 29.292
+    },
+    {
+      "word": "and",
+      "start_s": 29.466,
+      "end_s": 29.641
+    },
+    {
+      "word": "fifty",
+      "start_s": 29.722,
+      "end_s": 30.035
+    },
+    {
+      "word": "per",
+      "start_s": 30.105,
+      "end_s": 30.221
+    },
+    {
+      "word": "million",
+      "start_s": 30.268,
+      "end_s": 30.546
+    },
+    {
+      "word": "output.",
+      "start_s": 30.616,
+      "end_s": 31.185
+    },
+    {
+      "word": "The",
+      "start_s": 31.881,
+      "end_s": 32.009
+    },
+    {
+      "word": "lab",
+      "start_s": 32.079,
+      "end_s": 32.311
+    },
+    {
+      "word": "says",
+      "start_s": 32.381,
+      "end_s": 32.625
+    },
+    {
+      "word": "its",
+      "start_s": 32.706,
+      "end_s": 32.845
+    },
+    {
+      "word": "model",
+      "start_s": 32.915,
+      "end_s": 33.159
+    },
+    {
+      "word": "beats",
+      "start_s": 33.217,
+      "end_s": 33.449
+    },
+    {
+      "word": "those",
+      "start_s": 33.484,
+      "end_s": 33.681
+    },
+    {
+      "word": "benchmarks,",
+      "start_s": 33.727,
+      "end_s": 34.459
+    },
+    {
+      "word": "though",
+      "start_s": 34.842,
+      "end_s": 35.063
+    },
+    {
+      "word": "no",
+      "start_s": 35.109,
+      "end_s": 35.214
+    },
+    {
+      "word": "outside",
+      "start_s": 35.295,
+      "end_s": 35.736
+    },
+    {
+      "word": "lab",
+      "start_s": 35.782,
+      "end_s": 36.003
+    },
+    {
+      "word": "has",
+      "start_s": 36.049,
+      "end_s": 36.166
+    },
+    {
+      "word": "verified",
+      "start_s": 36.247,
+      "end_s": 36.7
+    },
+    {
+      "word": "that",
+      "start_s": 36.734,
+      "end_s": 36.862
+    },
+    {
+      "word": "yet.",
+      "start_s": 36.92,
+      "end_s": 37.269
+    },
+    {
+      "word": "Verified",
+      "start_s": 37.965,
+      "end_s": 38.557
+    },
+    {
+      "word": "or",
+      "start_s": 38.639,
+      "end_s": 38.813
+    },
+    {
+      "word": "not,",
+      "start_s": 38.894,
+      "end_s": 39.382
+    },
+    {
+      "word": "the",
+      "start_s": 39.66,
+      "end_s": 39.765
+    },
+    {
+      "word": "download",
+      "start_s": 39.823,
+      "end_s": 40.206
+    },
+    {
+      "word": "itself",
+      "start_s": 40.252,
+      "end_s": 40.647
+    },
+    {
+      "word": "is",
+      "start_s": 40.705,
+      "end_s": 40.81
+    },
+    {
+      "word": "completely",
+      "start_s": 40.868,
+      "end_s": 41.309
+    },
+    {
+      "word": "free.",
+      "start_s": 41.367,
+      "end_s": 41.773
+    },
+    {
+      "word": "Ten",
+      "start_s": 42.214,
+      "end_s": 42.435
+    },
+    {
+      "word": "dollars",
+      "start_s": 42.493,
+      "end_s": 42.899
+    },
+    {
+      "word": "versus",
+      "start_s": 43.074,
+      "end_s": 43.41
+    },
+    {
+      "word": "zero.",
+      "start_s": 43.457,
+      "end_s": 43.991
+    },
+    {
+      "word": "You",
+      "start_s": 44.803,
+      "end_s": 44.954
+    },
+    {
+      "word": "do",
+      "start_s": 45.036,
+      "end_s": 45.14
+    },
+    {
+      "word": "the",
+      "start_s": 45.198,
+      "end_s": 45.268
+    },
+    {
+      "word": "math.",
+      "start_s": 45.314,
+      "end_s": 45.976
+    }
+  ]
+}

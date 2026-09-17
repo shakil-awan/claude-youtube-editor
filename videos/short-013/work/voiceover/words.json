@@ -1,0 +1,533 @@
+{
+  "text": "Firefox just killed the nineteen dollar AI browser subscription. It's called Smart Window, powered by Mistral AI, built right into your browser. Ask it to dig through your open tabs, summarize a page, or answer a hard question, and it just does it. No subscription, no credit card. Mistral promises zero data retention, so your chats aren't stored on their servers. Compare that to Merlin, a popular AI browser copilot that charges nineteen to twenty nine dollars a month for the same thing. It's rolling out now in the US, Canada, and France. Free AI, built into your browser. The nineteen dollar subscription is dead.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 40.124,
+  "words": [
+    {
+      "word": "Firefox",
+      "start_s": 0.0,
+      "end_s": 0.697
+    },
+    {
+      "word": "just",
+      "start_s": 0.789,
+      "end_s": 1.033
+    },
+    {
+      "word": "killed",
+      "start_s": 1.091,
+      "end_s": 1.335
+    },
+    {
+      "word": "the",
+      "start_s": 1.358,
+      "end_s": 1.428
+    },
+    {
+      "word": "nineteen",
+      "start_s": 1.498,
+      "end_s": 1.881
+    },
+    {
+      "word": "dollar",
+      "start_s": 1.927,
+      "end_s": 2.183
+    },
+    {
+      "word": "AI",
+      "start_s": 2.264,
+      "end_s": 2.508
+    },
+    {
+      "word": "browser",
+      "start_s": 2.577,
+      "end_s": 2.914
+    },
+    {
+      "word": "subscription.",
+      "start_s": 2.961,
+      "end_s": 3.715
+    },
+    {
+      "word": "It's",
+      "start_s": 4.319,
+      "end_s": 4.493
+    },
+    {
+      "word": "called",
+      "start_s": 4.528,
+      "end_s": 4.748
+    },
+    {
+      "word": "Smart",
+      "start_s": 4.807,
+      "end_s": 5.097
+    },
+    {
+      "word": "Window,",
+      "start_s": 5.143,
+      "end_s": 5.654
+    },
+    {
+      "word": "powered",
+      "start_s": 5.805,
+      "end_s": 6.118
+    },
+    {
+      "word": "by",
+      "start_s": 6.153,
+      "end_s": 6.316
+    },
+    {
+      "word": "Mistral",
+      "start_s": 6.432,
+      "end_s": 6.885
+    },
+    {
+      "word": "AI,",
+      "start_s": 6.966,
+      "end_s": 7.465
+    },
+    {
+      "word": "built",
+      "start_s": 7.639,
+      "end_s": 7.883
+    },
+    {
+      "word": "right",
+      "start_s": 7.999,
+      "end_s": 8.231
+    },
+    {
+      "word": "into",
+      "start_s": 8.266,
+      "end_s": 8.417
+    },
+    {
+      "word": "your",
+      "start_s": 8.487,
+      "end_s": 8.591
+    },
+    {
+      "word": "browser.",
+      "start_s": 8.638,
+      "end_s": 9.218
+    },
+    {
+      "word": "Ask",
+      "start_s": 9.822,
+      "end_s": 10.077
+    },
+    {
+      "word": "it",
+      "start_s": 10.136,
+      "end_s": 10.205
+    },
+    {
+      "word": "to",
+      "start_s": 10.228,
+      "end_s": 10.286
+    },
+    {
+      "word": "dig",
+      "start_s": 10.368,
+      "end_s": 10.565
+    },
+    {
+      "word": "through",
+      "start_s": 10.6,
+      "end_s": 10.797
+    },
+    {
+      "word": "your",
+      "start_s": 10.832,
+      "end_s": 10.937
+    },
+    {
+      "word": "open",
+      "start_s": 10.983,
+      "end_s": 11.215
+    },
+    {
+      "word": "tabs,",
+      "start_s": 11.273,
+      "end_s": 11.807
+    },
+    {
+      "word": "summarize",
+      "start_s": 12.016,
+      "end_s": 12.469
+    },
+    {
+      "word": "a",
+      "start_s": 12.504,
+      "end_s": 12.527
+    },
+    {
+      "word": "page,",
+      "start_s": 12.574,
+      "end_s": 13.05
+    },
+    {
+      "word": "or",
+      "start_s": 13.224,
+      "end_s": 13.375
+    },
+    {
+      "word": "answer",
+      "start_s": 13.444,
+      "end_s": 13.711
+    },
+    {
+      "word": "a",
+      "start_s": 13.769,
+      "end_s": 13.804
+    },
+    {
+      "word": "hard",
+      "start_s": 13.874,
+      "end_s": 14.06
+    },
+    {
+      "word": "question,",
+      "start_s": 14.118,
+      "end_s": 14.699
+    },
+    {
+      "word": "and",
+      "start_s": 14.873,
+      "end_s": 15.024
+    },
+    {
+      "word": "it",
+      "start_s": 15.082,
+      "end_s": 15.14
+    },
+    {
+      "word": "just",
+      "start_s": 15.198,
+      "end_s": 15.395
+    },
+    {
+      "word": "does",
+      "start_s": 15.442,
+      "end_s": 15.651
+    },
+    {
+      "word": "it.",
+      "start_s": 15.709,
+      "end_s": 15.953
+    },
+    {
+      "word": "No",
+      "start_s": 16.765,
+      "end_s": 16.928
+    },
+    {
+      "word": "subscription,",
+      "start_s": 16.997,
+      "end_s": 17.729
+    },
+    {
+      "word": "no",
+      "start_s": 17.822,
+      "end_s": 17.95
+    },
+    {
+      "word": "credit",
+      "start_s": 18.019,
+      "end_s": 18.275
+    },
+    {
+      "word": "card.",
+      "start_s": 18.309,
+      "end_s": 18.704
+    },
+    {
+      "word": "Mistral",
+      "start_s": 19.401,
+      "end_s": 19.819
+    },
+    {
+      "word": "promises",
+      "start_s": 19.877,
+      "end_s": 20.33
+    },
+    {
+      "word": "zero",
+      "start_s": 20.446,
+      "end_s": 20.817
+    },
+    {
+      "word": "data",
+      "start_s": 20.887,
+      "end_s": 21.107
+    },
+    {
+      "word": "retention,",
+      "start_s": 21.165,
+      "end_s": 21.816
+    },
+    {
+      "word": "so",
+      "start_s": 21.99,
+      "end_s": 22.117
+    },
+    {
+      "word": "your",
+      "start_s": 22.176,
+      "end_s": 22.292
+    },
+    {
+      "word": "chats",
+      "start_s": 22.338,
+      "end_s": 22.617
+    },
+    {
+      "word": "aren't",
+      "start_s": 22.675,
+      "end_s": 22.895
+    },
+    {
+      "word": "stored",
+      "start_s": 22.93,
+      "end_s": 23.22
+    },
+    {
+      "word": "on",
+      "start_s": 23.255,
+      "end_s": 23.313
+    },
+    {
+      "word": "their",
+      "start_s": 23.337,
+      "end_s": 23.476
+    },
+    {
+      "word": "servers.",
+      "start_s": 23.522,
+      "end_s": 24.103
+    },
+    {
+      "word": "Compare",
+      "start_s": 24.707,
+      "end_s": 25.078
+    },
+    {
+      "word": "that",
+      "start_s": 25.113,
+      "end_s": 25.241
+    },
+    {
+      "word": "to",
+      "start_s": 25.287,
+      "end_s": 25.345
+    },
+    {
+      "word": "Merlin,",
+      "start_s": 25.438,
+      "end_s": 25.949
+    },
+    {
+      "word": "a",
+      "start_s": 26.274,
+      "end_s": 26.344
+    },
+    {
+      "word": "popular",
+      "start_s": 26.436,
+      "end_s": 26.901
+    },
+    {
+      "word": "AI",
+      "start_s": 26.97,
+      "end_s": 27.214
+    },
+    {
+      "word": "browser",
+      "start_s": 27.272,
+      "end_s": 27.621
+    },
+    {
+      "word": "copilot",
+      "start_s": 27.679,
+      "end_s": 28.213
+    },
+    {
+      "word": "that",
+      "start_s": 28.387,
+      "end_s": 28.561
+    },
+    {
+      "word": "charges",
+      "start_s": 28.596,
+      "end_s": 28.956
+    },
+    {
+      "word": "nineteen",
+      "start_s": 29.037,
+      "end_s": 29.432
+    },
+    {
+      "word": "to",
+      "start_s": 29.455,
+      "end_s": 29.501
+    },
+    {
+      "word": "twenty",
+      "start_s": 29.536,
+      "end_s": 29.78
+    },
+    {
+      "word": "nine",
+      "start_s": 29.826,
+      "end_s": 29.989
+    },
+    {
+      "word": "dollars",
+      "start_s": 30.024,
+      "end_s": 30.302
+    },
+    {
+      "word": "a",
+      "start_s": 30.349,
+      "end_s": 30.372
+    },
+    {
+      "word": "month",
+      "start_s": 30.418,
+      "end_s": 30.593
+    },
+    {
+      "word": "for",
+      "start_s": 30.627,
+      "end_s": 30.72
+    },
+    {
+      "word": "the",
+      "start_s": 30.755,
+      "end_s": 30.825
+    },
+    {
+      "word": "same",
+      "start_s": 30.883,
+      "end_s": 31.127
+    },
+    {
+      "word": "thing.",
+      "start_s": 31.173,
+      "end_s": 31.579
+    },
+    {
+      "word": "It's",
+      "start_s": 31.963,
+      "end_s": 32.148
+    },
+    {
+      "word": "rolling",
+      "start_s": 32.195,
+      "end_s": 32.473
+    },
+    {
+      "word": "out",
+      "start_s": 32.52,
+      "end_s": 32.636
+    },
+    {
+      "word": "now",
+      "start_s": 32.694,
+      "end_s": 32.833
+    },
+    {
+      "word": "in",
+      "start_s": 32.891,
+      "end_s": 32.949
+    },
+    {
+      "word": "the",
+      "start_s": 32.973,
+      "end_s": 33.042
+    },
+    {
+      "word": "US,",
+      "start_s": 33.112,
+      "end_s": 33.553
+    },
+    {
+      "word": "Canada,",
+      "start_s": 33.588,
+      "end_s": 34.017
+    },
+    {
+      "word": "and",
+      "start_s": 34.041,
+      "end_s": 34.157
+    },
+    {
+      "word": "France.",
+      "start_s": 34.238,
+      "end_s": 34.807
+    },
+    {
+      "word": "Free",
+      "start_s": 35.62,
+      "end_s": 35.875
+    },
+    {
+      "word": "AI,",
+      "start_s": 35.933,
+      "end_s": 36.328
+    },
+    {
+      "word": "built",
+      "start_s": 36.363,
+      "end_s": 36.583
+    },
+    {
+      "word": "into",
+      "start_s": 36.63,
+      "end_s": 36.769
+    },
+    {
+      "word": "your",
+      "start_s": 36.839,
+      "end_s": 36.943
+    },
+    {
+      "word": "browser.",
+      "start_s": 36.978,
+      "end_s": 37.535
+    },
+    {
+      "word": "The",
+      "start_s": 37.976,
+      "end_s": 38.081
+    },
+    {
+      "word": "nineteen",
+      "start_s": 38.139,
+      "end_s": 38.499
+    },
+    {
+      "word": "dollar",
+      "start_s": 38.534,
+      "end_s": 38.754
+    },
+    {
+      "word": "subscription",
+      "start_s": 38.812,
+      "end_s": 39.3
+    },
+    {
+      "word": "is",
+      "start_s": 39.346,
+      "end_s": 39.428
+    },
+    {
+      "word": "dead.",
+      "start_s": 39.497,
+      "end_s": 40.078
+    }
+  ]
+}

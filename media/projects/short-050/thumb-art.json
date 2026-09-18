@@ -1,0 +1,10 @@
+{
+  "prompt": "A single dramatic glowing music equalizer bar sculpture made of light, subject in the lower two thirds of frame, empty dark space at top, cinematic studio lighting, high contrast, emerald and gold accents, dark charcoal background, film grain, photorealistic 3D render. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-18T11:22:08"
+}

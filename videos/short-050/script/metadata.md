@@ -10,3 +10,5 @@
 - **Format:** versus
 - **Pinned comment:** Which one do you actually use for background music — Suno or Udio? 👇 (also
   carries the disclosure line if not already in the description).
+- **YouTube video id:** `FDU-RyPk9xc` — https://studio.youtube.com/video/FDU-RyPk9xc/edit
+  (uploaded 2026-09-18 as a private draft, scheduled `publishAt` 2026-09-19T15:00:00Z)

@@ -1,0 +1,10 @@
+{
+  "prompt": "A single glowing paper receipt curling out of a cash register slot in the lower two thirds of the frame, dramatic cinematic studio lighting, emerald and gold rim-light accents, dark charcoal background with soft haze, shallow depth of field, empty dark negative space at the top of the frame. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-18T11:23:12"
+}

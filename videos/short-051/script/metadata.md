@@ -1,5 +1,9 @@
 # short-051 — packaging
 
+- **YouTube video id:** RHeMsnkyMtc
+- **Studio link:** https://studio.youtube.com/video/RHeMsnkyMtc/edit
+
+
 - **Title:** Stop Paying $49.50/Mo For AI Customer Replies
 - **Description:**
   Intercom's Fin AI agent charges $0.99 per resolved chat with a 50-resolution monthly minimum —

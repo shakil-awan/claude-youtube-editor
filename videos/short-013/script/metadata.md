@@ -21,6 +21,10 @@ a commission at no extra cost to you.*
 
 `2026-09-20T15:00:00Z`
 
+## Video ID
+
+`Uuc7v_Jf5tk` — https://studio.youtube.com/video/Uuc7v_Jf5tk/edit (private draft, uploaded 2026-09-19)
+
 ## Pinned comment
 
 > Are you still on Zapier's free 100 tasks/month, or have you already hit the wall and started

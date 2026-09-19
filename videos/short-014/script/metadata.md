@@ -21,6 +21,10 @@ a commission at no extra cost to you.*
 
 `2026-09-20T21:00:00Z`
 
+## Video ID
+
+`ONLLFxCBZqg` — https://studio.youtube.com/video/ONLLFxCBZqg/edit (private draft, uploaded 2026-09-19)
+
 ## Pinned comment
 
 > Which free plan have you actually run out of first — a one-time credit grant like Runway's, or

@@ -1,0 +1,10 @@
+{
+  "prompt": "A padlock unlocking, subject in the lower two thirds, empty dark space at top, dramatic studio light, high contrast, emerald/gold accents, dark charcoal bg, film grain. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-19T11:39:00"
+}

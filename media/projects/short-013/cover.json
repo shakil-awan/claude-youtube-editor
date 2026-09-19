@@ -1,0 +1,10 @@
+{
+  "prompt": "A single glowing automation node network sculpture floating in the lower two thirds of frame, like interconnected gears and circuit nodes made of dark metal with emerald and gold light coursing through connecting lines, empty dark charcoal negative space at top, cinematic dramatic studio lighting, high contrast, dark charcoal background, film grain, moody atmosphere. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-19T11:19:52"
+}

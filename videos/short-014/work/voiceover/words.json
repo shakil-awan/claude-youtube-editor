@@ -1,0 +1,473 @@
+{
+  "text": "Leonardo gives you one hundred fifty free credits, every single day. Most free AI plans don't work that way \u2014 they give you a one-time bonus, then nothing. Runway's free plan is one hundred twenty-five credits, and that's it, forever, once. Spend them on one video and you're done. Leonardo's free plan resets every twenty-four hours, so you get a fresh one hundred fifty credits tomorrow, and the day after that. Runway's free tier expires the moment you use it. Leonardo's never does. Follow for the free AI tools that actually stay free.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 37.094,
+  "words": [
+    {
+      "word": "Leonardo",
+      "start_s": 0.0,
+      "end_s": 0.488
+    },
+    {
+      "word": "gives",
+      "start_s": 0.569,
+      "end_s": 0.743
+    },
+    {
+      "word": "you",
+      "start_s": 0.789,
+      "end_s": 0.871
+    },
+    {
+      "word": "one",
+      "start_s": 0.987,
+      "end_s": 1.207
+    },
+    {
+      "word": "hundred",
+      "start_s": 1.242,
+      "end_s": 1.463
+    },
+    {
+      "word": "fifty",
+      "start_s": 1.509,
+      "end_s": 1.765
+    },
+    {
+      "word": "free",
+      "start_s": 1.823,
+      "end_s": 2.009
+    },
+    {
+      "word": "credits,",
+      "start_s": 2.043,
+      "end_s": 2.519
+    },
+    {
+      "word": "every",
+      "start_s": 2.67,
+      "end_s": 2.984
+    },
+    {
+      "word": "single",
+      "start_s": 3.042,
+      "end_s": 3.309
+    },
+    {
+      "word": "day.",
+      "start_s": 3.344,
+      "end_s": 3.704
+    },
+    {
+      "word": "Most",
+      "start_s": 4.307,
+      "end_s": 4.54
+    },
+    {
+      "word": "free",
+      "start_s": 4.609,
+      "end_s": 4.83
+    },
+    {
+      "word": "AI",
+      "start_s": 4.888,
+      "end_s": 5.132
+    },
+    {
+      "word": "plans",
+      "start_s": 5.19,
+      "end_s": 5.503
+    },
+    {
+      "word": "don't",
+      "start_s": 5.584,
+      "end_s": 5.817
+    },
+    {
+      "word": "work",
+      "start_s": 5.851,
+      "end_s": 6.026
+    },
+    {
+      "word": "that",
+      "start_s": 6.072,
+      "end_s": 6.211
+    },
+    {
+      "word": "way",
+      "start_s": 6.258,
+      "end_s": 6.455
+    },
+    {
+      "word": "\u2014",
+      "start_s": 6.629,
+      "end_s": 6.687
+    },
+    {
+      "word": "they",
+      "start_s": 7.129,
+      "end_s": 7.268
+    },
+    {
+      "word": "give",
+      "start_s": 7.326,
+      "end_s": 7.454
+    },
+    {
+      "word": "you",
+      "start_s": 7.488,
+      "end_s": 7.558
+    },
+    {
+      "word": "a",
+      "start_s": 7.639,
+      "end_s": 7.674
+    },
+    {
+      "word": "one-time",
+      "start_s": 7.79,
+      "end_s": 8.301
+    },
+    {
+      "word": "bonus,",
+      "start_s": 8.336,
+      "end_s": 8.87
+    },
+    {
+      "word": "then",
+      "start_s": 8.998,
+      "end_s": 9.183
+    },
+    {
+      "word": "nothing.",
+      "start_s": 9.253,
+      "end_s": 9.741
+    },
+    {
+      "word": "Runway's",
+      "start_s": 10.437,
+      "end_s": 10.867
+    },
+    {
+      "word": "free",
+      "start_s": 10.913,
+      "end_s": 11.099
+    },
+    {
+      "word": "plan",
+      "start_s": 11.146,
+      "end_s": 11.366
+    },
+    {
+      "word": "is",
+      "start_s": 11.436,
+      "end_s": 11.54
+    },
+    {
+      "word": "one",
+      "start_s": 11.656,
+      "end_s": 11.877
+    },
+    {
+      "word": "hundred",
+      "start_s": 11.912,
+      "end_s": 12.167
+    },
+    {
+      "word": "twenty-five",
+      "start_s": 12.19,
+      "end_s": 12.655
+    },
+    {
+      "word": "credits,",
+      "start_s": 12.69,
+      "end_s": 13.235
+    },
+    {
+      "word": "and",
+      "start_s": 13.41,
+      "end_s": 13.549
+    },
+    {
+      "word": "that's",
+      "start_s": 13.595,
+      "end_s": 13.804
+    },
+    {
+      "word": "it,",
+      "start_s": 13.862,
+      "end_s": 14.153
+    },
+    {
+      "word": "forever,",
+      "start_s": 14.327,
+      "end_s": 14.861
+    },
+    {
+      "word": "once.",
+      "start_s": 15.012,
+      "end_s": 15.535
+    },
+    {
+      "word": "Spend",
+      "start_s": 16.487,
+      "end_s": 16.754
+    },
+    {
+      "word": "them",
+      "start_s": 16.788,
+      "end_s": 16.893
+    },
+    {
+      "word": "on",
+      "start_s": 16.951,
+      "end_s": 17.032
+    },
+    {
+      "word": "one",
+      "start_s": 17.125,
+      "end_s": 17.346
+    },
+    {
+      "word": "video",
+      "start_s": 17.392,
+      "end_s": 17.798
+    },
+    {
+      "word": "and",
+      "start_s": 18.077,
+      "end_s": 18.24
+    },
+    {
+      "word": "you're",
+      "start_s": 18.286,
+      "end_s": 18.46
+    },
+    {
+      "word": "done.",
+      "start_s": 18.495,
+      "end_s": 18.878
+    },
+    {
+      "word": "Leonardo's",
+      "start_s": 19.83,
+      "end_s": 20.329
+    },
+    {
+      "word": "free",
+      "start_s": 20.376,
+      "end_s": 20.573
+    },
+    {
+      "word": "plan",
+      "start_s": 20.62,
+      "end_s": 20.898
+    },
+    {
+      "word": "resets",
+      "start_s": 20.98,
+      "end_s": 21.386
+    },
+    {
+      "word": "every",
+      "start_s": 21.467,
+      "end_s": 21.769
+    },
+    {
+      "word": "twenty-four",
+      "start_s": 21.816,
+      "end_s": 22.245
+    },
+    {
+      "word": "hours,",
+      "start_s": 22.292,
+      "end_s": 22.837
+    },
+    {
+      "word": "so",
+      "start_s": 23.011,
+      "end_s": 23.127
+    },
+    {
+      "word": "you",
+      "start_s": 23.197,
+      "end_s": 23.267
+    },
+    {
+      "word": "get",
+      "start_s": 23.336,
+      "end_s": 23.429
+    },
+    {
+      "word": "a",
+      "start_s": 23.464,
+      "end_s": 23.487
+    },
+    {
+      "word": "fresh",
+      "start_s": 23.534,
+      "end_s": 23.778
+    },
+    {
+      "word": "one",
+      "start_s": 23.894,
+      "end_s": 24.103
+    },
+    {
+      "word": "hundred",
+      "start_s": 24.138,
+      "end_s": 24.37
+    },
+    {
+      "word": "fifty",
+      "start_s": 24.416,
+      "end_s": 24.648
+    },
+    {
+      "word": "credits",
+      "start_s": 24.706,
+      "end_s": 25.008
+    },
+    {
+      "word": "tomorrow,",
+      "start_s": 25.043,
+      "end_s": 25.624
+    },
+    {
+      "word": "and",
+      "start_s": 25.798,
+      "end_s": 26.018
+    },
+    {
+      "word": "the",
+      "start_s": 26.065,
+      "end_s": 26.134
+    },
+    {
+      "word": "day",
+      "start_s": 26.181,
+      "end_s": 26.309
+    },
+    {
+      "word": "after",
+      "start_s": 26.355,
+      "end_s": 26.564
+    },
+    {
+      "word": "that.",
+      "start_s": 26.61,
+      "end_s": 27.052
+    },
+    {
+      "word": "Runway's",
+      "start_s": 28.004,
+      "end_s": 28.456
+    },
+    {
+      "word": "free",
+      "start_s": 28.526,
+      "end_s": 28.747
+    },
+    {
+      "word": "tier",
+      "start_s": 28.793,
+      "end_s": 29.002
+    },
+    {
+      "word": "expires",
+      "start_s": 29.072,
+      "end_s": 29.559
+    },
+    {
+      "word": "the",
+      "start_s": 29.71,
+      "end_s": 29.85
+    },
+    {
+      "word": "moment",
+      "start_s": 29.942,
+      "end_s": 30.291
+    },
+    {
+      "word": "you",
+      "start_s": 30.337,
+      "end_s": 30.419
+    },
+    {
+      "word": "use",
+      "start_s": 30.5,
+      "end_s": 30.686
+    },
+    {
+      "word": "it.",
+      "start_s": 30.732,
+      "end_s": 30.976
+    },
+    {
+      "word": "Leonardo's",
+      "start_s": 31.672,
+      "end_s": 32.23
+    },
+    {
+      "word": "never",
+      "start_s": 32.299,
+      "end_s": 32.508
+    },
+    {
+      "word": "does.",
+      "start_s": 32.566,
+      "end_s": 33.066
+    },
+    {
+      "word": "Follow",
+      "start_s": 33.762,
+      "end_s": 34.087
+    },
+    {
+      "word": "for",
+      "start_s": 34.145,
+      "end_s": 34.25
+    },
+    {
+      "word": "the",
+      "start_s": 34.296,
+      "end_s": 34.366
+    },
+    {
+      "word": "free",
+      "start_s": 34.436,
+      "end_s": 34.714
+    },
+    {
+      "word": "AI",
+      "start_s": 34.772,
+      "end_s": 35.074
+    },
+    {
+      "word": "tools",
+      "start_s": 35.132,
+      "end_s": 35.422
+    },
+    {
+      "word": "that",
+      "start_s": 35.457,
+      "end_s": 35.573
+    },
+    {
+      "word": "actually",
+      "start_s": 35.631,
+      "end_s": 36.061
+    },
+    {
+      "word": "stay",
+      "start_s": 36.131,
+      "end_s": 36.363
+    },
+    {
+      "word": "free.",
+      "start_s": 36.444,
+      "end_s": 37.059
+    }
+  ]
+}

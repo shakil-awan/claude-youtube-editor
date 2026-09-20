@@ -1,0 +1,10 @@
+{
+  "prompt": "A single glowing hourglass with dollar coins falling through it, lower two thirds of frame, empty dark space at top, cinematic dramatic light, emerald and gold accents, dark charcoal background, film grain, high contrast. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-20T11:16:58"
+}

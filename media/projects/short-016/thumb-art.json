@@ -1,0 +1,10 @@
+{
+  "prompt": "A translucent glowing browser-window wireframe assembling itself from streams of golden light particles, floating in dark space, geometric panels snapping into place, cinematic dramatic rim lighting, emerald and gold color accents, dark charcoal background, large empty negative space at the top third of the frame for text overlay, single bold subject, hyperrealistic 3D render. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-24T11:45:26"
+}

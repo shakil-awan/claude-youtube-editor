@@ -1,0 +1,10 @@
+{
+  "prompt": "A glowing minimalist website wireframe made of emerald-green light lines assembling itself in mid-air, like architectural blueprint light strokes forming a webpage layout with floating gold light particles, dramatic cinematic studio lighting, dark charcoal background, subject centered in the lower two thirds of frame, empty dark negative space at the top, high contrast, film grain. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-24T11:37:48"
+}

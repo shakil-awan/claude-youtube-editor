@@ -55,3 +55,6 @@ media/library/faces/*.webp
 .idea/
 .DS_Store
 Thumbs.db
+
+# harness-managed background-agent worktrees, not repo content
+.claude/worktrees/

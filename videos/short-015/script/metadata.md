@@ -10,6 +10,7 @@
   no worse tool substituted to force a link (NICHE-STRATEGY.md §3).
 - **Hashtags (max 3):** #ai #aitools #productivity
 - **Target publish slot:** 2026-09-25T15:00:00Z
+- **YouTube video id:** E_Sg-Yj7abM (private draft, uploaded 2026-09-24)
 - **Pinned comment:** "Do you actually need the AI meeting notes and docs, or is free
   time-blocking enough for you? 👇 Disclosure: no paid promotion in this video — pricing verified
   directly on each tool's own site the day this was made."

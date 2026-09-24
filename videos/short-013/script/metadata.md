@@ -9,6 +9,7 @@
   tool was substituted to force a link (NICHE-STRATEGY.md §3).
 - **Hashtags (max 3):** #ai #aitools #openai
 - **Target publish slot:** 2026-09-24T15:00:00Z
+- **YouTube video id:** CFASdsT_u1s (private draft, uploaded 2026-09-24)
 - **Pinned comment:** "Would you switch your workflow to Luna to save the 50%, or stick with the
   flagship? 👇 Disclosure: no affiliate/sponsored links in this video — pricing verified directly
   on OpenAI's site the day this was made."

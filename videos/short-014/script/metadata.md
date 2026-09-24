@@ -9,6 +9,7 @@
   substituted to force a link (NICHE-STRATEGY.md §3).
 - **Hashtags (max 3):** #ai #aitools #claude
 - **Target publish slot:** 2026-09-24T21:00:00Z
+- **YouTube video id:** IteqxglWfD4 (private draft, uploaded 2026-09-24)
 - **Pinned comment:** "Team Opus or Team GPT-6 for your next build — which price cut actually
   changes what you ship? 👇 Disclosure: no affiliate/sponsored links in this video — pricing
   verified directly on Anthropic's site the day this was made."

@@ -1,0 +1,10 @@
+{
+  "prompt": "A glowing emerald padlock in the lower two thirds of frame, empty dark negative space at the top third, dramatic cinematic studio lighting, high contrast, gold rim light, dark charcoal background, film grain. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-25T11:25:18"
+}

@@ -1,0 +1,10 @@
+{
+  "prompt": "A single closed padlock made of glowing emerald light, floating above a dark charcoal minimalist desk, cinematic dramatic studio lighting, high contrast, gold rim light accents, empty dark negative space at top third, moody atmosphere, film grain. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-25T11:16:48"
+}

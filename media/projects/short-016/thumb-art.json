@@ -1,0 +1,10 @@
+{
+  "prompt": "Two contrasting glowing glass panels in the lower two thirds of frame, one cracked and dim, one glowing bright, empty dark negative space at the top third, dramatic cinematic studio lighting, emerald and gold accents, dark charcoal background, film grain. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-25T11:25:30"
+}

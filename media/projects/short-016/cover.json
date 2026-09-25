@@ -1,0 +1,10 @@
+{
+  "prompt": "Two glowing translucent glass panels floating side by side in dark space, one panel cracked and dimming, one panel glowing steady and full, dramatic cinematic studio lighting, emerald and gold accent light, dark charcoal background, empty dark negative space at top third, film grain, high contrast. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-25T11:17:02"
+}

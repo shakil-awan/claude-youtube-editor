@@ -1,0 +1,448 @@
+{
+  "text": "Stop paying ten dollars a month for AI code completions. This coding agent is completely free. It's called OpenCode, and it's open source: two hundred eight thousand GitHub stars, and sixteen million developers use it every month. Here's the trick. You bring your own model. Claude, GPT, Gemini, even a Copilot or ChatGPT account you already pay for, or just use the free models it includes. No forced subscription, ever. Compare that to GitHub Copilot's paid plan: ten dollars a month, for the same job. OpenCode costs zero.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 35.762,
+  "words": [
+    {
+      "word": "Stop",
+      "start_s": 0.0,
+      "end_s": 0.313
+    },
+    {
+      "word": "paying",
+      "start_s": 0.36,
+      "end_s": 0.58
+    },
+    {
+      "word": "ten",
+      "start_s": 0.65,
+      "end_s": 0.836
+    },
+    {
+      "word": "dollars",
+      "start_s": 0.882,
+      "end_s": 1.161
+    },
+    {
+      "word": "a",
+      "start_s": 1.196,
+      "end_s": 1.231
+    },
+    {
+      "word": "month",
+      "start_s": 1.289,
+      "end_s": 1.474
+    },
+    {
+      "word": "for",
+      "start_s": 1.521,
+      "end_s": 1.625
+    },
+    {
+      "word": "AI",
+      "start_s": 1.695,
+      "end_s": 1.962
+    },
+    {
+      "word": "code",
+      "start_s": 2.032,
+      "end_s": 2.252
+    },
+    {
+      "word": "completions.",
+      "start_s": 2.287,
+      "end_s": 3.03
+    },
+    {
+      "word": "This",
+      "start_s": 3.309,
+      "end_s": 3.495
+    },
+    {
+      "word": "coding",
+      "start_s": 3.564,
+      "end_s": 3.855
+    },
+    {
+      "word": "agent",
+      "start_s": 3.901,
+      "end_s": 4.156
+    },
+    {
+      "word": "is",
+      "start_s": 4.203,
+      "end_s": 4.272
+    },
+    {
+      "word": "completely",
+      "start_s": 4.319,
+      "end_s": 4.807
+    },
+    {
+      "word": "free.",
+      "start_s": 4.865,
+      "end_s": 5.294
+    },
+    {
+      "word": "It's",
+      "start_s": 5.619,
+      "end_s": 5.805
+    },
+    {
+      "word": "called",
+      "start_s": 5.84,
+      "end_s": 6.06
+    },
+    {
+      "word": "OpenCode,",
+      "start_s": 6.13,
+      "end_s": 6.803
+    },
+    {
+      "word": "and",
+      "start_s": 6.92,
+      "end_s": 7.036
+    },
+    {
+      "word": "it's",
+      "start_s": 7.094,
+      "end_s": 7.21
+    },
+    {
+      "word": "open",
+      "start_s": 7.268,
+      "end_s": 7.512
+    },
+    {
+      "word": "source:",
+      "start_s": 7.581,
+      "end_s": 8.069
+    },
+    {
+      "word": "two",
+      "start_s": 8.394,
+      "end_s": 8.58
+    },
+    {
+      "word": "hundred",
+      "start_s": 8.649,
+      "end_s": 8.905
+    },
+    {
+      "word": "eight",
+      "start_s": 8.963,
+      "end_s": 9.137
+    },
+    {
+      "word": "thousand",
+      "start_s": 9.172,
+      "end_s": 9.532
+    },
+    {
+      "word": "GitHub",
+      "start_s": 9.613,
+      "end_s": 9.938
+    },
+    {
+      "word": "stars,",
+      "start_s": 9.996,
+      "end_s": 10.565
+    },
+    {
+      "word": "and",
+      "start_s": 10.774,
+      "end_s": 10.913
+    },
+    {
+      "word": "sixteen",
+      "start_s": 10.995,
+      "end_s": 11.447
+    },
+    {
+      "word": "million",
+      "start_s": 11.564,
+      "end_s": 11.889
+    },
+    {
+      "word": "developers",
+      "start_s": 11.935,
+      "end_s": 12.423
+    },
+    {
+      "word": "use",
+      "start_s": 12.481,
+      "end_s": 12.632
+    },
+    {
+      "word": "it",
+      "start_s": 12.666,
+      "end_s": 12.725
+    },
+    {
+      "word": "every",
+      "start_s": 12.817,
+      "end_s": 13.084
+    },
+    {
+      "word": "month.",
+      "start_s": 13.142,
+      "end_s": 13.526
+    },
+    {
+      "word": "Here's",
+      "start_s": 13.967,
+      "end_s": 14.211
+    },
+    {
+      "word": "the",
+      "start_s": 14.245,
+      "end_s": 14.315
+    },
+    {
+      "word": "trick.",
+      "start_s": 14.35,
+      "end_s": 14.756
+    },
+    {
+      "word": "You",
+      "start_s": 15.081,
+      "end_s": 15.209
+    },
+    {
+      "word": "bring",
+      "start_s": 15.279,
+      "end_s": 15.441
+    },
+    {
+      "word": "your",
+      "start_s": 15.499,
+      "end_s": 15.615
+    },
+    {
+      "word": "own",
+      "start_s": 15.673,
+      "end_s": 15.801
+    },
+    {
+      "word": "model.",
+      "start_s": 15.859,
+      "end_s": 16.37
+    },
+    {
+      "word": "Claude,",
+      "start_s": 17.322,
+      "end_s": 17.81
+    },
+    {
+      "word": "GPT,",
+      "start_s": 17.868,
+      "end_s": 18.588
+    },
+    {
+      "word": "Gemini,",
+      "start_s": 18.646,
+      "end_s": 19.377
+    },
+    {
+      "word": "even",
+      "start_s": 19.621,
+      "end_s": 19.83
+    },
+    {
+      "word": "a",
+      "start_s": 19.876,
+      "end_s": 19.899
+    },
+    {
+      "word": "Copilot",
+      "start_s": 19.969,
+      "end_s": 20.515
+    },
+    {
+      "word": "or",
+      "start_s": 20.561,
+      "end_s": 20.666
+    },
+    {
+      "word": "ChatGPT",
+      "start_s": 20.735,
+      "end_s": 21.386
+    },
+    {
+      "word": "account",
+      "start_s": 21.502,
+      "end_s": 21.769
+    },
+    {
+      "word": "you",
+      "start_s": 21.804,
+      "end_s": 21.885
+    },
+    {
+      "word": "already",
+      "start_s": 22.001,
+      "end_s": 22.384
+    },
+    {
+      "word": "pay",
+      "start_s": 22.442,
+      "end_s": 22.605
+    },
+    {
+      "word": "for,",
+      "start_s": 22.674,
+      "end_s": 23.081
+    },
+    {
+      "word": "or",
+      "start_s": 23.255,
+      "end_s": 23.406
+    },
+    {
+      "word": "just",
+      "start_s": 23.464,
+      "end_s": 23.603
+    },
+    {
+      "word": "use",
+      "start_s": 23.661,
+      "end_s": 23.824
+    },
+    {
+      "word": "the",
+      "start_s": 23.847,
+      "end_s": 23.917
+    },
+    {
+      "word": "free",
+      "start_s": 23.951,
+      "end_s": 24.137
+    },
+    {
+      "word": "models",
+      "start_s": 24.184,
+      "end_s": 24.462
+    },
+    {
+      "word": "it",
+      "start_s": 24.509,
+      "end_s": 24.567
+    },
+    {
+      "word": "includes.",
+      "start_s": 24.613,
+      "end_s": 25.275
+    },
+    {
+      "word": "No",
+      "start_s": 25.972,
+      "end_s": 26.146
+    },
+    {
+      "word": "forced",
+      "start_s": 26.262,
+      "end_s": 26.575
+    },
+    {
+      "word": "subscription,",
+      "start_s": 26.645,
+      "end_s": 27.4
+    },
+    {
+      "word": "ever.",
+      "start_s": 27.574,
+      "end_s": 28.026
+    },
+    {
+      "word": "Compare",
+      "start_s": 28.723,
+      "end_s": 29.095
+    },
+    {
+      "word": "that",
+      "start_s": 29.129,
+      "end_s": 29.269
+    },
+    {
+      "word": "to",
+      "start_s": 29.315,
+      "end_s": 29.385
+    },
+    {
+      "word": "GitHub",
+      "start_s": 29.501,
+      "end_s": 29.838
+    },
+    {
+      "word": "Copilot's",
+      "start_s": 29.908,
+      "end_s": 30.453
+    },
+    {
+      "word": "paid",
+      "start_s": 30.5,
+      "end_s": 30.732
+    },
+    {
+      "word": "plan:",
+      "start_s": 30.79,
+      "end_s": 31.289
+    },
+    {
+      "word": "ten",
+      "start_s": 31.498,
+      "end_s": 31.696
+    },
+    {
+      "word": "dollars",
+      "start_s": 31.754,
+      "end_s": 32.044
+    },
+    {
+      "word": "a",
+      "start_s": 32.079,
+      "end_s": 32.102
+    },
+    {
+      "word": "month,",
+      "start_s": 32.16,
+      "end_s": 32.462
+    },
+    {
+      "word": "for",
+      "start_s": 32.52,
+      "end_s": 32.648
+    },
+    {
+      "word": "the",
+      "start_s": 32.682,
+      "end_s": 32.752
+    },
+    {
+      "word": "same",
+      "start_s": 32.799,
+      "end_s": 33.066
+    },
+    {
+      "word": "job.",
+      "start_s": 33.124,
+      "end_s": 33.53
+    },
+    {
+      "word": "OpenCode",
+      "start_s": 33.913,
+      "end_s": 34.505
+    },
+    {
+      "word": "costs",
+      "start_s": 34.552,
+      "end_s": 34.877
+    },
+    {
+      "word": "zero.",
+      "start_s": 34.97,
+      "end_s": 35.713
+    }
+  ]
+}

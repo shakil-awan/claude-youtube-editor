@@ -1,0 +1,478 @@
+{
+  "text": "QuillBot caps your free plan at one hundred twenty five words. Grammarly doesn't. QuillBot's free paraphraser gives you just two modes, Standard and Fluency, and stops at one two five words per rewrite. Go premium and it's eight dollars and thirty three cents a month. Grammarly's free plan checks grammar, spelling, and tone with no word limit, plus one hundred free AI prompts. Its paid plan is twelve dollars a month. So pick by the job. Rewriting long text, QuillBot's engine is built for that. Everyday writing checks, Grammarly's free tier already covers you.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 38.896,
+  "words": [
+    {
+      "word": "QuillBot",
+      "start_s": 0.0,
+      "end_s": 0.453
+    },
+    {
+      "word": "caps",
+      "start_s": 0.499,
+      "end_s": 0.755
+    },
+    {
+      "word": "your",
+      "start_s": 0.789,
+      "end_s": 0.894
+    },
+    {
+      "word": "free",
+      "start_s": 0.952,
+      "end_s": 1.138
+    },
+    {
+      "word": "plan",
+      "start_s": 1.184,
+      "end_s": 1.428
+    },
+    {
+      "word": "at",
+      "start_s": 1.486,
+      "end_s": 1.567
+    },
+    {
+      "word": "one",
+      "start_s": 1.66,
+      "end_s": 1.869
+    },
+    {
+      "word": "hundred",
+      "start_s": 1.916,
+      "end_s": 2.171
+    },
+    {
+      "word": "twenty",
+      "start_s": 2.206,
+      "end_s": 2.45
+    },
+    {
+      "word": "five",
+      "start_s": 2.496,
+      "end_s": 2.717
+    },
+    {
+      "word": "words.",
+      "start_s": 2.752,
+      "end_s": 3.274
+    },
+    {
+      "word": "Grammarly",
+      "start_s": 3.971,
+      "end_s": 4.423
+    },
+    {
+      "word": "doesn't.",
+      "start_s": 4.481,
+      "end_s": 4.957
+    },
+    {
+      "word": "QuillBot's",
+      "start_s": 5.654,
+      "end_s": 6.177
+    },
+    {
+      "word": "free",
+      "start_s": 6.223,
+      "end_s": 6.432
+    },
+    {
+      "word": "paraphraser",
+      "start_s": 6.478,
+      "end_s": 7.094
+    },
+    {
+      "word": "gives",
+      "start_s": 7.152,
+      "end_s": 7.349
+    },
+    {
+      "word": "you",
+      "start_s": 7.396,
+      "end_s": 7.488
+    },
+    {
+      "word": "just",
+      "start_s": 7.581,
+      "end_s": 7.802
+    },
+    {
+      "word": "two",
+      "start_s": 7.837,
+      "end_s": 7.999
+    },
+    {
+      "word": "modes,",
+      "start_s": 8.057,
+      "end_s": 8.499
+    },
+    {
+      "word": "Standard",
+      "start_s": 8.707,
+      "end_s": 9.137
+    },
+    {
+      "word": "and",
+      "start_s": 9.195,
+      "end_s": 9.346
+    },
+    {
+      "word": "Fluency,",
+      "start_s": 9.404,
+      "end_s": 10.124
+    },
+    {
+      "word": "and",
+      "start_s": 10.449,
+      "end_s": 10.588
+    },
+    {
+      "word": "stops",
+      "start_s": 10.646,
+      "end_s": 10.971
+    },
+    {
+      "word": "at",
+      "start_s": 11.018,
+      "end_s": 11.111
+    },
+    {
+      "word": "one",
+      "start_s": 11.192,
+      "end_s": 11.424
+    },
+    {
+      "word": "two",
+      "start_s": 11.459,
+      "end_s": 11.645
+    },
+    {
+      "word": "five",
+      "start_s": 11.726,
+      "end_s": 11.97
+    },
+    {
+      "word": "words",
+      "start_s": 12.005,
+      "end_s": 12.249
+    },
+    {
+      "word": "per",
+      "start_s": 12.295,
+      "end_s": 12.423
+    },
+    {
+      "word": "rewrite.",
+      "start_s": 12.481,
+      "end_s": 13.05
+    },
+    {
+      "word": "Go",
+      "start_s": 13.862,
+      "end_s": 14.06
+    },
+    {
+      "word": "premium",
+      "start_s": 14.141,
+      "end_s": 14.617
+    },
+    {
+      "word": "and",
+      "start_s": 14.791,
+      "end_s": 14.988
+    },
+    {
+      "word": "it's",
+      "start_s": 15.035,
+      "end_s": 15.139
+    },
+    {
+      "word": "eight",
+      "start_s": 15.197,
+      "end_s": 15.372
+    },
+    {
+      "word": "dollars",
+      "start_s": 15.407,
+      "end_s": 15.732
+    },
+    {
+      "word": "and",
+      "start_s": 15.79,
+      "end_s": 15.906
+    },
+    {
+      "word": "thirty",
+      "start_s": 15.976,
+      "end_s": 16.208
+    },
+    {
+      "word": "three",
+      "start_s": 16.243,
+      "end_s": 16.417
+    },
+    {
+      "word": "cents",
+      "start_s": 16.452,
+      "end_s": 16.672
+    },
+    {
+      "word": "a",
+      "start_s": 16.707,
+      "end_s": 16.73
+    },
+    {
+      "word": "month.",
+      "start_s": 16.777,
+      "end_s": 17.241
+    },
+    {
+      "word": "Grammarly's",
+      "start_s": 18.356,
+      "end_s": 18.913
+    },
+    {
+      "word": "free",
+      "start_s": 18.971,
+      "end_s": 19.18
+    },
+    {
+      "word": "plan",
+      "start_s": 19.227,
+      "end_s": 19.505
+    },
+    {
+      "word": "checks",
+      "start_s": 19.575,
+      "end_s": 19.842
+    },
+    {
+      "word": "grammar,",
+      "start_s": 19.9,
+      "end_s": 20.434
+    },
+    {
+      "word": "spelling,",
+      "start_s": 20.562,
+      "end_s": 21.142
+    },
+    {
+      "word": "and",
+      "start_s": 21.351,
+      "end_s": 21.583
+    },
+    {
+      "word": "tone",
+      "start_s": 21.653,
+      "end_s": 22.071
+    },
+    {
+      "word": "with",
+      "start_s": 22.152,
+      "end_s": 22.338
+    },
+    {
+      "word": "no",
+      "start_s": 22.408,
+      "end_s": 22.535
+    },
+    {
+      "word": "word",
+      "start_s": 22.605,
+      "end_s": 22.814
+    },
+    {
+      "word": "limit,",
+      "start_s": 22.872,
+      "end_s": 23.29
+    },
+    {
+      "word": "plus",
+      "start_s": 23.464,
+      "end_s": 23.754
+    },
+    {
+      "word": "one",
+      "start_s": 23.836,
+      "end_s": 24.045
+    },
+    {
+      "word": "hundred",
+      "start_s": 24.079,
+      "end_s": 24.347
+    },
+    {
+      "word": "free",
+      "start_s": 24.416,
+      "end_s": 24.625
+    },
+    {
+      "word": "AI",
+      "start_s": 24.695,
+      "end_s": 24.927
+    },
+    {
+      "word": "prompts.",
+      "start_s": 24.985,
+      "end_s": 25.566
+    },
+    {
+      "word": "Its",
+      "start_s": 26.378,
+      "end_s": 26.576
+    },
+    {
+      "word": "paid",
+      "start_s": 26.634,
+      "end_s": 26.866
+    },
+    {
+      "word": "plan",
+      "start_s": 26.924,
+      "end_s": 27.203
+    },
+    {
+      "word": "is",
+      "start_s": 27.261,
+      "end_s": 27.342
+    },
+    {
+      "word": "twelve",
+      "start_s": 27.412,
+      "end_s": 27.76
+    },
+    {
+      "word": "dollars",
+      "start_s": 27.795,
+      "end_s": 28.108
+    },
+    {
+      "word": "a",
+      "start_s": 28.155,
+      "end_s": 28.178
+    },
+    {
+      "word": "month.",
+      "start_s": 28.224,
+      "end_s": 28.665
+    },
+    {
+      "word": "So",
+      "start_s": 29.362,
+      "end_s": 29.559
+    },
+    {
+      "word": "pick",
+      "start_s": 29.641,
+      "end_s": 29.826
+    },
+    {
+      "word": "by",
+      "start_s": 29.896,
+      "end_s": 30.001
+    },
+    {
+      "word": "the",
+      "start_s": 30.059,
+      "end_s": 30.128
+    },
+    {
+      "word": "job.",
+      "start_s": 30.186,
+      "end_s": 30.697
+    },
+    {
+      "word": "Rewriting",
+      "start_s": 31.022,
+      "end_s": 31.545
+    },
+    {
+      "word": "long",
+      "start_s": 31.614,
+      "end_s": 31.823
+    },
+    {
+      "word": "text,",
+      "start_s": 31.893,
+      "end_s": 32.497
+    },
+    {
+      "word": "QuillBot's",
+      "start_s": 32.671,
+      "end_s": 33.193
+    },
+    {
+      "word": "engine",
+      "start_s": 33.263,
+      "end_s": 33.541
+    },
+    {
+      "word": "is",
+      "start_s": 33.576,
+      "end_s": 33.646
+    },
+    {
+      "word": "built",
+      "start_s": 33.704,
+      "end_s": 33.901
+    },
+    {
+      "word": "for",
+      "start_s": 33.948,
+      "end_s": 34.041
+    },
+    {
+      "word": "that.",
+      "start_s": 34.076,
+      "end_s": 34.447
+    },
+    {
+      "word": "Everyday",
+      "start_s": 35.144,
+      "end_s": 35.585
+    },
+    {
+      "word": "writing",
+      "start_s": 35.643,
+      "end_s": 35.933
+    },
+    {
+      "word": "checks,",
+      "start_s": 35.98,
+      "end_s": 36.49
+    },
+    {
+      "word": "Grammarly's",
+      "start_s": 36.607,
+      "end_s": 37.094
+    },
+    {
+      "word": "free",
+      "start_s": 37.141,
+      "end_s": 37.338
+    },
+    {
+      "word": "tier",
+      "start_s": 37.384,
+      "end_s": 37.617
+    },
+    {
+      "word": "already",
+      "start_s": 37.698,
+      "end_s": 38.023
+    },
+    {
+      "word": "covers",
+      "start_s": 38.069,
+      "end_s": 38.36
+    },
+    {
+      "word": "you.",
+      "start_s": 38.406,
+      "end_s": 38.87
+    }
+  ]
+}

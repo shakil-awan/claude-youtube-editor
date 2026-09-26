@@ -1,0 +1,10 @@
+{
+  "prompt": "A single glowing terminal window floating in dark space, lower two thirds of frame, empty dark space at top, cinematic rim light, emerald and gold accents, dark charcoal background, moody tech atmosphere. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-26T11:19:20"
+}

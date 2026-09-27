@@ -1,0 +1,593 @@
+{
+  "text": "Google just made its AI video generator free for everyone. It's called Google Vids, and until this week you needed a paid Google AI plan just to touch it. As of September twenty third, any Google account gets full ten eighty P video generation using the new Gemini Omni model. Type a scene, get a video, then extend the shot while it keeps the lighting and characters consistent. Every clip carries an invisible digital watermark, so viewers can tell it was AI made. Paid plans still unlock more generations and Workspace controls, but the tool itself, the thing that used to cost real money, is now completely free. Go to Vids dot new and try it today.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 43.18,
+  "words": [
+    {
+      "word": "Google",
+      "start_s": 0.0,
+      "end_s": 0.383
+    },
+    {
+      "word": "just",
+      "start_s": 0.406,
+      "end_s": 0.592
+    },
+    {
+      "word": "made",
+      "start_s": 0.65,
+      "end_s": 0.824
+    },
+    {
+      "word": "its",
+      "start_s": 0.859,
+      "end_s": 0.975
+    },
+    {
+      "word": "AI",
+      "start_s": 1.057,
+      "end_s": 1.335
+    },
+    {
+      "word": "video",
+      "start_s": 1.405,
+      "end_s": 1.683
+    },
+    {
+      "word": "generator",
+      "start_s": 1.741,
+      "end_s": 2.136
+    },
+    {
+      "word": "free",
+      "start_s": 2.206,
+      "end_s": 2.403
+    },
+    {
+      "word": "for",
+      "start_s": 2.45,
+      "end_s": 2.566
+    },
+    {
+      "word": "everyone.",
+      "start_s": 2.647,
+      "end_s": 3.309
+    },
+    {
+      "word": "It's",
+      "start_s": 3.634,
+      "end_s": 3.785
+    },
+    {
+      "word": "called",
+      "start_s": 3.82,
+      "end_s": 4.017
+    },
+    {
+      "word": "Google",
+      "start_s": 4.075,
+      "end_s": 4.423
+    },
+    {
+      "word": "Vids,",
+      "start_s": 4.47,
+      "end_s": 4.992
+    },
+    {
+      "word": "and",
+      "start_s": 5.201,
+      "end_s": 5.341
+    },
+    {
+      "word": "until",
+      "start_s": 5.399,
+      "end_s": 5.689
+    },
+    {
+      "word": "this",
+      "start_s": 5.747,
+      "end_s": 5.886
+    },
+    {
+      "word": "week",
+      "start_s": 5.968,
+      "end_s": 6.2
+    },
+    {
+      "word": "you",
+      "start_s": 6.444,
+      "end_s": 6.571
+    },
+    {
+      "word": "needed",
+      "start_s": 6.653,
+      "end_s": 6.873
+    },
+    {
+      "word": "a",
+      "start_s": 6.908,
+      "end_s": 6.943
+    },
+    {
+      "word": "paid",
+      "start_s": 7.001,
+      "end_s": 7.268
+    },
+    {
+      "word": "Google",
+      "start_s": 7.361,
+      "end_s": 7.732
+    },
+    {
+      "word": "AI",
+      "start_s": 7.79,
+      "end_s": 8.081
+    },
+    {
+      "word": "plan",
+      "start_s": 8.15,
+      "end_s": 8.382
+    },
+    {
+      "word": "just",
+      "start_s": 8.464,
+      "end_s": 8.696
+    },
+    {
+      "word": "to",
+      "start_s": 8.731,
+      "end_s": 8.789
+    },
+    {
+      "word": "touch",
+      "start_s": 8.847,
+      "end_s": 9.067
+    },
+    {
+      "word": "it.",
+      "start_s": 9.125,
+      "end_s": 9.323
+    },
+    {
+      "word": "As",
+      "start_s": 10.019,
+      "end_s": 10.205
+    },
+    {
+      "word": "of",
+      "start_s": 10.263,
+      "end_s": 10.333
+    },
+    {
+      "word": "September",
+      "start_s": 10.391,
+      "end_s": 10.844
+    },
+    {
+      "word": "twenty",
+      "start_s": 10.89,
+      "end_s": 11.134
+    },
+    {
+      "word": "third,",
+      "start_s": 11.192,
+      "end_s": 11.656
+    },
+    {
+      "word": "any",
+      "start_s": 11.981,
+      "end_s": 12.214
+    },
+    {
+      "word": "Google",
+      "start_s": 12.283,
+      "end_s": 12.585
+    },
+    {
+      "word": "account",
+      "start_s": 12.608,
+      "end_s": 12.934
+    },
+    {
+      "word": "gets",
+      "start_s": 12.992,
+      "end_s": 13.166
+    },
+    {
+      "word": "full",
+      "start_s": 13.224,
+      "end_s": 13.444
+    },
+    {
+      "word": "ten",
+      "start_s": 13.514,
+      "end_s": 13.735
+    },
+    {
+      "word": "eighty",
+      "start_s": 13.851,
+      "end_s": 14.106
+    },
+    {
+      "word": "P",
+      "start_s": 14.187,
+      "end_s": 14.28
+    },
+    {
+      "word": "video",
+      "start_s": 14.454,
+      "end_s": 14.744
+    },
+    {
+      "word": "generation",
+      "start_s": 14.802,
+      "end_s": 15.371
+    },
+    {
+      "word": "using",
+      "start_s": 15.65,
+      "end_s": 15.94
+    },
+    {
+      "word": "the",
+      "start_s": 15.987,
+      "end_s": 16.056
+    },
+    {
+      "word": "new",
+      "start_s": 16.126,
+      "end_s": 16.288
+    },
+    {
+      "word": "Gemini",
+      "start_s": 16.37,
+      "end_s": 16.788
+    },
+    {
+      "word": "Omni",
+      "start_s": 16.881,
+      "end_s": 17.182
+    },
+    {
+      "word": "model.",
+      "start_s": 17.24,
+      "end_s": 17.693
+    },
+    {
+      "word": "Type",
+      "start_s": 18.506,
+      "end_s": 18.854
+    },
+    {
+      "word": "a",
+      "start_s": 18.877,
+      "end_s": 18.97
+    },
+    {
+      "word": "scene,",
+      "start_s": 19.086,
+      "end_s": 19.446
+    },
+    {
+      "word": "get",
+      "start_s": 19.562,
+      "end_s": 19.713
+    },
+    {
+      "word": "a",
+      "start_s": 19.748,
+      "end_s": 19.771
+    },
+    {
+      "word": "video,",
+      "start_s": 19.829,
+      "end_s": 20.398
+    },
+    {
+      "word": "then",
+      "start_s": 20.572,
+      "end_s": 20.781
+    },
+    {
+      "word": "extend",
+      "start_s": 20.84,
+      "end_s": 21.141
+    },
+    {
+      "word": "the",
+      "start_s": 21.176,
+      "end_s": 21.246
+    },
+    {
+      "word": "shot",
+      "start_s": 21.292,
+      "end_s": 21.548
+    },
+    {
+      "word": "while",
+      "start_s": 21.606,
+      "end_s": 21.826
+    },
+    {
+      "word": "it",
+      "start_s": 21.861,
+      "end_s": 21.931
+    },
+    {
+      "word": "keeps",
+      "start_s": 21.977,
+      "end_s": 22.209
+    },
+    {
+      "word": "the",
+      "start_s": 22.256,
+      "end_s": 22.326
+    },
+    {
+      "word": "lighting",
+      "start_s": 22.384,
+      "end_s": 22.674
+    },
+    {
+      "word": "and",
+      "start_s": 22.744,
+      "end_s": 22.883
+    },
+    {
+      "word": "characters",
+      "start_s": 22.953,
+      "end_s": 23.37
+    },
+    {
+      "word": "consistent.",
+      "start_s": 23.417,
+      "end_s": 24.09
+    },
+    {
+      "word": "Every",
+      "start_s": 24.787,
+      "end_s": 25.042
+    },
+    {
+      "word": "clip",
+      "start_s": 25.1,
+      "end_s": 25.309
+    },
+    {
+      "word": "carries",
+      "start_s": 25.367,
+      "end_s": 25.704
+    },
+    {
+      "word": "an",
+      "start_s": 25.762,
+      "end_s": 25.832
+    },
+    {
+      "word": "invisible",
+      "start_s": 25.878,
+      "end_s": 26.377
+    },
+    {
+      "word": "digital",
+      "start_s": 26.424,
+      "end_s": 26.737
+    },
+    {
+      "word": "watermark,",
+      "start_s": 26.795,
+      "end_s": 27.446
+    },
+    {
+      "word": "so",
+      "start_s": 27.655,
+      "end_s": 27.782
+    },
+    {
+      "word": "viewers",
+      "start_s": 27.852,
+      "end_s": 28.154
+    },
+    {
+      "word": "can",
+      "start_s": 28.2,
+      "end_s": 28.305
+    },
+    {
+      "word": "tell",
+      "start_s": 28.34,
+      "end_s": 28.49
+    },
+    {
+      "word": "it",
+      "start_s": 28.537,
+      "end_s": 28.583
+    },
+    {
+      "word": "was",
+      "start_s": 28.618,
+      "end_s": 28.723
+    },
+    {
+      "word": "AI",
+      "start_s": 28.804,
+      "end_s": 29.071
+    },
+    {
+      "word": "made.",
+      "start_s": 29.14,
+      "end_s": 29.582
+    },
+    {
+      "word": "Paid",
+      "start_s": 30.185,
+      "end_s": 30.441
+    },
+    {
+      "word": "plans",
+      "start_s": 30.51,
+      "end_s": 30.952
+    },
+    {
+      "word": "still",
+      "start_s": 31.021,
+      "end_s": 31.288
+    },
+    {
+      "word": "unlock",
+      "start_s": 31.358,
+      "end_s": 31.671
+    },
+    {
+      "word": "more",
+      "start_s": 31.753,
+      "end_s": 31.927
+    },
+    {
+      "word": "generations",
+      "start_s": 31.973,
+      "end_s": 32.577
+    },
+    {
+      "word": "and",
+      "start_s": 32.623,
+      "end_s": 32.74
+    },
+    {
+      "word": "Workspace",
+      "start_s": 32.809,
+      "end_s": 33.262
+    },
+    {
+      "word": "controls,",
+      "start_s": 33.297,
+      "end_s": 33.924
+    },
+    {
+      "word": "but",
+      "start_s": 34.249,
+      "end_s": 34.411
+    },
+    {
+      "word": "the",
+      "start_s": 34.446,
+      "end_s": 34.516
+    },
+    {
+      "word": "tool",
+      "start_s": 34.562,
+      "end_s": 34.783
+    },
+    {
+      "word": "itself,",
+      "start_s": 34.853,
+      "end_s": 35.491
+    },
+    {
+      "word": "the",
+      "start_s": 35.816,
+      "end_s": 35.921
+    },
+    {
+      "word": "thing",
+      "start_s": 35.99,
+      "end_s": 36.211
+    },
+    {
+      "word": "that",
+      "start_s": 36.257,
+      "end_s": 36.374
+    },
+    {
+      "word": "used",
+      "start_s": 36.443,
+      "end_s": 36.629
+    },
+    {
+      "word": "to",
+      "start_s": 36.652,
+      "end_s": 36.699
+    },
+    {
+      "word": "cost",
+      "start_s": 36.757,
+      "end_s": 37.047
+    },
+    {
+      "word": "real",
+      "start_s": 37.163,
+      "end_s": 37.384
+    },
+    {
+      "word": "money,",
+      "start_s": 37.442,
+      "end_s": 37.802
+    },
+    {
+      "word": "is",
+      "start_s": 38.045,
+      "end_s": 38.196
+    },
+    {
+      "word": "now",
+      "start_s": 38.266,
+      "end_s": 38.394
+    },
+    {
+      "word": "completely",
+      "start_s": 38.475,
+      "end_s": 39.009
+    },
+    {
+      "word": "free.",
+      "start_s": 39.067,
+      "end_s": 39.497
+    },
+    {
+      "word": "Go",
+      "start_s": 40.309,
+      "end_s": 40.46
+    },
+    {
+      "word": "to",
+      "start_s": 40.53,
+      "end_s": 40.576
+    },
+    {
+      "word": "Vids",
+      "start_s": 40.658,
+      "end_s": 41.041
+    },
+    {
+      "word": "dot",
+      "start_s": 41.157,
+      "end_s": 41.412
+    },
+    {
+      "word": "new",
+      "start_s": 41.482,
+      "end_s": 41.668
+    },
+    {
+      "word": "and",
+      "start_s": 41.877,
+      "end_s": 42.086
+    },
+    {
+      "word": "try",
+      "start_s": 42.132,
+      "end_s": 42.353
+    },
+    {
+      "word": "it",
+      "start_s": 42.399,
+      "end_s": 42.469
+    },
+    {
+      "word": "today.",
+      "start_s": 42.504,
+      "end_s": 43.142
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "prompt": "A single glowing translucent clipboard with a form on it, subject in the lower two thirds of the frame, three large softly glowing emerald checkmark icons stacked next to plain blank lines representing form fields, empty dark space at the top of the frame, dramatic studio light, high contrast, emerald and gold accents, dark charcoal background, film grain. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-28T11:21:16"
+}

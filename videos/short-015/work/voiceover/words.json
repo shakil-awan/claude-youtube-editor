@@ -1,0 +1,483 @@
+{
+  "text": "Opus Clip and Descript both give you sixty free minutes a month to turn long videos into clips. Same number, very different catch. Opus Clip renders up to full HD, but every free export carries a watermark, and you can only upload local files, no YouTube or Twitch links on the free plan. Descript caps your export at seven twenty p, also watermarked, but throws in five gigabytes of cloud storage. Pick Opus Clip if resolution matters more. Pick Descript if you want to keep your files without paying. Same sixty minutes, very different trade-off.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 36.389,
+  "words": [
+    {
+      "word": "Opus",
+      "start_s": 0.0,
+      "end_s": 0.348
+    },
+    {
+      "word": "Clip",
+      "start_s": 0.43,
+      "end_s": 0.673
+    },
+    {
+      "word": "and",
+      "start_s": 0.743,
+      "end_s": 0.848
+    },
+    {
+      "word": "Descript",
+      "start_s": 0.906,
+      "end_s": 1.382
+    },
+    {
+      "word": "both",
+      "start_s": 1.707,
+      "end_s": 1.939
+    },
+    {
+      "word": "give",
+      "start_s": 1.997,
+      "end_s": 2.148
+    },
+    {
+      "word": "you",
+      "start_s": 2.183,
+      "end_s": 2.264
+    },
+    {
+      "word": "sixty",
+      "start_s": 2.38,
+      "end_s": 2.81
+    },
+    {
+      "word": "free",
+      "start_s": 2.879,
+      "end_s": 3.077
+    },
+    {
+      "word": "minutes",
+      "start_s": 3.111,
+      "end_s": 3.355
+    },
+    {
+      "word": "a",
+      "start_s": 3.402,
+      "end_s": 3.425
+    },
+    {
+      "word": "month",
+      "start_s": 3.483,
+      "end_s": 3.692
+    },
+    {
+      "word": "to",
+      "start_s": 3.727,
+      "end_s": 3.785
+    },
+    {
+      "word": "turn",
+      "start_s": 3.843,
+      "end_s": 4.04
+    },
+    {
+      "word": "long",
+      "start_s": 4.122,
+      "end_s": 4.331
+    },
+    {
+      "word": "videos",
+      "start_s": 4.389,
+      "end_s": 4.76
+    },
+    {
+      "word": "into",
+      "start_s": 4.818,
+      "end_s": 4.957
+    },
+    {
+      "word": "clips.",
+      "start_s": 5.016,
+      "end_s": 5.526
+    },
+    {
+      "word": "Same",
+      "start_s": 6.223,
+      "end_s": 6.467
+    },
+    {
+      "word": "number,",
+      "start_s": 6.502,
+      "end_s": 6.861
+    },
+    {
+      "word": "very",
+      "start_s": 6.908,
+      "end_s": 7.129
+    },
+    {
+      "word": "different",
+      "start_s": 7.175,
+      "end_s": 7.442
+    },
+    {
+      "word": "catch.",
+      "start_s": 7.477,
+      "end_s": 7.953
+    },
+    {
+      "word": "Opus",
+      "start_s": 8.766,
+      "end_s": 9.125
+    },
+    {
+      "word": "Clip",
+      "start_s": 9.195,
+      "end_s": 9.462
+    },
+    {
+      "word": "renders",
+      "start_s": 9.578,
+      "end_s": 9.892
+    },
+    {
+      "word": "up",
+      "start_s": 9.938,
+      "end_s": 10.031
+    },
+    {
+      "word": "to",
+      "start_s": 10.089,
+      "end_s": 10.147
+    },
+    {
+      "word": "full",
+      "start_s": 10.263,
+      "end_s": 10.542
+    },
+    {
+      "word": "HD,",
+      "start_s": 10.635,
+      "end_s": 11.262
+    },
+    {
+      "word": "but",
+      "start_s": 11.505,
+      "end_s": 11.668
+    },
+    {
+      "word": "every",
+      "start_s": 11.738,
+      "end_s": 11.993
+    },
+    {
+      "word": "free",
+      "start_s": 12.063,
+      "end_s": 12.272
+    },
+    {
+      "word": "export",
+      "start_s": 12.341,
+      "end_s": 12.713
+    },
+    {
+      "word": "carries",
+      "start_s": 12.759,
+      "end_s": 13.026
+    },
+    {
+      "word": "a",
+      "start_s": 13.073,
+      "end_s": 13.096
+    },
+    {
+      "word": "watermark,",
+      "start_s": 13.154,
+      "end_s": 13.781
+    },
+    {
+      "word": "and",
+      "start_s": 13.955,
+      "end_s": 14.083
+    },
+    {
+      "word": "you",
+      "start_s": 14.129,
+      "end_s": 14.199
+    },
+    {
+      "word": "can",
+      "start_s": 14.245,
+      "end_s": 14.35
+    },
+    {
+      "word": "only",
+      "start_s": 14.396,
+      "end_s": 14.57
+    },
+    {
+      "word": "upload",
+      "start_s": 14.628,
+      "end_s": 14.965
+    },
+    {
+      "word": "local",
+      "start_s": 15.046,
+      "end_s": 15.337
+    },
+    {
+      "word": "files,",
+      "start_s": 15.406,
+      "end_s": 15.952
+    },
+    {
+      "word": "no",
+      "start_s": 16.231,
+      "end_s": 16.382
+    },
+    {
+      "word": "YouTube",
+      "start_s": 16.463,
+      "end_s": 16.904
+    },
+    {
+      "word": "or",
+      "start_s": 16.95,
+      "end_s": 17.113
+    },
+    {
+      "word": "Twitch",
+      "start_s": 17.183,
+      "end_s": 17.438
+    },
+    {
+      "word": "links",
+      "start_s": 17.496,
+      "end_s": 17.717
+    },
+    {
+      "word": "on",
+      "start_s": 17.775,
+      "end_s": 17.868
+    },
+    {
+      "word": "the",
+      "start_s": 17.903,
+      "end_s": 17.972
+    },
+    {
+      "word": "free",
+      "start_s": 18.019,
+      "end_s": 18.193
+    },
+    {
+      "word": "plan.",
+      "start_s": 18.239,
+      "end_s": 18.669
+    },
+    {
+      "word": "Descript",
+      "start_s": 19.481,
+      "end_s": 19.911
+    },
+    {
+      "word": "caps",
+      "start_s": 19.957,
+      "end_s": 20.236
+    },
+    {
+      "word": "your",
+      "start_s": 20.259,
+      "end_s": 20.375
+    },
+    {
+      "word": "export",
+      "start_s": 20.445,
+      "end_s": 20.851
+    },
+    {
+      "word": "at",
+      "start_s": 20.898,
+      "end_s": 20.991
+    },
+    {
+      "word": "seven",
+      "start_s": 21.072,
+      "end_s": 21.339
+    },
+    {
+      "word": "twenty",
+      "start_s": 21.374,
+      "end_s": 21.641
+    },
+    {
+      "word": "p,",
+      "start_s": 21.687,
+      "end_s": 22.036
+    },
+    {
+      "word": "also",
+      "start_s": 22.21,
+      "end_s": 22.535
+    },
+    {
+      "word": "watermarked,",
+      "start_s": 22.616,
+      "end_s": 23.266
+    },
+    {
+      "word": "but",
+      "start_s": 23.51,
+      "end_s": 23.673
+    },
+    {
+      "word": "throws",
+      "start_s": 23.719,
+      "end_s": 24.056
+    },
+    {
+      "word": "in",
+      "start_s": 24.114,
+      "end_s": 24.183
+    },
+    {
+      "word": "five",
+      "start_s": 24.276,
+      "end_s": 24.59
+    },
+    {
+      "word": "gigabytes",
+      "start_s": 24.636,
+      "end_s": 25.089
+    },
+    {
+      "word": "of",
+      "start_s": 25.124,
+      "end_s": 25.182
+    },
+    {
+      "word": "cloud",
+      "start_s": 25.24,
+      "end_s": 25.495
+    },
+    {
+      "word": "storage.",
+      "start_s": 25.542,
+      "end_s": 26.076
+    },
+    {
+      "word": "Pick",
+      "start_s": 26.773,
+      "end_s": 26.993
+    },
+    {
+      "word": "Opus",
+      "start_s": 27.074,
+      "end_s": 27.376
+    },
+    {
+      "word": "Clip",
+      "start_s": 27.434,
+      "end_s": 27.655
+    },
+    {
+      "word": "if",
+      "start_s": 27.713,
+      "end_s": 27.794
+    },
+    {
+      "word": "resolution",
+      "start_s": 27.864,
+      "end_s": 28.351
+    },
+    {
+      "word": "matters",
+      "start_s": 28.41,
+      "end_s": 28.665
+    },
+    {
+      "word": "more.",
+      "start_s": 28.723,
+      "end_s": 29.095
+    },
+    {
+      "word": "Pick",
+      "start_s": 29.791,
+      "end_s": 30.012
+    },
+    {
+      "word": "Descript",
+      "start_s": 30.081,
+      "end_s": 30.639
+    },
+    {
+      "word": "if",
+      "start_s": 30.848,
+      "end_s": 30.987
+    },
+    {
+      "word": "you",
+      "start_s": 31.034,
+      "end_s": 31.115
+    },
+    {
+      "word": "want",
+      "start_s": 31.184,
+      "end_s": 31.359
+    },
+    {
+      "word": "to",
+      "start_s": 31.393,
+      "end_s": 31.44
+    },
+    {
+      "word": "keep",
+      "start_s": 31.486,
+      "end_s": 31.637
+    },
+    {
+      "word": "your",
+      "start_s": 31.684,
+      "end_s": 31.788
+    },
+    {
+      "word": "files",
+      "start_s": 31.835,
+      "end_s": 32.16
+    },
+    {
+      "word": "without",
+      "start_s": 32.195,
+      "end_s": 32.45
+    },
+    {
+      "word": "paying.",
+      "start_s": 32.485,
+      "end_s": 32.926
+    },
+    {
+      "word": "Same",
+      "start_s": 33.623,
+      "end_s": 33.901
+    },
+    {
+      "word": "sixty",
+      "start_s": 33.948,
+      "end_s": 34.261
+    },
+    {
+      "word": "minutes,",
+      "start_s": 34.308,
+      "end_s": 34.737
+    },
+    {
+      "word": "very",
+      "start_s": 35.016,
+      "end_s": 35.283
+    },
+    {
+      "word": "different",
+      "start_s": 35.329,
+      "end_s": 35.585
+    },
+    {
+      "word": "trade-off.",
+      "start_s": 35.608,
+      "end_s": 36.362
+    }
+  ]
+}

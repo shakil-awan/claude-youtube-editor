@@ -1,0 +1,10 @@
+{
+  "prompt": "A single glowing translucent clipboard with a form on it, floating upright in dark empty space, positioned in the lower two thirds of the frame, with three large softly glowing emerald checkmark icons stacked vertically next to plain blank horizontal lines representing form fields (no handwriting, no scribbles, no calligraphy, completely blank lines), empty dark space at the top of the frame, cinematic dramatic studio lighting, emerald and gold rim light, dark charcoal background, film grain, high contrast, photorealistic. Absolutely NO text, NO letters, NO numbers, NO words, NO handwriting, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-28T11:20:58"
+}

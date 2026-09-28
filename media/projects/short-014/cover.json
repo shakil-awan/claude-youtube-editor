@@ -1,0 +1,10 @@
+{
+  "prompt": "A glowing abstract price meter, an analog dial with a glowing needle and radial tick marks, floating holographic gauge, lower two thirds of frame, empty dark negative space at top, cinematic dramatic rim light, emerald and gold accent glow, dark charcoal background, film grain, high contrast, sleek futuristic sci-fi instrument panel. The gauge face is blank and abstract with NO digits, NO digital readout, NO screens showing numbers. Absolutely NO text, NO letters, NO numbers, NO digits, NO numerals, NO logos, NO brand names, NO words, NO readable characters anywhere in the image.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-28T11:20:23"
+}

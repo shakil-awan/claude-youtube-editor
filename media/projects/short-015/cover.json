@@ -1,0 +1,10 @@
+{
+  "prompt": "A glowing translucent film strip and video timeline ribbon curling through dark space, lower two thirds of frame, empty dark space at top, cinematic dramatic studio light, high contrast, emerald and gold accent glow, dark charcoal background, film grain, no people, no faces. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names, NO words.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-28T11:20:36"
+}

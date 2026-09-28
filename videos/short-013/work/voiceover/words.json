@@ -1,0 +1,538 @@
+{
+  "text": "LLM Gateway just launched something free that most AI startups charge for. It's called Smart Routing. You send one request, and it automatically picks the best model out of up to thirty, routing easy questions to cheap models and hard ones to frontier models. The routing itself costs nothing, zero platform fee. You only pay for whichever model it picks, plus a tiny classifier fee if you turn that on. It launched September twenty fifth, it's in open beta, and it even works on pay as you go accounts. If you're burning money sending every prompt to your most expensive model, this fixes that for free.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 36.545,
+  "words": [
+    {
+      "word": "LLM",
+      "start_s": 0.0,
+      "end_s": 0.453
+    },
+    {
+      "word": "Gateway",
+      "start_s": 0.522,
+      "end_s": 0.894
+    },
+    {
+      "word": "just",
+      "start_s": 0.975,
+      "end_s": 1.173
+    },
+    {
+      "word": "launched",
+      "start_s": 1.242,
+      "end_s": 1.509
+    },
+    {
+      "word": "something",
+      "start_s": 1.544,
+      "end_s": 1.858
+    },
+    {
+      "word": "free",
+      "start_s": 1.95,
+      "end_s": 2.194
+    },
+    {
+      "word": "that",
+      "start_s": 2.229,
+      "end_s": 2.357
+    },
+    {
+      "word": "most",
+      "start_s": 2.438,
+      "end_s": 2.694
+    },
+    {
+      "word": "AI",
+      "start_s": 2.775,
+      "end_s": 3.019
+    },
+    {
+      "word": "startups",
+      "start_s": 3.1,
+      "end_s": 3.483
+    },
+    {
+      "word": "charge",
+      "start_s": 3.541,
+      "end_s": 3.843
+    },
+    {
+      "word": "for.",
+      "start_s": 3.878,
+      "end_s": 4.261
+    },
+    {
+      "word": "It's",
+      "start_s": 4.586,
+      "end_s": 4.772
+    },
+    {
+      "word": "called",
+      "start_s": 4.807,
+      "end_s": 5.039
+    },
+    {
+      "word": "Smart",
+      "start_s": 5.097,
+      "end_s": 5.387
+    },
+    {
+      "word": "Routing.",
+      "start_s": 5.433,
+      "end_s": 5.863
+    },
+    {
+      "word": "You",
+      "start_s": 6.56,
+      "end_s": 6.699
+    },
+    {
+      "word": "send",
+      "start_s": 6.792,
+      "end_s": 7.036
+    },
+    {
+      "word": "one",
+      "start_s": 7.117,
+      "end_s": 7.314
+    },
+    {
+      "word": "request,",
+      "start_s": 7.361,
+      "end_s": 7.953
+    },
+    {
+      "word": "and",
+      "start_s": 8.127,
+      "end_s": 8.266
+    },
+    {
+      "word": "it",
+      "start_s": 8.324,
+      "end_s": 8.394
+    },
+    {
+      "word": "automatically",
+      "start_s": 8.452,
+      "end_s": 9.056
+    },
+    {
+      "word": "picks",
+      "start_s": 9.102,
+      "end_s": 9.334
+    },
+    {
+      "word": "the",
+      "start_s": 9.381,
+      "end_s": 9.451
+    },
+    {
+      "word": "best",
+      "start_s": 9.532,
+      "end_s": 9.776
+    },
+    {
+      "word": "model",
+      "start_s": 9.857,
+      "end_s": 10.136
+    },
+    {
+      "word": "out",
+      "start_s": 10.194,
+      "end_s": 10.333
+    },
+    {
+      "word": "of",
+      "start_s": 10.368,
+      "end_s": 10.414
+    },
+    {
+      "word": "up",
+      "start_s": 10.484,
+      "end_s": 10.588
+    },
+    {
+      "word": "to",
+      "start_s": 10.635,
+      "end_s": 10.693
+    },
+    {
+      "word": "thirty,",
+      "start_s": 10.762,
+      "end_s": 11.262
+    },
+    {
+      "word": "routing",
+      "start_s": 11.645,
+      "end_s": 11.935
+    },
+    {
+      "word": "easy",
+      "start_s": 12.005,
+      "end_s": 12.249
+    },
+    {
+      "word": "questions",
+      "start_s": 12.307,
+      "end_s": 12.748
+    },
+    {
+      "word": "to",
+      "start_s": 12.806,
+      "end_s": 12.887
+    },
+    {
+      "word": "cheap",
+      "start_s": 12.957,
+      "end_s": 13.177
+    },
+    {
+      "word": "models",
+      "start_s": 13.247,
+      "end_s": 13.583
+    },
+    {
+      "word": "and",
+      "start_s": 13.63,
+      "end_s": 13.723
+    },
+    {
+      "word": "hard",
+      "start_s": 13.792,
+      "end_s": 13.978
+    },
+    {
+      "word": "ones",
+      "start_s": 14.036,
+      "end_s": 14.21
+    },
+    {
+      "word": "to",
+      "start_s": 14.257,
+      "end_s": 14.315
+    },
+    {
+      "word": "frontier",
+      "start_s": 14.373,
+      "end_s": 14.756
+    },
+    {
+      "word": "models.",
+      "start_s": 14.814,
+      "end_s": 15.278
+    },
+    {
+      "word": "The",
+      "start_s": 15.557,
+      "end_s": 15.662
+    },
+    {
+      "word": "routing",
+      "start_s": 15.72,
+      "end_s": 15.975
+    },
+    {
+      "word": "itself",
+      "start_s": 16.022,
+      "end_s": 16.381
+    },
+    {
+      "word": "costs",
+      "start_s": 16.451,
+      "end_s": 16.741
+    },
+    {
+      "word": "nothing,",
+      "start_s": 16.799,
+      "end_s": 17.229
+    },
+    {
+      "word": "zero",
+      "start_s": 17.438,
+      "end_s": 17.798
+    },
+    {
+      "word": "platform",
+      "start_s": 17.868,
+      "end_s": 18.344
+    },
+    {
+      "word": "fee.",
+      "start_s": 18.413,
+      "end_s": 18.738
+    },
+    {
+      "word": "You",
+      "start_s": 19.121,
+      "end_s": 19.261
+    },
+    {
+      "word": "only",
+      "start_s": 19.33,
+      "end_s": 19.505
+    },
+    {
+      "word": "pay",
+      "start_s": 19.563,
+      "end_s": 19.725
+    },
+    {
+      "word": "for",
+      "start_s": 19.783,
+      "end_s": 19.888
+    },
+    {
+      "word": "whichever",
+      "start_s": 19.922,
+      "end_s": 20.282
+    },
+    {
+      "word": "model",
+      "start_s": 20.34,
+      "end_s": 20.596
+    },
+    {
+      "word": "it",
+      "start_s": 20.642,
+      "end_s": 20.712
+    },
+    {
+      "word": "picks,",
+      "start_s": 20.747,
+      "end_s": 21.223
+    },
+    {
+      "word": "plus",
+      "start_s": 21.397,
+      "end_s": 21.594
+    },
+    {
+      "word": "a",
+      "start_s": 21.641,
+      "end_s": 21.664
+    },
+    {
+      "word": "tiny",
+      "start_s": 21.722,
+      "end_s": 21.977
+    },
+    {
+      "word": "classifier",
+      "start_s": 22.036,
+      "end_s": 22.616
+    },
+    {
+      "word": "fee",
+      "start_s": 22.686,
+      "end_s": 22.988
+    },
+    {
+      "word": "if",
+      "start_s": 23.162,
+      "end_s": 23.336
+    },
+    {
+      "word": "you",
+      "start_s": 23.394,
+      "end_s": 23.475
+    },
+    {
+      "word": "turn",
+      "start_s": 23.533,
+      "end_s": 23.719
+    },
+    {
+      "word": "that",
+      "start_s": 23.777,
+      "end_s": 23.928
+    },
+    {
+      "word": "on.",
+      "start_s": 23.986,
+      "end_s": 24.299
+    },
+    {
+      "word": "It",
+      "start_s": 24.81,
+      "end_s": 24.95
+    },
+    {
+      "word": "launched",
+      "start_s": 25.008,
+      "end_s": 25.286
+    },
+    {
+      "word": "September",
+      "start_s": 25.356,
+      "end_s": 25.809
+    },
+    {
+      "word": "twenty",
+      "start_s": 25.855,
+      "end_s": 26.087
+    },
+    {
+      "word": "fifth,",
+      "start_s": 26.157,
+      "end_s": 26.54
+    },
+    {
+      "word": "it's",
+      "start_s": 26.691,
+      "end_s": 26.865
+    },
+    {
+      "word": "in",
+      "start_s": 26.912,
+      "end_s": 26.97
+    },
+    {
+      "word": "open",
+      "start_s": 27.063,
+      "end_s": 27.33
+    },
+    {
+      "word": "beta,",
+      "start_s": 27.388,
+      "end_s": 27.875
+    },
+    {
+      "word": "and",
+      "start_s": 28.05,
+      "end_s": 28.189
+    },
+    {
+      "word": "it",
+      "start_s": 28.235,
+      "end_s": 28.282
+    },
+    {
+      "word": "even",
+      "start_s": 28.328,
+      "end_s": 28.502
+    },
+    {
+      "word": "works",
+      "start_s": 28.549,
+      "end_s": 28.781
+    },
+    {
+      "word": "on",
+      "start_s": 28.828,
+      "end_s": 28.909
+    },
+    {
+      "word": "pay",
+      "start_s": 28.978,
+      "end_s": 29.187
+    },
+    {
+      "word": "as",
+      "start_s": 29.234,
+      "end_s": 29.304
+    },
+    {
+      "word": "you",
+      "start_s": 29.338,
+      "end_s": 29.408
+    },
+    {
+      "word": "go",
+      "start_s": 29.466,
+      "end_s": 29.559
+    },
+    {
+      "word": "accounts.",
+      "start_s": 29.617,
+      "end_s": 30.232
+    },
+    {
+      "word": "If",
+      "start_s": 31.184,
+      "end_s": 31.312
+    },
+    {
+      "word": "you're",
+      "start_s": 31.347,
+      "end_s": 31.509
+    },
+    {
+      "word": "burning",
+      "start_s": 31.533,
+      "end_s": 31.788
+    },
+    {
+      "word": "money",
+      "start_s": 31.858,
+      "end_s": 32.067
+    },
+    {
+      "word": "sending",
+      "start_s": 32.136,
+      "end_s": 32.415
+    },
+    {
+      "word": "every",
+      "start_s": 32.485,
+      "end_s": 32.694
+    },
+    {
+      "word": "prompt",
+      "start_s": 32.763,
+      "end_s": 33.042
+    },
+    {
+      "word": "to",
+      "start_s": 33.077,
+      "end_s": 33.123
+    },
+    {
+      "word": "your",
+      "start_s": 33.17,
+      "end_s": 33.286
+    },
+    {
+      "word": "most",
+      "start_s": 33.344,
+      "end_s": 33.564
+    },
+    {
+      "word": "expensive",
+      "start_s": 33.611,
+      "end_s": 34.075
+    },
+    {
+      "word": "model,",
+      "start_s": 34.11,
+      "end_s": 34.574
+    },
+    {
+      "word": "this",
+      "start_s": 34.853,
+      "end_s": 35.05
+    },
+    {
+      "word": "fixes",
+      "start_s": 35.12,
+      "end_s": 35.457
+    },
+    {
+      "word": "that",
+      "start_s": 35.503,
+      "end_s": 35.654
+    },
+    {
+      "word": "for",
+      "start_s": 35.712,
+      "end_s": 35.817
+    },
+    {
+      "word": "free.",
+      "start_s": 35.875,
+      "end_s": 36.502
+    }
+  ]
+}

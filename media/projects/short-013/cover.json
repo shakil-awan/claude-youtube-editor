@@ -1,0 +1,10 @@
+{
+  "prompt": "A single glowing translucent switch/router hub made of light, positioned in the lower two thirds of frame, with converging beams of emerald and gold light streaming into it from multiple directions like data paths merging into one point, empty dark charcoal negative space at the top, cinematic dramatic studio lighting, high contrast, film grain, futuristic abstract concept art. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-28T11:23:27"
+}

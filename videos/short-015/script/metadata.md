@@ -7,3 +7,5 @@
 - **Publish slot:** 2026-09-29T15:00:00Z
 - **Pinned comment:** Resolution or storage — which catch would you rather live with? 👇
 - **Affiliate:** Descript referral program — verify current terms before publishing link.
+- **YouTube video ID:** 0KfffOBBLKA (private draft, uploaded 2026-09-28) — https://studio.youtube.com/video/0KfffOBBLKA/edit · https://youtube.com/shorts/0KfffOBBLKA
+

@@ -7,3 +7,4 @@
 - **Publish slot:** 2026-09-29T21:00:00Z
 - **Pinned comment:** How many form responses does your business actually need a month? 👇
 - **Affiliate:** Tally referral program — verify current terms before publishing link.
+- **Video ID:** bUovAl7atvE (private draft, uploaded 2026-09-28) — https://studio.youtube.com/video/bUovAl7atvE/edit — https://youtube.com/shorts/bUovAl7atvE

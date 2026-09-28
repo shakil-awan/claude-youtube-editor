@@ -1,0 +1,10 @@
+{
+  "prompt": "A single glowing translucent video timeline scrubber with a bold playhead marker, lower two thirds of frame, empty dark space at top, dramatic studio light, high contrast, emerald and gold accents, dark charcoal background, film grain, no people, no faces. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names, NO words.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-28T11:42:48"
+}

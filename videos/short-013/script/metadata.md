@@ -7,3 +7,4 @@
 - **Publish slot:** 2026-09-28T15:00:00Z
 - **Pinned comment:** Would you trust a router to pick your model, or stay pinned to one? 👇
 - **Affiliate:** LLM Gateway referral program — verify current terms before publishing link.
+- **Video ID:** CAWkD_5PaZY — https://youtube.com/shorts/CAWkD_5PaZY (private draft, uploaded 2026-09-28)

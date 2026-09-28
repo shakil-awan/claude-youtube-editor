@@ -95,7 +95,7 @@ const Short014: React.FC = () => {
         </div>
       </AbsoluteFill>
 
-      <CaptionTrack words={WORDS} />
+      {frame < CTA ? <CaptionTrack words={WORDS} /> : null}
       <Watermark at={12} />
       <ProgressBar />
     </AbsoluteFill>

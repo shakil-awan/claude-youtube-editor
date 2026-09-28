@@ -44,7 +44,7 @@ const Short016: React.FC = () => {
 
       <FadeOut at={B1}>
         <CoverImage src="projects/short-016/cover.png" out={B1 - 10} />
-        <HookTitle hold onDark kicker="TYPEFORM CAPS YOU AT" lines={[{ text: '100 RESPONSES' }, { text: "THIS TOOL DOESN'T", accent: true }]} />
+        <HookTitle hold onDark kicker="TYPEFORM CAPS YOU AT" lines={[{ text: '100 RESPONSES' }, { text: 'TALLY DOESN’T', accent: true }]} />
       </FadeOut>
 
       <FadeOut at={B2}>
@@ -77,7 +77,7 @@ const Short016: React.FC = () => {
 
       <AbsoluteFill style={{ opacity: ctaOp }}>
         <CoverImage src="projects/short-016/cover.png" at={CTA} />
-        <HookTitle hold onDark at={CTA} kicker="TYPEFORM CAPS YOU AT" lines={[{ text: '100 RESPONSES' }, { text: "THIS TOOL DOESN'T", accent: true }]} />
+        <HookTitle hold onDark at={CTA} kicker="TYPEFORM CAPS YOU AT" lines={[{ text: '100 RESPONSES' }, { text: 'TALLY DOESN’T', accent: true }]} />
         <div style={{
           position: 'absolute', left: SAFE.side, right: SAFE.side, top: SAFE.top + 520, textAlign: 'center',
           fontFamily: FONT_BODY, fontWeight: 600, fontSize: 44, color: 'rgba(255,255,255,0.82)',

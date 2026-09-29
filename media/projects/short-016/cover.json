@@ -1,0 +1,10 @@
+{
+  "prompt": "A vintage studio microphone with soft emerald light waves emanating, subject in lower two thirds, empty dark space at top, cinematic gold rim light, dark charcoal bg. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-29T11:13:03"
+}

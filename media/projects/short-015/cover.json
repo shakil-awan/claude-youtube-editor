@@ -1,0 +1,10 @@
+{
+  "prompt": "A single glowing crystalline emerald cube floating above a dark charcoal desk, cinematic light, subject in lower two thirds, empty dark space at top, gold rim light. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-29T11:12:56"
+}

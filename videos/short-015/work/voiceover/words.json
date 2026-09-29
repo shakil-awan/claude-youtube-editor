@@ -1,0 +1,493 @@
+{
+  "text": "Anthropic just launched Claude Sonnet five point five. And the price did not move. Two dollars per million input tokens. Ten dollars per million output. Exactly the same as Sonnet five. So what changed? Anthropic says it runs more than thirty percent faster. And costs up to thirty percent less for most work. Cache reads are just twenty cents per million. It is live today on Amazon, Google Cloud, and Azure. Haiku five point five follows in the coming weeks. Same price tag. Up to thirty percent less per job. That is Claude Sonnet five point five.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 39.105,
+  "words": [
+    {
+      "word": "Anthropic",
+      "start_s": 0.0,
+      "end_s": 0.592
+    },
+    {
+      "word": "just",
+      "start_s": 0.65,
+      "end_s": 0.848
+    },
+    {
+      "word": "launched",
+      "start_s": 0.906,
+      "end_s": 1.196
+    },
+    {
+      "word": "Claude",
+      "start_s": 1.277,
+      "end_s": 1.591
+    },
+    {
+      "word": "Sonnet",
+      "start_s": 1.625,
+      "end_s": 2.02
+    },
+    {
+      "word": "five",
+      "start_s": 2.194,
+      "end_s": 2.496
+    },
+    {
+      "word": "point",
+      "start_s": 2.531,
+      "end_s": 2.74
+    },
+    {
+      "word": "five.",
+      "start_s": 2.798,
+      "end_s": 3.262
+    },
+    {
+      "word": "And",
+      "start_s": 3.959,
+      "end_s": 4.11
+    },
+    {
+      "word": "the",
+      "start_s": 4.156,
+      "end_s": 4.226
+    },
+    {
+      "word": "price",
+      "start_s": 4.272,
+      "end_s": 4.586
+    },
+    {
+      "word": "did",
+      "start_s": 4.621,
+      "end_s": 4.748
+    },
+    {
+      "word": "not",
+      "start_s": 4.783,
+      "end_s": 4.923
+    },
+    {
+      "word": "move.",
+      "start_s": 4.981,
+      "end_s": 5.375
+    },
+    {
+      "word": "Two",
+      "start_s": 5.979,
+      "end_s": 6.153
+    },
+    {
+      "word": "dollars",
+      "start_s": 6.211,
+      "end_s": 6.502
+    },
+    {
+      "word": "per",
+      "start_s": 6.56,
+      "end_s": 6.676
+    },
+    {
+      "word": "million",
+      "start_s": 6.711,
+      "end_s": 7.024
+    },
+    {
+      "word": "input",
+      "start_s": 7.105,
+      "end_s": 7.442
+    },
+    {
+      "word": "tokens.",
+      "start_s": 7.465,
+      "end_s": 8.081
+    },
+    {
+      "word": "Ten",
+      "start_s": 8.777,
+      "end_s": 8.986
+    },
+    {
+      "word": "dollars",
+      "start_s": 9.033,
+      "end_s": 9.311
+    },
+    {
+      "word": "per",
+      "start_s": 9.358,
+      "end_s": 9.462
+    },
+    {
+      "word": "million",
+      "start_s": 9.497,
+      "end_s": 9.764
+    },
+    {
+      "word": "output.",
+      "start_s": 9.834,
+      "end_s": 10.333
+    },
+    {
+      "word": "Exactly",
+      "start_s": 11.029,
+      "end_s": 11.529
+    },
+    {
+      "word": "the",
+      "start_s": 11.575,
+      "end_s": 11.645
+    },
+    {
+      "word": "same",
+      "start_s": 11.691,
+      "end_s": 11.947
+    },
+    {
+      "word": "as",
+      "start_s": 11.981,
+      "end_s": 12.063
+    },
+    {
+      "word": "Sonnet",
+      "start_s": 12.121,
+      "end_s": 12.399
+    },
+    {
+      "word": "five.",
+      "start_s": 12.446,
+      "end_s": 12.945
+    },
+    {
+      "word": "So",
+      "start_s": 13.642,
+      "end_s": 13.804
+    },
+    {
+      "word": "what",
+      "start_s": 13.862,
+      "end_s": 14.002
+    },
+    {
+      "word": "changed?",
+      "start_s": 14.06,
+      "end_s": 14.617
+    },
+    {
+      "word": "Anthropic",
+      "start_s": 15.314,
+      "end_s": 15.894
+    },
+    {
+      "word": "says",
+      "start_s": 15.952,
+      "end_s": 16.266
+    },
+    {
+      "word": "it",
+      "start_s": 16.44,
+      "end_s": 16.579
+    },
+    {
+      "word": "runs",
+      "start_s": 16.637,
+      "end_s": 16.858
+    },
+    {
+      "word": "more",
+      "start_s": 16.916,
+      "end_s": 17.055
+    },
+    {
+      "word": "than",
+      "start_s": 17.079,
+      "end_s": 17.195
+    },
+    {
+      "word": "thirty",
+      "start_s": 17.241,
+      "end_s": 17.473
+    },
+    {
+      "word": "percent",
+      "start_s": 17.531,
+      "end_s": 17.845
+    },
+    {
+      "word": "faster.",
+      "start_s": 17.891,
+      "end_s": 18.437
+    },
+    {
+      "word": "And",
+      "start_s": 19.041,
+      "end_s": 19.192
+    },
+    {
+      "word": "costs",
+      "start_s": 19.273,
+      "end_s": 19.598
+    },
+    {
+      "word": "up",
+      "start_s": 19.633,
+      "end_s": 19.714
+    },
+    {
+      "word": "to",
+      "start_s": 19.76,
+      "end_s": 19.807
+    },
+    {
+      "word": "thirty",
+      "start_s": 19.888,
+      "end_s": 20.144
+    },
+    {
+      "word": "percent",
+      "start_s": 20.202,
+      "end_s": 20.515
+    },
+    {
+      "word": "less",
+      "start_s": 20.596,
+      "end_s": 20.84
+    },
+    {
+      "word": "for",
+      "start_s": 20.887,
+      "end_s": 20.991
+    },
+    {
+      "word": "most",
+      "start_s": 21.038,
+      "end_s": 21.247
+    },
+    {
+      "word": "work.",
+      "start_s": 21.305,
+      "end_s": 21.665
+    },
+    {
+      "word": "Cache",
+      "start_s": 22.361,
+      "end_s": 22.698
+    },
+    {
+      "word": "reads",
+      "start_s": 22.744,
+      "end_s": 22.965
+    },
+    {
+      "word": "are",
+      "start_s": 23.011,
+      "end_s": 23.116
+    },
+    {
+      "word": "just",
+      "start_s": 23.162,
+      "end_s": 23.348
+    },
+    {
+      "word": "twenty",
+      "start_s": 23.394,
+      "end_s": 23.708
+    },
+    {
+      "word": "cents",
+      "start_s": 23.766,
+      "end_s": 24.01
+    },
+    {
+      "word": "per",
+      "start_s": 24.056,
+      "end_s": 24.172
+    },
+    {
+      "word": "million.",
+      "start_s": 24.219,
+      "end_s": 24.683
+    },
+    {
+      "word": "It",
+      "start_s": 25.287,
+      "end_s": 25.415
+    },
+    {
+      "word": "is",
+      "start_s": 25.461,
+      "end_s": 25.542
+    },
+    {
+      "word": "live",
+      "start_s": 25.635,
+      "end_s": 25.902
+    },
+    {
+      "word": "today",
+      "start_s": 25.937,
+      "end_s": 26.274
+    },
+    {
+      "word": "on",
+      "start_s": 26.343,
+      "end_s": 26.436
+    },
+    {
+      "word": "Amazon,",
+      "start_s": 26.517,
+      "end_s": 27.179
+    },
+    {
+      "word": "Google",
+      "start_s": 27.353,
+      "end_s": 27.655
+    },
+    {
+      "word": "Cloud,",
+      "start_s": 27.69,
+      "end_s": 28.096
+    },
+    {
+      "word": "and",
+      "start_s": 28.213,
+      "end_s": 28.375
+    },
+    {
+      "word": "Azure.",
+      "start_s": 28.468,
+      "end_s": 29.002
+    },
+    {
+      "word": "Haiku",
+      "start_s": 29.699,
+      "end_s": 30.082
+    },
+    {
+      "word": "five",
+      "start_s": 30.163,
+      "end_s": 30.395
+    },
+    {
+      "word": "point",
+      "start_s": 30.43,
+      "end_s": 30.616
+    },
+    {
+      "word": "five",
+      "start_s": 30.685,
+      "end_s": 30.976
+    },
+    {
+      "word": "follows",
+      "start_s": 31.011,
+      "end_s": 31.324
+    },
+    {
+      "word": "in",
+      "start_s": 31.37,
+      "end_s": 31.429
+    },
+    {
+      "word": "the",
+      "start_s": 31.463,
+      "end_s": 31.533
+    },
+    {
+      "word": "coming",
+      "start_s": 31.579,
+      "end_s": 31.823
+    },
+    {
+      "word": "weeks.",
+      "start_s": 31.881,
+      "end_s": 32.369
+    },
+    {
+      "word": "Same",
+      "start_s": 32.973,
+      "end_s": 33.228
+    },
+    {
+      "word": "price",
+      "start_s": 33.251,
+      "end_s": 33.507
+    },
+    {
+      "word": "tag.",
+      "start_s": 33.53,
+      "end_s": 33.925
+    },
+    {
+      "word": "Up",
+      "start_s": 34.528,
+      "end_s": 34.668
+    },
+    {
+      "word": "to",
+      "start_s": 34.714,
+      "end_s": 34.761
+    },
+    {
+      "word": "thirty",
+      "start_s": 34.83,
+      "end_s": 35.062
+    },
+    {
+      "word": "percent",
+      "start_s": 35.12,
+      "end_s": 35.422
+    },
+    {
+      "word": "less",
+      "start_s": 35.48,
+      "end_s": 35.643
+    },
+    {
+      "word": "per",
+      "start_s": 35.689,
+      "end_s": 35.794
+    },
+    {
+      "word": "job.",
+      "start_s": 35.852,
+      "end_s": 36.247
+    },
+    {
+      "word": "That",
+      "start_s": 36.943,
+      "end_s": 37.117
+    },
+    {
+      "word": "is",
+      "start_s": 37.164,
+      "end_s": 37.233
+    },
+    {
+      "word": "Claude",
+      "start_s": 37.292,
+      "end_s": 37.582
+    },
+    {
+      "word": "Sonnet",
+      "start_s": 37.605,
+      "end_s": 37.884
+    },
+    {
+      "word": "five",
+      "start_s": 37.93,
+      "end_s": 38.151
+    },
+    {
+      "word": "point",
+      "start_s": 38.185,
+      "end_s": 38.383
+    },
+    {
+      "word": "five.",
+      "start_s": 38.429,
+      "end_s": 39.056
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "prompt": "A single glowing gold coin tower stacked beside a sleek dark glass tablet emitting emerald light, lower two thirds of frame, empty dark space at top, cinematic light, emerald and gold accents, dark charcoal background. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-09-30T11:13:05"
+}

@@ -1,0 +1,518 @@
+{
+  "text": "OpenAI just launched a near-flagship model at one fifth the price. It is called GPT six point one Sol, and it dropped September twenty-ninth at DevDay. Input costs two dollars per million tokens. Output costs ten. Astra, the flagship, costs ten dollars in and fifty out. That is exactly one fifth. Cached input falls to ten cents. OpenAI says Sol matches Astra on its software engineering test at about a fifth of the cost. The catch? Those benchmarks are OpenAI's own, and Sol is in the API, Codex and ChatGPT Work, not regular chat yet. Near flagship brains, one fifth the bill.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 43.912,
+  "words": [
+    {
+      "word": "OpenAI",
+      "start_s": 0.0,
+      "end_s": 0.604
+    },
+    {
+      "word": "just",
+      "start_s": 0.685,
+      "end_s": 0.882
+    },
+    {
+      "word": "launched",
+      "start_s": 0.94,
+      "end_s": 1.219
+    },
+    {
+      "word": "a",
+      "start_s": 1.254,
+      "end_s": 1.289
+    },
+    {
+      "word": "near-flagship",
+      "start_s": 1.405,
+      "end_s": 2.171
+    },
+    {
+      "word": "model",
+      "start_s": 2.229,
+      "end_s": 2.473
+    },
+    {
+      "word": "at",
+      "start_s": 2.531,
+      "end_s": 2.612
+    },
+    {
+      "word": "one",
+      "start_s": 2.694,
+      "end_s": 2.902
+    },
+    {
+      "word": "fifth",
+      "start_s": 2.972,
+      "end_s": 3.193
+    },
+    {
+      "word": "the",
+      "start_s": 3.228,
+      "end_s": 3.297
+    },
+    {
+      "word": "price.",
+      "start_s": 3.332,
+      "end_s": 3.808
+    },
+    {
+      "word": "It",
+      "start_s": 4.249,
+      "end_s": 4.365
+    },
+    {
+      "word": "is",
+      "start_s": 4.4,
+      "end_s": 4.47
+    },
+    {
+      "word": "called",
+      "start_s": 4.516,
+      "end_s": 4.725
+    },
+    {
+      "word": "GPT",
+      "start_s": 4.795,
+      "end_s": 5.329
+    },
+    {
+      "word": "six",
+      "start_s": 5.538,
+      "end_s": 5.793
+    },
+    {
+      "word": "point",
+      "start_s": 5.875,
+      "end_s": 6.095
+    },
+    {
+      "word": "one",
+      "start_s": 6.177,
+      "end_s": 6.525
+    },
+    {
+      "word": "Sol,",
+      "start_s": 6.676,
+      "end_s": 7.326
+    },
+    {
+      "word": "and",
+      "start_s": 7.651,
+      "end_s": 7.779
+    },
+    {
+      "word": "it",
+      "start_s": 7.848,
+      "end_s": 7.918
+    },
+    {
+      "word": "dropped",
+      "start_s": 7.953,
+      "end_s": 8.22
+    },
+    {
+      "word": "September",
+      "start_s": 8.255,
+      "end_s": 8.707
+    },
+    {
+      "word": "twenty-ninth",
+      "start_s": 8.766,
+      "end_s": 9.346
+    },
+    {
+      "word": "at",
+      "start_s": 9.416,
+      "end_s": 9.567
+    },
+    {
+      "word": "DevDay.",
+      "start_s": 9.636,
+      "end_s": 10.205
+    },
+    {
+      "word": "Input",
+      "start_s": 10.716,
+      "end_s": 11.157
+    },
+    {
+      "word": "costs",
+      "start_s": 11.215,
+      "end_s": 11.471
+    },
+    {
+      "word": "two",
+      "start_s": 11.517,
+      "end_s": 11.668
+    },
+    {
+      "word": "dollars",
+      "start_s": 11.714,
+      "end_s": 11.981
+    },
+    {
+      "word": "per",
+      "start_s": 12.04,
+      "end_s": 12.144
+    },
+    {
+      "word": "million",
+      "start_s": 12.179,
+      "end_s": 12.434
+    },
+    {
+      "word": "tokens.",
+      "start_s": 12.481,
+      "end_s": 13.108
+    },
+    {
+      "word": "Output",
+      "start_s": 13.804,
+      "end_s": 14.176
+    },
+    {
+      "word": "costs",
+      "start_s": 14.222,
+      "end_s": 14.489
+    },
+    {
+      "word": "ten.",
+      "start_s": 14.524,
+      "end_s": 14.896
+    },
+    {
+      "word": "Astra,",
+      "start_s": 15.592,
+      "end_s": 16.161
+    },
+    {
+      "word": "the",
+      "start_s": 16.219,
+      "end_s": 16.312
+    },
+    {
+      "word": "flagship,",
+      "start_s": 16.359,
+      "end_s": 16.986
+    },
+    {
+      "word": "costs",
+      "start_s": 17.16,
+      "end_s": 17.438
+    },
+    {
+      "word": "ten",
+      "start_s": 17.485,
+      "end_s": 17.717
+    },
+    {
+      "word": "dollars",
+      "start_s": 17.775,
+      "end_s": 18.135
+    },
+    {
+      "word": "in",
+      "start_s": 18.216,
+      "end_s": 18.402
+    },
+    {
+      "word": "and",
+      "start_s": 18.472,
+      "end_s": 18.623
+    },
+    {
+      "word": "fifty",
+      "start_s": 18.692,
+      "end_s": 18.994
+    },
+    {
+      "word": "out.",
+      "start_s": 19.052,
+      "end_s": 19.331
+    },
+    {
+      "word": "That",
+      "start_s": 19.656,
+      "end_s": 19.842
+    },
+    {
+      "word": "is",
+      "start_s": 19.888,
+      "end_s": 19.958
+    },
+    {
+      "word": "exactly",
+      "start_s": 20.027,
+      "end_s": 20.527
+    },
+    {
+      "word": "one",
+      "start_s": 20.608,
+      "end_s": 20.829
+    },
+    {
+      "word": "fifth.",
+      "start_s": 20.875,
+      "end_s": 21.316
+    },
+    {
+      "word": "Cached",
+      "start_s": 21.92,
+      "end_s": 22.257
+    },
+    {
+      "word": "input",
+      "start_s": 22.303,
+      "end_s": 22.663
+    },
+    {
+      "word": "falls",
+      "start_s": 22.837,
+      "end_s": 23.139
+    },
+    {
+      "word": "to",
+      "start_s": 23.185,
+      "end_s": 23.243
+    },
+    {
+      "word": "ten",
+      "start_s": 23.313,
+      "end_s": 23.534
+    },
+    {
+      "word": "cents.",
+      "start_s": 23.615,
+      "end_s": 24.172
+    },
+    {
+      "word": "OpenAI",
+      "start_s": 24.776,
+      "end_s": 25.391
+    },
+    {
+      "word": "says",
+      "start_s": 25.484,
+      "end_s": 25.693
+    },
+    {
+      "word": "Sol",
+      "start_s": 25.867,
+      "end_s": 26.157
+    },
+    {
+      "word": "matches",
+      "start_s": 26.216,
+      "end_s": 26.529
+    },
+    {
+      "word": "Astra",
+      "start_s": 26.622,
+      "end_s": 27.109
+    },
+    {
+      "word": "on",
+      "start_s": 27.318,
+      "end_s": 27.481
+    },
+    {
+      "word": "its",
+      "start_s": 27.527,
+      "end_s": 27.644
+    },
+    {
+      "word": "software",
+      "start_s": 27.667,
+      "end_s": 28.12
+    },
+    {
+      "word": "engineering",
+      "start_s": 28.154,
+      "end_s": 28.584
+    },
+    {
+      "word": "test",
+      "start_s": 28.63,
+      "end_s": 28.863
+    },
+    {
+      "word": "at",
+      "start_s": 28.909,
+      "end_s": 28.99
+    },
+    {
+      "word": "about",
+      "start_s": 29.025,
+      "end_s": 29.211
+    },
+    {
+      "word": "a",
+      "start_s": 29.246,
+      "end_s": 29.269
+    },
+    {
+      "word": "fifth",
+      "start_s": 29.339,
+      "end_s": 29.548
+    },
+    {
+      "word": "of",
+      "start_s": 29.571,
+      "end_s": 29.617
+    },
+    {
+      "word": "the",
+      "start_s": 29.652,
+      "end_s": 29.722
+    },
+    {
+      "word": "cost.",
+      "start_s": 29.757,
+      "end_s": 30.267
+    },
+    {
+      "word": "The",
+      "start_s": 30.964,
+      "end_s": 31.08
+    },
+    {
+      "word": "catch?",
+      "start_s": 31.127,
+      "end_s": 31.603
+    },
+    {
+      "word": "Those",
+      "start_s": 32.206,
+      "end_s": 32.45
+    },
+    {
+      "word": "benchmarks",
+      "start_s": 32.497,
+      "end_s": 32.995
+    },
+    {
+      "word": "are",
+      "start_s": 33.053,
+      "end_s": 33.193
+    },
+    {
+      "word": "OpenAI's",
+      "start_s": 33.251,
+      "end_s": 33.924
+    },
+    {
+      "word": "own,",
+      "start_s": 33.994,
+      "end_s": 34.435
+    },
+    {
+      "word": "and",
+      "start_s": 34.644,
+      "end_s": 34.783
+    },
+    {
+      "word": "Sol",
+      "start_s": 34.865,
+      "end_s": 35.167
+    },
+    {
+      "word": "is",
+      "start_s": 35.248,
+      "end_s": 35.341
+    },
+    {
+      "word": "in",
+      "start_s": 35.399,
+      "end_s": 35.468
+    },
+    {
+      "word": "the",
+      "start_s": 35.515,
+      "end_s": 35.596
+    },
+    {
+      "word": "API,",
+      "start_s": 35.689,
+      "end_s": 36.374
+    },
+    {
+      "word": "Codex",
+      "start_s": 36.444,
+      "end_s": 36.838
+    },
+    {
+      "word": "and",
+      "start_s": 36.908,
+      "end_s": 37.047
+    },
+    {
+      "word": "ChatGPT",
+      "start_s": 37.105,
+      "end_s": 37.756
+    },
+    {
+      "word": "Work,",
+      "start_s": 37.872,
+      "end_s": 38.243
+    },
+    {
+      "word": "not",
+      "start_s": 38.568,
+      "end_s": 38.731
+    },
+    {
+      "word": "regular",
+      "start_s": 38.8,
+      "end_s": 39.126
+    },
+    {
+      "word": "chat",
+      "start_s": 39.172,
+      "end_s": 39.381
+    },
+    {
+      "word": "yet.",
+      "start_s": 39.439,
+      "end_s": 39.81
+    },
+    {
+      "word": "Near",
+      "start_s": 40.763,
+      "end_s": 40.971
+    },
+    {
+      "word": "flagship",
+      "start_s": 41.041,
+      "end_s": 41.587
+    },
+    {
+      "word": "brains,",
+      "start_s": 41.656,
+      "end_s": 42.341
+    },
+    {
+      "word": "one",
+      "start_s": 42.667,
+      "end_s": 42.876
+    },
+    {
+      "word": "fifth",
+      "start_s": 42.922,
+      "end_s": 43.154
+    },
+    {
+      "word": "the",
+      "start_s": 43.201,
+      "end_s": 43.27
+    },
+    {
+      "word": "bill.",
+      "start_s": 43.305,
+      "end_s": 43.886
+    }
+  ]
+}

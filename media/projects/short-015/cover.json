@@ -1,0 +1,10 @@
+{
+  "prompt": "A single glowing golden sun-like orb floating above a stack of five translucent crystal slabs shrinking to one, lower two thirds of frame, empty dark space at top, cinematic light, emerald and gold accents, dark charcoal background. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-10-01T11:12:12"
+}

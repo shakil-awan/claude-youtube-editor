@@ -1,0 +1,8 @@
+{
+  "video": "videos/short-013/output/short-013.mp4",
+  "title": "Cloudflare Open-Sourced An AI That Triages In 209ms",
+  "description": "Cloudflare's new Clef decision model sorts support messages (urgent? which team?) in about 209 ms - over 2x faster than the rival it benchmarked. Apache 2.0 weights on Hugging Face, or run it on Workers AI. #Shorts #ai #aitools\n\nSome links may be affiliate links - they support the channel at no cost to you.",
+  "tags": ["ai", "ai tools", "cloudflare", "open source"],
+  "privacy": "private",
+  "publishAt": "2026-10-04T15:00:00Z"
+}

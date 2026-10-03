@@ -1,0 +1,423 @@
+{
+  "text": "DeepSeek charges half price, but only at certain hours. Its flash model costs thirty cents per million input tokens at peak, and one dollar twenty for output. Off peak, that drops to fifteen cents and sixty cents. Peak is just seven hours a day, on weekdays. One to four, and six to ten, UTC. Nights and weekends are half off. So if your job can wait, schedule it. Same model, half the bill. DeepSeek charges half price, if you run it at night.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 32.209,
+  "words": [
+    {
+      "word": "DeepSeek",
+      "start_s": 0.0,
+      "end_s": 0.569
+    },
+    {
+      "word": "charges",
+      "start_s": 0.639,
+      "end_s": 0.987
+    },
+    {
+      "word": "half",
+      "start_s": 1.068,
+      "end_s": 1.265
+    },
+    {
+      "word": "price,",
+      "start_s": 1.335,
+      "end_s": 1.8
+    },
+    {
+      "word": "but",
+      "start_s": 1.95,
+      "end_s": 2.101
+    },
+    {
+      "word": "only",
+      "start_s": 2.159,
+      "end_s": 2.345
+    },
+    {
+      "word": "at",
+      "start_s": 2.403,
+      "end_s": 2.461
+    },
+    {
+      "word": "certain",
+      "start_s": 2.508,
+      "end_s": 2.763
+    },
+    {
+      "word": "hours.",
+      "start_s": 2.81,
+      "end_s": 3.344
+    },
+    {
+      "word": "Its",
+      "start_s": 3.947,
+      "end_s": 4.122
+    },
+    {
+      "word": "flash",
+      "start_s": 4.168,
+      "end_s": 4.493
+    },
+    {
+      "word": "model",
+      "start_s": 4.54,
+      "end_s": 4.783
+    },
+    {
+      "word": "costs",
+      "start_s": 4.841,
+      "end_s": 5.108
+    },
+    {
+      "word": "thirty",
+      "start_s": 5.178,
+      "end_s": 5.468
+    },
+    {
+      "word": "cents",
+      "start_s": 5.526,
+      "end_s": 5.77
+    },
+    {
+      "word": "per",
+      "start_s": 5.828,
+      "end_s": 5.979
+    },
+    {
+      "word": "million",
+      "start_s": 6.095,
+      "end_s": 6.502
+    },
+    {
+      "word": "input",
+      "start_s": 6.594,
+      "end_s": 6.908
+    },
+    {
+      "word": "tokens",
+      "start_s": 6.943,
+      "end_s": 7.314
+    },
+    {
+      "word": "at",
+      "start_s": 7.361,
+      "end_s": 7.442
+    },
+    {
+      "word": "peak,",
+      "start_s": 7.5,
+      "end_s": 7.86
+    },
+    {
+      "word": "and",
+      "start_s": 8.185,
+      "end_s": 8.336
+    },
+    {
+      "word": "one",
+      "start_s": 8.429,
+      "end_s": 8.615
+    },
+    {
+      "word": "dollar",
+      "start_s": 8.649,
+      "end_s": 8.893
+    },
+    {
+      "word": "twenty",
+      "start_s": 8.951,
+      "end_s": 9.311
+    },
+    {
+      "word": "for",
+      "start_s": 9.369,
+      "end_s": 9.474
+    },
+    {
+      "word": "output.",
+      "start_s": 9.532,
+      "end_s": 10.077
+    },
+    {
+      "word": "Off",
+      "start_s": 10.89,
+      "end_s": 11.134
+    },
+    {
+      "word": "peak,",
+      "start_s": 11.204,
+      "end_s": 11.564
+    },
+    {
+      "word": "that",
+      "start_s": 11.714,
+      "end_s": 11.9
+    },
+    {
+      "word": "drops",
+      "start_s": 11.935,
+      "end_s": 12.214
+    },
+    {
+      "word": "to",
+      "start_s": 12.249,
+      "end_s": 12.318
+    },
+    {
+      "word": "fifteen",
+      "start_s": 12.434,
+      "end_s": 12.875
+    },
+    {
+      "word": "cents",
+      "start_s": 12.934,
+      "end_s": 13.201
+    },
+    {
+      "word": "and",
+      "start_s": 13.27,
+      "end_s": 13.41
+    },
+    {
+      "word": "sixty",
+      "start_s": 13.491,
+      "end_s": 13.862
+    },
+    {
+      "word": "cents.",
+      "start_s": 13.92,
+      "end_s": 14.431
+    },
+    {
+      "word": "Peak",
+      "start_s": 15.128,
+      "end_s": 15.406
+    },
+    {
+      "word": "is",
+      "start_s": 15.464,
+      "end_s": 15.546
+    },
+    {
+      "word": "just",
+      "start_s": 15.604,
+      "end_s": 15.778
+    },
+    {
+      "word": "seven",
+      "start_s": 15.836,
+      "end_s": 16.103
+    },
+    {
+      "word": "hours",
+      "start_s": 16.126,
+      "end_s": 16.382
+    },
+    {
+      "word": "a",
+      "start_s": 16.428,
+      "end_s": 16.463
+    },
+    {
+      "word": "day,",
+      "start_s": 16.509,
+      "end_s": 16.765
+    },
+    {
+      "word": "on",
+      "start_s": 16.811,
+      "end_s": 16.974
+    },
+    {
+      "word": "weekdays.",
+      "start_s": 17.032,
+      "end_s": 17.682
+    },
+    {
+      "word": "One",
+      "start_s": 18.286,
+      "end_s": 18.495
+    },
+    {
+      "word": "to",
+      "start_s": 18.518,
+      "end_s": 18.576
+    },
+    {
+      "word": "four,",
+      "start_s": 18.645,
+      "end_s": 18.947
+    },
+    {
+      "word": "and",
+      "start_s": 18.971,
+      "end_s": 19.087
+    },
+    {
+      "word": "six",
+      "start_s": 19.18,
+      "end_s": 19.389
+    },
+    {
+      "word": "to",
+      "start_s": 19.458,
+      "end_s": 19.516
+    },
+    {
+      "word": "ten,",
+      "start_s": 19.574,
+      "end_s": 19.981
+    },
+    {
+      "word": "UTC.",
+      "start_s": 20.19,
+      "end_s": 20.921
+    },
+    {
+      "word": "Nights",
+      "start_s": 21.246,
+      "end_s": 21.548
+    },
+    {
+      "word": "and",
+      "start_s": 21.583,
+      "end_s": 21.664
+    },
+    {
+      "word": "weekends",
+      "start_s": 21.722,
+      "end_s": 22.152
+    },
+    {
+      "word": "are",
+      "start_s": 22.221,
+      "end_s": 22.384
+    },
+    {
+      "word": "half",
+      "start_s": 22.454,
+      "end_s": 22.709
+    },
+    {
+      "word": "off.",
+      "start_s": 22.802,
+      "end_s": 23.197
+    },
+    {
+      "word": "So",
+      "start_s": 23.8,
+      "end_s": 23.974
+    },
+    {
+      "word": "if",
+      "start_s": 24.044,
+      "end_s": 24.114
+    },
+    {
+      "word": "your",
+      "start_s": 24.16,
+      "end_s": 24.276
+    },
+    {
+      "word": "job",
+      "start_s": 24.334,
+      "end_s": 24.59
+    },
+    {
+      "word": "can",
+      "start_s": 24.648,
+      "end_s": 24.776
+    },
+    {
+      "word": "wait,",
+      "start_s": 24.845,
+      "end_s": 25.205
+    },
+    {
+      "word": "schedule",
+      "start_s": 25.379,
+      "end_s": 25.809
+    },
+    {
+      "word": "it.",
+      "start_s": 25.844,
+      "end_s": 26.076
+    },
+    {
+      "word": "Same",
+      "start_s": 26.68,
+      "end_s": 26.981
+    },
+    {
+      "word": "model,",
+      "start_s": 27.016,
+      "end_s": 27.423
+    },
+    {
+      "word": "half",
+      "start_s": 27.492,
+      "end_s": 27.713
+    },
+    {
+      "word": "the",
+      "start_s": 27.771,
+      "end_s": 27.841
+    },
+    {
+      "word": "bill.",
+      "start_s": 27.887,
+      "end_s": 28.27
+    },
+    {
+      "word": "DeepSeek",
+      "start_s": 28.874,
+      "end_s": 29.454
+    },
+    {
+      "word": "charges",
+      "start_s": 29.57,
+      "end_s": 29.965
+    },
+    {
+      "word": "half",
+      "start_s": 30.035,
+      "end_s": 30.255
+    },
+    {
+      "word": "price,",
+      "start_s": 30.325,
+      "end_s": 30.801
+    },
+    {
+      "word": "if",
+      "start_s": 30.952,
+      "end_s": 31.057
+    },
+    {
+      "word": "you",
+      "start_s": 31.103,
+      "end_s": 31.173
+    },
+    {
+      "word": "run",
+      "start_s": 31.242,
+      "end_s": 31.358
+    },
+    {
+      "word": "it",
+      "start_s": 31.405,
+      "end_s": 31.463
+    },
+    {
+      "word": "at",
+      "start_s": 31.498,
+      "end_s": 31.567
+    },
+    {
+      "word": "night.",
+      "start_s": 31.625,
+      "end_s": 32.183
+    }
+  ]
+}

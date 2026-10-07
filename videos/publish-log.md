@@ -124,3 +124,7 @@ channel, not a verdict on the niche. Grade the trend across ~10 videos (NICHE-ST
 never a single video's first day.
 | 2026-10-04 | short-101 | WcV4O1YFscI | Microsoft's #1 AI Transcriber Costs 54 Cents/Hour | news-jack | Microsoft MAI-Transcribe-2-Streaming $0.54/audio hr intro price | 2026-10-05T15:00:00Z | Cloud batch; cover via Gemini (Replicate token 401) |
 | 2026-10-04 | short-102 | 18vd9XrWwFg | Pika's $10 Plan Can't Legally Make You Money | versus | Pika Starter no commercial license vs Luma Plus $30 | 2026-10-05T21:00:00Z | Cloud batch; cover via Gemini |
+| 2026-10-07 | short-103 | -_Ef_oj0oeM | Mistral's Trillion-Parameter AI Costs $1.36 Per Million | news-jack | Mistral Large 4 1T params $1.36/$4.18, weights by end Oct | 2026-10-07T15:00:00Z | Cloud batch (4 slots, catch-up); cover via Gemini (Replicate 401) |
+| 2026-10-07 | short-104 | R77RHhCDAaY | Google's Cheap Gemini Price Doubles On January 1 | news-jack | Gemini 3.8 Flash intro $0.75/$3.75 doubles Jan 1 2027 | 2026-10-07T21:00:00Z | Cloud batch (4 slots, catch-up); cover via Gemini (Replicate 401) |
+| 2026-10-07 | short-105 | p8kH0HD3964 | Cursor $20 vs Copilot $10: What Do You Get? | versus | Cursor Individual $20 vs Copilot Pro $10 | 2026-10-08T15:00:00Z | Cloud batch (4 slots, catch-up); cover via Gemini (Replicate 401) |
+| 2026-10-07 | short-106 | 5tdYZQpBVyY | Kane CLI: Free AI Testing In Plain English | replacement | Kane CLI free local runs + 10k credit promo | 2026-10-08T21:00:00Z | Cloud batch (4 slots, catch-up); cover via Gemini (Replicate 401) |

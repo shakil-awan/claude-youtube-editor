@@ -1,0 +1,473 @@
+{
+  "text": "Cursor's paid plan costs twenty dollars a month. GitHub Copilot Pro costs ten. Copilot Pro includes unlimited code completions, plus fifteen dollars of AI credits every month. Cursor lists extended agent limits, but no dollar amount. Both have a free tier. Copilot Free gives you two thousand completions and fifty chat requests. Cursor Hobby needs no credit card. So if you mostly want autocomplete and some agent work, Copilot Pro is ten dollars cheaper. If agents are your whole workflow, test Cursor's free plan first. Ten dollars a month. That is the gap.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 38.766,
+  "words": [
+    {
+      "word": "Cursor's",
+      "start_s": 0.0,
+      "end_s": 0.441
+    },
+    {
+      "word": "paid",
+      "start_s": 0.499,
+      "end_s": 0.731
+    },
+    {
+      "word": "plan",
+      "start_s": 0.801,
+      "end_s": 1.103
+    },
+    {
+      "word": "costs",
+      "start_s": 1.173,
+      "end_s": 1.451
+    },
+    {
+      "word": "twenty",
+      "start_s": 1.486,
+      "end_s": 1.765
+    },
+    {
+      "word": "dollars",
+      "start_s": 1.811,
+      "end_s": 2.101
+    },
+    {
+      "word": "a",
+      "start_s": 2.136,
+      "end_s": 2.159
+    },
+    {
+      "word": "month.",
+      "start_s": 2.218,
+      "end_s": 2.624
+    },
+    {
+      "word": "GitHub",
+      "start_s": 3.32,
+      "end_s": 3.704
+    },
+    {
+      "word": "Copilot",
+      "start_s": 3.762,
+      "end_s": 4.238
+    },
+    {
+      "word": "Pro",
+      "start_s": 4.284,
+      "end_s": 4.493
+    },
+    {
+      "word": "costs",
+      "start_s": 4.574,
+      "end_s": 4.865
+    },
+    {
+      "word": "ten.",
+      "start_s": 4.911,
+      "end_s": 5.387
+    },
+    {
+      "word": "Copilot",
+      "start_s": 5.991,
+      "end_s": 6.536
+    },
+    {
+      "word": "Pro",
+      "start_s": 6.571,
+      "end_s": 6.769
+    },
+    {
+      "word": "includes",
+      "start_s": 6.838,
+      "end_s": 7.233
+    },
+    {
+      "word": "unlimited",
+      "start_s": 7.349,
+      "end_s": 7.918
+    },
+    {
+      "word": "code",
+      "start_s": 7.964,
+      "end_s": 8.208
+    },
+    {
+      "word": "completions,",
+      "start_s": 8.231,
+      "end_s": 8.998
+    },
+    {
+      "word": "plus",
+      "start_s": 9.125,
+      "end_s": 9.392
+    },
+    {
+      "word": "fifteen",
+      "start_s": 9.462,
+      "end_s": 9.799
+    },
+    {
+      "word": "dollars",
+      "start_s": 9.845,
+      "end_s": 10.136
+    },
+    {
+      "word": "of",
+      "start_s": 10.205,
+      "end_s": 10.275
+    },
+    {
+      "word": "AI",
+      "start_s": 10.391,
+      "end_s": 10.646
+    },
+    {
+      "word": "credits",
+      "start_s": 10.704,
+      "end_s": 11.029
+    },
+    {
+      "word": "every",
+      "start_s": 11.099,
+      "end_s": 11.355
+    },
+    {
+      "word": "month.",
+      "start_s": 11.413,
+      "end_s": 11.842
+    },
+    {
+      "word": "Cursor",
+      "start_s": 12.539,
+      "end_s": 12.934
+    },
+    {
+      "word": "lists",
+      "start_s": 13.003,
+      "end_s": 13.305
+    },
+    {
+      "word": "extended",
+      "start_s": 13.549,
+      "end_s": 14.06
+    },
+    {
+      "word": "agent",
+      "start_s": 14.141,
+      "end_s": 14.466
+    },
+    {
+      "word": "limits,",
+      "start_s": 14.512,
+      "end_s": 14.965
+    },
+    {
+      "word": "but",
+      "start_s": 15.093,
+      "end_s": 15.267
+    },
+    {
+      "word": "no",
+      "start_s": 15.337,
+      "end_s": 15.476
+    },
+    {
+      "word": "dollar",
+      "start_s": 15.546,
+      "end_s": 15.801
+    },
+    {
+      "word": "amount.",
+      "start_s": 15.836,
+      "end_s": 16.254
+    },
+    {
+      "word": "Both",
+      "start_s": 16.951,
+      "end_s": 17.194
+    },
+    {
+      "word": "have",
+      "start_s": 17.241,
+      "end_s": 17.369
+    },
+    {
+      "word": "a",
+      "start_s": 17.392,
+      "end_s": 17.415
+    },
+    {
+      "word": "free",
+      "start_s": 17.461,
+      "end_s": 17.647
+    },
+    {
+      "word": "tier.",
+      "start_s": 17.682,
+      "end_s": 18.123
+    },
+    {
+      "word": "Copilot",
+      "start_s": 18.82,
+      "end_s": 19.377
+    },
+    {
+      "word": "Free",
+      "start_s": 19.447,
+      "end_s": 19.865
+    },
+    {
+      "word": "gives",
+      "start_s": 20.016,
+      "end_s": 20.225
+    },
+    {
+      "word": "you",
+      "start_s": 20.259,
+      "end_s": 20.341
+    },
+    {
+      "word": "two",
+      "start_s": 20.41,
+      "end_s": 20.561
+    },
+    {
+      "word": "thousand",
+      "start_s": 20.631,
+      "end_s": 20.956
+    },
+    {
+      "word": "completions",
+      "start_s": 21.002,
+      "end_s": 21.502
+    },
+    {
+      "word": "and",
+      "start_s": 21.56,
+      "end_s": 21.676
+    },
+    {
+      "word": "fifty",
+      "start_s": 21.746,
+      "end_s": 21.989
+    },
+    {
+      "word": "chat",
+      "start_s": 22.047,
+      "end_s": 22.222
+    },
+    {
+      "word": "requests.",
+      "start_s": 22.268,
+      "end_s": 22.837
+    },
+    {
+      "word": "Cursor",
+      "start_s": 23.65,
+      "end_s": 24.009
+    },
+    {
+      "word": "Hobby",
+      "start_s": 24.068,
+      "end_s": 24.335
+    },
+    {
+      "word": "needs",
+      "start_s": 24.404,
+      "end_s": 24.613
+    },
+    {
+      "word": "no",
+      "start_s": 24.683,
+      "end_s": 24.799
+    },
+    {
+      "word": "credit",
+      "start_s": 24.869,
+      "end_s": 25.112
+    },
+    {
+      "word": "card.",
+      "start_s": 25.136,
+      "end_s": 25.519
+    },
+    {
+      "word": "So",
+      "start_s": 26.215,
+      "end_s": 26.355
+    },
+    {
+      "word": "if",
+      "start_s": 26.413,
+      "end_s": 26.482
+    },
+    {
+      "word": "you",
+      "start_s": 26.517,
+      "end_s": 26.598
+    },
+    {
+      "word": "mostly",
+      "start_s": 26.715,
+      "end_s": 27.063
+    },
+    {
+      "word": "want",
+      "start_s": 27.121,
+      "end_s": 27.295
+    },
+    {
+      "word": "autocomplete",
+      "start_s": 27.353,
+      "end_s": 28.05
+    },
+    {
+      "word": "and",
+      "start_s": 28.085,
+      "end_s": 28.177
+    },
+    {
+      "word": "some",
+      "start_s": 28.27,
+      "end_s": 28.514
+    },
+    {
+      "word": "agent",
+      "start_s": 28.561,
+      "end_s": 28.862
+    },
+    {
+      "word": "work,",
+      "start_s": 28.909,
+      "end_s": 29.28
+    },
+    {
+      "word": "Copilot",
+      "start_s": 29.524,
+      "end_s": 30.047
+    },
+    {
+      "word": "Pro",
+      "start_s": 30.093,
+      "end_s": 30.29
+    },
+    {
+      "word": "is",
+      "start_s": 30.372,
+      "end_s": 30.465
+    },
+    {
+      "word": "ten",
+      "start_s": 30.534,
+      "end_s": 30.743
+    },
+    {
+      "word": "dollars",
+      "start_s": 30.801,
+      "end_s": 31.115
+    },
+    {
+      "word": "cheaper.",
+      "start_s": 31.173,
+      "end_s": 31.672
+    },
+    {
+      "word": "If",
+      "start_s": 32.485,
+      "end_s": 32.636
+    },
+    {
+      "word": "agents",
+      "start_s": 32.717,
+      "end_s": 33.065
+    },
+    {
+      "word": "are",
+      "start_s": 33.124,
+      "end_s": 33.251
+    },
+    {
+      "word": "your",
+      "start_s": 33.286,
+      "end_s": 33.414
+    },
+    {
+      "word": "whole",
+      "start_s": 33.472,
+      "end_s": 33.681
+    },
+    {
+      "word": "workflow,",
+      "start_s": 33.716,
+      "end_s": 34.343
+    },
+    {
+      "word": "test",
+      "start_s": 34.517,
+      "end_s": 34.772
+    },
+    {
+      "word": "Cursor's",
+      "start_s": 34.842,
+      "end_s": 35.237
+    },
+    {
+      "word": "free",
+      "start_s": 35.295,
+      "end_s": 35.48
+    },
+    {
+      "word": "plan",
+      "start_s": 35.515,
+      "end_s": 35.736
+    },
+    {
+      "word": "first.",
+      "start_s": 35.805,
+      "end_s": 36.281
+    },
+    {
+      "word": "Ten",
+      "start_s": 36.525,
+      "end_s": 36.723
+    },
+    {
+      "word": "dollars",
+      "start_s": 36.769,
+      "end_s": 37.036
+    },
+    {
+      "word": "a",
+      "start_s": 37.059,
+      "end_s": 37.083
+    },
+    {
+      "word": "month.",
+      "start_s": 37.129,
+      "end_s": 37.5
+    },
+    {
+      "word": "That",
+      "start_s": 37.675,
+      "end_s": 37.849
+    },
+    {
+      "word": "is",
+      "start_s": 37.895,
+      "end_s": 37.965
+    },
+    {
+      "word": "the",
+      "start_s": 38.011,
+      "end_s": 38.081
+    },
+    {
+      "word": "gap.",
+      "start_s": 38.116,
+      "end_s": 38.731
+    }
+  ]
+}

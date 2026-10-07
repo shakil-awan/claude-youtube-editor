@@ -1,0 +1,478 @@
+{
+  "text": "Mistral just launched a one trillion parameter model. Mistral Large four costs one dollar thirty six per million input tokens, and four dollars eighteen per million output. Only forty nine billion of those parameters are active at a time. It speaks over one hundred sixty languages and reads images natively. Right now it is a paid preview. But Mistral says the weights are coming by the end of October. Then you can host it yourself, and skip the per token bill. So test it now. Mistral's trillion parameter model. One dollar thirty six in.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 36.127,
+  "words": [
+    {
+      "word": "Mistral",
+      "start_s": 0.0,
+      "end_s": 0.499
+    },
+    {
+      "word": "just",
+      "start_s": 0.58,
+      "end_s": 0.755
+    },
+    {
+      "word": "launched",
+      "start_s": 0.824,
+      "end_s": 1.138
+    },
+    {
+      "word": "a",
+      "start_s": 1.196,
+      "end_s": 1.289
+    },
+    {
+      "word": "one",
+      "start_s": 1.405,
+      "end_s": 1.649
+    },
+    {
+      "word": "trillion",
+      "start_s": 1.683,
+      "end_s": 2.067
+    },
+    {
+      "word": "parameter",
+      "start_s": 2.125,
+      "end_s": 2.531
+    },
+    {
+      "word": "model.",
+      "start_s": 2.577,
+      "end_s": 3.053
+    },
+    {
+      "word": "Mistral",
+      "start_s": 3.866,
+      "end_s": 4.365
+    },
+    {
+      "word": "Large",
+      "start_s": 4.458,
+      "end_s": 4.83
+    },
+    {
+      "word": "four",
+      "start_s": 4.888,
+      "end_s": 5.108
+    },
+    {
+      "word": "costs",
+      "start_s": 5.166,
+      "end_s": 5.422
+    },
+    {
+      "word": "one",
+      "start_s": 5.492,
+      "end_s": 5.654
+    },
+    {
+      "word": "dollar",
+      "start_s": 5.689,
+      "end_s": 5.944
+    },
+    {
+      "word": "thirty",
+      "start_s": 6.037,
+      "end_s": 6.304
+    },
+    {
+      "word": "six",
+      "start_s": 6.374,
+      "end_s": 6.606
+    },
+    {
+      "word": "per",
+      "start_s": 6.676,
+      "end_s": 6.803
+    },
+    {
+      "word": "million",
+      "start_s": 6.873,
+      "end_s": 7.187
+    },
+    {
+      "word": "input",
+      "start_s": 7.256,
+      "end_s": 7.558
+    },
+    {
+      "word": "tokens,",
+      "start_s": 7.593,
+      "end_s": 8.139
+    },
+    {
+      "word": "and",
+      "start_s": 8.348,
+      "end_s": 8.487
+    },
+    {
+      "word": "four",
+      "start_s": 8.568,
+      "end_s": 8.766
+    },
+    {
+      "word": "dollars",
+      "start_s": 8.812,
+      "end_s": 9.137
+    },
+    {
+      "word": "eighteen",
+      "start_s": 9.253,
+      "end_s": 9.648
+    },
+    {
+      "word": "per",
+      "start_s": 9.706,
+      "end_s": 9.822
+    },
+    {
+      "word": "million",
+      "start_s": 9.88,
+      "end_s": 10.17
+    },
+    {
+      "word": "output.",
+      "start_s": 10.24,
+      "end_s": 10.751
+    },
+    {
+      "word": "Only",
+      "start_s": 11.447,
+      "end_s": 11.761
+    },
+    {
+      "word": "forty",
+      "start_s": 11.877,
+      "end_s": 12.19
+    },
+    {
+      "word": "nine",
+      "start_s": 12.26,
+      "end_s": 12.457
+    },
+    {
+      "word": "billion",
+      "start_s": 12.504,
+      "end_s": 12.829
+    },
+    {
+      "word": "of",
+      "start_s": 12.899,
+      "end_s": 12.968
+    },
+    {
+      "word": "those",
+      "start_s": 13.015,
+      "end_s": 13.212
+    },
+    {
+      "word": "parameters",
+      "start_s": 13.259,
+      "end_s": 13.769
+    },
+    {
+      "word": "are",
+      "start_s": 13.827,
+      "end_s": 13.967
+    },
+    {
+      "word": "active",
+      "start_s": 14.013,
+      "end_s": 14.373
+    },
+    {
+      "word": "at",
+      "start_s": 14.408,
+      "end_s": 14.501
+    },
+    {
+      "word": "a",
+      "start_s": 14.547,
+      "end_s": 14.57
+    },
+    {
+      "word": "time.",
+      "start_s": 14.628,
+      "end_s": 15.104
+    },
+    {
+      "word": "It",
+      "start_s": 15.801,
+      "end_s": 15.94
+    },
+    {
+      "word": "speaks",
+      "start_s": 15.987,
+      "end_s": 16.3
+    },
+    {
+      "word": "over",
+      "start_s": 16.358,
+      "end_s": 16.556
+    },
+    {
+      "word": "one",
+      "start_s": 16.637,
+      "end_s": 16.823
+    },
+    {
+      "word": "hundred",
+      "start_s": 16.857,
+      "end_s": 17.101
+    },
+    {
+      "word": "sixty",
+      "start_s": 17.148,
+      "end_s": 17.461
+    },
+    {
+      "word": "languages",
+      "start_s": 17.519,
+      "end_s": 18.03
+    },
+    {
+      "word": "and",
+      "start_s": 18.239,
+      "end_s": 18.413
+    },
+    {
+      "word": "reads",
+      "start_s": 18.483,
+      "end_s": 18.715
+    },
+    {
+      "word": "images",
+      "start_s": 18.796,
+      "end_s": 19.191
+    },
+    {
+      "word": "natively.",
+      "start_s": 19.261,
+      "end_s": 19.841
+    },
+    {
+      "word": "Right",
+      "start_s": 20.445,
+      "end_s": 20.654
+    },
+    {
+      "word": "now",
+      "start_s": 20.7,
+      "end_s": 20.874
+    },
+    {
+      "word": "it",
+      "start_s": 20.956,
+      "end_s": 21.025
+    },
+    {
+      "word": "is",
+      "start_s": 21.06,
+      "end_s": 21.141
+    },
+    {
+      "word": "a",
+      "start_s": 21.188,
+      "end_s": 21.223
+    },
+    {
+      "word": "paid",
+      "start_s": 21.292,
+      "end_s": 21.548
+    },
+    {
+      "word": "preview.",
+      "start_s": 21.606,
+      "end_s": 22.244
+    },
+    {
+      "word": "But",
+      "start_s": 22.848,
+      "end_s": 23.011
+    },
+    {
+      "word": "Mistral",
+      "start_s": 23.045,
+      "end_s": 23.405
+    },
+    {
+      "word": "says",
+      "start_s": 23.475,
+      "end_s": 23.626
+    },
+    {
+      "word": "the",
+      "start_s": 23.661,
+      "end_s": 23.73
+    },
+    {
+      "word": "weights",
+      "start_s": 23.789,
+      "end_s": 24.009
+    },
+    {
+      "word": "are",
+      "start_s": 24.044,
+      "end_s": 24.137
+    },
+    {
+      "word": "coming",
+      "start_s": 24.172,
+      "end_s": 24.392
+    },
+    {
+      "word": "by",
+      "start_s": 24.439,
+      "end_s": 24.52
+    },
+    {
+      "word": "the",
+      "start_s": 24.566,
+      "end_s": 24.636
+    },
+    {
+      "word": "end",
+      "start_s": 24.717,
+      "end_s": 24.868
+    },
+    {
+      "word": "of",
+      "start_s": 24.915,
+      "end_s": 24.961
+    },
+    {
+      "word": "October.",
+      "start_s": 25.031,
+      "end_s": 25.669
+    },
+    {
+      "word": "Then",
+      "start_s": 26.366,
+      "end_s": 26.552
+    },
+    {
+      "word": "you",
+      "start_s": 26.598,
+      "end_s": 26.668
+    },
+    {
+      "word": "can",
+      "start_s": 26.703,
+      "end_s": 26.807
+    },
+    {
+      "word": "host",
+      "start_s": 26.854,
+      "end_s": 27.039
+    },
+    {
+      "word": "it",
+      "start_s": 27.086,
+      "end_s": 27.144
+    },
+    {
+      "word": "yourself,",
+      "start_s": 27.179,
+      "end_s": 27.782
+    },
+    {
+      "word": "and",
+      "start_s": 27.933,
+      "end_s": 28.096
+    },
+    {
+      "word": "skip",
+      "start_s": 28.165,
+      "end_s": 28.409
+    },
+    {
+      "word": "the",
+      "start_s": 28.467,
+      "end_s": 28.537
+    },
+    {
+      "word": "per",
+      "start_s": 28.572,
+      "end_s": 28.7
+    },
+    {
+      "word": "token",
+      "start_s": 28.758,
+      "end_s": 29.037
+    },
+    {
+      "word": "bill.",
+      "start_s": 29.083,
+      "end_s": 29.466
+    },
+    {
+      "word": "So",
+      "start_s": 30.163,
+      "end_s": 30.337
+    },
+    {
+      "word": "test",
+      "start_s": 30.407,
+      "end_s": 30.65
+    },
+    {
+      "word": "it",
+      "start_s": 30.697,
+      "end_s": 30.767
+    },
+    {
+      "word": "now.",
+      "start_s": 30.813,
+      "end_s": 31.196
+    },
+    {
+      "word": "Mistral's",
+      "start_s": 31.637,
+      "end_s": 32.195
+    },
+    {
+      "word": "trillion",
+      "start_s": 32.241,
+      "end_s": 32.636
+    },
+    {
+      "word": "parameter",
+      "start_s": 32.694,
+      "end_s": 33.112
+    },
+    {
+      "word": "model.",
+      "start_s": 33.17,
+      "end_s": 33.623
+    },
+    {
+      "word": "One",
+      "start_s": 34.319,
+      "end_s": 34.54
+    },
+    {
+      "word": "dollar",
+      "start_s": 34.575,
+      "end_s": 34.818
+    },
+    {
+      "word": "thirty",
+      "start_s": 34.877,
+      "end_s": 35.109
+    },
+    {
+      "word": "six",
+      "start_s": 35.178,
+      "end_s": 35.434
+    },
+    {
+      "word": "in.",
+      "start_s": 35.515,
+      "end_s": 36.084
+    }
+  ]
+}

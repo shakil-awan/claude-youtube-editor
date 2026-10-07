@@ -1,0 +1,10 @@
+{
+  "prompt": "A glowing golden hourglass with emerald light sand running out over a dark circuit board, single bold subject, lower two thirds, empty dark space at top, cinematic light, emerald/gold accents, dark charcoal bg. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-10-07T11:15:26"
+}

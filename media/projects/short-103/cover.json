@@ -1,0 +1,10 @@
+{
+  "prompt": "A single glowing tiny golden coin balanced on a sleek dark chip, lower two thirds, empty dark space at top, cinematic light, emerald and gold accents, dark charcoal background, film grain. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-10-08T11:13:00"
+}

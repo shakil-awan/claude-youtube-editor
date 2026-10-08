@@ -1,0 +1,408 @@
+{
+  "text": "Claude Haiku five point five costs ten cents per million input tokens. Output is fifty cents. That is ten times cheaper than Haiku four point five, which charges one dollar in and five dollars out. Anthropic launched it this week. One catch. Prompts over a hundred thousand tokens cost five times more. Fifty cents in, two fifty out. So keep your prompts short, and a million input tokens costs a dime. Claude Haiku five point five. Ten cents per million.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 34.586,
+  "words": [
+    {
+      "word": "Claude",
+      "start_s": 0.0,
+      "end_s": 0.372
+    },
+    {
+      "word": "Haiku",
+      "start_s": 0.406,
+      "end_s": 0.836
+    },
+    {
+      "word": "five",
+      "start_s": 1.219,
+      "end_s": 1.509
+    },
+    {
+      "word": "point",
+      "start_s": 1.544,
+      "end_s": 1.741
+    },
+    {
+      "word": "five",
+      "start_s": 1.8,
+      "end_s": 2.101
+    },
+    {
+      "word": "costs",
+      "start_s": 2.148,
+      "end_s": 2.415
+    },
+    {
+      "word": "ten",
+      "start_s": 2.461,
+      "end_s": 2.694
+    },
+    {
+      "word": "cents",
+      "start_s": 2.775,
+      "end_s": 3.03
+    },
+    {
+      "word": "per",
+      "start_s": 3.077,
+      "end_s": 3.204
+    },
+    {
+      "word": "million",
+      "start_s": 3.297,
+      "end_s": 3.622
+    },
+    {
+      "word": "input",
+      "start_s": 3.692,
+      "end_s": 4.005
+    },
+    {
+      "word": "tokens.",
+      "start_s": 4.029,
+      "end_s": 4.632
+    },
+    {
+      "word": "Output",
+      "start_s": 5.445,
+      "end_s": 5.84
+    },
+    {
+      "word": "is",
+      "start_s": 5.898,
+      "end_s": 6.002
+    },
+    {
+      "word": "fifty",
+      "start_s": 6.072,
+      "end_s": 6.397
+    },
+    {
+      "word": "cents.",
+      "start_s": 6.455,
+      "end_s": 6.954
+    },
+    {
+      "word": "That",
+      "start_s": 7.465,
+      "end_s": 7.674
+    },
+    {
+      "word": "is",
+      "start_s": 7.721,
+      "end_s": 7.814
+    },
+    {
+      "word": "ten",
+      "start_s": 7.895,
+      "end_s": 8.15
+    },
+    {
+      "word": "times",
+      "start_s": 8.22,
+      "end_s": 8.533
+    },
+    {
+      "word": "cheaper",
+      "start_s": 8.591,
+      "end_s": 9.044
+    },
+    {
+      "word": "than",
+      "start_s": 9.218,
+      "end_s": 9.404
+    },
+    {
+      "word": "Haiku",
+      "start_s": 9.485,
+      "end_s": 9.868
+    },
+    {
+      "word": "four",
+      "start_s": 9.95,
+      "end_s": 10.136
+    },
+    {
+      "word": "point",
+      "start_s": 10.194,
+      "end_s": 10.391
+    },
+    {
+      "word": "five,",
+      "start_s": 10.449,
+      "end_s": 10.902
+    },
+    {
+      "word": "which",
+      "start_s": 11.053,
+      "end_s": 11.262
+    },
+    {
+      "word": "charges",
+      "start_s": 11.32,
+      "end_s": 11.726
+    },
+    {
+      "word": "one",
+      "start_s": 11.819,
+      "end_s": 12.04
+    },
+    {
+      "word": "dollar",
+      "start_s": 12.074,
+      "end_s": 12.353
+    },
+    {
+      "word": "in",
+      "start_s": 12.423,
+      "end_s": 12.527
+    },
+    {
+      "word": "and",
+      "start_s": 12.585,
+      "end_s": 12.655
+    },
+    {
+      "word": "five",
+      "start_s": 12.736,
+      "end_s": 13.003
+    },
+    {
+      "word": "dollars",
+      "start_s": 13.038,
+      "end_s": 13.34
+    },
+    {
+      "word": "out.",
+      "start_s": 13.398,
+      "end_s": 13.758
+    },
+    {
+      "word": "Anthropic",
+      "start_s": 14.454,
+      "end_s": 15.151
+    },
+    {
+      "word": "launched",
+      "start_s": 15.244,
+      "end_s": 15.581
+    },
+    {
+      "word": "it",
+      "start_s": 15.627,
+      "end_s": 15.697
+    },
+    {
+      "word": "this",
+      "start_s": 15.755,
+      "end_s": 15.963
+    },
+    {
+      "word": "week.",
+      "start_s": 16.045,
+      "end_s": 16.451
+    },
+    {
+      "word": "One",
+      "start_s": 17.264,
+      "end_s": 17.519
+    },
+    {
+      "word": "catch.",
+      "start_s": 17.566,
+      "end_s": 18.065
+    },
+    {
+      "word": "Prompts",
+      "start_s": 18.761,
+      "end_s": 19.179
+    },
+    {
+      "word": "over",
+      "start_s": 19.272,
+      "end_s": 19.493
+    },
+    {
+      "word": "a",
+      "start_s": 19.563,
+      "end_s": 19.609
+    },
+    {
+      "word": "hundred",
+      "start_s": 19.76,
+      "end_s": 20.097
+    },
+    {
+      "word": "thousand",
+      "start_s": 20.143,
+      "end_s": 20.48
+    },
+    {
+      "word": "tokens",
+      "start_s": 20.538,
+      "end_s": 20.909
+    },
+    {
+      "word": "cost",
+      "start_s": 20.967,
+      "end_s": 21.211
+    },
+    {
+      "word": "five",
+      "start_s": 21.269,
+      "end_s": 21.548
+    },
+    {
+      "word": "times",
+      "start_s": 21.583,
+      "end_s": 21.861
+    },
+    {
+      "word": "more.",
+      "start_s": 21.919,
+      "end_s": 22.302
+    },
+    {
+      "word": "Fifty",
+      "start_s": 22.999,
+      "end_s": 23.301
+    },
+    {
+      "word": "cents",
+      "start_s": 23.359,
+      "end_s": 23.626
+    },
+    {
+      "word": "in,",
+      "start_s": 23.684,
+      "end_s": 23.939
+    },
+    {
+      "word": "two",
+      "start_s": 24.021,
+      "end_s": 24.207
+    },
+    {
+      "word": "fifty",
+      "start_s": 24.276,
+      "end_s": 24.555
+    },
+    {
+      "word": "out.",
+      "start_s": 24.613,
+      "end_s": 24.938
+    },
+    {
+      "word": "So",
+      "start_s": 25.751,
+      "end_s": 25.902
+    },
+    {
+      "word": "keep",
+      "start_s": 25.971,
+      "end_s": 26.157
+    },
+    {
+      "word": "your",
+      "start_s": 26.203,
+      "end_s": 26.308
+    },
+    {
+      "word": "prompts",
+      "start_s": 26.354,
+      "end_s": 26.656
+    },
+    {
+      "word": "short,",
+      "start_s": 26.691,
+      "end_s": 27.132
+    },
+    {
+      "word": "and",
+      "start_s": 27.306,
+      "end_s": 27.446
+    },
+    {
+      "word": "a",
+      "start_s": 27.492,
+      "end_s": 27.515
+    },
+    {
+      "word": "million",
+      "start_s": 27.631,
+      "end_s": 27.98
+    },
+    {
+      "word": "input",
+      "start_s": 28.049,
+      "end_s": 28.351
+    },
+    {
+      "word": "tokens",
+      "start_s": 28.386,
+      "end_s": 28.746
+    },
+    {
+      "word": "costs",
+      "start_s": 28.804,
+      "end_s": 29.071
+    },
+    {
+      "word": "a",
+      "start_s": 29.106,
+      "end_s": 29.129
+    },
+    {
+      "word": "dime.",
+      "start_s": 29.187,
+      "end_s": 29.652
+    },
+    {
+      "word": "Claude",
+      "start_s": 30.604,
+      "end_s": 30.929
+    },
+    {
+      "word": "Haiku",
+      "start_s": 30.952,
+      "end_s": 31.312
+    },
+    {
+      "word": "five",
+      "start_s": 31.405,
+      "end_s": 31.672
+    },
+    {
+      "word": "point",
+      "start_s": 31.707,
+      "end_s": 31.916
+    },
+    {
+      "word": "five.",
+      "start_s": 31.974,
+      "end_s": 32.484
+    },
+    {
+      "word": "Ten",
+      "start_s": 33.088,
+      "end_s": 33.32
+    },
+    {
+      "word": "cents",
+      "start_s": 33.39,
+      "end_s": 33.634
+    },
+    {
+      "word": "per",
+      "start_s": 33.68,
+      "end_s": 33.796
+    },
+    {
+      "word": "million.",
+      "start_s": 33.843,
+      "end_s": 34.551
+    }
+  ]
+}

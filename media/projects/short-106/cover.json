@@ -1,0 +1,10 @@
+{
+  "prompt": "A golden cinema film reel unspooling a ribbon of glowing emerald light, subject in lower two thirds, empty dark space at top, cinematic light, emerald and gold accents, dark charcoal background. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-10-09T11:12:07"
+}

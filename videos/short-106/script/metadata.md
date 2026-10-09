@@ -1,0 +1,8 @@
+# short-106 — packaging
+- **Title:** Google's AI Video Costs 5 Cents A Second
+- **Description:** Veo 3.1 Lite: $0.05/s at 720p, $0.08/s at 1080p, no 4K. Veo 3.1 Fast: $0.10/s. Veo 3.1 Standard: $0.40/s. An 8-second clip is $0.40 on Lite vs $3.20 on Standard. Source: ai.google.dev/gemini-api/docs/pricing
+  AI-generated visuals and voice. #Shorts #AI #AItools
+- **Slot:** 2026-10-10T21:00:00Z
+- **Pinned comment:** Would you pay forty cents for an eight second AI clip? 👇
+- **Video ID:** yxqaaErewZk
+- **Affiliate:** none

@@ -1,0 +1,8 @@
+# short-105 — packaging
+- **Title:** Google's New Image AI Costs 3 Cents A Picture
+- **Description:** Nano Banana 2.1 (GA Oct 6): $0.0336 per 1K image, $0.113 per 4K. Old Nano Banana 2 was ~$0.067, Nano Banana Pro is $0.134. Batch: $0.0168. No API free tier listed. Source: ai.google.dev/gemini-api/docs/pricing
+  AI-generated visuals and voice. #Shorts #AI #AItools
+- **Slot:** 2026-10-10T15:00:00Z
+- **Pinned comment:** How many images would you make if each one cost three cents? 👇
+- **Video ID:** 0CPd7IgeSJ4
+- **Affiliate:** none

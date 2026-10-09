@@ -1,0 +1,473 @@
+{
+  "text": "Google's new image model costs three cents a picture. Nano Banana two point one went generally available October sixth. A one K image is three point four cents. Four K is eleven cents. The old Nano Banana Two charged six point seven cents for one K. So this is half the price. Nano Banana Pro? Thirteen point four cents. Four times more. One catch. The API lists no free tier for it. But batch mode cuts it in half, under two cents a picture. Nano Banana two point one. Three cents a picture.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 36.362,
+  "words": [
+    {
+      "word": "Google's",
+      "start_s": 0.0,
+      "end_s": 0.418
+    },
+    {
+      "word": "new",
+      "start_s": 0.464,
+      "end_s": 0.58
+    },
+    {
+      "word": "image",
+      "start_s": 0.65,
+      "end_s": 0.917
+    },
+    {
+      "word": "model",
+      "start_s": 0.952,
+      "end_s": 1.196
+    },
+    {
+      "word": "costs",
+      "start_s": 1.265,
+      "end_s": 1.556
+    },
+    {
+      "word": "three",
+      "start_s": 1.591,
+      "end_s": 1.834
+    },
+    {
+      "word": "cents",
+      "start_s": 1.881,
+      "end_s": 2.125
+    },
+    {
+      "word": "a",
+      "start_s": 2.159,
+      "end_s": 2.183
+    },
+    {
+      "word": "picture.",
+      "start_s": 2.241,
+      "end_s": 2.752
+    },
+    {
+      "word": "Nano",
+      "start_s": 3.564,
+      "end_s": 3.843
+    },
+    {
+      "word": "Banana",
+      "start_s": 3.901,
+      "end_s": 4.249
+    },
+    {
+      "word": "two",
+      "start_s": 4.319,
+      "end_s": 4.458
+    },
+    {
+      "word": "point",
+      "start_s": 4.528,
+      "end_s": 4.737
+    },
+    {
+      "word": "one",
+      "start_s": 4.807,
+      "end_s": 4.957
+    },
+    {
+      "word": "went",
+      "start_s": 4.992,
+      "end_s": 5.166
+    },
+    {
+      "word": "generally",
+      "start_s": 5.224,
+      "end_s": 5.608
+    },
+    {
+      "word": "available",
+      "start_s": 5.666,
+      "end_s": 6.107
+    },
+    {
+      "word": "October",
+      "start_s": 6.165,
+      "end_s": 6.594
+    },
+    {
+      "word": "sixth.",
+      "start_s": 6.664,
+      "end_s": 7.117
+    },
+    {
+      "word": "A",
+      "start_s": 7.814,
+      "end_s": 7.895
+    },
+    {
+      "word": "one",
+      "start_s": 8.011,
+      "end_s": 8.22
+    },
+    {
+      "word": "K",
+      "start_s": 8.266,
+      "end_s": 8.417
+    },
+    {
+      "word": "image",
+      "start_s": 8.568,
+      "end_s": 8.858
+    },
+    {
+      "word": "is",
+      "start_s": 8.893,
+      "end_s": 8.986
+    },
+    {
+      "word": "three",
+      "start_s": 9.033,
+      "end_s": 9.218
+    },
+    {
+      "word": "point",
+      "start_s": 9.265,
+      "end_s": 9.462
+    },
+    {
+      "word": "four",
+      "start_s": 9.52,
+      "end_s": 9.718
+    },
+    {
+      "word": "cents.",
+      "start_s": 9.776,
+      "end_s": 10.263
+    },
+    {
+      "word": "Four",
+      "start_s": 10.96,
+      "end_s": 11.192
+    },
+    {
+      "word": "K",
+      "start_s": 11.25,
+      "end_s": 11.401
+    },
+    {
+      "word": "is",
+      "start_s": 11.552,
+      "end_s": 11.645
+    },
+    {
+      "word": "eleven",
+      "start_s": 11.703,
+      "end_s": 12.016
+    },
+    {
+      "word": "cents.",
+      "start_s": 12.074,
+      "end_s": 12.55
+    },
+    {
+      "word": "The",
+      "start_s": 13.247,
+      "end_s": 13.386
+    },
+    {
+      "word": "old",
+      "start_s": 13.468,
+      "end_s": 13.7
+    },
+    {
+      "word": "Nano",
+      "start_s": 13.781,
+      "end_s": 14.013
+    },
+    {
+      "word": "Banana",
+      "start_s": 14.071,
+      "end_s": 14.373
+    },
+    {
+      "word": "Two",
+      "start_s": 14.443,
+      "end_s": 14.675
+    },
+    {
+      "word": "charged",
+      "start_s": 14.884,
+      "end_s": 15.197
+    },
+    {
+      "word": "six",
+      "start_s": 15.232,
+      "end_s": 15.43
+    },
+    {
+      "word": "point",
+      "start_s": 15.499,
+      "end_s": 15.708
+    },
+    {
+      "word": "seven",
+      "start_s": 15.766,
+      "end_s": 16.01
+    },
+    {
+      "word": "cents",
+      "start_s": 16.056,
+      "end_s": 16.277
+    },
+    {
+      "word": "for",
+      "start_s": 16.312,
+      "end_s": 16.428
+    },
+    {
+      "word": "one",
+      "start_s": 16.497,
+      "end_s": 16.671
+    },
+    {
+      "word": "K.",
+      "start_s": 16.718,
+      "end_s": 17.147
+    },
+    {
+      "word": "So",
+      "start_s": 17.356,
+      "end_s": 17.6
+    },
+    {
+      "word": "this",
+      "start_s": 17.67,
+      "end_s": 17.809
+    },
+    {
+      "word": "is",
+      "start_s": 17.856,
+      "end_s": 17.937
+    },
+    {
+      "word": "half",
+      "start_s": 17.995,
+      "end_s": 18.169
+    },
+    {
+      "word": "the",
+      "start_s": 18.216,
+      "end_s": 18.285
+    },
+    {
+      "word": "price.",
+      "start_s": 18.32,
+      "end_s": 18.819
+    },
+    {
+      "word": "Nano",
+      "start_s": 19.423,
+      "end_s": 19.667
+    },
+    {
+      "word": "Banana",
+      "start_s": 19.725,
+      "end_s": 20.015
+    },
+    {
+      "word": "Pro?",
+      "start_s": 20.073,
+      "end_s": 20.561
+    },
+    {
+      "word": "Thirteen",
+      "start_s": 20.735,
+      "end_s": 21.188
+    },
+    {
+      "word": "point",
+      "start_s": 21.246,
+      "end_s": 21.443
+    },
+    {
+      "word": "four",
+      "start_s": 21.501,
+      "end_s": 21.675
+    },
+    {
+      "word": "cents.",
+      "start_s": 21.745,
+      "end_s": 22.233
+    },
+    {
+      "word": "Four",
+      "start_s": 23.347,
+      "end_s": 23.591
+    },
+    {
+      "word": "times",
+      "start_s": 23.649,
+      "end_s": 23.928
+    },
+    {
+      "word": "more.",
+      "start_s": 23.986,
+      "end_s": 24.38
+    },
+    {
+      "word": "One",
+      "start_s": 25.077,
+      "end_s": 25.298
+    },
+    {
+      "word": "catch.",
+      "start_s": 25.344,
+      "end_s": 25.797
+    },
+    {
+      "word": "The",
+      "start_s": 26.493,
+      "end_s": 26.633
+    },
+    {
+      "word": "API",
+      "start_s": 26.702,
+      "end_s": 27.097
+    },
+    {
+      "word": "lists",
+      "start_s": 27.213,
+      "end_s": 27.434
+    },
+    {
+      "word": "no",
+      "start_s": 27.504,
+      "end_s": 27.631
+    },
+    {
+      "word": "free",
+      "start_s": 27.713,
+      "end_s": 27.91
+    },
+    {
+      "word": "tier",
+      "start_s": 27.945,
+      "end_s": 28.154
+    },
+    {
+      "word": "for",
+      "start_s": 28.223,
+      "end_s": 28.386
+    },
+    {
+      "word": "it.",
+      "start_s": 28.444,
+      "end_s": 28.665
+    },
+    {
+      "word": "But",
+      "start_s": 29.106,
+      "end_s": 29.28
+    },
+    {
+      "word": "batch",
+      "start_s": 29.338,
+      "end_s": 29.593
+    },
+    {
+      "word": "mode",
+      "start_s": 29.64,
+      "end_s": 29.837
+    },
+    {
+      "word": "cuts",
+      "start_s": 29.872,
+      "end_s": 30.093
+    },
+    {
+      "word": "it",
+      "start_s": 30.127,
+      "end_s": 30.197
+    },
+    {
+      "word": "in",
+      "start_s": 30.232,
+      "end_s": 30.302
+    },
+    {
+      "word": "half,",
+      "start_s": 30.383,
+      "end_s": 30.87
+    },
+    {
+      "word": "under",
+      "start_s": 31.254,
+      "end_s": 31.463
+    },
+    {
+      "word": "two",
+      "start_s": 31.509,
+      "end_s": 31.648
+    },
+    {
+      "word": "cents",
+      "start_s": 31.718,
+      "end_s": 31.95
+    },
+    {
+      "word": "a",
+      "start_s": 31.985,
+      "end_s": 32.02
+    },
+    {
+      "word": "picture.",
+      "start_s": 32.066,
+      "end_s": 32.519
+    },
+    {
+      "word": "Nano",
+      "start_s": 33.216,
+      "end_s": 33.459
+    },
+    {
+      "word": "Banana",
+      "start_s": 33.518,
+      "end_s": 33.819
+    },
+    {
+      "word": "two",
+      "start_s": 33.877,
+      "end_s": 34.005
+    },
+    {
+      "word": "point",
+      "start_s": 34.086,
+      "end_s": 34.284
+    },
+    {
+      "word": "one.",
+      "start_s": 34.353,
+      "end_s": 34.679
+    },
+    {
+      "word": "Three",
+      "start_s": 34.957,
+      "end_s": 35.201
+    },
+    {
+      "word": "cents",
+      "start_s": 35.247,
+      "end_s": 35.48
+    },
+    {
+      "word": "a",
+      "start_s": 35.514,
+      "end_s": 35.549
+    },
+    {
+      "word": "picture.",
+      "start_s": 35.596,
+      "end_s": 36.316
+    }
+  ]
+}

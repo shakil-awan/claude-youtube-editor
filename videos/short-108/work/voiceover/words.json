@@ -1,0 +1,388 @@
+{
+  "text": "Perplexity has an API that charges two cents per million tokens, and the output is free. It is called the Decisions API. Instead of writing text, the model returns probabilities. Yes or no. One of your options. A level on your rubric. Think spam checks, ticket routing, content moderation. Output tokens cost nothing, and there is no per request fee. Two cents per million input tokens. If you sort things at scale, that is the number.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 31.242,
+  "words": [
+    {
+      "word": "Perplexity",
+      "start_s": 0.0,
+      "end_s": 0.836
+    },
+    {
+      "word": "has",
+      "start_s": 0.917,
+      "end_s": 1.068
+    },
+    {
+      "word": "an",
+      "start_s": 1.115,
+      "end_s": 1.173
+    },
+    {
+      "word": "API",
+      "start_s": 1.254,
+      "end_s": 1.718
+    },
+    {
+      "word": "that",
+      "start_s": 1.788,
+      "end_s": 1.892
+    },
+    {
+      "word": "charges",
+      "start_s": 1.939,
+      "end_s": 2.299
+    },
+    {
+      "word": "two",
+      "start_s": 2.368,
+      "end_s": 2.612
+    },
+    {
+      "word": "cents",
+      "start_s": 2.694,
+      "end_s": 2.961
+    },
+    {
+      "word": "per",
+      "start_s": 3.007,
+      "end_s": 3.123
+    },
+    {
+      "word": "million",
+      "start_s": 3.193,
+      "end_s": 3.483
+    },
+    {
+      "word": "tokens,",
+      "start_s": 3.529,
+      "end_s": 4.063
+    },
+    {
+      "word": "and",
+      "start_s": 4.272,
+      "end_s": 4.412
+    },
+    {
+      "word": "the",
+      "start_s": 4.458,
+      "end_s": 4.528
+    },
+    {
+      "word": "output",
+      "start_s": 4.574,
+      "end_s": 4.876
+    },
+    {
+      "word": "is",
+      "start_s": 4.923,
+      "end_s": 4.992
+    },
+    {
+      "word": "free.",
+      "start_s": 5.062,
+      "end_s": 5.48
+    },
+    {
+      "word": "It",
+      "start_s": 5.991,
+      "end_s": 6.107
+    },
+    {
+      "word": "is",
+      "start_s": 6.142,
+      "end_s": 6.223
+    },
+    {
+      "word": "called",
+      "start_s": 6.281,
+      "end_s": 6.525
+    },
+    {
+      "word": "the",
+      "start_s": 6.548,
+      "end_s": 6.618
+    },
+    {
+      "word": "Decisions",
+      "start_s": 6.676,
+      "end_s": 7.175
+    },
+    {
+      "word": "API.",
+      "start_s": 7.256,
+      "end_s": 7.976
+    },
+    {
+      "word": "Instead",
+      "start_s": 8.301,
+      "end_s": 8.638
+    },
+    {
+      "word": "of",
+      "start_s": 8.673,
+      "end_s": 8.719
+    },
+    {
+      "word": "writing",
+      "start_s": 8.766,
+      "end_s": 9.009
+    },
+    {
+      "word": "text,",
+      "start_s": 9.079,
+      "end_s": 9.625
+    },
+    {
+      "word": "the",
+      "start_s": 9.834,
+      "end_s": 9.938
+    },
+    {
+      "word": "model",
+      "start_s": 10.008,
+      "end_s": 10.263
+    },
+    {
+      "word": "returns",
+      "start_s": 10.333,
+      "end_s": 10.658
+    },
+    {
+      "word": "probabilities.",
+      "start_s": 10.716,
+      "end_s": 11.517
+    },
+    {
+      "word": "Yes",
+      "start_s": 11.958,
+      "end_s": 12.283
+    },
+    {
+      "word": "or",
+      "start_s": 12.457,
+      "end_s": 12.62
+    },
+    {
+      "word": "no.",
+      "start_s": 12.701,
+      "end_s": 13.061
+    },
+    {
+      "word": "One",
+      "start_s": 13.665,
+      "end_s": 13.839
+    },
+    {
+      "word": "of",
+      "start_s": 13.862,
+      "end_s": 13.909
+    },
+    {
+      "word": "your",
+      "start_s": 13.955,
+      "end_s": 14.071
+    },
+    {
+      "word": "options.",
+      "start_s": 14.129,
+      "end_s": 14.71
+    },
+    {
+      "word": "A",
+      "start_s": 15.314,
+      "end_s": 15.395
+    },
+    {
+      "word": "level",
+      "start_s": 15.511,
+      "end_s": 15.79
+    },
+    {
+      "word": "on",
+      "start_s": 15.859,
+      "end_s": 15.964
+    },
+    {
+      "word": "your",
+      "start_s": 16.01,
+      "end_s": 16.126
+    },
+    {
+      "word": "rubric.",
+      "start_s": 16.172,
+      "end_s": 16.683
+    },
+    {
+      "word": "Think",
+      "start_s": 17.287,
+      "end_s": 17.542
+    },
+    {
+      "word": "spam",
+      "start_s": 17.624,
+      "end_s": 17.949
+    },
+    {
+      "word": "checks,",
+      "start_s": 18.018,
+      "end_s": 18.517
+    },
+    {
+      "word": "ticket",
+      "start_s": 18.726,
+      "end_s": 19.028
+    },
+    {
+      "word": "routing,",
+      "start_s": 19.075,
+      "end_s": 19.539
+    },
+    {
+      "word": "content",
+      "start_s": 19.748,
+      "end_s": 20.154
+    },
+    {
+      "word": "moderation.",
+      "start_s": 20.189,
+      "end_s": 20.886
+    },
+    {
+      "word": "Output",
+      "start_s": 21.397,
+      "end_s": 21.815
+    },
+    {
+      "word": "tokens",
+      "start_s": 21.85,
+      "end_s": 22.186
+    },
+    {
+      "word": "cost",
+      "start_s": 22.244,
+      "end_s": 22.523
+    },
+    {
+      "word": "nothing,",
+      "start_s": 22.616,
+      "end_s": 23.103
+    },
+    {
+      "word": "and",
+      "start_s": 23.278,
+      "end_s": 23.417
+    },
+    {
+      "word": "there",
+      "start_s": 23.463,
+      "end_s": 23.614
+    },
+    {
+      "word": "is",
+      "start_s": 23.672,
+      "end_s": 23.777
+    },
+    {
+      "word": "no",
+      "start_s": 23.858,
+      "end_s": 23.986
+    },
+    {
+      "word": "per",
+      "start_s": 24.079,
+      "end_s": 24.218
+    },
+    {
+      "word": "request",
+      "start_s": 24.276,
+      "end_s": 24.613
+    },
+    {
+      "word": "fee.",
+      "start_s": 24.671,
+      "end_s": 25.007
+    },
+    {
+      "word": "Two",
+      "start_s": 25.611,
+      "end_s": 25.82
+    },
+    {
+      "word": "cents",
+      "start_s": 25.89,
+      "end_s": 26.134
+    },
+    {
+      "word": "per",
+      "start_s": 26.18,
+      "end_s": 26.296
+    },
+    {
+      "word": "million",
+      "start_s": 26.354,
+      "end_s": 26.679
+    },
+    {
+      "word": "input",
+      "start_s": 26.795,
+      "end_s": 27.155
+    },
+    {
+      "word": "tokens.",
+      "start_s": 27.19,
+      "end_s": 27.782
+    },
+    {
+      "word": "If",
+      "start_s": 28.386,
+      "end_s": 28.514
+    },
+    {
+      "word": "you",
+      "start_s": 28.549,
+      "end_s": 28.63
+    },
+    {
+      "word": "sort",
+      "start_s": 28.699,
+      "end_s": 28.908
+    },
+    {
+      "word": "things",
+      "start_s": 28.943,
+      "end_s": 29.141
+    },
+    {
+      "word": "at",
+      "start_s": 29.187,
+      "end_s": 29.257
+    },
+    {
+      "word": "scale,",
+      "start_s": 29.315,
+      "end_s": 29.872
+    },
+    {
+      "word": "that",
+      "start_s": 30.081,
+      "end_s": 30.278
+    },
+    {
+      "word": "is",
+      "start_s": 30.325,
+      "end_s": 30.394
+    },
+    {
+      "word": "the",
+      "start_s": 30.453,
+      "end_s": 30.522
+    },
+    {
+      "word": "number.",
+      "start_s": 30.569,
+      "end_s": 31.207
+    }
+  ]
+}

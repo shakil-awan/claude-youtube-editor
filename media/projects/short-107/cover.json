@@ -1,0 +1,10 @@
+{
+  "prompt": "a glowing crystalline camera lens splitting light into a prism over a dark reflective desk, subject in lower two thirds, empty dark space at top, cinematic light, emerald/gold accents, dark charcoal bg. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-10-10T11:12:33"
+}

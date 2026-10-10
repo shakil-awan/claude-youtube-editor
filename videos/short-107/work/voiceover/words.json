@@ -1,0 +1,468 @@
+{
+  "text": "FLUX three image just got a price list, and the top end is steep. A four K image costs sixty one cents. Google's Nano Banana two point one charges eleven cents for the same size. That is more than five times the price. At one K it is closer, under five cents against about three and a half. FLUX does list a small seven sixty eight pixel size at four cents. If you generate images in bulk, check the resolution first. Four K is sixty one cents on FLUX, eleven on Google.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 34.22,
+  "words": [
+    {
+      "word": "FLUX",
+      "start_s": 0.0,
+      "end_s": 0.372
+    },
+    {
+      "word": "three",
+      "start_s": 0.453,
+      "end_s": 0.859
+    },
+    {
+      "word": "image",
+      "start_s": 1.184,
+      "end_s": 1.521
+    },
+    {
+      "word": "just",
+      "start_s": 1.567,
+      "end_s": 1.765
+    },
+    {
+      "word": "got",
+      "start_s": 1.8,
+      "end_s": 1.939
+    },
+    {
+      "word": "a",
+      "start_s": 1.974,
+      "end_s": 1.997
+    },
+    {
+      "word": "price",
+      "start_s": 2.043,
+      "end_s": 2.345
+    },
+    {
+      "word": "list,",
+      "start_s": 2.403,
+      "end_s": 2.74
+    },
+    {
+      "word": "and",
+      "start_s": 2.856,
+      "end_s": 2.984
+    },
+    {
+      "word": "the",
+      "start_s": 3.03,
+      "end_s": 3.1
+    },
+    {
+      "word": "top",
+      "start_s": 3.135,
+      "end_s": 3.355
+    },
+    {
+      "word": "end",
+      "start_s": 3.425,
+      "end_s": 3.553
+    },
+    {
+      "word": "is",
+      "start_s": 3.622,
+      "end_s": 3.68
+    },
+    {
+      "word": "steep.",
+      "start_s": 3.727,
+      "end_s": 4.203
+    },
+    {
+      "word": "A",
+      "start_s": 4.899,
+      "end_s": 4.981
+    },
+    {
+      "word": "four",
+      "start_s": 5.097,
+      "end_s": 5.317
+    },
+    {
+      "word": "K",
+      "start_s": 5.387,
+      "end_s": 5.538
+    },
+    {
+      "word": "image",
+      "start_s": 5.712,
+      "end_s": 5.991
+    },
+    {
+      "word": "costs",
+      "start_s": 6.037,
+      "end_s": 6.304
+    },
+    {
+      "word": "sixty",
+      "start_s": 6.339,
+      "end_s": 6.664
+    },
+    {
+      "word": "one",
+      "start_s": 6.734,
+      "end_s": 6.92
+    },
+    {
+      "word": "cents.",
+      "start_s": 6.966,
+      "end_s": 7.5
+    },
+    {
+      "word": "Google's",
+      "start_s": 8.197,
+      "end_s": 8.591
+    },
+    {
+      "word": "Nano",
+      "start_s": 8.661,
+      "end_s": 8.916
+    },
+    {
+      "word": "Banana",
+      "start_s": 8.975,
+      "end_s": 9.346
+    },
+    {
+      "word": "two",
+      "start_s": 9.427,
+      "end_s": 9.601
+    },
+    {
+      "word": "point",
+      "start_s": 9.683,
+      "end_s": 9.892
+    },
+    {
+      "word": "one",
+      "start_s": 9.961,
+      "end_s": 10.136
+    },
+    {
+      "word": "charges",
+      "start_s": 10.17,
+      "end_s": 10.553
+    },
+    {
+      "word": "eleven",
+      "start_s": 10.623,
+      "end_s": 10.948
+    },
+    {
+      "word": "cents",
+      "start_s": 11.006,
+      "end_s": 11.25
+    },
+    {
+      "word": "for",
+      "start_s": 11.285,
+      "end_s": 11.378
+    },
+    {
+      "word": "the",
+      "start_s": 11.424,
+      "end_s": 11.494
+    },
+    {
+      "word": "same",
+      "start_s": 11.54,
+      "end_s": 11.784
+    },
+    {
+      "word": "size.",
+      "start_s": 11.831,
+      "end_s": 12.353
+    },
+    {
+      "word": "That",
+      "start_s": 13.05,
+      "end_s": 13.247
+    },
+    {
+      "word": "is",
+      "start_s": 13.293,
+      "end_s": 13.363
+    },
+    {
+      "word": "more",
+      "start_s": 13.421,
+      "end_s": 13.549
+    },
+    {
+      "word": "than",
+      "start_s": 13.584,
+      "end_s": 13.7
+    },
+    {
+      "word": "five",
+      "start_s": 13.769,
+      "end_s": 14.036
+    },
+    {
+      "word": "times",
+      "start_s": 14.071,
+      "end_s": 14.385
+    },
+    {
+      "word": "the",
+      "start_s": 14.431,
+      "end_s": 14.501
+    },
+    {
+      "word": "price.",
+      "start_s": 14.536,
+      "end_s": 15.047
+    },
+    {
+      "word": "At",
+      "start_s": 15.859,
+      "end_s": 15.999
+    },
+    {
+      "word": "one",
+      "start_s": 16.08,
+      "end_s": 16.277
+    },
+    {
+      "word": "K",
+      "start_s": 16.324,
+      "end_s": 16.44
+    },
+    {
+      "word": "it",
+      "start_s": 16.591,
+      "end_s": 16.672
+    },
+    {
+      "word": "is",
+      "start_s": 16.719,
+      "end_s": 16.8
+    },
+    {
+      "word": "closer,",
+      "start_s": 16.858,
+      "end_s": 17.485
+    },
+    {
+      "word": "under",
+      "start_s": 17.694,
+      "end_s": 17.903
+    },
+    {
+      "word": "five",
+      "start_s": 17.973,
+      "end_s": 18.24
+    },
+    {
+      "word": "cents",
+      "start_s": 18.274,
+      "end_s": 18.518
+    },
+    {
+      "word": "against",
+      "start_s": 18.565,
+      "end_s": 18.843
+    },
+    {
+      "word": "about",
+      "start_s": 18.878,
+      "end_s": 19.087
+    },
+    {
+      "word": "three",
+      "start_s": 19.134,
+      "end_s": 19.319
+    },
+    {
+      "word": "and",
+      "start_s": 19.354,
+      "end_s": 19.424
+    },
+    {
+      "word": "a",
+      "start_s": 19.459,
+      "end_s": 19.493
+    },
+    {
+      "word": "half.",
+      "start_s": 19.551,
+      "end_s": 19.981
+    },
+    {
+      "word": "FLUX",
+      "start_s": 21.096,
+      "end_s": 21.444
+    },
+    {
+      "word": "does",
+      "start_s": 21.537,
+      "end_s": 21.746
+    },
+    {
+      "word": "list",
+      "start_s": 21.815,
+      "end_s": 22.059
+    },
+    {
+      "word": "a",
+      "start_s": 22.14,
+      "end_s": 22.222
+    },
+    {
+      "word": "small",
+      "start_s": 22.338,
+      "end_s": 22.686
+    },
+    {
+      "word": "seven",
+      "start_s": 22.767,
+      "end_s": 23.034
+    },
+    {
+      "word": "sixty",
+      "start_s": 23.104,
+      "end_s": 23.406
+    },
+    {
+      "word": "eight",
+      "start_s": 23.441,
+      "end_s": 23.592
+    },
+    {
+      "word": "pixel",
+      "start_s": 23.638,
+      "end_s": 23.94
+    },
+    {
+      "word": "size",
+      "start_s": 23.998,
+      "end_s": 24.288
+    },
+    {
+      "word": "at",
+      "start_s": 24.335,
+      "end_s": 24.451
+    },
+    {
+      "word": "four",
+      "start_s": 24.521,
+      "end_s": 24.73
+    },
+    {
+      "word": "cents.",
+      "start_s": 24.799,
+      "end_s": 25.287
+    },
+    {
+      "word": "If",
+      "start_s": 25.983,
+      "end_s": 26.111
+    },
+    {
+      "word": "you",
+      "start_s": 26.158,
+      "end_s": 26.239
+    },
+    {
+      "word": "generate",
+      "start_s": 26.308,
+      "end_s": 26.692
+    },
+    {
+      "word": "images",
+      "start_s": 26.738,
+      "end_s": 27.11
+    },
+    {
+      "word": "in",
+      "start_s": 27.156,
+      "end_s": 27.226
+    },
+    {
+      "word": "bulk,",
+      "start_s": 27.307,
+      "end_s": 27.783
+    },
+    {
+      "word": "check",
+      "start_s": 27.899,
+      "end_s": 28.131
+    },
+    {
+      "word": "the",
+      "start_s": 28.178,
+      "end_s": 28.247
+    },
+    {
+      "word": "resolution",
+      "start_s": 28.294,
+      "end_s": 28.77
+    },
+    {
+      "word": "first.",
+      "start_s": 28.839,
+      "end_s": 29.362
+    },
+    {
+      "word": "Four",
+      "start_s": 30.175,
+      "end_s": 30.418
+    },
+    {
+      "word": "K",
+      "start_s": 30.488,
+      "end_s": 30.604
+    },
+    {
+      "word": "is",
+      "start_s": 30.813,
+      "end_s": 30.929
+    },
+    {
+      "word": "sixty",
+      "start_s": 30.987,
+      "end_s": 31.312
+    },
+    {
+      "word": "one",
+      "start_s": 31.37,
+      "end_s": 31.545
+    },
+    {
+      "word": "cents",
+      "start_s": 31.591,
+      "end_s": 31.846
+    },
+    {
+      "word": "on",
+      "start_s": 31.916,
+      "end_s": 32.055
+    },
+    {
+      "word": "FLUX,",
+      "start_s": 32.172,
+      "end_s": 32.775
+    },
+    {
+      "word": "eleven",
+      "start_s": 33.019,
+      "end_s": 33.356
+    },
+    {
+      "word": "on",
+      "start_s": 33.414,
+      "end_s": 33.483
+    },
+    {
+      "word": "Google.",
+      "start_s": 33.541,
+      "end_s": 34.18
+    }
+  ]
+}

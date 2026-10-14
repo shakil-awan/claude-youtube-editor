@@ -1,0 +1,418 @@
+{
+  "text": "DeepSeek's pro model costs sixty six cents per million input tokens. Claude Opus five point five costs four dollars. On output, DeepSeek V four Pro charges one dollar ninety eight per million at off-peak rates. Opus charges twenty dollars. That is about six times cheaper on input and ten times cheaper on output. Even at peak hours, when DeepSeek doubles, it is still three to five times cheaper. This is price only, not a quality test. Sixty six cents versus four dollars.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 34.821,
+  "words": [
+    {
+      "word": "DeepSeek's",
+      "start_s": 0.0,
+      "end_s": 0.58
+    },
+    {
+      "word": "pro",
+      "start_s": 0.639,
+      "end_s": 0.848
+    },
+    {
+      "word": "model",
+      "start_s": 0.929,
+      "end_s": 1.196
+    },
+    {
+      "word": "costs",
+      "start_s": 1.265,
+      "end_s": 1.556
+    },
+    {
+      "word": "sixty",
+      "start_s": 1.625,
+      "end_s": 2.009
+    },
+    {
+      "word": "six",
+      "start_s": 2.067,
+      "end_s": 2.276
+    },
+    {
+      "word": "cents",
+      "start_s": 2.334,
+      "end_s": 2.566
+    },
+    {
+      "word": "per",
+      "start_s": 2.612,
+      "end_s": 2.74
+    },
+    {
+      "word": "million",
+      "start_s": 2.798,
+      "end_s": 3.088
+    },
+    {
+      "word": "input",
+      "start_s": 3.158,
+      "end_s": 3.437
+    },
+    {
+      "word": "tokens.",
+      "start_s": 3.471,
+      "end_s": 4.098
+    },
+    {
+      "word": "Claude",
+      "start_s": 4.702,
+      "end_s": 5.027
+    },
+    {
+      "word": "Opus",
+      "start_s": 5.062,
+      "end_s": 5.457
+    },
+    {
+      "word": "five",
+      "start_s": 5.7,
+      "end_s": 5.991
+    },
+    {
+      "word": "point",
+      "start_s": 6.037,
+      "end_s": 6.246
+    },
+    {
+      "word": "five",
+      "start_s": 6.304,
+      "end_s": 6.594
+    },
+    {
+      "word": "costs",
+      "start_s": 6.641,
+      "end_s": 6.966
+    },
+    {
+      "word": "four",
+      "start_s": 7.082,
+      "end_s": 7.303
+    },
+    {
+      "word": "dollars.",
+      "start_s": 7.349,
+      "end_s": 7.906
+    },
+    {
+      "word": "On",
+      "start_s": 8.719,
+      "end_s": 8.928
+    },
+    {
+      "word": "output,",
+      "start_s": 8.986,
+      "end_s": 9.485
+    },
+    {
+      "word": "DeepSeek",
+      "start_s": 9.659,
+      "end_s": 10.136
+    },
+    {
+      "word": "V",
+      "start_s": 10.205,
+      "end_s": 10.321
+    },
+    {
+      "word": "four",
+      "start_s": 10.53,
+      "end_s": 10.728
+    },
+    {
+      "word": "Pro",
+      "start_s": 10.797,
+      "end_s": 11.064
+    },
+    {
+      "word": "charges",
+      "start_s": 11.343,
+      "end_s": 11.749
+    },
+    {
+      "word": "one",
+      "start_s": 11.831,
+      "end_s": 12.016
+    },
+    {
+      "word": "dollar",
+      "start_s": 12.051,
+      "end_s": 12.307
+    },
+    {
+      "word": "ninety",
+      "start_s": 12.388,
+      "end_s": 12.655
+    },
+    {
+      "word": "eight",
+      "start_s": 12.69,
+      "end_s": 12.841
+    },
+    {
+      "word": "per",
+      "start_s": 12.875,
+      "end_s": 12.98
+    },
+    {
+      "word": "million",
+      "start_s": 13.026,
+      "end_s": 13.34
+    },
+    {
+      "word": "at",
+      "start_s": 13.41,
+      "end_s": 13.537
+    },
+    {
+      "word": "off-peak",
+      "start_s": 13.63,
+      "end_s": 14.118
+    },
+    {
+      "word": "rates.",
+      "start_s": 14.187,
+      "end_s": 14.71
+    },
+    {
+      "word": "Opus",
+      "start_s": 15.523,
+      "end_s": 15.871
+    },
+    {
+      "word": "charges",
+      "start_s": 15.929,
+      "end_s": 16.312
+    },
+    {
+      "word": "twenty",
+      "start_s": 16.382,
+      "end_s": 16.742
+    },
+    {
+      "word": "dollars.",
+      "start_s": 16.788,
+      "end_s": 17.357
+    },
+    {
+      "word": "That",
+      "start_s": 18.17,
+      "end_s": 18.484
+    },
+    {
+      "word": "is",
+      "start_s": 18.553,
+      "end_s": 18.634
+    },
+    {
+      "word": "about",
+      "start_s": 18.681,
+      "end_s": 18.913
+    },
+    {
+      "word": "six",
+      "start_s": 18.983,
+      "end_s": 19.227
+    },
+    {
+      "word": "times",
+      "start_s": 19.296,
+      "end_s": 19.563
+    },
+    {
+      "word": "cheaper",
+      "start_s": 19.633,
+      "end_s": 19.981
+    },
+    {
+      "word": "on",
+      "start_s": 20.051,
+      "end_s": 20.121
+    },
+    {
+      "word": "input",
+      "start_s": 20.202,
+      "end_s": 20.527
+    },
+    {
+      "word": "and",
+      "start_s": 20.655,
+      "end_s": 20.864
+    },
+    {
+      "word": "ten",
+      "start_s": 20.933,
+      "end_s": 21.154
+    },
+    {
+      "word": "times",
+      "start_s": 21.212,
+      "end_s": 21.49
+    },
+    {
+      "word": "cheaper",
+      "start_s": 21.537,
+      "end_s": 21.862
+    },
+    {
+      "word": "on",
+      "start_s": 21.932,
+      "end_s": 22.025
+    },
+    {
+      "word": "output.",
+      "start_s": 22.094,
+      "end_s": 22.663
+    },
+    {
+      "word": "Even",
+      "start_s": 23.476,
+      "end_s": 23.731
+    },
+    {
+      "word": "at",
+      "start_s": 23.766,
+      "end_s": 23.847
+    },
+    {
+      "word": "peak",
+      "start_s": 23.905,
+      "end_s": 24.138
+    },
+    {
+      "word": "hours,",
+      "start_s": 24.184,
+      "end_s": 24.521
+    },
+    {
+      "word": "when",
+      "start_s": 24.544,
+      "end_s": 24.706
+    },
+    {
+      "word": "DeepSeek",
+      "start_s": 24.776,
+      "end_s": 25.182
+    },
+    {
+      "word": "doubles,",
+      "start_s": 25.252,
+      "end_s": 25.751
+    },
+    {
+      "word": "it",
+      "start_s": 25.925,
+      "end_s": 26.03
+    },
+    {
+      "word": "is",
+      "start_s": 26.065,
+      "end_s": 26.134
+    },
+    {
+      "word": "still",
+      "start_s": 26.158,
+      "end_s": 26.367
+    },
+    {
+      "word": "three",
+      "start_s": 26.436,
+      "end_s": 26.669
+    },
+    {
+      "word": "to",
+      "start_s": 26.692,
+      "end_s": 26.738
+    },
+    {
+      "word": "five",
+      "start_s": 26.808,
+      "end_s": 27.063
+    },
+    {
+      "word": "times",
+      "start_s": 27.098,
+      "end_s": 27.342
+    },
+    {
+      "word": "cheaper.",
+      "start_s": 27.388,
+      "end_s": 27.922
+    },
+    {
+      "word": "This",
+      "start_s": 28.619,
+      "end_s": 28.816
+    },
+    {
+      "word": "is",
+      "start_s": 28.863,
+      "end_s": 28.932
+    },
+    {
+      "word": "price",
+      "start_s": 28.991,
+      "end_s": 29.281
+    },
+    {
+      "word": "only,",
+      "start_s": 29.327,
+      "end_s": 29.78
+    },
+    {
+      "word": "not",
+      "start_s": 29.989,
+      "end_s": 30.256
+    },
+    {
+      "word": "a",
+      "start_s": 30.314,
+      "end_s": 30.349
+    },
+    {
+      "word": "quality",
+      "start_s": 30.407,
+      "end_s": 30.767
+    },
+    {
+      "word": "test.",
+      "start_s": 30.813,
+      "end_s": 31.278
+    },
+    {
+      "word": "Sixty",
+      "start_s": 32.392,
+      "end_s": 32.764
+    },
+    {
+      "word": "six",
+      "start_s": 32.833,
+      "end_s": 33.042
+    },
+    {
+      "word": "cents",
+      "start_s": 33.1,
+      "end_s": 33.356
+    },
+    {
+      "word": "versus",
+      "start_s": 33.414,
+      "end_s": 33.727
+    },
+    {
+      "word": "four",
+      "start_s": 33.797,
+      "end_s": 33.994
+    },
+    {
+      "word": "dollars.",
+      "start_s": 34.052,
+      "end_s": 34.784
+    }
+  ]
+}

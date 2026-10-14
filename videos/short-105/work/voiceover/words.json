@@ -1,0 +1,383 @@
+{
+  "text": "Google's best AI doubles in price on December first. Gemini 4 Argon went generally available on October thirteenth. Right now it costs two dollars per million input tokens and ten dollars per million output. From December first, that becomes four dollars and twenty dollars. Same model, twice the bill. It has no free tier either. If you build on it, budget for the doubling now. Gemini 4 Argon. Two dollars today, four dollars in December.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 28.918,
+  "words": [
+    {
+      "word": "Google's",
+      "start_s": 0.0,
+      "end_s": 0.418
+    },
+    {
+      "word": "best",
+      "start_s": 0.464,
+      "end_s": 0.708
+    },
+    {
+      "word": "AI",
+      "start_s": 0.789,
+      "end_s": 1.115
+    },
+    {
+      "word": "doubles",
+      "start_s": 1.196,
+      "end_s": 1.509
+    },
+    {
+      "word": "in",
+      "start_s": 1.556,
+      "end_s": 1.614
+    },
+    {
+      "word": "price",
+      "start_s": 1.66,
+      "end_s": 1.939
+    },
+    {
+      "word": "on",
+      "start_s": 1.974,
+      "end_s": 2.043
+    },
+    {
+      "word": "December",
+      "start_s": 2.09,
+      "end_s": 2.485
+    },
+    {
+      "word": "first.",
+      "start_s": 2.554,
+      "end_s": 3.042
+    },
+    {
+      "word": "Gemini",
+      "start_s": 3.738,
+      "end_s": 4.168
+    },
+    {
+      "word": "4",
+      "start_s": 4.284,
+      "end_s": 4.493
+    },
+    {
+      "word": "Argon",
+      "start_s": 4.586,
+      "end_s": 5.016
+    },
+    {
+      "word": "went",
+      "start_s": 5.294,
+      "end_s": 5.526
+    },
+    {
+      "word": "generally",
+      "start_s": 5.608,
+      "end_s": 6.026
+    },
+    {
+      "word": "available",
+      "start_s": 6.072,
+      "end_s": 6.502
+    },
+    {
+      "word": "on",
+      "start_s": 6.548,
+      "end_s": 6.653
+    },
+    {
+      "word": "October",
+      "start_s": 6.699,
+      "end_s": 7.105
+    },
+    {
+      "word": "thirteenth.",
+      "start_s": 7.175,
+      "end_s": 7.837
+    },
+    {
+      "word": "Right",
+      "start_s": 8.649,
+      "end_s": 8.87
+    },
+    {
+      "word": "now",
+      "start_s": 8.928,
+      "end_s": 9.125
+    },
+    {
+      "word": "it",
+      "start_s": 9.242,
+      "end_s": 9.334
+    },
+    {
+      "word": "costs",
+      "start_s": 9.392,
+      "end_s": 9.66
+    },
+    {
+      "word": "two",
+      "start_s": 9.694,
+      "end_s": 9.834
+    },
+    {
+      "word": "dollars",
+      "start_s": 9.892,
+      "end_s": 10.194
+    },
+    {
+      "word": "per",
+      "start_s": 10.252,
+      "end_s": 10.368
+    },
+    {
+      "word": "million",
+      "start_s": 10.426,
+      "end_s": 10.739
+    },
+    {
+      "word": "input",
+      "start_s": 10.809,
+      "end_s": 11.099
+    },
+    {
+      "word": "tokens",
+      "start_s": 11.122,
+      "end_s": 11.54
+    },
+    {
+      "word": "and",
+      "start_s": 11.714,
+      "end_s": 11.923
+    },
+    {
+      "word": "ten",
+      "start_s": 11.981,
+      "end_s": 12.202
+    },
+    {
+      "word": "dollars",
+      "start_s": 12.249,
+      "end_s": 12.539
+    },
+    {
+      "word": "per",
+      "start_s": 12.597,
+      "end_s": 12.713
+    },
+    {
+      "word": "million",
+      "start_s": 12.759,
+      "end_s": 13.038
+    },
+    {
+      "word": "output.",
+      "start_s": 13.096,
+      "end_s": 13.607
+    },
+    {
+      "word": "From",
+      "start_s": 14.303,
+      "end_s": 14.478
+    },
+    {
+      "word": "December",
+      "start_s": 14.536,
+      "end_s": 14.954
+    },
+    {
+      "word": "first,",
+      "start_s": 15.023,
+      "end_s": 15.476
+    },
+    {
+      "word": "that",
+      "start_s": 15.604,
+      "end_s": 15.766
+    },
+    {
+      "word": "becomes",
+      "start_s": 15.801,
+      "end_s": 16.115
+    },
+    {
+      "word": "four",
+      "start_s": 16.184,
+      "end_s": 16.382
+    },
+    {
+      "word": "dollars",
+      "start_s": 16.428,
+      "end_s": 16.765
+    },
+    {
+      "word": "and",
+      "start_s": 16.834,
+      "end_s": 16.974
+    },
+    {
+      "word": "twenty",
+      "start_s": 17.02,
+      "end_s": 17.287
+    },
+    {
+      "word": "dollars.",
+      "start_s": 17.334,
+      "end_s": 17.845
+    },
+    {
+      "word": "Same",
+      "start_s": 18.17,
+      "end_s": 18.413
+    },
+    {
+      "word": "model,",
+      "start_s": 18.437,
+      "end_s": 18.82
+    },
+    {
+      "word": "twice",
+      "start_s": 18.878,
+      "end_s": 19.191
+    },
+    {
+      "word": "the",
+      "start_s": 19.226,
+      "end_s": 19.296
+    },
+    {
+      "word": "bill.",
+      "start_s": 19.331,
+      "end_s": 19.725
+    },
+    {
+      "word": "It",
+      "start_s": 20.167,
+      "end_s": 20.283
+    },
+    {
+      "word": "has",
+      "start_s": 20.317,
+      "end_s": 20.434
+    },
+    {
+      "word": "no",
+      "start_s": 20.515,
+      "end_s": 20.643
+    },
+    {
+      "word": "free",
+      "start_s": 20.724,
+      "end_s": 20.91
+    },
+    {
+      "word": "tier",
+      "start_s": 20.956,
+      "end_s": 21.142
+    },
+    {
+      "word": "either.",
+      "start_s": 21.211,
+      "end_s": 21.595
+    },
+    {
+      "word": "If",
+      "start_s": 21.804,
+      "end_s": 21.931
+    },
+    {
+      "word": "you",
+      "start_s": 21.978,
+      "end_s": 22.059
+    },
+    {
+      "word": "build",
+      "start_s": 22.129,
+      "end_s": 22.349
+    },
+    {
+      "word": "on",
+      "start_s": 22.407,
+      "end_s": 22.489
+    },
+    {
+      "word": "it,",
+      "start_s": 22.523,
+      "end_s": 22.767
+    },
+    {
+      "word": "budget",
+      "start_s": 22.976,
+      "end_s": 23.278
+    },
+    {
+      "word": "for",
+      "start_s": 23.313,
+      "end_s": 23.394
+    },
+    {
+      "word": "the",
+      "start_s": 23.429,
+      "end_s": 23.499
+    },
+    {
+      "word": "doubling",
+      "start_s": 23.533,
+      "end_s": 23.847
+    },
+    {
+      "word": "now.",
+      "start_s": 23.893,
+      "end_s": 24.23
+    },
+    {
+      "word": "Gemini",
+      "start_s": 24.927,
+      "end_s": 25.321
+    },
+    {
+      "word": "4",
+      "start_s": 25.403,
+      "end_s": 25.612
+    },
+    {
+      "word": "Argon.",
+      "start_s": 25.693,
+      "end_s": 26.169
+    },
+    {
+      "word": "Two",
+      "start_s": 26.552,
+      "end_s": 26.715
+    },
+    {
+      "word": "dollars",
+      "start_s": 26.761,
+      "end_s": 27.051
+    },
+    {
+      "word": "today,",
+      "start_s": 27.098,
+      "end_s": 27.434
+    },
+    {
+      "word": "four",
+      "start_s": 27.504,
+      "end_s": 27.713
+    },
+    {
+      "word": "dollars",
+      "start_s": 27.759,
+      "end_s": 28.026
+    },
+    {
+      "word": "in",
+      "start_s": 28.061,
+      "end_s": 28.108
+    },
+    {
+      "word": "December.",
+      "start_s": 28.154,
+      "end_s": 28.886
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "text": "Meta just launched Muse Wonder. On its API it costs four dollars per million input tokens and twenty dollars per million output. That is double what GPT six point one Sol and Claude Sonnet five point five list. And it gets stranger. The stronger model, Muse Wonder Full, is not on the API at all. You only get it inside a Muse Code plan. Fifty dollars a month, or two hundred. So the standard one is four dollars per million. The best one is fifty a month.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 32.418,
+  "words": [
+    {
+      "word": "Meta",
+      "start_s": 0.0,
+      "end_s": 0.279
+    },
+    {
+      "word": "just",
+      "start_s": 0.348,
+      "end_s": 0.534
+    },
+    {
+      "word": "launched",
+      "start_s": 0.604,
+      "end_s": 0.906
+    },
+    {
+      "word": "Muse",
+      "start_s": 1.022,
+      "end_s": 1.324
+    },
+    {
+      "word": "Wonder.",
+      "start_s": 1.358,
+      "end_s": 1.823
+    },
+    {
+      "word": "On",
+      "start_s": 2.426,
+      "end_s": 2.589
+    },
+    {
+      "word": "its",
+      "start_s": 2.624,
+      "end_s": 2.752
+    },
+    {
+      "word": "API",
+      "start_s": 2.821,
+      "end_s": 3.274
+    },
+    {
+      "word": "it",
+      "start_s": 3.39,
+      "end_s": 3.471
+    },
+    {
+      "word": "costs",
+      "start_s": 3.529,
+      "end_s": 3.796
+    },
+    {
+      "word": "four",
+      "start_s": 3.866,
+      "end_s": 4.122
+    },
+    {
+      "word": "dollars",
+      "start_s": 4.168,
+      "end_s": 4.47
+    },
+    {
+      "word": "per",
+      "start_s": 4.528,
+      "end_s": 4.667
+    },
+    {
+      "word": "million",
+      "start_s": 4.76,
+      "end_s": 5.085
+    },
+    {
+      "word": "input",
+      "start_s": 5.166,
+      "end_s": 5.48
+    },
+    {
+      "word": "tokens",
+      "start_s": 5.515,
+      "end_s": 5.968
+    },
+    {
+      "word": "and",
+      "start_s": 6.177,
+      "end_s": 6.444
+    },
+    {
+      "word": "twenty",
+      "start_s": 6.502,
+      "end_s": 6.78
+    },
+    {
+      "word": "dollars",
+      "start_s": 6.827,
+      "end_s": 7.129
+    },
+    {
+      "word": "per",
+      "start_s": 7.187,
+      "end_s": 7.303
+    },
+    {
+      "word": "million",
+      "start_s": 7.361,
+      "end_s": 7.674
+    },
+    {
+      "word": "output.",
+      "start_s": 7.755,
+      "end_s": 8.301
+    },
+    {
+      "word": "That",
+      "start_s": 8.998,
+      "end_s": 9.23
+    },
+    {
+      "word": "is",
+      "start_s": 9.288,
+      "end_s": 9.381
+    },
+    {
+      "word": "double",
+      "start_s": 9.462,
+      "end_s": 9.776
+    },
+    {
+      "word": "what",
+      "start_s": 9.81,
+      "end_s": 9.95
+    },
+    {
+      "word": "GPT",
+      "start_s": 10.019,
+      "end_s": 10.495
+    },
+    {
+      "word": "six",
+      "start_s": 10.67,
+      "end_s": 10.89
+    },
+    {
+      "word": "point",
+      "start_s": 10.96,
+      "end_s": 11.157
+    },
+    {
+      "word": "one",
+      "start_s": 11.227,
+      "end_s": 11.587
+    },
+    {
+      "word": "Sol",
+      "start_s": 11.831,
+      "end_s": 12.156
+    },
+    {
+      "word": "and",
+      "start_s": 12.214,
+      "end_s": 12.283
+    },
+    {
+      "word": "Claude",
+      "start_s": 12.341,
+      "end_s": 12.632
+    },
+    {
+      "word": "Sonnet",
+      "start_s": 12.678,
+      "end_s": 12.98
+    },
+    {
+      "word": "five",
+      "start_s": 13.05,
+      "end_s": 13.293
+    },
+    {
+      "word": "point",
+      "start_s": 13.34,
+      "end_s": 13.537
+    },
+    {
+      "word": "five",
+      "start_s": 13.595,
+      "end_s": 13.851
+    },
+    {
+      "word": "list.",
+      "start_s": 13.909,
+      "end_s": 14.362
+    },
+    {
+      "word": "And",
+      "start_s": 15.174,
+      "end_s": 15.372
+    },
+    {
+      "word": "it",
+      "start_s": 15.43,
+      "end_s": 15.499
+    },
+    {
+      "word": "gets",
+      "start_s": 15.546,
+      "end_s": 15.743
+    },
+    {
+      "word": "stranger.",
+      "start_s": 15.813,
+      "end_s": 16.602
+    },
+    {
+      "word": "The",
+      "start_s": 17.299,
+      "end_s": 17.438
+    },
+    {
+      "word": "stronger",
+      "start_s": 17.508,
+      "end_s": 17.926
+    },
+    {
+      "word": "model,",
+      "start_s": 17.995,
+      "end_s": 18.437
+    },
+    {
+      "word": "Muse",
+      "start_s": 18.529,
+      "end_s": 18.831
+    },
+    {
+      "word": "Wonder",
+      "start_s": 18.889,
+      "end_s": 19.168
+    },
+    {
+      "word": "Full,",
+      "start_s": 19.238,
+      "end_s": 19.702
+    },
+    {
+      "word": "is",
+      "start_s": 19.911,
+      "end_s": 20.062
+    },
+    {
+      "word": "not",
+      "start_s": 20.132,
+      "end_s": 20.283
+    },
+    {
+      "word": "on",
+      "start_s": 20.329,
+      "end_s": 20.375
+    },
+    {
+      "word": "the",
+      "start_s": 20.41,
+      "end_s": 20.48
+    },
+    {
+      "word": "API",
+      "start_s": 20.526,
+      "end_s": 20.909
+    },
+    {
+      "word": "at",
+      "start_s": 20.967,
+      "end_s": 21.037
+    },
+    {
+      "word": "all.",
+      "start_s": 21.072,
+      "end_s": 21.397
+    },
+    {
+      "word": "You",
+      "start_s": 22.001,
+      "end_s": 22.14
+    },
+    {
+      "word": "only",
+      "start_s": 22.198,
+      "end_s": 22.349
+    },
+    {
+      "word": "get",
+      "start_s": 22.396,
+      "end_s": 22.512
+    },
+    {
+      "word": "it",
+      "start_s": 22.546,
+      "end_s": 22.604
+    },
+    {
+      "word": "inside",
+      "start_s": 22.639,
+      "end_s": 22.953
+    },
+    {
+      "word": "a",
+      "start_s": 22.976,
+      "end_s": 22.999
+    },
+    {
+      "word": "Muse",
+      "start_s": 23.069,
+      "end_s": 23.324
+    },
+    {
+      "word": "Code",
+      "start_s": 23.359,
+      "end_s": 23.568
+    },
+    {
+      "word": "plan.",
+      "start_s": 23.591,
+      "end_s": 23.998
+    },
+    {
+      "word": "Fifty",
+      "start_s": 24.694,
+      "end_s": 25.019
+    },
+    {
+      "word": "dollars",
+      "start_s": 25.066,
+      "end_s": 25.379
+    },
+    {
+      "word": "a",
+      "start_s": 25.426,
+      "end_s": 25.461
+    },
+    {
+      "word": "month,",
+      "start_s": 25.519,
+      "end_s": 25.855
+    },
+    {
+      "word": "or",
+      "start_s": 25.971,
+      "end_s": 26.111
+    },
+    {
+      "word": "two",
+      "start_s": 26.169,
+      "end_s": 26.32
+    },
+    {
+      "word": "hundred.",
+      "start_s": 26.389,
+      "end_s": 26.854
+    },
+    {
+      "word": "So",
+      "start_s": 27.666,
+      "end_s": 27.817
+    },
+    {
+      "word": "the",
+      "start_s": 27.875,
+      "end_s": 27.945
+    },
+    {
+      "word": "standard",
+      "start_s": 27.98,
+      "end_s": 28.317
+    },
+    {
+      "word": "one",
+      "start_s": 28.375,
+      "end_s": 28.526
+    },
+    {
+      "word": "is",
+      "start_s": 28.56,
+      "end_s": 28.653
+    },
+    {
+      "word": "four",
+      "start_s": 28.735,
+      "end_s": 28.955
+    },
+    {
+      "word": "dollars",
+      "start_s": 29.013,
+      "end_s": 29.303
+    },
+    {
+      "word": "per",
+      "start_s": 29.361,
+      "end_s": 29.478
+    },
+    {
+      "word": "million.",
+      "start_s": 29.524,
+      "end_s": 30.012
+    },
+    {
+      "word": "The",
+      "start_s": 30.453,
+      "end_s": 30.569
+    },
+    {
+      "word": "best",
+      "start_s": 30.615,
+      "end_s": 30.813
+    },
+    {
+      "word": "one",
+      "start_s": 30.882,
+      "end_s": 31.033
+    },
+    {
+      "word": "is",
+      "start_s": 31.068,
+      "end_s": 31.196
+    },
+    {
+      "word": "fifty",
+      "start_s": 31.347,
+      "end_s": 31.672
+    },
+    {
+      "word": "a",
+      "start_s": 31.718,
+      "end_s": 31.742
+    },
+    {
+      "word": "month.",
+      "start_s": 31.788,
+      "end_s": 32.368
+    }
+  ]
+}

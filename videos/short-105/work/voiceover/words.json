@@ -1,0 +1,453 @@
+{
+  "text": "Liquid AI's new decision model costs four point two cents per million tokens. That is d1 ultra. It reads text or an image and answers yes or no questions with a probability. It writes no tokens, so the output is free. A big image counts as about fifteen hundred tokens. That is over fifteen thousand images classified for one dollar. Each question bills as its own prompt. Liquid says it beats every other decision model on the Artificial Analysis index. Four point two cents per million tokens. Output free.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 36.493,
+  "words": [
+    {
+      "word": "Liquid",
+      "start_s": 0.0,
+      "end_s": 0.383
+    },
+    {
+      "word": "AI's",
+      "start_s": 0.441,
+      "end_s": 0.801
+    },
+    {
+      "word": "new",
+      "start_s": 0.882,
+      "end_s": 1.033
+    },
+    {
+      "word": "decision",
+      "start_s": 1.08,
+      "end_s": 1.44
+    },
+    {
+      "word": "model",
+      "start_s": 1.498,
+      "end_s": 1.741
+    },
+    {
+      "word": "costs",
+      "start_s": 1.8,
+      "end_s": 2.09
+    },
+    {
+      "word": "four",
+      "start_s": 2.171,
+      "end_s": 2.415
+    },
+    {
+      "word": "point",
+      "start_s": 2.473,
+      "end_s": 2.682
+    },
+    {
+      "word": "two",
+      "start_s": 2.717,
+      "end_s": 2.868
+    },
+    {
+      "word": "cents",
+      "start_s": 2.937,
+      "end_s": 3.17
+    },
+    {
+      "word": "per",
+      "start_s": 3.228,
+      "end_s": 3.379
+    },
+    {
+      "word": "million",
+      "start_s": 3.448,
+      "end_s": 3.785
+    },
+    {
+      "word": "tokens.",
+      "start_s": 3.831,
+      "end_s": 4.47
+    },
+    {
+      "word": "That",
+      "start_s": 5.166,
+      "end_s": 5.375
+    },
+    {
+      "word": "is",
+      "start_s": 5.433,
+      "end_s": 5.515
+    },
+    {
+      "word": "d1",
+      "start_s": 5.584,
+      "end_s": 5.944
+    },
+    {
+      "word": "ultra.",
+      "start_s": 6.037,
+      "end_s": 6.548
+    },
+    {
+      "word": "It",
+      "start_s": 7.361,
+      "end_s": 7.5
+    },
+    {
+      "word": "reads",
+      "start_s": 7.558,
+      "end_s": 7.802
+    },
+    {
+      "word": "text",
+      "start_s": 7.872,
+      "end_s": 8.266
+    },
+    {
+      "word": "or",
+      "start_s": 8.336,
+      "end_s": 8.499
+    },
+    {
+      "word": "an",
+      "start_s": 8.568,
+      "end_s": 8.626
+    },
+    {
+      "word": "image",
+      "start_s": 8.684,
+      "end_s": 9.021
+    },
+    {
+      "word": "and",
+      "start_s": 9.067,
+      "end_s": 9.172
+    },
+    {
+      "word": "answers",
+      "start_s": 9.253,
+      "end_s": 9.601
+    },
+    {
+      "word": "yes",
+      "start_s": 9.671,
+      "end_s": 9.892
+    },
+    {
+      "word": "or",
+      "start_s": 9.961,
+      "end_s": 10.054
+    },
+    {
+      "word": "no",
+      "start_s": 10.112,
+      "end_s": 10.228
+    },
+    {
+      "word": "questions",
+      "start_s": 10.298,
+      "end_s": 10.739
+    },
+    {
+      "word": "with",
+      "start_s": 10.786,
+      "end_s": 10.913
+    },
+    {
+      "word": "a",
+      "start_s": 10.948,
+      "end_s": 10.971
+    },
+    {
+      "word": "probability.",
+      "start_s": 11.018,
+      "end_s": 11.854
+    },
+    {
+      "word": "It",
+      "start_s": 12.55,
+      "end_s": 12.69
+    },
+    {
+      "word": "writes",
+      "start_s": 12.725,
+      "end_s": 12.992
+    },
+    {
+      "word": "no",
+      "start_s": 13.073,
+      "end_s": 13.201
+    },
+    {
+      "word": "tokens,",
+      "start_s": 13.27,
+      "end_s": 13.886
+    },
+    {
+      "word": "so",
+      "start_s": 13.967,
+      "end_s": 14.106
+    },
+    {
+      "word": "the",
+      "start_s": 14.164,
+      "end_s": 14.245
+    },
+    {
+      "word": "output",
+      "start_s": 14.303,
+      "end_s": 14.605
+    },
+    {
+      "word": "is",
+      "start_s": 14.652,
+      "end_s": 14.733
+    },
+    {
+      "word": "free.",
+      "start_s": 14.803,
+      "end_s": 15.221
+    },
+    {
+      "word": "A",
+      "start_s": 15.917,
+      "end_s": 15.999
+    },
+    {
+      "word": "big",
+      "start_s": 16.115,
+      "end_s": 16.324
+    },
+    {
+      "word": "image",
+      "start_s": 16.393,
+      "end_s": 16.718
+    },
+    {
+      "word": "counts",
+      "start_s": 16.765,
+      "end_s": 17.043
+    },
+    {
+      "word": "as",
+      "start_s": 17.078,
+      "end_s": 17.148
+    },
+    {
+      "word": "about",
+      "start_s": 17.183,
+      "end_s": 17.403
+    },
+    {
+      "word": "fifteen",
+      "start_s": 17.473,
+      "end_s": 17.926
+    },
+    {
+      "word": "hundred",
+      "start_s": 17.995,
+      "end_s": 18.309
+    },
+    {
+      "word": "tokens.",
+      "start_s": 18.355,
+      "end_s": 18.994
+    },
+    {
+      "word": "That",
+      "start_s": 19.807,
+      "end_s": 19.992
+    },
+    {
+      "word": "is",
+      "start_s": 20.039,
+      "end_s": 20.109
+    },
+    {
+      "word": "over",
+      "start_s": 20.155,
+      "end_s": 20.341
+    },
+    {
+      "word": "fifteen",
+      "start_s": 20.41,
+      "end_s": 20.794
+    },
+    {
+      "word": "thousand",
+      "start_s": 20.852,
+      "end_s": 21.223
+    },
+    {
+      "word": "images",
+      "start_s": 21.281,
+      "end_s": 21.629
+    },
+    {
+      "word": "classified",
+      "start_s": 21.687,
+      "end_s": 22.291
+    },
+    {
+      "word": "for",
+      "start_s": 22.338,
+      "end_s": 22.465
+    },
+    {
+      "word": "one",
+      "start_s": 22.547,
+      "end_s": 22.744
+    },
+    {
+      "word": "dollar.",
+      "start_s": 22.779,
+      "end_s": 23.301
+    },
+    {
+      "word": "Each",
+      "start_s": 23.998,
+      "end_s": 24.23
+    },
+    {
+      "word": "question",
+      "start_s": 24.288,
+      "end_s": 24.706
+    },
+    {
+      "word": "bills",
+      "start_s": 24.776,
+      "end_s": 25.101
+    },
+    {
+      "word": "as",
+      "start_s": 25.17,
+      "end_s": 25.263
+    },
+    {
+      "word": "its",
+      "start_s": 25.321,
+      "end_s": 25.437
+    },
+    {
+      "word": "own",
+      "start_s": 25.496,
+      "end_s": 25.693
+    },
+    {
+      "word": "prompt.",
+      "start_s": 25.763,
+      "end_s": 26.343
+    },
+    {
+      "word": "Liquid",
+      "start_s": 27.156,
+      "end_s": 27.492
+    },
+    {
+      "word": "says",
+      "start_s": 27.539,
+      "end_s": 27.806
+    },
+    {
+      "word": "it",
+      "start_s": 27.887,
+      "end_s": 27.992
+    },
+    {
+      "word": "beats",
+      "start_s": 28.061,
+      "end_s": 28.328
+    },
+    {
+      "word": "every",
+      "start_s": 28.444,
+      "end_s": 28.746
+    },
+    {
+      "word": "other",
+      "start_s": 28.804,
+      "end_s": 28.979
+    },
+    {
+      "word": "decision",
+      "start_s": 29.025,
+      "end_s": 29.396
+    },
+    {
+      "word": "model",
+      "start_s": 29.455,
+      "end_s": 29.722
+    },
+    {
+      "word": "on",
+      "start_s": 29.791,
+      "end_s": 29.872
+    },
+    {
+      "word": "the",
+      "start_s": 29.907,
+      "end_s": 29.977
+    },
+    {
+      "word": "Artificial",
+      "start_s": 30.047,
+      "end_s": 30.557
+    },
+    {
+      "word": "Analysis",
+      "start_s": 30.616,
+      "end_s": 31.08
+    },
+    {
+      "word": "index.",
+      "start_s": 31.15,
+      "end_s": 31.765
+    },
+    {
+      "word": "Four",
+      "start_s": 32.462,
+      "end_s": 32.705
+    },
+    {
+      "word": "point",
+      "start_s": 32.763,
+      "end_s": 32.984
+    },
+    {
+      "word": "two",
+      "start_s": 33.019,
+      "end_s": 33.17
+    },
+    {
+      "word": "cents",
+      "start_s": 33.251,
+      "end_s": 33.495
+    },
+    {
+      "word": "per",
+      "start_s": 33.541,
+      "end_s": 33.669
+    },
+    {
+      "word": "million",
+      "start_s": 33.739,
+      "end_s": 34.075
+    },
+    {
+      "word": "tokens.",
+      "start_s": 34.133,
+      "end_s": 34.784
+    },
+    {
+      "word": "Output",
+      "start_s": 35.387,
+      "end_s": 35.794
+    },
+    {
+      "word": "free.",
+      "start_s": 35.84,
+      "end_s": 36.455
+    }
+  ]
+}

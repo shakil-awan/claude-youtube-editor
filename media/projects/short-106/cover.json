@@ -1,0 +1,10 @@
+{
+  "prompt": "An open golden key resting on a sleek dark microchip with a faint liquid-like emerald glow, single bold subject in the lower two thirds, empty dark space at top, cinematic light, emerald/gold accents, dark charcoal bg, film grain. Absolutely NO text, NO letters, NO numbers, NO logos, NO brand names.",
+  "backend": "gemini",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-10-17T11:13:36"
+}

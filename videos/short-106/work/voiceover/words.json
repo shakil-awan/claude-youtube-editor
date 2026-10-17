@@ -1,0 +1,468 @@
+{
+  "text": "Liquid AI just released an open model you can use commercially for free. It is LFM two point five. Twenty four billion parameters, with only two billion active. The license is free for companies under ten million dollars in annual revenue. At ten million or more, you need a paid license. Liquid says it runs a hundred eighty four tokens per second on an Apple M five Max. The context window is one hundred thirty one thousand tokens. New accounts also get two dollars in API credit. Free until ten million dollars.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 34.534,
+  "words": [
+    {
+      "word": "Liquid",
+      "start_s": 0.0,
+      "end_s": 0.383
+    },
+    {
+      "word": "AI",
+      "start_s": 0.441,
+      "end_s": 0.743
+    },
+    {
+      "word": "just",
+      "start_s": 0.824,
+      "end_s": 1.045
+    },
+    {
+      "word": "released",
+      "start_s": 1.091,
+      "end_s": 1.416
+    },
+    {
+      "word": "an",
+      "start_s": 1.463,
+      "end_s": 1.533
+    },
+    {
+      "word": "open",
+      "start_s": 1.649,
+      "end_s": 1.939
+    },
+    {
+      "word": "model",
+      "start_s": 1.997,
+      "end_s": 2.276
+    },
+    {
+      "word": "you",
+      "start_s": 2.345,
+      "end_s": 2.426
+    },
+    {
+      "word": "can",
+      "start_s": 2.473,
+      "end_s": 2.589
+    },
+    {
+      "word": "use",
+      "start_s": 2.659,
+      "end_s": 2.821
+    },
+    {
+      "word": "commercially",
+      "start_s": 2.868,
+      "end_s": 3.367
+    },
+    {
+      "word": "for",
+      "start_s": 3.425,
+      "end_s": 3.541
+    },
+    {
+      "word": "free.",
+      "start_s": 3.611,
+      "end_s": 4.052
+    },
+    {
+      "word": "It",
+      "start_s": 4.748,
+      "end_s": 4.876
+    },
+    {
+      "word": "is",
+      "start_s": 4.923,
+      "end_s": 5.027
+    },
+    {
+      "word": "LFM",
+      "start_s": 5.12,
+      "end_s": 5.712
+    },
+    {
+      "word": "two",
+      "start_s": 5.782,
+      "end_s": 5.933
+    },
+    {
+      "word": "point",
+      "start_s": 6.014,
+      "end_s": 6.235
+    },
+    {
+      "word": "five.",
+      "start_s": 6.293,
+      "end_s": 6.78
+    },
+    {
+      "word": "Twenty",
+      "start_s": 7.384,
+      "end_s": 7.663
+    },
+    {
+      "word": "four",
+      "start_s": 7.709,
+      "end_s": 7.883
+    },
+    {
+      "word": "billion",
+      "start_s": 7.941,
+      "end_s": 8.255
+    },
+    {
+      "word": "parameters,",
+      "start_s": 8.324,
+      "end_s": 9.009
+    },
+    {
+      "word": "with",
+      "start_s": 9.16,
+      "end_s": 9.323
+    },
+    {
+      "word": "only",
+      "start_s": 9.369,
+      "end_s": 9.555
+    },
+    {
+      "word": "two",
+      "start_s": 9.613,
+      "end_s": 9.81
+    },
+    {
+      "word": "billion",
+      "start_s": 9.892,
+      "end_s": 10.217
+    },
+    {
+      "word": "active.",
+      "start_s": 10.263,
+      "end_s": 10.751
+    },
+    {
+      "word": "The",
+      "start_s": 11.355,
+      "end_s": 11.471
+    },
+    {
+      "word": "license",
+      "start_s": 11.529,
+      "end_s": 11.935
+    },
+    {
+      "word": "is",
+      "start_s": 11.97,
+      "end_s": 12.051
+    },
+    {
+      "word": "free",
+      "start_s": 12.121,
+      "end_s": 12.33
+    },
+    {
+      "word": "for",
+      "start_s": 12.365,
+      "end_s": 12.469
+    },
+    {
+      "word": "companies",
+      "start_s": 12.527,
+      "end_s": 12.899
+    },
+    {
+      "word": "under",
+      "start_s": 12.968,
+      "end_s": 13.142
+    },
+    {
+      "word": "ten",
+      "start_s": 13.212,
+      "end_s": 13.421
+    },
+    {
+      "word": "million",
+      "start_s": 13.491,
+      "end_s": 13.769
+    },
+    {
+      "word": "dollars",
+      "start_s": 13.816,
+      "end_s": 14.129
+    },
+    {
+      "word": "in",
+      "start_s": 14.187,
+      "end_s": 14.257
+    },
+    {
+      "word": "annual",
+      "start_s": 14.35,
+      "end_s": 14.733
+    },
+    {
+      "word": "revenue.",
+      "start_s": 14.803,
+      "end_s": 15.325
+    },
+    {
+      "word": "At",
+      "start_s": 15.929,
+      "end_s": 16.091
+    },
+    {
+      "word": "ten",
+      "start_s": 16.149,
+      "end_s": 16.347
+    },
+    {
+      "word": "million",
+      "start_s": 16.416,
+      "end_s": 16.683
+    },
+    {
+      "word": "or",
+      "start_s": 16.718,
+      "end_s": 16.8
+    },
+    {
+      "word": "more,",
+      "start_s": 16.858,
+      "end_s": 17.206
+    },
+    {
+      "word": "you",
+      "start_s": 17.38,
+      "end_s": 17.473
+    },
+    {
+      "word": "need",
+      "start_s": 17.543,
+      "end_s": 17.694
+    },
+    {
+      "word": "a",
+      "start_s": 17.728,
+      "end_s": 17.752
+    },
+    {
+      "word": "paid",
+      "start_s": 17.798,
+      "end_s": 17.984
+    },
+    {
+      "word": "license.",
+      "start_s": 18.042,
+      "end_s": 18.669
+    },
+    {
+      "word": "Liquid",
+      "start_s": 19.481,
+      "end_s": 19.807
+    },
+    {
+      "word": "says",
+      "start_s": 19.853,
+      "end_s": 20.05
+    },
+    {
+      "word": "it",
+      "start_s": 20.097,
+      "end_s": 20.155
+    },
+    {
+      "word": "runs",
+      "start_s": 20.213,
+      "end_s": 20.434
+    },
+    {
+      "word": "a",
+      "start_s": 20.515,
+      "end_s": 20.561
+    },
+    {
+      "word": "hundred",
+      "start_s": 20.712,
+      "end_s": 21.026
+    },
+    {
+      "word": "eighty",
+      "start_s": 21.072,
+      "end_s": 21.269
+    },
+    {
+      "word": "four",
+      "start_s": 21.316,
+      "end_s": 21.478
+    },
+    {
+      "word": "tokens",
+      "start_s": 21.525,
+      "end_s": 21.862
+    },
+    {
+      "word": "per",
+      "start_s": 21.92,
+      "end_s": 22.047
+    },
+    {
+      "word": "second",
+      "start_s": 22.105,
+      "end_s": 22.384
+    },
+    {
+      "word": "on",
+      "start_s": 22.43,
+      "end_s": 22.5
+    },
+    {
+      "word": "an",
+      "start_s": 22.547,
+      "end_s": 22.605
+    },
+    {
+      "word": "Apple",
+      "start_s": 22.686,
+      "end_s": 23.023
+    },
+    {
+      "word": "M",
+      "start_s": 23.057,
+      "end_s": 23.232
+    },
+    {
+      "word": "five",
+      "start_s": 23.313,
+      "end_s": 23.591
+    },
+    {
+      "word": "Max.",
+      "start_s": 23.649,
+      "end_s": 24.207
+    },
+    {
+      "word": "The",
+      "start_s": 24.903,
+      "end_s": 25.008
+    },
+    {
+      "word": "context",
+      "start_s": 25.066,
+      "end_s": 25.53
+    },
+    {
+      "word": "window",
+      "start_s": 25.588,
+      "end_s": 25.902
+    },
+    {
+      "word": "is",
+      "start_s": 26.146,
+      "end_s": 26.308
+    },
+    {
+      "word": "one",
+      "start_s": 26.378,
+      "end_s": 26.564
+    },
+    {
+      "word": "hundred",
+      "start_s": 26.598,
+      "end_s": 26.819
+    },
+    {
+      "word": "thirty",
+      "start_s": 26.865,
+      "end_s": 27.098
+    },
+    {
+      "word": "one",
+      "start_s": 27.167,
+      "end_s": 27.307
+    },
+    {
+      "word": "thousand",
+      "start_s": 27.341,
+      "end_s": 27.678
+    },
+    {
+      "word": "tokens.",
+      "start_s": 27.736,
+      "end_s": 28.351
+    },
+    {
+      "word": "New",
+      "start_s": 29.164,
+      "end_s": 29.327
+    },
+    {
+      "word": "accounts",
+      "start_s": 29.362,
+      "end_s": 29.745
+    },
+    {
+      "word": "also",
+      "start_s": 29.814,
+      "end_s": 30.093
+    },
+    {
+      "word": "get",
+      "start_s": 30.163,
+      "end_s": 30.29
+    },
+    {
+      "word": "two",
+      "start_s": 30.325,
+      "end_s": 30.465
+    },
+    {
+      "word": "dollars",
+      "start_s": 30.523,
+      "end_s": 30.836
+    },
+    {
+      "word": "in",
+      "start_s": 30.871,
+      "end_s": 30.941
+    },
+    {
+      "word": "API",
+      "start_s": 31.01,
+      "end_s": 31.382
+    },
+    {
+      "word": "credit.",
+      "start_s": 31.451,
+      "end_s": 31.893
+    },
+    {
+      "word": "Free",
+      "start_s": 32.589,
+      "end_s": 32.879
+    },
+    {
+      "word": "until",
+      "start_s": 32.937,
+      "end_s": 33.181
+    },
+    {
+      "word": "ten",
+      "start_s": 33.251,
+      "end_s": 33.437
+    },
+    {
+      "word": "million",
+      "start_s": 33.495,
+      "end_s": 33.773
+    },
+    {
+      "word": "dollars.",
+      "start_s": 33.82,
+      "end_s": 34.505
+    }
+  ]
+}

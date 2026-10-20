@@ -1,0 +1,438 @@
+{
+  "text": "MiniMax's new AI costs half as much as M three. It is called M three point one Flash. Fifteen cents per million input tokens. Sixty cents per million output. M three, the standard model, charges thirty cents and one dollar twenty. Cached input is just one and a half cents. If your app repeats long prompts, that is the number that matters. This compares price only, not quality. But half the bill is half the bill. MiniMax's new AI costs half as much as M three.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 35.056,
+  "words": [
+    {
+      "word": "MiniMax's",
+      "start_s": 0.0,
+      "end_s": 0.697
+    },
+    {
+      "word": "new",
+      "start_s": 0.778,
+      "end_s": 0.929
+    },
+    {
+      "word": "AI",
+      "start_s": 1.022,
+      "end_s": 1.358
+    },
+    {
+      "word": "costs",
+      "start_s": 1.428,
+      "end_s": 1.73
+    },
+    {
+      "word": "half",
+      "start_s": 1.811,
+      "end_s": 2.055
+    },
+    {
+      "word": "as",
+      "start_s": 2.113,
+      "end_s": 2.183
+    },
+    {
+      "word": "much",
+      "start_s": 2.241,
+      "end_s": 2.415
+    },
+    {
+      "word": "as",
+      "start_s": 2.45,
+      "end_s": 2.543
+    },
+    {
+      "word": "M",
+      "start_s": 2.659,
+      "end_s": 2.868
+    },
+    {
+      "word": "three.",
+      "start_s": 2.949,
+      "end_s": 3.46
+    },
+    {
+      "word": "It",
+      "start_s": 3.901,
+      "end_s": 4.017
+    },
+    {
+      "word": "is",
+      "start_s": 4.052,
+      "end_s": 4.122
+    },
+    {
+      "word": "called",
+      "start_s": 4.191,
+      "end_s": 4.47
+    },
+    {
+      "word": "M",
+      "start_s": 4.563,
+      "end_s": 4.772
+    },
+    {
+      "word": "three",
+      "start_s": 4.841,
+      "end_s": 5.085
+    },
+    {
+      "word": "point",
+      "start_s": 5.143,
+      "end_s": 5.375
+    },
+    {
+      "word": "one",
+      "start_s": 5.445,
+      "end_s": 5.642
+    },
+    {
+      "word": "Flash.",
+      "start_s": 5.689,
+      "end_s": 6.258
+    },
+    {
+      "word": "Fifteen",
+      "start_s": 7.07,
+      "end_s": 7.512
+    },
+    {
+      "word": "cents",
+      "start_s": 7.581,
+      "end_s": 7.825
+    },
+    {
+      "word": "per",
+      "start_s": 7.872,
+      "end_s": 7.999
+    },
+    {
+      "word": "million",
+      "start_s": 8.069,
+      "end_s": 8.371
+    },
+    {
+      "word": "input",
+      "start_s": 8.452,
+      "end_s": 8.789
+    },
+    {
+      "word": "tokens.",
+      "start_s": 8.824,
+      "end_s": 9.416
+    },
+    {
+      "word": "Sixty",
+      "start_s": 10.112,
+      "end_s": 10.484
+    },
+    {
+      "word": "cents",
+      "start_s": 10.542,
+      "end_s": 10.774
+    },
+    {
+      "word": "per",
+      "start_s": 10.82,
+      "end_s": 10.937
+    },
+    {
+      "word": "million",
+      "start_s": 11.006,
+      "end_s": 11.296
+    },
+    {
+      "word": "output.",
+      "start_s": 11.355,
+      "end_s": 11.923
+    },
+    {
+      "word": "M",
+      "start_s": 12.736,
+      "end_s": 12.945
+    },
+    {
+      "word": "three,",
+      "start_s": 13.026,
+      "end_s": 13.502
+    },
+    {
+      "word": "the",
+      "start_s": 13.653,
+      "end_s": 13.758
+    },
+    {
+      "word": "standard",
+      "start_s": 13.816,
+      "end_s": 14.187
+    },
+    {
+      "word": "model,",
+      "start_s": 14.234,
+      "end_s": 14.64
+    },
+    {
+      "word": "charges",
+      "start_s": 14.791,
+      "end_s": 15.186
+    },
+    {
+      "word": "thirty",
+      "start_s": 15.255,
+      "end_s": 15.534
+    },
+    {
+      "word": "cents",
+      "start_s": 15.592,
+      "end_s": 15.848
+    },
+    {
+      "word": "and",
+      "start_s": 15.906,
+      "end_s": 16.022
+    },
+    {
+      "word": "one",
+      "start_s": 16.115,
+      "end_s": 16.347
+    },
+    {
+      "word": "dollar",
+      "start_s": 16.393,
+      "end_s": 16.649
+    },
+    {
+      "word": "twenty.",
+      "start_s": 16.707,
+      "end_s": 17.218
+    },
+    {
+      "word": "Cached",
+      "start_s": 17.914,
+      "end_s": 18.274
+    },
+    {
+      "word": "input",
+      "start_s": 18.321,
+      "end_s": 18.646
+    },
+    {
+      "word": "is",
+      "start_s": 18.704,
+      "end_s": 18.797
+    },
+    {
+      "word": "just",
+      "start_s": 18.855,
+      "end_s": 19.04
+    },
+    {
+      "word": "one",
+      "start_s": 19.133,
+      "end_s": 19.354
+    },
+    {
+      "word": "and",
+      "start_s": 19.377,
+      "end_s": 19.447
+    },
+    {
+      "word": "a",
+      "start_s": 19.493,
+      "end_s": 19.516
+    },
+    {
+      "word": "half",
+      "start_s": 19.586,
+      "end_s": 19.772
+    },
+    {
+      "word": "cents.",
+      "start_s": 19.83,
+      "end_s": 20.387
+    },
+    {
+      "word": "If",
+      "start_s": 21.2,
+      "end_s": 21.351
+    },
+    {
+      "word": "your",
+      "start_s": 21.397,
+      "end_s": 21.525
+    },
+    {
+      "word": "app",
+      "start_s": 21.583,
+      "end_s": 21.734
+    },
+    {
+      "word": "repeats",
+      "start_s": 21.792,
+      "end_s": 22.14
+    },
+    {
+      "word": "long",
+      "start_s": 22.21,
+      "end_s": 22.477
+    },
+    {
+      "word": "prompts,",
+      "start_s": 22.547,
+      "end_s": 23.092
+    },
+    {
+      "word": "that",
+      "start_s": 23.301,
+      "end_s": 23.58
+    },
+    {
+      "word": "is",
+      "start_s": 23.65,
+      "end_s": 23.754
+    },
+    {
+      "word": "the",
+      "start_s": 23.801,
+      "end_s": 23.87
+    },
+    {
+      "word": "number",
+      "start_s": 23.928,
+      "end_s": 24.137
+    },
+    {
+      "word": "that",
+      "start_s": 24.184,
+      "end_s": 24.311
+    },
+    {
+      "word": "matters.",
+      "start_s": 24.358,
+      "end_s": 24.938
+    },
+    {
+      "word": "This",
+      "start_s": 25.635,
+      "end_s": 25.844
+    },
+    {
+      "word": "compares",
+      "start_s": 25.902,
+      "end_s": 26.308
+    },
+    {
+      "word": "price",
+      "start_s": 26.378,
+      "end_s": 26.703
+    },
+    {
+      "word": "only,",
+      "start_s": 26.75,
+      "end_s": 27.179
+    },
+    {
+      "word": "not",
+      "start_s": 27.272,
+      "end_s": 27.434
+    },
+    {
+      "word": "quality.",
+      "start_s": 27.481,
+      "end_s": 28.073
+    },
+    {
+      "word": "But",
+      "start_s": 28.886,
+      "end_s": 29.072
+    },
+    {
+      "word": "half",
+      "start_s": 29.13,
+      "end_s": 29.327
+    },
+    {
+      "word": "the",
+      "start_s": 29.373,
+      "end_s": 29.443
+    },
+    {
+      "word": "bill",
+      "start_s": 29.489,
+      "end_s": 29.687
+    },
+    {
+      "word": "is",
+      "start_s": 29.768,
+      "end_s": 29.873
+    },
+    {
+      "word": "half",
+      "start_s": 29.942,
+      "end_s": 30.163
+    },
+    {
+      "word": "the",
+      "start_s": 30.209,
+      "end_s": 30.279
+    },
+    {
+      "word": "bill.",
+      "start_s": 30.314,
+      "end_s": 30.72
+    },
+    {
+      "word": "MiniMax's",
+      "start_s": 31.533,
+      "end_s": 32.206
+    },
+    {
+      "word": "new",
+      "start_s": 32.287,
+      "end_s": 32.438
+    },
+    {
+      "word": "AI",
+      "start_s": 32.531,
+      "end_s": 32.845
+    },
+    {
+      "word": "costs",
+      "start_s": 32.914,
+      "end_s": 33.239
+    },
+    {
+      "word": "half",
+      "start_s": 33.309,
+      "end_s": 33.576
+    },
+    {
+      "word": "as",
+      "start_s": 33.634,
+      "end_s": 33.704
+    },
+    {
+      "word": "much",
+      "start_s": 33.774,
+      "end_s": 33.948
+    },
+    {
+      "word": "as",
+      "start_s": 33.983,
+      "end_s": 34.075
+    },
+    {
+      "word": "M",
+      "start_s": 34.168,
+      "end_s": 34.342
+    },
+    {
+      "word": "three.",
+      "start_s": 34.412,
+      "end_s": 35.016
+    }
+  ]
+}

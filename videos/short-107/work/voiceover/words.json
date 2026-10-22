@@ -1,0 +1,463 @@
+{
+  "text": "OpenAI's newer model costs less than its older one. GPT five point five costs five dollars per million input tokens and thirty dollars per million output. GPT six point one Sol costs two dollars in, ten dollars out. That is sixty percent cheaper on input. And three times cheaper on output. Cached input drops too, from fifty cents to ten cents. This compares list price for short prompts, not quality or speed. But if you still call GPT five point five, check your bill. Newer, and cheaper. Two dollars versus five.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 37.46,
+  "words": [
+    {
+      "word": "OpenAI's",
+      "start_s": 0.0,
+      "end_s": 0.731
+    },
+    {
+      "word": "newer",
+      "start_s": 0.824,
+      "end_s": 1.08
+    },
+    {
+      "word": "model",
+      "start_s": 1.138,
+      "end_s": 1.393
+    },
+    {
+      "word": "costs",
+      "start_s": 1.463,
+      "end_s": 1.753
+    },
+    {
+      "word": "less",
+      "start_s": 1.834,
+      "end_s": 2.067
+    },
+    {
+      "word": "than",
+      "start_s": 2.09,
+      "end_s": 2.194
+    },
+    {
+      "word": "its",
+      "start_s": 2.241,
+      "end_s": 2.357
+    },
+    {
+      "word": "older",
+      "start_s": 2.403,
+      "end_s": 2.659
+    },
+    {
+      "word": "one.",
+      "start_s": 2.728,
+      "end_s": 3.053
+    },
+    {
+      "word": "GPT",
+      "start_s": 3.495,
+      "end_s": 4.063
+    },
+    {
+      "word": "five",
+      "start_s": 4.238,
+      "end_s": 4.493
+    },
+    {
+      "word": "point",
+      "start_s": 4.54,
+      "end_s": 4.737
+    },
+    {
+      "word": "five",
+      "start_s": 4.795,
+      "end_s": 5.213
+    },
+    {
+      "word": "costs",
+      "start_s": 5.387,
+      "end_s": 5.689
+    },
+    {
+      "word": "five",
+      "start_s": 5.747,
+      "end_s": 6.014
+    },
+    {
+      "word": "dollars",
+      "start_s": 6.037,
+      "end_s": 6.316
+    },
+    {
+      "word": "per",
+      "start_s": 6.362,
+      "end_s": 6.478
+    },
+    {
+      "word": "million",
+      "start_s": 6.536,
+      "end_s": 6.827
+    },
+    {
+      "word": "input",
+      "start_s": 6.908,
+      "end_s": 7.21
+    },
+    {
+      "word": "tokens",
+      "start_s": 7.245,
+      "end_s": 7.686
+    },
+    {
+      "word": "and",
+      "start_s": 7.86,
+      "end_s": 8.034
+    },
+    {
+      "word": "thirty",
+      "start_s": 8.104,
+      "end_s": 8.359
+    },
+    {
+      "word": "dollars",
+      "start_s": 8.406,
+      "end_s": 8.684
+    },
+    {
+      "word": "per",
+      "start_s": 8.731,
+      "end_s": 8.847
+    },
+    {
+      "word": "million",
+      "start_s": 8.893,
+      "end_s": 9.16
+    },
+    {
+      "word": "output.",
+      "start_s": 9.207,
+      "end_s": 9.694
+    },
+    {
+      "word": "GPT",
+      "start_s": 10.391,
+      "end_s": 10.879
+    },
+    {
+      "word": "six",
+      "start_s": 11.053,
+      "end_s": 11.273
+    },
+    {
+      "word": "point",
+      "start_s": 11.343,
+      "end_s": 11.564
+    },
+    {
+      "word": "one",
+      "start_s": 11.645,
+      "end_s": 12.051
+    },
+    {
+      "word": "Sol",
+      "start_s": 12.225,
+      "end_s": 12.504
+    },
+    {
+      "word": "costs",
+      "start_s": 12.585,
+      "end_s": 12.852
+    },
+    {
+      "word": "two",
+      "start_s": 12.887,
+      "end_s": 13.05
+    },
+    {
+      "word": "dollars",
+      "start_s": 13.119,
+      "end_s": 13.421
+    },
+    {
+      "word": "in,",
+      "start_s": 13.479,
+      "end_s": 13.781
+    },
+    {
+      "word": "ten",
+      "start_s": 13.932,
+      "end_s": 14.129
+    },
+    {
+      "word": "dollars",
+      "start_s": 14.187,
+      "end_s": 14.501
+    },
+    {
+      "word": "out.",
+      "start_s": 14.547,
+      "end_s": 14.872
+    },
+    {
+      "word": "That",
+      "start_s": 15.569,
+      "end_s": 15.859
+    },
+    {
+      "word": "is",
+      "start_s": 15.929,
+      "end_s": 16.045
+    },
+    {
+      "word": "sixty",
+      "start_s": 16.103,
+      "end_s": 16.429
+    },
+    {
+      "word": "percent",
+      "start_s": 16.487,
+      "end_s": 16.823
+    },
+    {
+      "word": "cheaper",
+      "start_s": 16.87,
+      "end_s": 17.23
+    },
+    {
+      "word": "on",
+      "start_s": 17.311,
+      "end_s": 17.45
+    },
+    {
+      "word": "input.",
+      "start_s": 17.543,
+      "end_s": 18.066
+    },
+    {
+      "word": "And",
+      "start_s": 18.576,
+      "end_s": 18.727
+    },
+    {
+      "word": "three",
+      "start_s": 18.785,
+      "end_s": 19.006
+    },
+    {
+      "word": "times",
+      "start_s": 19.052,
+      "end_s": 19.331
+    },
+    {
+      "word": "cheaper",
+      "start_s": 19.378,
+      "end_s": 19.749
+    },
+    {
+      "word": "on",
+      "start_s": 19.865,
+      "end_s": 20.028
+    },
+    {
+      "word": "output.",
+      "start_s": 20.109,
+      "end_s": 20.678
+    },
+    {
+      "word": "Cached",
+      "start_s": 21.282,
+      "end_s": 21.63
+    },
+    {
+      "word": "input",
+      "start_s": 21.676,
+      "end_s": 21.943
+    },
+    {
+      "word": "drops",
+      "start_s": 21.967,
+      "end_s": 22.234
+    },
+    {
+      "word": "too,",
+      "start_s": 22.28,
+      "end_s": 22.524
+    },
+    {
+      "word": "from",
+      "start_s": 22.547,
+      "end_s": 22.71
+    },
+    {
+      "word": "fifty",
+      "start_s": 22.802,
+      "end_s": 23.069
+    },
+    {
+      "word": "cents",
+      "start_s": 23.128,
+      "end_s": 23.371
+    },
+    {
+      "word": "to",
+      "start_s": 23.418,
+      "end_s": 23.487
+    },
+    {
+      "word": "ten",
+      "start_s": 23.557,
+      "end_s": 23.754
+    },
+    {
+      "word": "cents.",
+      "start_s": 23.824,
+      "end_s": 24.312
+    },
+    {
+      "word": "This",
+      "start_s": 25.008,
+      "end_s": 25.194
+    },
+    {
+      "word": "compares",
+      "start_s": 25.241,
+      "end_s": 25.624
+    },
+    {
+      "word": "list",
+      "start_s": 25.705,
+      "end_s": 25.879
+    },
+    {
+      "word": "price",
+      "start_s": 25.914,
+      "end_s": 26.169
+    },
+    {
+      "word": "for",
+      "start_s": 26.193,
+      "end_s": 26.285
+    },
+    {
+      "word": "short",
+      "start_s": 26.343,
+      "end_s": 26.552
+    },
+    {
+      "word": "prompts,",
+      "start_s": 26.587,
+      "end_s": 27.075
+    },
+    {
+      "word": "not",
+      "start_s": 27.191,
+      "end_s": 27.365
+    },
+    {
+      "word": "quality",
+      "start_s": 27.423,
+      "end_s": 27.806
+    },
+    {
+      "word": "or",
+      "start_s": 27.876,
+      "end_s": 27.969
+    },
+    {
+      "word": "speed.",
+      "start_s": 28.039,
+      "end_s": 28.607
+    },
+    {
+      "word": "But",
+      "start_s": 29.42,
+      "end_s": 29.571
+    },
+    {
+      "word": "if",
+      "start_s": 29.594,
+      "end_s": 29.652
+    },
+    {
+      "word": "you",
+      "start_s": 29.687,
+      "end_s": 29.768
+    },
+    {
+      "word": "still",
+      "start_s": 29.838,
+      "end_s": 30.059
+    },
+    {
+      "word": "call",
+      "start_s": 30.128,
+      "end_s": 30.302
+    },
+    {
+      "word": "GPT",
+      "start_s": 30.395,
+      "end_s": 30.802
+    },
+    {
+      "word": "five",
+      "start_s": 30.953,
+      "end_s": 31.185
+    },
+    {
+      "word": "point",
+      "start_s": 31.22,
+      "end_s": 31.417
+    },
+    {
+      "word": "five,",
+      "start_s": 31.463,
+      "end_s": 31.916
+    },
+    {
+      "word": "check",
+      "start_s": 32.09,
+      "end_s": 32.323
+    },
+    {
+      "word": "your",
+      "start_s": 32.369,
+      "end_s": 32.474
+    },
+    {
+      "word": "bill.",
+      "start_s": 32.508,
+      "end_s": 32.926
+    },
+    {
+      "word": "Newer,",
+      "start_s": 33.739,
+      "end_s": 34.227
+    },
+    {
+      "word": "and",
+      "start_s": 34.296,
+      "end_s": 34.494
+    },
+    {
+      "word": "cheaper.",
+      "start_s": 34.552,
+      "end_s": 35.074
+    },
+    {
+      "word": "Two",
+      "start_s": 35.771,
+      "end_s": 35.945
+    },
+    {
+      "word": "dollars",
+      "start_s": 36.003,
+      "end_s": 36.34
+    },
+    {
+      "word": "versus",
+      "start_s": 36.398,
+      "end_s": 36.688
+    },
+    {
+      "word": "five.",
+      "start_s": 36.746,
+      "end_s": 37.431
+    }
+  ]
+}

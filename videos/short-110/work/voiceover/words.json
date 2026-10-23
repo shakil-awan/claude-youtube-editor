@@ -1,0 +1,418 @@
+{
+  "text": "An hour of speech turned into text with OpenAI's GPT Transcribe costs twenty seven cents. Google's Gemini three point five Transcribe lists at eighteen cents an hour. That is one and a half times cheaper. Ten hours of interviews? Two dollars seventy, or one eighty. Google also offers a free tier, within rate limits. This is price only, not accuracy, so test it on your own audio. But before you pay twenty seven cents, check the other price. Eighteen beats twenty seven.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 33.567,
+  "words": [
+    {
+      "word": "An",
+      "start_s": 0.0,
+      "end_s": 0.151
+    },
+    {
+      "word": "hour",
+      "start_s": 0.221,
+      "end_s": 0.488
+    },
+    {
+      "word": "of",
+      "start_s": 0.557,
+      "end_s": 0.627
+    },
+    {
+      "word": "speech",
+      "start_s": 0.697,
+      "end_s": 1.045
+    },
+    {
+      "word": "turned",
+      "start_s": 1.103,
+      "end_s": 1.358
+    },
+    {
+      "word": "into",
+      "start_s": 1.393,
+      "end_s": 1.544
+    },
+    {
+      "word": "text",
+      "start_s": 1.614,
+      "end_s": 1.974
+    },
+    {
+      "word": "with",
+      "start_s": 2.009,
+      "end_s": 2.136
+    },
+    {
+      "word": "OpenAI's",
+      "start_s": 2.229,
+      "end_s": 2.879
+    },
+    {
+      "word": "GPT",
+      "start_s": 2.937,
+      "end_s": 3.425
+    },
+    {
+      "word": "Transcribe",
+      "start_s": 3.576,
+      "end_s": 4.214
+    },
+    {
+      "word": "costs",
+      "start_s": 4.261,
+      "end_s": 4.574
+    },
+    {
+      "word": "twenty",
+      "start_s": 4.609,
+      "end_s": 4.923
+    },
+    {
+      "word": "seven",
+      "start_s": 4.981,
+      "end_s": 5.236
+    },
+    {
+      "word": "cents.",
+      "start_s": 5.294,
+      "end_s": 5.875
+    },
+    {
+      "word": "Google's",
+      "start_s": 6.687,
+      "end_s": 7.14
+    },
+    {
+      "word": "Gemini",
+      "start_s": 7.256,
+      "end_s": 7.663
+    },
+    {
+      "word": "three",
+      "start_s": 7.732,
+      "end_s": 7.93
+    },
+    {
+      "word": "point",
+      "start_s": 7.976,
+      "end_s": 8.15
+    },
+    {
+      "word": "five",
+      "start_s": 8.208,
+      "end_s": 8.533
+    },
+    {
+      "word": "Transcribe",
+      "start_s": 8.568,
+      "end_s": 9.149
+    },
+    {
+      "word": "lists",
+      "start_s": 9.218,
+      "end_s": 9.532
+    },
+    {
+      "word": "at",
+      "start_s": 9.601,
+      "end_s": 9.741
+    },
+    {
+      "word": "eighteen",
+      "start_s": 9.834,
+      "end_s": 10.24
+    },
+    {
+      "word": "cents",
+      "start_s": 10.298,
+      "end_s": 10.519
+    },
+    {
+      "word": "an",
+      "start_s": 10.553,
+      "end_s": 10.612
+    },
+    {
+      "word": "hour.",
+      "start_s": 10.646,
+      "end_s": 11.122
+    },
+    {
+      "word": "That",
+      "start_s": 11.633,
+      "end_s": 11.831
+    },
+    {
+      "word": "is",
+      "start_s": 11.877,
+      "end_s": 11.97
+    },
+    {
+      "word": "one",
+      "start_s": 12.051,
+      "end_s": 12.214
+    },
+    {
+      "word": "and",
+      "start_s": 12.237,
+      "end_s": 12.307
+    },
+    {
+      "word": "a",
+      "start_s": 12.353,
+      "end_s": 12.376
+    },
+    {
+      "word": "half",
+      "start_s": 12.446,
+      "end_s": 12.62
+    },
+    {
+      "word": "times",
+      "start_s": 12.666,
+      "end_s": 12.91
+    },
+    {
+      "word": "cheaper.",
+      "start_s": 12.968,
+      "end_s": 13.514
+    },
+    {
+      "word": "Ten",
+      "start_s": 14.327,
+      "end_s": 14.536
+    },
+    {
+      "word": "hours",
+      "start_s": 14.594,
+      "end_s": 14.884
+    },
+    {
+      "word": "of",
+      "start_s": 14.942,
+      "end_s": 15.012
+    },
+    {
+      "word": "interviews?",
+      "start_s": 15.081,
+      "end_s": 15.685
+    },
+    {
+      "word": "Two",
+      "start_s": 16.382,
+      "end_s": 16.544
+    },
+    {
+      "word": "dollars",
+      "start_s": 16.602,
+      "end_s": 16.893
+    },
+    {
+      "word": "seventy,",
+      "start_s": 16.927,
+      "end_s": 17.427
+    },
+    {
+      "word": "or",
+      "start_s": 17.473,
+      "end_s": 17.647
+    },
+    {
+      "word": "one",
+      "start_s": 17.729,
+      "end_s": 17.903
+    },
+    {
+      "word": "eighty.",
+      "start_s": 17.949,
+      "end_s": 18.414
+    },
+    {
+      "word": "Google",
+      "start_s": 19.11,
+      "end_s": 19.447
+    },
+    {
+      "word": "also",
+      "start_s": 19.493,
+      "end_s": 19.795
+    },
+    {
+      "word": "offers",
+      "start_s": 19.876,
+      "end_s": 20.201
+    },
+    {
+      "word": "a",
+      "start_s": 20.271,
+      "end_s": 20.306
+    },
+    {
+      "word": "free",
+      "start_s": 20.422,
+      "end_s": 20.666
+    },
+    {
+      "word": "tier,",
+      "start_s": 20.712,
+      "end_s": 21.049
+    },
+    {
+      "word": "within",
+      "start_s": 21.095,
+      "end_s": 21.374
+    },
+    {
+      "word": "rate",
+      "start_s": 21.432,
+      "end_s": 21.618
+    },
+    {
+      "word": "limits.",
+      "start_s": 21.653,
+      "end_s": 22.164
+    },
+    {
+      "word": "This",
+      "start_s": 22.976,
+      "end_s": 23.139
+    },
+    {
+      "word": "is",
+      "start_s": 23.185,
+      "end_s": 23.255
+    },
+    {
+      "word": "price",
+      "start_s": 23.313,
+      "end_s": 23.603
+    },
+    {
+      "word": "only,",
+      "start_s": 23.65,
+      "end_s": 23.963
+    },
+    {
+      "word": "not",
+      "start_s": 24.01,
+      "end_s": 24.16
+    },
+    {
+      "word": "accuracy,",
+      "start_s": 24.219,
+      "end_s": 24.904
+    },
+    {
+      "word": "so",
+      "start_s": 25.113,
+      "end_s": 25.252
+    },
+    {
+      "word": "test",
+      "start_s": 25.321,
+      "end_s": 25.554
+    },
+    {
+      "word": "it",
+      "start_s": 25.6,
+      "end_s": 25.658
+    },
+    {
+      "word": "on",
+      "start_s": 25.705,
+      "end_s": 25.774
+    },
+    {
+      "word": "your",
+      "start_s": 25.809,
+      "end_s": 25.925
+    },
+    {
+      "word": "own",
+      "start_s": 25.972,
+      "end_s": 26.088
+    },
+    {
+      "word": "audio.",
+      "start_s": 26.134,
+      "end_s": 26.657
+    },
+    {
+      "word": "But",
+      "start_s": 27.353,
+      "end_s": 27.504
+    },
+    {
+      "word": "before",
+      "start_s": 27.551,
+      "end_s": 27.887
+    },
+    {
+      "word": "you",
+      "start_s": 27.934,
+      "end_s": 28.003
+    },
+    {
+      "word": "pay",
+      "start_s": 28.073,
+      "end_s": 28.224
+    },
+    {
+      "word": "twenty",
+      "start_s": 28.294,
+      "end_s": 28.549
+    },
+    {
+      "word": "seven",
+      "start_s": 28.607,
+      "end_s": 28.851
+    },
+    {
+      "word": "cents,",
+      "start_s": 28.909,
+      "end_s": 29.315
+    },
+    {
+      "word": "check",
+      "start_s": 29.466,
+      "end_s": 29.687
+    },
+    {
+      "word": "the",
+      "start_s": 29.745,
+      "end_s": 29.815
+    },
+    {
+      "word": "other",
+      "start_s": 29.861,
+      "end_s": 30.024
+    },
+    {
+      "word": "price.",
+      "start_s": 30.07,
+      "end_s": 30.546
+    },
+    {
+      "word": "Eighteen",
+      "start_s": 31.498,
+      "end_s": 32.02
+    },
+    {
+      "word": "beats",
+      "start_s": 32.229,
+      "end_s": 32.508
+    },
+    {
+      "word": "twenty",
+      "start_s": 32.554,
+      "end_s": 32.81
+    },
+    {
+      "word": "seven.",
+      "start_s": 32.868,
+      "end_s": 33.53
+    }
+  ]
+}

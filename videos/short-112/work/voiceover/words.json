@@ -1,0 +1,373 @@
+{
+  "text": "OpenAI's GPT six point one Sol costs two dollars per million input tokens. Ten out. Use the Batch tier and it drops to one dollar in. Five out. That is exactly half. Luna drops too. Ten cents becomes five. Fifty cents becomes twenty-five. Batch rates are on OpenAI's pricing page, so check the turnaround rules before you switch. But if a job can wait, full price is a choice. One dollar beats two.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 29.858,
+  "words": [
+    {
+      "word": "OpenAI's",
+      "start_s": 0.0,
+      "end_s": 0.662
+    },
+    {
+      "word": "GPT",
+      "start_s": 0.731,
+      "end_s": 1.265
+    },
+    {
+      "word": "six",
+      "start_s": 1.846,
+      "end_s": 2.067
+    },
+    {
+      "word": "point",
+      "start_s": 2.136,
+      "end_s": 2.357
+    },
+    {
+      "word": "one",
+      "start_s": 2.426,
+      "end_s": 2.786
+    },
+    {
+      "word": "Sol",
+      "start_s": 3.053,
+      "end_s": 3.332
+    },
+    {
+      "word": "costs",
+      "start_s": 3.402,
+      "end_s": 3.622
+    },
+    {
+      "word": "two",
+      "start_s": 3.657,
+      "end_s": 3.808
+    },
+    {
+      "word": "dollars",
+      "start_s": 3.866,
+      "end_s": 4.156
+    },
+    {
+      "word": "per",
+      "start_s": 4.203,
+      "end_s": 4.319
+    },
+    {
+      "word": "million",
+      "start_s": 4.377,
+      "end_s": 4.632
+    },
+    {
+      "word": "input",
+      "start_s": 4.69,
+      "end_s": 4.946
+    },
+    {
+      "word": "tokens.",
+      "start_s": 4.969,
+      "end_s": 5.538
+    },
+    {
+      "word": "Ten",
+      "start_s": 6.2,
+      "end_s": 6.42
+    },
+    {
+      "word": "out.",
+      "start_s": 6.467,
+      "end_s": 6.792
+    },
+    {
+      "word": "Use",
+      "start_s": 7.454,
+      "end_s": 7.732
+    },
+    {
+      "word": "the",
+      "start_s": 7.767,
+      "end_s": 7.837
+    },
+    {
+      "word": "Batch",
+      "start_s": 7.895,
+      "end_s": 8.15
+    },
+    {
+      "word": "tier",
+      "start_s": 8.185,
+      "end_s": 8.44
+    },
+    {
+      "word": "and",
+      "start_s": 8.615,
+      "end_s": 8.754
+    },
+    {
+      "word": "it",
+      "start_s": 8.812,
+      "end_s": 8.87
+    },
+    {
+      "word": "drops",
+      "start_s": 8.905,
+      "end_s": 9.16
+    },
+    {
+      "word": "to",
+      "start_s": 9.195,
+      "end_s": 9.242
+    },
+    {
+      "word": "one",
+      "start_s": 9.358,
+      "end_s": 9.578
+    },
+    {
+      "word": "dollar",
+      "start_s": 9.613,
+      "end_s": 9.868
+    },
+    {
+      "word": "in.",
+      "start_s": 9.938,
+      "end_s": 10.194
+    },
+    {
+      "word": "Five",
+      "start_s": 10.298,
+      "end_s": 10.565
+    },
+    {
+      "word": "out.",
+      "start_s": 10.612,
+      "end_s": 10.902
+    },
+    {
+      "word": "That",
+      "start_s": 11.564,
+      "end_s": 11.842
+    },
+    {
+      "word": "is",
+      "start_s": 11.9,
+      "end_s": 11.981
+    },
+    {
+      "word": "exactly",
+      "start_s": 12.051,
+      "end_s": 12.597
+    },
+    {
+      "word": "half.",
+      "start_s": 12.666,
+      "end_s": 13.061
+    },
+    {
+      "word": "Luna",
+      "start_s": 13.735,
+      "end_s": 13.978
+    },
+    {
+      "word": "drops",
+      "start_s": 14.013,
+      "end_s": 14.303
+    },
+    {
+      "word": "too.",
+      "start_s": 14.35,
+      "end_s": 14.745
+    },
+    {
+      "word": "Ten",
+      "start_s": 15.418,
+      "end_s": 15.627
+    },
+    {
+      "word": "cents",
+      "start_s": 15.697,
+      "end_s": 15.929
+    },
+    {
+      "word": "becomes",
+      "start_s": 15.975,
+      "end_s": 16.324
+    },
+    {
+      "word": "five.",
+      "start_s": 16.393,
+      "end_s": 16.869
+    },
+    {
+      "word": "Fifty",
+      "start_s": 17.531,
+      "end_s": 17.821
+    },
+    {
+      "word": "cents",
+      "start_s": 17.879,
+      "end_s": 18.112
+    },
+    {
+      "word": "becomes",
+      "start_s": 18.158,
+      "end_s": 18.483
+    },
+    {
+      "word": "twenty-five.",
+      "start_s": 18.518,
+      "end_s": 19.238
+    },
+    {
+      "word": "Batch",
+      "start_s": 19.899,
+      "end_s": 20.201
+    },
+    {
+      "word": "rates",
+      "start_s": 20.248,
+      "end_s": 20.457
+    },
+    {
+      "word": "are",
+      "start_s": 20.515,
+      "end_s": 20.654
+    },
+    {
+      "word": "on",
+      "start_s": 20.701,
+      "end_s": 20.863
+    },
+    {
+      "word": "OpenAI's",
+      "start_s": 20.979,
+      "end_s": 21.664
+    },
+    {
+      "word": "pricing",
+      "start_s": 21.722,
+      "end_s": 22.07
+    },
+    {
+      "word": "page,",
+      "start_s": 22.117,
+      "end_s": 22.523
+    },
+    {
+      "word": "so",
+      "start_s": 22.674,
+      "end_s": 22.802
+    },
+    {
+      "word": "check",
+      "start_s": 22.86,
+      "end_s": 23.034
+    },
+    {
+      "word": "the",
+      "start_s": 23.081,
+      "end_s": 23.15
+    },
+    {
+      "word": "turnaround",
+      "start_s": 23.173,
+      "end_s": 23.545
+    },
+    {
+      "word": "rules",
+      "start_s": 23.591,
+      "end_s": 23.824
+    },
+    {
+      "word": "before",
+      "start_s": 23.882,
+      "end_s": 24.149
+    },
+    {
+      "word": "you",
+      "start_s": 24.183,
+      "end_s": 24.253
+    },
+    {
+      "word": "switch.",
+      "start_s": 24.311,
+      "end_s": 24.776
+    },
+    {
+      "word": "But",
+      "start_s": 25.379,
+      "end_s": 25.53
+    },
+    {
+      "word": "if",
+      "start_s": 25.553,
+      "end_s": 25.623
+    },
+    {
+      "word": "a",
+      "start_s": 25.658,
+      "end_s": 25.681
+    },
+    {
+      "word": "job",
+      "start_s": 25.739,
+      "end_s": 25.96
+    },
+    {
+      "word": "can",
+      "start_s": 26.006,
+      "end_s": 26.134
+    },
+    {
+      "word": "wait,",
+      "start_s": 26.192,
+      "end_s": 26.622
+    },
+    {
+      "word": "full",
+      "start_s": 26.831,
+      "end_s": 27.04
+    },
+    {
+      "word": "price",
+      "start_s": 27.086,
+      "end_s": 27.318
+    },
+    {
+      "word": "is",
+      "start_s": 27.341,
+      "end_s": 27.411
+    },
+    {
+      "word": "a",
+      "start_s": 27.446,
+      "end_s": 27.469
+    },
+    {
+      "word": "choice.",
+      "start_s": 27.516,
+      "end_s": 27.968
+    },
+    {
+      "word": "One",
+      "start_s": 28.479,
+      "end_s": 28.677
+    },
+    {
+      "word": "dollar",
+      "start_s": 28.711,
+      "end_s": 28.944
+    },
+    {
+      "word": "beats",
+      "start_s": 28.99,
+      "end_s": 29.199
+    },
+    {
+      "word": "two.",
+      "start_s": 29.245,
+      "end_s": 29.814
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "text": "OpenAI's voice API has a cheaper twin. Realtime two point one charges thirty-two dollars per million audio tokens in. Sixty-four out. The mini version charges ten dollars in. Twenty out. That is three point two times cheaper on input. And three point two times cheaper on output. This is price only, and the full model may sound better. But building a voice agent? Test the mini first. Ten beats thirty-two.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 29.283,
+  "words": [
+    {
+      "word": "OpenAI's",
+      "start_s": 0.0,
+      "end_s": 0.662
+    },
+    {
+      "word": "voice",
+      "start_s": 0.743,
+      "end_s": 1.231
+    },
+    {
+      "word": "API",
+      "start_s": 1.927,
+      "end_s": 2.392
+    },
+    {
+      "word": "has",
+      "start_s": 2.485,
+      "end_s": 2.601
+    },
+    {
+      "word": "a",
+      "start_s": 2.647,
+      "end_s": 2.67
+    },
+    {
+      "word": "cheaper",
+      "start_s": 2.728,
+      "end_s": 3.019
+    },
+    {
+      "word": "twin.",
+      "start_s": 3.077,
+      "end_s": 3.564
+    },
+    {
+      "word": "Realtime",
+      "start_s": 3.947,
+      "end_s": 4.435
+    },
+    {
+      "word": "two",
+      "start_s": 4.481,
+      "end_s": 4.632
+    },
+    {
+      "word": "point",
+      "start_s": 4.714,
+      "end_s": 4.911
+    },
+    {
+      "word": "one",
+      "start_s": 4.981,
+      "end_s": 5.166
+    },
+    {
+      "word": "charges",
+      "start_s": 5.213,
+      "end_s": 5.584
+    },
+    {
+      "word": "thirty-two",
+      "start_s": 5.666,
+      "end_s": 6.13
+    },
+    {
+      "word": "dollars",
+      "start_s": 6.2,
+      "end_s": 6.525
+    },
+    {
+      "word": "per",
+      "start_s": 6.583,
+      "end_s": 6.699
+    },
+    {
+      "word": "million",
+      "start_s": 6.769,
+      "end_s": 7.07
+    },
+    {
+      "word": "audio",
+      "start_s": 7.14,
+      "end_s": 7.442
+    },
+    {
+      "word": "tokens",
+      "start_s": 7.512,
+      "end_s": 7.895
+    },
+    {
+      "word": "in.",
+      "start_s": 7.988,
+      "end_s": 8.324
+    },
+    {
+      "word": "Sixty-four",
+      "start_s": 9.021,
+      "end_s": 9.636
+    },
+    {
+      "word": "out.",
+      "start_s": 9.694,
+      "end_s": 10.019
+    },
+    {
+      "word": "The",
+      "start_s": 10.53,
+      "end_s": 10.658
+    },
+    {
+      "word": "mini",
+      "start_s": 10.728,
+      "end_s": 10.913
+    },
+    {
+      "word": "version",
+      "start_s": 10.983,
+      "end_s": 11.331
+    },
+    {
+      "word": "charges",
+      "start_s": 11.389,
+      "end_s": 11.749
+    },
+    {
+      "word": "ten",
+      "start_s": 11.807,
+      "end_s": 12.016
+    },
+    {
+      "word": "dollars",
+      "start_s": 12.074,
+      "end_s": 12.423
+    },
+    {
+      "word": "in.",
+      "start_s": 12.504,
+      "end_s": 12.829
+    },
+    {
+      "word": "Twenty",
+      "start_s": 13.003,
+      "end_s": 13.34
+    },
+    {
+      "word": "out.",
+      "start_s": 13.41,
+      "end_s": 13.735
+    },
+    {
+      "word": "That",
+      "start_s": 14.338,
+      "end_s": 14.629
+    },
+    {
+      "word": "is",
+      "start_s": 14.698,
+      "end_s": 14.803
+    },
+    {
+      "word": "three",
+      "start_s": 14.872,
+      "end_s": 15.093
+    },
+    {
+      "word": "point",
+      "start_s": 15.151,
+      "end_s": 15.372
+    },
+    {
+      "word": "two",
+      "start_s": 15.418,
+      "end_s": 15.569
+    },
+    {
+      "word": "times",
+      "start_s": 15.639,
+      "end_s": 15.894
+    },
+    {
+      "word": "cheaper",
+      "start_s": 15.964,
+      "end_s": 16.335
+    },
+    {
+      "word": "on",
+      "start_s": 16.416,
+      "end_s": 16.533
+    },
+    {
+      "word": "input.",
+      "start_s": 16.614,
+      "end_s": 17.16
+    },
+    {
+      "word": "And",
+      "start_s": 17.764,
+      "end_s": 17.938
+    },
+    {
+      "word": "three",
+      "start_s": 18.019,
+      "end_s": 18.251
+    },
+    {
+      "word": "point",
+      "start_s": 18.309,
+      "end_s": 18.53
+    },
+    {
+      "word": "two",
+      "start_s": 18.576,
+      "end_s": 18.727
+    },
+    {
+      "word": "times",
+      "start_s": 18.797,
+      "end_s": 19.052
+    },
+    {
+      "word": "cheaper",
+      "start_s": 19.11,
+      "end_s": 19.435
+    },
+    {
+      "word": "on",
+      "start_s": 19.505,
+      "end_s": 19.575
+    },
+    {
+      "word": "output.",
+      "start_s": 19.633,
+      "end_s": 20.155
+    },
+    {
+      "word": "This",
+      "start_s": 20.759,
+      "end_s": 20.945
+    },
+    {
+      "word": "is",
+      "start_s": 20.991,
+      "end_s": 21.061
+    },
+    {
+      "word": "price",
+      "start_s": 21.119,
+      "end_s": 21.409
+    },
+    {
+      "word": "only,",
+      "start_s": 21.456,
+      "end_s": 21.908
+    },
+    {
+      "word": "and",
+      "start_s": 22.036,
+      "end_s": 22.175
+    },
+    {
+      "word": "the",
+      "start_s": 22.222,
+      "end_s": 22.292
+    },
+    {
+      "word": "full",
+      "start_s": 22.35,
+      "end_s": 22.547
+    },
+    {
+      "word": "model",
+      "start_s": 22.605,
+      "end_s": 22.849
+    },
+    {
+      "word": "may",
+      "start_s": 22.895,
+      "end_s": 23.011
+    },
+    {
+      "word": "sound",
+      "start_s": 23.081,
+      "end_s": 23.302
+    },
+    {
+      "word": "better.",
+      "start_s": 23.36,
+      "end_s": 23.778
+    },
+    {
+      "word": "But",
+      "start_s": 24.474,
+      "end_s": 24.648
+    },
+    {
+      "word": "building",
+      "start_s": 24.706,
+      "end_s": 25.032
+    },
+    {
+      "word": "a",
+      "start_s": 25.078,
+      "end_s": 25.101
+    },
+    {
+      "word": "voice",
+      "start_s": 25.159,
+      "end_s": 25.426
+    },
+    {
+      "word": "agent?",
+      "start_s": 25.473,
+      "end_s": 25.914
+    },
+    {
+      "word": "Test",
+      "start_s": 26.239,
+      "end_s": 26.518
+    },
+    {
+      "word": "the",
+      "start_s": 26.552,
+      "end_s": 26.622
+    },
+    {
+      "word": "mini",
+      "start_s": 26.669,
+      "end_s": 26.843
+    },
+    {
+      "word": "first.",
+      "start_s": 26.901,
+      "end_s": 27.377
+    },
+    {
+      "word": "Ten",
+      "start_s": 27.818,
+      "end_s": 28.05
+    },
+    {
+      "word": "beats",
+      "start_s": 28.12,
+      "end_s": 28.352
+    },
+    {
+      "word": "thirty-two.",
+      "start_s": 28.398,
+      "end_s": 29.258
+    }
+  ]
+}

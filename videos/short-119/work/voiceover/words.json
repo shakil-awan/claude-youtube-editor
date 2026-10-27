@@ -1,0 +1,463 @@
+{
+  "text": "Same price. Half the cache bill. Claude Sonnet five point five and OpenAI's GPT six point one Sol both cost two dollars per million input tokens. Ten out. But look at cached input. Sonnet five was twenty cents. Sonnet five point five is ten cents. Sol six was twenty cents. Sol six point one is ten cents. Both labs halved it without touching the headline price. If your app repeats long prompts, that is where your bill lives. Check which model version you are calling. Same price, half the cache bill.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 37.224,
+  "words": [
+    {
+      "word": "Same",
+      "start_s": 0.0,
+      "end_s": 0.29
+    },
+    {
+      "word": "price.",
+      "start_s": 0.325,
+      "end_s": 0.789
+    },
+    {
+      "word": "Half",
+      "start_s": 1.602,
+      "end_s": 1.834
+    },
+    {
+      "word": "the",
+      "start_s": 1.881,
+      "end_s": 1.95
+    },
+    {
+      "word": "cache",
+      "start_s": 1.985,
+      "end_s": 2.276
+    },
+    {
+      "word": "bill.",
+      "start_s": 2.299,
+      "end_s": 2.659
+    },
+    {
+      "word": "Claude",
+      "start_s": 3.1,
+      "end_s": 3.425
+    },
+    {
+      "word": "Sonnet",
+      "start_s": 3.46,
+      "end_s": 3.785
+    },
+    {
+      "word": "five",
+      "start_s": 3.855,
+      "end_s": 4.122
+    },
+    {
+      "word": "point",
+      "start_s": 4.156,
+      "end_s": 4.365
+    },
+    {
+      "word": "five",
+      "start_s": 4.435,
+      "end_s": 4.899
+    },
+    {
+      "word": "and",
+      "start_s": 5.143,
+      "end_s": 5.306
+    },
+    {
+      "word": "OpenAI's",
+      "start_s": 5.375,
+      "end_s": 5.979
+    },
+    {
+      "word": "GPT",
+      "start_s": 6.037,
+      "end_s": 6.478
+    },
+    {
+      "word": "six",
+      "start_s": 6.594,
+      "end_s": 6.78
+    },
+    {
+      "word": "point",
+      "start_s": 6.85,
+      "end_s": 7.047
+    },
+    {
+      "word": "one",
+      "start_s": 7.117,
+      "end_s": 7.442
+    },
+    {
+      "word": "Sol",
+      "start_s": 7.767,
+      "end_s": 8.046
+    },
+    {
+      "word": "both",
+      "start_s": 8.104,
+      "end_s": 8.29
+    },
+    {
+      "word": "cost",
+      "start_s": 8.336,
+      "end_s": 8.591
+    },
+    {
+      "word": "two",
+      "start_s": 8.626,
+      "end_s": 8.754
+    },
+    {
+      "word": "dollars",
+      "start_s": 8.812,
+      "end_s": 9.114
+    },
+    {
+      "word": "per",
+      "start_s": 9.172,
+      "end_s": 9.288
+    },
+    {
+      "word": "million",
+      "start_s": 9.334,
+      "end_s": 9.59
+    },
+    {
+      "word": "input",
+      "start_s": 9.659,
+      "end_s": 9.927
+    },
+    {
+      "word": "tokens.",
+      "start_s": 9.95,
+      "end_s": 10.495
+    },
+    {
+      "word": "Ten",
+      "start_s": 10.937,
+      "end_s": 11.157
+    },
+    {
+      "word": "out.",
+      "start_s": 11.215,
+      "end_s": 11.529
+    },
+    {
+      "word": "But",
+      "start_s": 12.225,
+      "end_s": 12.376
+    },
+    {
+      "word": "look",
+      "start_s": 12.411,
+      "end_s": 12.55
+    },
+    {
+      "word": "at",
+      "start_s": 12.597,
+      "end_s": 12.643
+    },
+    {
+      "word": "cached",
+      "start_s": 12.69,
+      "end_s": 13.003
+    },
+    {
+      "word": "input.",
+      "start_s": 13.038,
+      "end_s": 13.502
+    },
+    {
+      "word": "Sonnet",
+      "start_s": 14.199,
+      "end_s": 14.524
+    },
+    {
+      "word": "five",
+      "start_s": 14.571,
+      "end_s": 14.814
+    },
+    {
+      "word": "was",
+      "start_s": 14.849,
+      "end_s": 14.954
+    },
+    {
+      "word": "twenty",
+      "start_s": 15.012,
+      "end_s": 15.314
+    },
+    {
+      "word": "cents.",
+      "start_s": 15.372,
+      "end_s": 15.882
+    },
+    {
+      "word": "Sonnet",
+      "start_s": 16.579,
+      "end_s": 16.927
+    },
+    {
+      "word": "five",
+      "start_s": 16.974,
+      "end_s": 17.241
+    },
+    {
+      "word": "point",
+      "start_s": 17.276,
+      "end_s": 17.485
+    },
+    {
+      "word": "five",
+      "start_s": 17.543,
+      "end_s": 17.868
+    },
+    {
+      "word": "is",
+      "start_s": 17.926,
+      "end_s": 18.054
+    },
+    {
+      "word": "ten",
+      "start_s": 18.123,
+      "end_s": 18.332
+    },
+    {
+      "word": "cents.",
+      "start_s": 18.414,
+      "end_s": 18.901
+    },
+    {
+      "word": "Sol",
+      "start_s": 19.598,
+      "end_s": 19.865
+    },
+    {
+      "word": "six",
+      "start_s": 19.946,
+      "end_s": 20.19
+    },
+    {
+      "word": "was",
+      "start_s": 20.248,
+      "end_s": 20.364
+    },
+    {
+      "word": "twenty",
+      "start_s": 20.422,
+      "end_s": 20.712
+    },
+    {
+      "word": "cents.",
+      "start_s": 20.77,
+      "end_s": 21.246
+    },
+    {
+      "word": "Sol",
+      "start_s": 21.943,
+      "end_s": 22.198
+    },
+    {
+      "word": "six",
+      "start_s": 22.28,
+      "end_s": 22.477
+    },
+    {
+      "word": "point",
+      "start_s": 22.547,
+      "end_s": 22.756
+    },
+    {
+      "word": "one",
+      "start_s": 22.825,
+      "end_s": 23.069
+    },
+    {
+      "word": "is",
+      "start_s": 23.127,
+      "end_s": 23.243
+    },
+    {
+      "word": "ten",
+      "start_s": 23.301,
+      "end_s": 23.499
+    },
+    {
+      "word": "cents.",
+      "start_s": 23.58,
+      "end_s": 24.068
+    },
+    {
+      "word": "Both",
+      "start_s": 24.764,
+      "end_s": 25.008
+    },
+    {
+      "word": "labs",
+      "start_s": 25.078,
+      "end_s": 25.333
+    },
+    {
+      "word": "halved",
+      "start_s": 25.391,
+      "end_s": 25.635
+    },
+    {
+      "word": "it",
+      "start_s": 25.658,
+      "end_s": 25.705
+    },
+    {
+      "word": "without",
+      "start_s": 25.728,
+      "end_s": 25.983
+    },
+    {
+      "word": "touching",
+      "start_s": 26.018,
+      "end_s": 26.297
+    },
+    {
+      "word": "the",
+      "start_s": 26.343,
+      "end_s": 26.413
+    },
+    {
+      "word": "headline",
+      "start_s": 26.471,
+      "end_s": 26.854
+    },
+    {
+      "word": "price.",
+      "start_s": 26.889,
+      "end_s": 27.4
+    },
+    {
+      "word": "If",
+      "start_s": 28.212,
+      "end_s": 28.34
+    },
+    {
+      "word": "your",
+      "start_s": 28.387,
+      "end_s": 28.503
+    },
+    {
+      "word": "app",
+      "start_s": 28.549,
+      "end_s": 28.688
+    },
+    {
+      "word": "repeats",
+      "start_s": 28.747,
+      "end_s": 29.095
+    },
+    {
+      "word": "long",
+      "start_s": 29.164,
+      "end_s": 29.408
+    },
+    {
+      "word": "prompts,",
+      "start_s": 29.466,
+      "end_s": 29.977
+    },
+    {
+      "word": "that",
+      "start_s": 30.221,
+      "end_s": 30.511
+    },
+    {
+      "word": "is",
+      "start_s": 30.581,
+      "end_s": 30.674
+    },
+    {
+      "word": "where",
+      "start_s": 30.72,
+      "end_s": 30.883
+    },
+    {
+      "word": "your",
+      "start_s": 30.918,
+      "end_s": 31.022
+    },
+    {
+      "word": "bill",
+      "start_s": 31.057,
+      "end_s": 31.208
+    },
+    {
+      "word": "lives.",
+      "start_s": 31.254,
+      "end_s": 31.707
+    },
+    {
+      "word": "Check",
+      "start_s": 32.404,
+      "end_s": 32.659
+    },
+    {
+      "word": "which",
+      "start_s": 32.705,
+      "end_s": 32.88
+    },
+    {
+      "word": "model",
+      "start_s": 32.938,
+      "end_s": 33.182
+    },
+    {
+      "word": "version",
+      "start_s": 33.251,
+      "end_s": 33.565
+    },
+    {
+      "word": "you",
+      "start_s": 33.611,
+      "end_s": 33.681
+    },
+    {
+      "word": "are",
+      "start_s": 33.716,
+      "end_s": 33.808
+    },
+    {
+      "word": "calling.",
+      "start_s": 33.832,
+      "end_s": 34.284
+    },
+    {
+      "word": "Same",
+      "start_s": 34.981,
+      "end_s": 35.236
+    },
+    {
+      "word": "price,",
+      "start_s": 35.26,
+      "end_s": 35.759
+    },
+    {
+      "word": "half",
+      "start_s": 35.933,
+      "end_s": 36.13
+    },
+    {
+      "word": "the",
+      "start_s": 36.177,
+      "end_s": 36.247
+    },
+    {
+      "word": "cache",
+      "start_s": 36.281,
+      "end_s": 36.595
+    },
+    {
+      "word": "bill.",
+      "start_s": 36.664,
+      "end_s": 37.199
+    }
+  ]
+}

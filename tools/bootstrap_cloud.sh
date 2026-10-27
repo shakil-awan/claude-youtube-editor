@@ -52,7 +52,7 @@ else
     && say "    remotion deps OK" || CRITICAL+=("npm install failed — cannot render video")
 fi
 
-HS=$(ls -d /opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell 2>/dev/null | head -1 || true)
+HS=$(ls -d /opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell /opt/pw-browsers/chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell 2>/dev/null | head -1 || true)
 if [ -n "$HS" ]; then
   say "    HEADLESS_SHELL=$HS"
 else

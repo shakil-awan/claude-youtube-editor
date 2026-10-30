@@ -1,0 +1,303 @@
+{
+  "text": "Google's Gemini Omni Flash costs one dollar fifty per million input tokens. Nine dollars for text output. Now look at Gemini three point eight Flash. Seventy-five cents in. Three seventy-five out. That is half the input price. And less than half the output price. Both are called Flash. The bill is not. Check the model name before you ship.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 26.227,
+  "words": [
+    {
+      "word": "Google's",
+      "start_s": 0.0,
+      "end_s": 0.453
+    },
+    {
+      "word": "Gemini",
+      "start_s": 0.499,
+      "end_s": 0.917
+    },
+    {
+      "word": "Omni",
+      "start_s": 1.033,
+      "end_s": 1.37
+    },
+    {
+      "word": "Flash",
+      "start_s": 1.44,
+      "end_s": 1.823
+    },
+    {
+      "word": "costs",
+      "start_s": 1.881,
+      "end_s": 2.159
+    },
+    {
+      "word": "one",
+      "start_s": 2.229,
+      "end_s": 2.473
+    },
+    {
+      "word": "dollar",
+      "start_s": 2.519,
+      "end_s": 2.81
+    },
+    {
+      "word": "fifty",
+      "start_s": 2.891,
+      "end_s": 3.193
+    },
+    {
+      "word": "per",
+      "start_s": 3.262,
+      "end_s": 3.379
+    },
+    {
+      "word": "million",
+      "start_s": 3.437,
+      "end_s": 3.762
+    },
+    {
+      "word": "input",
+      "start_s": 3.831,
+      "end_s": 4.145
+    },
+    {
+      "word": "tokens.",
+      "start_s": 4.18,
+      "end_s": 4.807
+    },
+    {
+      "word": "Nine",
+      "start_s": 5.503,
+      "end_s": 5.77
+    },
+    {
+      "word": "dollars",
+      "start_s": 5.805,
+      "end_s": 6.142
+    },
+    {
+      "word": "for",
+      "start_s": 6.2,
+      "end_s": 6.304
+    },
+    {
+      "word": "text",
+      "start_s": 6.351,
+      "end_s": 6.606
+    },
+    {
+      "word": "output.",
+      "start_s": 6.641,
+      "end_s": 7.152
+    },
+    {
+      "word": "Now",
+      "start_s": 8.104,
+      "end_s": 8.301
+    },
+    {
+      "word": "look",
+      "start_s": 8.382,
+      "end_s": 8.545
+    },
+    {
+      "word": "at",
+      "start_s": 8.591,
+      "end_s": 8.649
+    },
+    {
+      "word": "Gemini",
+      "start_s": 8.707,
+      "end_s": 9.079
+    },
+    {
+      "word": "three",
+      "start_s": 9.16,
+      "end_s": 9.404
+    },
+    {
+      "word": "point",
+      "start_s": 9.462,
+      "end_s": 9.694
+    },
+    {
+      "word": "eight",
+      "start_s": 9.764,
+      "end_s": 9.961
+    },
+    {
+      "word": "Flash.",
+      "start_s": 10.008,
+      "end_s": 10.565
+    },
+    {
+      "word": "Seventy-five",
+      "start_s": 11.378,
+      "end_s": 11.993
+    },
+    {
+      "word": "cents",
+      "start_s": 12.028,
+      "end_s": 12.283
+    },
+    {
+      "word": "in.",
+      "start_s": 12.341,
+      "end_s": 12.643
+    },
+    {
+      "word": "Three",
+      "start_s": 13.34,
+      "end_s": 13.618
+    },
+    {
+      "word": "seventy-five",
+      "start_s": 13.677,
+      "end_s": 14.292
+    },
+    {
+      "word": "out.",
+      "start_s": 14.327,
+      "end_s": 14.652
+    },
+    {
+      "word": "That",
+      "start_s": 15.348,
+      "end_s": 15.662
+    },
+    {
+      "word": "is",
+      "start_s": 15.732,
+      "end_s": 15.824
+    },
+    {
+      "word": "half",
+      "start_s": 15.906,
+      "end_s": 16.138
+    },
+    {
+      "word": "the",
+      "start_s": 16.184,
+      "end_s": 16.254
+    },
+    {
+      "word": "input",
+      "start_s": 16.324,
+      "end_s": 16.614
+    },
+    {
+      "word": "price.",
+      "start_s": 16.649,
+      "end_s": 17.113
+    },
+    {
+      "word": "And",
+      "start_s": 17.81,
+      "end_s": 17.961
+    },
+    {
+      "word": "less",
+      "start_s": 18.042,
+      "end_s": 18.262
+    },
+    {
+      "word": "than",
+      "start_s": 18.297,
+      "end_s": 18.448
+    },
+    {
+      "word": "half",
+      "start_s": 18.518,
+      "end_s": 18.843
+    },
+    {
+      "word": "the",
+      "start_s": 19.017,
+      "end_s": 19.156
+    },
+    {
+      "word": "output",
+      "start_s": 19.238,
+      "end_s": 19.598
+    },
+    {
+      "word": "price.",
+      "start_s": 19.644,
+      "end_s": 20.143
+    },
+    {
+      "word": "Both",
+      "start_s": 20.747,
+      "end_s": 20.991
+    },
+    {
+      "word": "are",
+      "start_s": 21.026,
+      "end_s": 21.118
+    },
+    {
+      "word": "called",
+      "start_s": 21.153,
+      "end_s": 21.432
+    },
+    {
+      "word": "Flash.",
+      "start_s": 21.583,
+      "end_s": 22.14
+    },
+    {
+      "word": "The",
+      "start_s": 22.523,
+      "end_s": 22.651
+    },
+    {
+      "word": "bill",
+      "start_s": 22.709,
+      "end_s": 22.93
+    },
+    {
+      "word": "is",
+      "start_s": 23.011,
+      "end_s": 23.127
+    },
+    {
+      "word": "not.",
+      "start_s": 23.208,
+      "end_s": 23.673
+    },
+    {
+      "word": "Check",
+      "start_s": 24.114,
+      "end_s": 24.358
+    },
+    {
+      "word": "the",
+      "start_s": 24.416,
+      "end_s": 24.485
+    },
+    {
+      "word": "model",
+      "start_s": 24.532,
+      "end_s": 24.776
+    },
+    {
+      "word": "name",
+      "start_s": 24.834,
+      "end_s": 25.031
+    },
+    {
+      "word": "before",
+      "start_s": 25.066,
+      "end_s": 25.379
+    },
+    {
+      "word": "you",
+      "start_s": 25.426,
+      "end_s": 25.507
+    },
+    {
+      "word": "ship.",
+      "start_s": 25.577,
+      "end_s": 26.192
+    }
+  ]
+}

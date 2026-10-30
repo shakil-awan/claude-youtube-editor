@@ -1,0 +1,1 @@
+Claude Opus five point five costs four dollars per million input tokens. Twenty out. Now use the batch API. Batch takes half off. Opus batch costs two dollars in. Ten out. Look at Claude Sonnet five point five. Two dollars in. Ten out. Identical. If your job can wait, the flagship Opus costs what the cheaper Sonnet costs. Same bill. Better model.

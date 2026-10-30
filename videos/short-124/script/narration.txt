@@ -1,0 +1,1 @@
+Google's Gemini Omni Flash costs one dollar fifty per million input tokens. Nine dollars for text output. Now look at Gemini three point eight Flash. Seventy-five cents in. Three seventy-five out. That is half the input price. And less than half the output price. Both are called Flash. The bill is not. Check the model name before you ship.

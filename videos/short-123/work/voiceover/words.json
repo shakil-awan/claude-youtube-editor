@@ -1,0 +1,318 @@
+{
+  "text": "Claude Opus five point five costs four dollars per million input tokens. Twenty out. Now use the batch API. Batch takes half off. Opus batch costs two dollars in. Ten out. Look at Claude Sonnet five point five. Two dollars in. Ten out. Identical. If your job can wait, the flagship Opus costs what the cheaper Sonnet costs. Same bill. Better model.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 26.88,
+  "words": [
+    {
+      "word": "Claude",
+      "start_s": 0.0,
+      "end_s": 0.337
+    },
+    {
+      "word": "Opus",
+      "start_s": 0.36,
+      "end_s": 0.72
+    },
+    {
+      "word": "five",
+      "start_s": 1.416,
+      "end_s": 1.695
+    },
+    {
+      "word": "point",
+      "start_s": 1.741,
+      "end_s": 1.939
+    },
+    {
+      "word": "five",
+      "start_s": 2.009,
+      "end_s": 2.368
+    },
+    {
+      "word": "costs",
+      "start_s": 2.415,
+      "end_s": 2.728
+    },
+    {
+      "word": "four",
+      "start_s": 2.786,
+      "end_s": 3.053
+    },
+    {
+      "word": "dollars",
+      "start_s": 3.123,
+      "end_s": 3.448
+    },
+    {
+      "word": "per",
+      "start_s": 3.518,
+      "end_s": 3.657
+    },
+    {
+      "word": "million",
+      "start_s": 3.727,
+      "end_s": 4.052
+    },
+    {
+      "word": "input",
+      "start_s": 4.122,
+      "end_s": 4.412
+    },
+    {
+      "word": "tokens.",
+      "start_s": 4.447,
+      "end_s": 5.027
+    },
+    {
+      "word": "Twenty",
+      "start_s": 5.84,
+      "end_s": 6.153
+    },
+    {
+      "word": "out.",
+      "start_s": 6.2,
+      "end_s": 6.525
+    },
+    {
+      "word": "Now",
+      "start_s": 7.221,
+      "end_s": 7.384
+    },
+    {
+      "word": "use",
+      "start_s": 7.465,
+      "end_s": 7.663
+    },
+    {
+      "word": "the",
+      "start_s": 7.697,
+      "end_s": 7.767
+    },
+    {
+      "word": "batch",
+      "start_s": 7.802,
+      "end_s": 8.046
+    },
+    {
+      "word": "API.",
+      "start_s": 8.115,
+      "end_s": 8.858
+    },
+    {
+      "word": "Batch",
+      "start_s": 9.183,
+      "end_s": 9.474
+    },
+    {
+      "word": "takes",
+      "start_s": 9.509,
+      "end_s": 9.729
+    },
+    {
+      "word": "half",
+      "start_s": 9.799,
+      "end_s": 10.054
+    },
+    {
+      "word": "off.",
+      "start_s": 10.136,
+      "end_s": 10.519
+    },
+    {
+      "word": "Opus",
+      "start_s": 11.215,
+      "end_s": 11.552
+    },
+    {
+      "word": "batch",
+      "start_s": 11.622,
+      "end_s": 11.865
+    },
+    {
+      "word": "costs",
+      "start_s": 11.912,
+      "end_s": 12.156
+    },
+    {
+      "word": "two",
+      "start_s": 12.19,
+      "end_s": 12.341
+    },
+    {
+      "word": "dollars",
+      "start_s": 12.411,
+      "end_s": 12.736
+    },
+    {
+      "word": "in.",
+      "start_s": 12.794,
+      "end_s": 13.073
+    },
+    {
+      "word": "Ten",
+      "start_s": 13.224,
+      "end_s": 13.433
+    },
+    {
+      "word": "out.",
+      "start_s": 13.491,
+      "end_s": 13.793
+    },
+    {
+      "word": "Look",
+      "start_s": 14.489,
+      "end_s": 14.675
+    },
+    {
+      "word": "at",
+      "start_s": 14.721,
+      "end_s": 14.768
+    },
+    {
+      "word": "Claude",
+      "start_s": 14.826,
+      "end_s": 15.128
+    },
+    {
+      "word": "Sonnet",
+      "start_s": 15.174,
+      "end_s": 15.464
+    },
+    {
+      "word": "five",
+      "start_s": 15.534,
+      "end_s": 15.79
+    },
+    {
+      "word": "point",
+      "start_s": 15.836,
+      "end_s": 16.045
+    },
+    {
+      "word": "five.",
+      "start_s": 16.103,
+      "end_s": 16.602
+    },
+    {
+      "word": "Two",
+      "start_s": 17.299,
+      "end_s": 17.473
+    },
+    {
+      "word": "dollars",
+      "start_s": 17.543,
+      "end_s": 17.868
+    },
+    {
+      "word": "in.",
+      "start_s": 17.926,
+      "end_s": 18.193
+    },
+    {
+      "word": "Ten",
+      "start_s": 18.367,
+      "end_s": 18.599
+    },
+    {
+      "word": "out.",
+      "start_s": 18.657,
+      "end_s": 18.959
+    },
+    {
+      "word": "Identical.",
+      "start_s": 19.656,
+      "end_s": 20.387
+    },
+    {
+      "word": "If",
+      "start_s": 20.596,
+      "end_s": 20.724
+    },
+    {
+      "word": "your",
+      "start_s": 20.759,
+      "end_s": 20.863
+    },
+    {
+      "word": "job",
+      "start_s": 20.91,
+      "end_s": 21.13
+    },
+    {
+      "word": "can",
+      "start_s": 21.177,
+      "end_s": 21.293
+    },
+    {
+      "word": "wait,",
+      "start_s": 21.351,
+      "end_s": 21.664
+    },
+    {
+      "word": "the",
+      "start_s": 21.781,
+      "end_s": 21.873
+    },
+    {
+      "word": "flagship",
+      "start_s": 21.932,
+      "end_s": 22.431
+    },
+    {
+      "word": "Opus",
+      "start_s": 22.5,
+      "end_s": 22.802
+    },
+    {
+      "word": "costs",
+      "start_s": 22.86,
+      "end_s": 23.127
+    },
+    {
+      "word": "what",
+      "start_s": 23.151,
+      "end_s": 23.255
+    },
+    {
+      "word": "the",
+      "start_s": 23.278,
+      "end_s": 23.348
+    },
+    {
+      "word": "cheaper",
+      "start_s": 23.383,
+      "end_s": 23.673
+    },
+    {
+      "word": "Sonnet",
+      "start_s": 23.743,
+      "end_s": 24.033
+    },
+    {
+      "word": "costs.",
+      "start_s": 24.068,
+      "end_s": 24.648
+    },
+    {
+      "word": "Same",
+      "start_s": 24.973,
+      "end_s": 25.264
+    },
+    {
+      "word": "bill.",
+      "start_s": 25.287,
+      "end_s": 25.67
+    },
+    {
+      "word": "Better",
+      "start_s": 25.914,
+      "end_s": 26.169
+    },
+    {
+      "word": "model.",
+      "start_s": 26.204,
+      "end_s": 26.843
+    }
+  ]
+}

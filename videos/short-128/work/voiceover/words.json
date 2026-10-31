@@ -1,0 +1,438 @@
+{
+  "text": "Two image AIs. Same thirty dollar price. OpenAI's gpt image two point five and Google's Nano Banana two point one both charge thirty dollars per million image output tokens. Now check the input. Nano Banana two point one charges a dollar fifty per million. OpenAI charges eight dollars. That is over five times more. If you edit photos, input is your bill. Google also lists a one K image at three point three six cents. Same thirty on the sticker. Five times apart on the input.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 35.762,
+  "words": [
+    {
+      "word": "Two",
+      "start_s": 0.0,
+      "end_s": 0.279
+    },
+    {
+      "word": "image",
+      "start_s": 0.372,
+      "end_s": 0.673
+    },
+    {
+      "word": "AIs.",
+      "start_s": 0.72,
+      "end_s": 1.324
+    },
+    {
+      "word": "Same",
+      "start_s": 1.927,
+      "end_s": 2.241
+    },
+    {
+      "word": "thirty",
+      "start_s": 2.287,
+      "end_s": 2.566
+    },
+    {
+      "word": "dollar",
+      "start_s": 2.601,
+      "end_s": 2.833
+    },
+    {
+      "word": "price.",
+      "start_s": 2.891,
+      "end_s": 3.402
+    },
+    {
+      "word": "OpenAI's",
+      "start_s": 4.098,
+      "end_s": 4.783
+    },
+    {
+      "word": "gpt",
+      "start_s": 4.865,
+      "end_s": 5.341
+    },
+    {
+      "word": "image",
+      "start_s": 5.515,
+      "end_s": 5.817
+    },
+    {
+      "word": "two",
+      "start_s": 5.84,
+      "end_s": 5.991
+    },
+    {
+      "word": "point",
+      "start_s": 6.072,
+      "end_s": 6.281
+    },
+    {
+      "word": "five",
+      "start_s": 6.339,
+      "end_s": 6.78
+    },
+    {
+      "word": "and",
+      "start_s": 7.163,
+      "end_s": 7.326
+    },
+    {
+      "word": "Google's",
+      "start_s": 7.407,
+      "end_s": 7.814
+    },
+    {
+      "word": "Nano",
+      "start_s": 7.93,
+      "end_s": 8.208
+    },
+    {
+      "word": "Banana",
+      "start_s": 8.266,
+      "end_s": 8.673
+    },
+    {
+      "word": "two",
+      "start_s": 8.847,
+      "end_s": 9.056
+    },
+    {
+      "word": "point",
+      "start_s": 9.137,
+      "end_s": 9.369
+    },
+    {
+      "word": "one",
+      "start_s": 9.451,
+      "end_s": 9.764
+    },
+    {
+      "word": "both",
+      "start_s": 9.973,
+      "end_s": 10.24
+    },
+    {
+      "word": "charge",
+      "start_s": 10.286,
+      "end_s": 10.577
+    },
+    {
+      "word": "thirty",
+      "start_s": 10.623,
+      "end_s": 10.89
+    },
+    {
+      "word": "dollars",
+      "start_s": 10.937,
+      "end_s": 11.238
+    },
+    {
+      "word": "per",
+      "start_s": 11.297,
+      "end_s": 11.424
+    },
+    {
+      "word": "million",
+      "start_s": 11.505,
+      "end_s": 11.831
+    },
+    {
+      "word": "image",
+      "start_s": 11.9,
+      "end_s": 12.179
+    },
+    {
+      "word": "output",
+      "start_s": 12.214,
+      "end_s": 12.562
+    },
+    {
+      "word": "tokens.",
+      "start_s": 12.597,
+      "end_s": 13.177
+    },
+    {
+      "word": "Now",
+      "start_s": 13.781,
+      "end_s": 13.99
+    },
+    {
+      "word": "check",
+      "start_s": 14.071,
+      "end_s": 14.28
+    },
+    {
+      "word": "the",
+      "start_s": 14.35,
+      "end_s": 14.42
+    },
+    {
+      "word": "input.",
+      "start_s": 14.478,
+      "end_s": 14.942
+    },
+    {
+      "word": "Nano",
+      "start_s": 15.639,
+      "end_s": 15.906
+    },
+    {
+      "word": "Banana",
+      "start_s": 15.964,
+      "end_s": 16.312
+    },
+    {
+      "word": "two",
+      "start_s": 16.37,
+      "end_s": 16.509
+    },
+    {
+      "word": "point",
+      "start_s": 16.579,
+      "end_s": 16.788
+    },
+    {
+      "word": "one",
+      "start_s": 16.858,
+      "end_s": 17.043
+    },
+    {
+      "word": "charges",
+      "start_s": 17.09,
+      "end_s": 17.461
+    },
+    {
+      "word": "a",
+      "start_s": 17.531,
+      "end_s": 17.577
+    },
+    {
+      "word": "dollar",
+      "start_s": 17.693,
+      "end_s": 18.053
+    },
+    {
+      "word": "fifty",
+      "start_s": 18.134,
+      "end_s": 18.425
+    },
+    {
+      "word": "per",
+      "start_s": 18.483,
+      "end_s": 18.599
+    },
+    {
+      "word": "million.",
+      "start_s": 18.645,
+      "end_s": 19.121
+    },
+    {
+      "word": "OpenAI",
+      "start_s": 19.818,
+      "end_s": 20.468
+    },
+    {
+      "word": "charges",
+      "start_s": 20.526,
+      "end_s": 20.898
+    },
+    {
+      "word": "eight",
+      "start_s": 20.99,
+      "end_s": 21.188
+    },
+    {
+      "word": "dollars.",
+      "start_s": 21.223,
+      "end_s": 21.78
+    },
+    {
+      "word": "That",
+      "start_s": 21.954,
+      "end_s": 22.117
+    },
+    {
+      "word": "is",
+      "start_s": 22.163,
+      "end_s": 22.233
+    },
+    {
+      "word": "over",
+      "start_s": 22.291,
+      "end_s": 22.477
+    },
+    {
+      "word": "five",
+      "start_s": 22.546,
+      "end_s": 22.825
+    },
+    {
+      "word": "times",
+      "start_s": 22.86,
+      "end_s": 23.115
+    },
+    {
+      "word": "more.",
+      "start_s": 23.185,
+      "end_s": 23.545
+    },
+    {
+      "word": "If",
+      "start_s": 24.241,
+      "end_s": 24.369
+    },
+    {
+      "word": "you",
+      "start_s": 24.404,
+      "end_s": 24.485
+    },
+    {
+      "word": "edit",
+      "start_s": 24.555,
+      "end_s": 24.717
+    },
+    {
+      "word": "photos,",
+      "start_s": 24.764,
+      "end_s": 25.205
+    },
+    {
+      "word": "input",
+      "start_s": 25.263,
+      "end_s": 25.623
+    },
+    {
+      "word": "is",
+      "start_s": 25.681,
+      "end_s": 25.751
+    },
+    {
+      "word": "your",
+      "start_s": 25.797,
+      "end_s": 25.901
+    },
+    {
+      "word": "bill.",
+      "start_s": 25.936,
+      "end_s": 26.308
+    },
+    {
+      "word": "Google",
+      "start_s": 27.004,
+      "end_s": 27.353
+    },
+    {
+      "word": "also",
+      "start_s": 27.376,
+      "end_s": 27.631
+    },
+    {
+      "word": "lists",
+      "start_s": 27.713,
+      "end_s": 27.956
+    },
+    {
+      "word": "a",
+      "start_s": 28.014,
+      "end_s": 28.073
+    },
+    {
+      "word": "one",
+      "start_s": 28.189,
+      "end_s": 28.421
+    },
+    {
+      "word": "K",
+      "start_s": 28.467,
+      "end_s": 28.583
+    },
+    {
+      "word": "image",
+      "start_s": 28.758,
+      "end_s": 29.048
+    },
+    {
+      "word": "at",
+      "start_s": 29.083,
+      "end_s": 29.187
+    },
+    {
+      "word": "three",
+      "start_s": 29.245,
+      "end_s": 29.477
+    },
+    {
+      "word": "point",
+      "start_s": 29.535,
+      "end_s": 29.756
+    },
+    {
+      "word": "three",
+      "start_s": 29.791,
+      "end_s": 30.0
+    },
+    {
+      "word": "six",
+      "start_s": 30.058,
+      "end_s": 30.267
+    },
+    {
+      "word": "cents.",
+      "start_s": 30.325,
+      "end_s": 30.766
+    },
+    {
+      "word": "Same",
+      "start_s": 31.579,
+      "end_s": 31.869
+    },
+    {
+      "word": "thirty",
+      "start_s": 31.927,
+      "end_s": 32.206
+    },
+    {
+      "word": "on",
+      "start_s": 32.264,
+      "end_s": 32.357
+    },
+    {
+      "word": "the",
+      "start_s": 32.391,
+      "end_s": 32.461
+    },
+    {
+      "word": "sticker.",
+      "start_s": 32.496,
+      "end_s": 32.972
+    },
+    {
+      "word": "Five",
+      "start_s": 33.785,
+      "end_s": 34.075
+    },
+    {
+      "word": "times",
+      "start_s": 34.11,
+      "end_s": 34.365
+    },
+    {
+      "word": "apart",
+      "start_s": 34.412,
+      "end_s": 34.725
+    },
+    {
+      "word": "on",
+      "start_s": 34.795,
+      "end_s": 34.888
+    },
+    {
+      "word": "the",
+      "start_s": 34.922,
+      "end_s": 34.992
+    },
+    {
+      "word": "input.",
+      "start_s": 35.05,
+      "end_s": 35.712
+    }
+  ]
+}

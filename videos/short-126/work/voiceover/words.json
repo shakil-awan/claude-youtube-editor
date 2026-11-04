@@ -1,0 +1,368 @@
+{
+  "text": "Google is doubling a fee most people forget. Context caching storage. Today Gemini three point eight Flash charges fifty cents per million tokens per hour to keep a cache stored. From January first, one dollar. The cache read price doubles too. Seven and a half cents becomes fifteen. Keep cache lifetimes short. A million tokens stored for a day costs twelve dollars today. Twenty-four dollars in January. Google doubles the storage fee.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 32.418,
+  "words": [
+    {
+      "word": "Google",
+      "start_s": 0.0,
+      "end_s": 0.395
+    },
+    {
+      "word": "is",
+      "start_s": 0.418,
+      "end_s": 0.499
+    },
+    {
+      "word": "doubling",
+      "start_s": 0.58,
+      "end_s": 0.964
+    },
+    {
+      "word": "a",
+      "start_s": 1.022,
+      "end_s": 1.045
+    },
+    {
+      "word": "fee",
+      "start_s": 1.138,
+      "end_s": 1.358
+    },
+    {
+      "word": "most",
+      "start_s": 1.416,
+      "end_s": 1.637
+    },
+    {
+      "word": "people",
+      "start_s": 1.695,
+      "end_s": 1.974
+    },
+    {
+      "word": "forget.",
+      "start_s": 2.02,
+      "end_s": 2.543
+    },
+    {
+      "word": "Context",
+      "start_s": 3.239,
+      "end_s": 3.843
+    },
+    {
+      "word": "caching",
+      "start_s": 3.913,
+      "end_s": 4.284
+    },
+    {
+      "word": "storage.",
+      "start_s": 4.354,
+      "end_s": 4.957
+    },
+    {
+      "word": "Today",
+      "start_s": 5.909,
+      "end_s": 6.409
+    },
+    {
+      "word": "Gemini",
+      "start_s": 6.583,
+      "end_s": 6.978
+    },
+    {
+      "word": "three",
+      "start_s": 7.047,
+      "end_s": 7.245
+    },
+    {
+      "word": "point",
+      "start_s": 7.279,
+      "end_s": 7.465
+    },
+    {
+      "word": "eight",
+      "start_s": 7.5,
+      "end_s": 7.639
+    },
+    {
+      "word": "Flash",
+      "start_s": 7.697,
+      "end_s": 8.092
+    },
+    {
+      "word": "charges",
+      "start_s": 8.15,
+      "end_s": 8.51
+    },
+    {
+      "word": "fifty",
+      "start_s": 8.58,
+      "end_s": 8.847
+    },
+    {
+      "word": "cents",
+      "start_s": 8.893,
+      "end_s": 9.114
+    },
+    {
+      "word": "per",
+      "start_s": 9.16,
+      "end_s": 9.276
+    },
+    {
+      "word": "million",
+      "start_s": 9.334,
+      "end_s": 9.636
+    },
+    {
+      "word": "tokens",
+      "start_s": 9.694,
+      "end_s": 10.066
+    },
+    {
+      "word": "per",
+      "start_s": 10.124,
+      "end_s": 10.263
+    },
+    {
+      "word": "hour",
+      "start_s": 10.333,
+      "end_s": 10.658
+    },
+    {
+      "word": "to",
+      "start_s": 10.983,
+      "end_s": 11.088
+    },
+    {
+      "word": "keep",
+      "start_s": 11.146,
+      "end_s": 11.32
+    },
+    {
+      "word": "a",
+      "start_s": 11.366,
+      "end_s": 11.389
+    },
+    {
+      "word": "cache",
+      "start_s": 11.436,
+      "end_s": 11.726
+    },
+    {
+      "word": "stored.",
+      "start_s": 11.784,
+      "end_s": 12.283
+    },
+    {
+      "word": "From",
+      "start_s": 12.887,
+      "end_s": 13.061
+    },
+    {
+      "word": "January",
+      "start_s": 13.142,
+      "end_s": 13.63
+    },
+    {
+      "word": "first,",
+      "start_s": 13.711,
+      "end_s": 14.118
+    },
+    {
+      "word": "one",
+      "start_s": 14.187,
+      "end_s": 14.42
+    },
+    {
+      "word": "dollar.",
+      "start_s": 14.466,
+      "end_s": 14.942
+    },
+    {
+      "word": "The",
+      "start_s": 15.639,
+      "end_s": 15.755
+    },
+    {
+      "word": "cache",
+      "start_s": 15.801,
+      "end_s": 16.149
+    },
+    {
+      "word": "read",
+      "start_s": 16.231,
+      "end_s": 16.474
+    },
+    {
+      "word": "price",
+      "start_s": 16.648,
+      "end_s": 16.997
+    },
+    {
+      "word": "doubles",
+      "start_s": 17.043,
+      "end_s": 17.368
+    },
+    {
+      "word": "too.",
+      "start_s": 17.438,
+      "end_s": 17.867
+    },
+    {
+      "word": "Seven",
+      "start_s": 18.471,
+      "end_s": 18.761
+    },
+    {
+      "word": "and",
+      "start_s": 18.785,
+      "end_s": 18.854
+    },
+    {
+      "word": "a",
+      "start_s": 18.901,
+      "end_s": 18.924
+    },
+    {
+      "word": "half",
+      "start_s": 18.982,
+      "end_s": 19.133
+    },
+    {
+      "word": "cents",
+      "start_s": 19.191,
+      "end_s": 19.458
+    },
+    {
+      "word": "becomes",
+      "start_s": 19.516,
+      "end_s": 19.83
+    },
+    {
+      "word": "fifteen.",
+      "start_s": 19.899,
+      "end_s": 20.584
+    },
+    {
+      "word": "Keep",
+      "start_s": 21.397,
+      "end_s": 21.641
+    },
+    {
+      "word": "cache",
+      "start_s": 21.71,
+      "end_s": 22.059
+    },
+    {
+      "word": "lifetimes",
+      "start_s": 22.117,
+      "end_s": 22.662
+    },
+    {
+      "word": "short.",
+      "start_s": 22.709,
+      "end_s": 23.196
+    },
+    {
+      "word": "A",
+      "start_s": 23.893,
+      "end_s": 23.963
+    },
+    {
+      "word": "million",
+      "start_s": 24.044,
+      "end_s": 24.334
+    },
+    {
+      "word": "tokens",
+      "start_s": 24.381,
+      "end_s": 24.741
+    },
+    {
+      "word": "stored",
+      "start_s": 24.775,
+      "end_s": 25.042
+    },
+    {
+      "word": "for",
+      "start_s": 25.077,
+      "end_s": 25.182
+    },
+    {
+      "word": "a",
+      "start_s": 25.228,
+      "end_s": 25.251
+    },
+    {
+      "word": "day",
+      "start_s": 25.309,
+      "end_s": 25.553
+    },
+    {
+      "word": "costs",
+      "start_s": 25.762,
+      "end_s": 26.052
+    },
+    {
+      "word": "twelve",
+      "start_s": 26.087,
+      "end_s": 26.401
+    },
+    {
+      "word": "dollars",
+      "start_s": 26.436,
+      "end_s": 26.784
+    },
+    {
+      "word": "today.",
+      "start_s": 26.83,
+      "end_s": 27.33
+    },
+    {
+      "word": "Twenty-four",
+      "start_s": 27.933,
+      "end_s": 28.398
+    },
+    {
+      "word": "dollars",
+      "start_s": 28.456,
+      "end_s": 28.816
+    },
+    {
+      "word": "in",
+      "start_s": 28.885,
+      "end_s": 29.013
+    },
+    {
+      "word": "January.",
+      "start_s": 29.083,
+      "end_s": 29.768
+    },
+    {
+      "word": "Google",
+      "start_s": 30.464,
+      "end_s": 30.859
+    },
+    {
+      "word": "doubles",
+      "start_s": 30.917,
+      "end_s": 31.231
+    },
+    {
+      "word": "the",
+      "start_s": 31.277,
+      "end_s": 31.347
+    },
+    {
+      "word": "storage",
+      "start_s": 31.393,
+      "end_s": 31.753
+    },
+    {
+      "word": "fee.",
+      "start_s": 31.799,
+      "end_s": 32.368
+    }
+  ]
+}

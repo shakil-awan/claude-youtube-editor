@@ -1,0 +1,463 @@
+{
+  "text": "Google is about to swap your Gemini model. On December first, every request to Gemini two point five Pro automatically routes to Gemini three point eight Flash. And you get billed at Flash rates. Two point five Pro costs one dollar twenty-five in, ten dollars out. Three point eight Flash costs seventy-five cents in, three dollars seventy-five out. That is output almost three times cheaper. But the discount has a date. On January first, Flash goes to a dollar fifty in, seven fifty out. Check your model name before December first.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 35.605,
+  "words": [
+    {
+      "word": "Google",
+      "start_s": 0.0,
+      "end_s": 0.406
+    },
+    {
+      "word": "is",
+      "start_s": 0.441,
+      "end_s": 0.511
+    },
+    {
+      "word": "about",
+      "start_s": 0.557,
+      "end_s": 0.789
+    },
+    {
+      "word": "to",
+      "start_s": 0.824,
+      "end_s": 0.882
+    },
+    {
+      "word": "swap",
+      "start_s": 0.952,
+      "end_s": 1.312
+    },
+    {
+      "word": "your",
+      "start_s": 1.382,
+      "end_s": 1.521
+    },
+    {
+      "word": "Gemini",
+      "start_s": 1.591,
+      "end_s": 1.939
+    },
+    {
+      "word": "model.",
+      "start_s": 1.997,
+      "end_s": 2.461
+    },
+    {
+      "word": "On",
+      "start_s": 3.158,
+      "end_s": 3.32
+    },
+    {
+      "word": "December",
+      "start_s": 3.379,
+      "end_s": 3.762
+    },
+    {
+      "word": "first,",
+      "start_s": 3.831,
+      "end_s": 4.319
+    },
+    {
+      "word": "every",
+      "start_s": 4.528,
+      "end_s": 4.783
+    },
+    {
+      "word": "request",
+      "start_s": 4.853,
+      "end_s": 5.213
+    },
+    {
+      "word": "to",
+      "start_s": 5.248,
+      "end_s": 5.306
+    },
+    {
+      "word": "Gemini",
+      "start_s": 5.375,
+      "end_s": 5.724
+    },
+    {
+      "word": "two",
+      "start_s": 5.817,
+      "end_s": 6.002
+    },
+    {
+      "word": "point",
+      "start_s": 6.084,
+      "end_s": 6.304
+    },
+    {
+      "word": "five",
+      "start_s": 6.351,
+      "end_s": 6.618
+    },
+    {
+      "word": "Pro",
+      "start_s": 6.664,
+      "end_s": 6.966
+    },
+    {
+      "word": "automatically",
+      "start_s": 7.291,
+      "end_s": 7.999
+    },
+    {
+      "word": "routes",
+      "start_s": 8.057,
+      "end_s": 8.301
+    },
+    {
+      "word": "to",
+      "start_s": 8.348,
+      "end_s": 8.417
+    },
+    {
+      "word": "Gemini",
+      "start_s": 8.487,
+      "end_s": 8.835
+    },
+    {
+      "word": "three",
+      "start_s": 8.916,
+      "end_s": 9.114
+    },
+    {
+      "word": "point",
+      "start_s": 9.172,
+      "end_s": 9.369
+    },
+    {
+      "word": "eight",
+      "start_s": 9.416,
+      "end_s": 9.578
+    },
+    {
+      "word": "Flash.",
+      "start_s": 9.613,
+      "end_s": 10.136
+    },
+    {
+      "word": "And",
+      "start_s": 10.739,
+      "end_s": 10.925
+    },
+    {
+      "word": "you",
+      "start_s": 10.971,
+      "end_s": 11.041
+    },
+    {
+      "word": "get",
+      "start_s": 11.111,
+      "end_s": 11.215
+    },
+    {
+      "word": "billed",
+      "start_s": 11.262,
+      "end_s": 11.494
+    },
+    {
+      "word": "at",
+      "start_s": 11.529,
+      "end_s": 11.598
+    },
+    {
+      "word": "Flash",
+      "start_s": 11.656,
+      "end_s": 11.993
+    },
+    {
+      "word": "rates.",
+      "start_s": 12.063,
+      "end_s": 12.527
+    },
+    {
+      "word": "Two",
+      "start_s": 13.131,
+      "end_s": 13.305
+    },
+    {
+      "word": "point",
+      "start_s": 13.386,
+      "end_s": 13.595
+    },
+    {
+      "word": "five",
+      "start_s": 13.653,
+      "end_s": 13.909
+    },
+    {
+      "word": "Pro",
+      "start_s": 13.955,
+      "end_s": 14.164
+    },
+    {
+      "word": "costs",
+      "start_s": 14.245,
+      "end_s": 14.536
+    },
+    {
+      "word": "one",
+      "start_s": 14.605,
+      "end_s": 14.791
+    },
+    {
+      "word": "dollar",
+      "start_s": 14.826,
+      "end_s": 15.058
+    },
+    {
+      "word": "twenty-five",
+      "start_s": 15.116,
+      "end_s": 15.65
+    },
+    {
+      "word": "in,",
+      "start_s": 15.696,
+      "end_s": 16.033
+    },
+    {
+      "word": "ten",
+      "start_s": 16.207,
+      "end_s": 16.405
+    },
+    {
+      "word": "dollars",
+      "start_s": 16.451,
+      "end_s": 16.765
+    },
+    {
+      "word": "out.",
+      "start_s": 16.811,
+      "end_s": 17.136
+    },
+    {
+      "word": "Three",
+      "start_s": 17.833,
+      "end_s": 18.076
+    },
+    {
+      "word": "point",
+      "start_s": 18.123,
+      "end_s": 18.332
+    },
+    {
+      "word": "eight",
+      "start_s": 18.378,
+      "end_s": 18.541
+    },
+    {
+      "word": "Flash",
+      "start_s": 18.587,
+      "end_s": 18.97
+    },
+    {
+      "word": "costs",
+      "start_s": 19.052,
+      "end_s": 19.4
+    },
+    {
+      "word": "seventy-five",
+      "start_s": 19.516,
+      "end_s": 20.12
+    },
+    {
+      "word": "cents",
+      "start_s": 20.155,
+      "end_s": 20.41
+    },
+    {
+      "word": "in,",
+      "start_s": 20.468,
+      "end_s": 20.828
+    },
+    {
+      "word": "three",
+      "start_s": 21.153,
+      "end_s": 21.35
+    },
+    {
+      "word": "dollars",
+      "start_s": 21.385,
+      "end_s": 21.687
+    },
+    {
+      "word": "seventy-five",
+      "start_s": 21.78,
+      "end_s": 22.349
+    },
+    {
+      "word": "out.",
+      "start_s": 22.384,
+      "end_s": 22.686
+    },
+    {
+      "word": "That",
+      "start_s": 23.382,
+      "end_s": 23.556
+    },
+    {
+      "word": "is",
+      "start_s": 23.603,
+      "end_s": 23.672
+    },
+    {
+      "word": "output",
+      "start_s": 23.719,
+      "end_s": 24.021
+    },
+    {
+      "word": "almost",
+      "start_s": 24.067,
+      "end_s": 24.357
+    },
+    {
+      "word": "three",
+      "start_s": 24.439,
+      "end_s": 24.671
+    },
+    {
+      "word": "times",
+      "start_s": 24.717,
+      "end_s": 24.996
+    },
+    {
+      "word": "cheaper.",
+      "start_s": 25.054,
+      "end_s": 25.565
+    },
+    {
+      "word": "But",
+      "start_s": 26.261,
+      "end_s": 26.412
+    },
+    {
+      "word": "the",
+      "start_s": 26.436,
+      "end_s": 26.505
+    },
+    {
+      "word": "discount",
+      "start_s": 26.54,
+      "end_s": 26.923
+    },
+    {
+      "word": "has",
+      "start_s": 26.97,
+      "end_s": 27.086
+    },
+    {
+      "word": "a",
+      "start_s": 27.132,
+      "end_s": 27.167
+    },
+    {
+      "word": "date.",
+      "start_s": 27.213,
+      "end_s": 27.608
+    },
+    {
+      "word": "On",
+      "start_s": 28.305,
+      "end_s": 28.467
+    },
+    {
+      "word": "January",
+      "start_s": 28.537,
+      "end_s": 29.001
+    },
+    {
+      "word": "first,",
+      "start_s": 29.083,
+      "end_s": 29.396
+    },
+    {
+      "word": "Flash",
+      "start_s": 29.431,
+      "end_s": 29.721
+    },
+    {
+      "word": "goes",
+      "start_s": 29.768,
+      "end_s": 29.965
+    },
+    {
+      "word": "to",
+      "start_s": 30.0,
+      "end_s": 30.058
+    },
+    {
+      "word": "a",
+      "start_s": 30.139,
+      "end_s": 30.163
+    },
+    {
+      "word": "dollar",
+      "start_s": 30.209,
+      "end_s": 30.476
+    },
+    {
+      "word": "fifty",
+      "start_s": 30.546,
+      "end_s": 30.824
+    },
+    {
+      "word": "in,",
+      "start_s": 30.894,
+      "end_s": 31.219
+    },
+    {
+      "word": "seven",
+      "start_s": 31.463,
+      "end_s": 31.73
+    },
+    {
+      "word": "fifty",
+      "start_s": 31.788,
+      "end_s": 32.067
+    },
+    {
+      "word": "out.",
+      "start_s": 32.125,
+      "end_s": 32.438
+    },
+    {
+      "word": "Check",
+      "start_s": 33.135,
+      "end_s": 33.344
+    },
+    {
+      "word": "your",
+      "start_s": 33.39,
+      "end_s": 33.483
+    },
+    {
+      "word": "model",
+      "start_s": 33.53,
+      "end_s": 33.75
+    },
+    {
+      "word": "name",
+      "start_s": 33.797,
+      "end_s": 33.971
+    },
+    {
+      "word": "before",
+      "start_s": 34.006,
+      "end_s": 34.296
+    },
+    {
+      "word": "December",
+      "start_s": 34.342,
+      "end_s": 34.76
+    },
+    {
+      "word": "first.",
+      "start_s": 34.842,
+      "end_s": 35.573
+    }
+  ]
+}

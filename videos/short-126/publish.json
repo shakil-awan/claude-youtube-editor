@@ -1,0 +1,13 @@
+{
+ "video": "videos/short-126/output/short-126.mp4",
+ "title": "Google Doubles Gemini's Cache Storage Fee Jan 1",
+ "description": "Gemini 3.8 Flash context caching: storage $0.50 to $1.00 per 1M tokens per hour and cache reads $0.075 to $0.15 on Jan 1, 2027. One million tokens stored 24h = $12 now, $24 after. Source: aistudio.google.com/docs/pricing\n\nAI-generated visuals and voice. #Shorts #AI #AItools #gemini",
+ "tags": [
+  "gemini",
+  "context caching",
+  "api pricing",
+  "ai"
+ ],
+ "privacy": "private",
+ "publishAt": "2026-11-05T22:00:00Z"
+}

@@ -1,0 +1,408 @@
+{
+  "text": "Claude's code sandbox is free. Here is the catch. When your request includes web search or web fetch, code execution costs nothing extra. Only normal token prices. Skip those tools, and you are billed by execution time. But Anthropic gives every organization one thousand five hundred fifty free hours a month. After that, five cents per hour, per container. One more trap. Attach files, and the clock runs even if Claude never calls the tool. Free with search. Cheap without.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 34.508,
+  "words": [
+    {
+      "word": "Claude's",
+      "start_s": 0.0,
+      "end_s": 0.418
+    },
+    {
+      "word": "code",
+      "start_s": 0.464,
+      "end_s": 0.72
+    },
+    {
+      "word": "sandbox",
+      "start_s": 0.755,
+      "end_s": 1.312
+    },
+    {
+      "word": "is",
+      "start_s": 1.382,
+      "end_s": 1.463
+    },
+    {
+      "word": "free.",
+      "start_s": 1.521,
+      "end_s": 1.939
+    },
+    {
+      "word": "Here",
+      "start_s": 2.543,
+      "end_s": 2.74
+    },
+    {
+      "word": "is",
+      "start_s": 2.775,
+      "end_s": 2.844
+    },
+    {
+      "word": "the",
+      "start_s": 2.891,
+      "end_s": 2.961
+    },
+    {
+      "word": "catch.",
+      "start_s": 2.995,
+      "end_s": 3.518
+    },
+    {
+      "word": "When",
+      "start_s": 4.331,
+      "end_s": 4.516
+    },
+    {
+      "word": "your",
+      "start_s": 4.563,
+      "end_s": 4.702
+    },
+    {
+      "word": "request",
+      "start_s": 4.76,
+      "end_s": 5.12
+    },
+    {
+      "word": "includes",
+      "start_s": 5.166,
+      "end_s": 5.538
+    },
+    {
+      "word": "web",
+      "start_s": 5.608,
+      "end_s": 5.817
+    },
+    {
+      "word": "search",
+      "start_s": 5.886,
+      "end_s": 6.165
+    },
+    {
+      "word": "or",
+      "start_s": 6.223,
+      "end_s": 6.339
+    },
+    {
+      "word": "web",
+      "start_s": 6.409,
+      "end_s": 6.594
+    },
+    {
+      "word": "fetch,",
+      "start_s": 6.664,
+      "end_s": 7.105
+    },
+    {
+      "word": "code",
+      "start_s": 7.488,
+      "end_s": 7.721
+    },
+    {
+      "word": "execution",
+      "start_s": 7.744,
+      "end_s": 8.278
+    },
+    {
+      "word": "costs",
+      "start_s": 8.336,
+      "end_s": 8.626
+    },
+    {
+      "word": "nothing",
+      "start_s": 8.707,
+      "end_s": 9.033
+    },
+    {
+      "word": "extra.",
+      "start_s": 9.102,
+      "end_s": 9.625
+    },
+    {
+      "word": "Only",
+      "start_s": 10.228,
+      "end_s": 10.53
+    },
+    {
+      "word": "normal",
+      "start_s": 10.6,
+      "end_s": 10.879
+    },
+    {
+      "word": "token",
+      "start_s": 10.937,
+      "end_s": 11.227
+    },
+    {
+      "word": "prices.",
+      "start_s": 11.273,
+      "end_s": 11.9
+    },
+    {
+      "word": "Skip",
+      "start_s": 12.713,
+      "end_s": 12.992
+    },
+    {
+      "word": "those",
+      "start_s": 13.038,
+      "end_s": 13.235
+    },
+    {
+      "word": "tools,",
+      "start_s": 13.27,
+      "end_s": 13.804
+    },
+    {
+      "word": "and",
+      "start_s": 14.083,
+      "end_s": 14.234
+    },
+    {
+      "word": "you",
+      "start_s": 14.292,
+      "end_s": 14.385
+    },
+    {
+      "word": "are",
+      "start_s": 14.443,
+      "end_s": 14.559
+    },
+    {
+      "word": "billed",
+      "start_s": 14.594,
+      "end_s": 14.826
+    },
+    {
+      "word": "by",
+      "start_s": 14.872,
+      "end_s": 14.988
+    },
+    {
+      "word": "execution",
+      "start_s": 15.081,
+      "end_s": 15.72
+    },
+    {
+      "word": "time.",
+      "start_s": 15.778,
+      "end_s": 16.173
+    },
+    {
+      "word": "But",
+      "start_s": 17.125,
+      "end_s": 17.287
+    },
+    {
+      "word": "Anthropic",
+      "start_s": 17.345,
+      "end_s": 17.891
+    },
+    {
+      "word": "gives",
+      "start_s": 17.938,
+      "end_s": 18.135
+    },
+    {
+      "word": "every",
+      "start_s": 18.216,
+      "end_s": 18.46
+    },
+    {
+      "word": "organization",
+      "start_s": 18.518,
+      "end_s": 19.168
+    },
+    {
+      "word": "one",
+      "start_s": 19.284,
+      "end_s": 19.54
+    },
+    {
+      "word": "thousand",
+      "start_s": 19.575,
+      "end_s": 19.981
+    },
+    {
+      "word": "five",
+      "start_s": 20.074,
+      "end_s": 20.352
+    },
+    {
+      "word": "hundred",
+      "start_s": 20.387,
+      "end_s": 20.643
+    },
+    {
+      "word": "fifty",
+      "start_s": 20.712,
+      "end_s": 20.991
+    },
+    {
+      "word": "free",
+      "start_s": 21.061,
+      "end_s": 21.246
+    },
+    {
+      "word": "hours",
+      "start_s": 21.281,
+      "end_s": 21.548
+    },
+    {
+      "word": "a",
+      "start_s": 21.595,
+      "end_s": 21.618
+    },
+    {
+      "word": "month.",
+      "start_s": 21.664,
+      "end_s": 22.024
+    },
+    {
+      "word": "After",
+      "start_s": 22.535,
+      "end_s": 22.791
+    },
+    {
+      "word": "that,",
+      "start_s": 22.837,
+      "end_s": 23.22
+    },
+    {
+      "word": "five",
+      "start_s": 23.429,
+      "end_s": 23.708
+    },
+    {
+      "word": "cents",
+      "start_s": 23.743,
+      "end_s": 23.975
+    },
+    {
+      "word": "per",
+      "start_s": 24.021,
+      "end_s": 24.137
+    },
+    {
+      "word": "hour,",
+      "start_s": 24.184,
+      "end_s": 24.567
+    },
+    {
+      "word": "per",
+      "start_s": 24.718,
+      "end_s": 24.892
+    },
+    {
+      "word": "container.",
+      "start_s": 24.938,
+      "end_s": 25.531
+    },
+    {
+      "word": "One",
+      "start_s": 26.227,
+      "end_s": 26.424
+    },
+    {
+      "word": "more",
+      "start_s": 26.448,
+      "end_s": 26.61
+    },
+    {
+      "word": "trap.",
+      "start_s": 26.633,
+      "end_s": 27.063
+    },
+    {
+      "word": "Attach",
+      "start_s": 27.76,
+      "end_s": 28.166
+    },
+    {
+      "word": "files,",
+      "start_s": 28.236,
+      "end_s": 28.758
+    },
+    {
+      "word": "and",
+      "start_s": 28.909,
+      "end_s": 29.048
+    },
+    {
+      "word": "the",
+      "start_s": 29.083,
+      "end_s": 29.153
+    },
+    {
+      "word": "clock",
+      "start_s": 29.188,
+      "end_s": 29.431
+    },
+    {
+      "word": "runs",
+      "start_s": 29.49,
+      "end_s": 29.722
+    },
+    {
+      "word": "even",
+      "start_s": 29.803,
+      "end_s": 30.0
+    },
+    {
+      "word": "if",
+      "start_s": 30.035,
+      "end_s": 30.093
+    },
+    {
+      "word": "Claude",
+      "start_s": 30.163,
+      "end_s": 30.476
+    },
+    {
+      "word": "never",
+      "start_s": 30.523,
+      "end_s": 30.743
+    },
+    {
+      "word": "calls",
+      "start_s": 30.801,
+      "end_s": 31.034
+    },
+    {
+      "word": "the",
+      "start_s": 31.08,
+      "end_s": 31.15
+    },
+    {
+      "word": "tool.",
+      "start_s": 31.185,
+      "end_s": 31.591
+    },
+    {
+      "word": "Free",
+      "start_s": 32.404,
+      "end_s": 32.636
+    },
+    {
+      "word": "with",
+      "start_s": 32.671,
+      "end_s": 32.798
+    },
+    {
+      "word": "search.",
+      "start_s": 32.856,
+      "end_s": 33.332
+    },
+    {
+      "word": "Cheap",
+      "start_s": 33.507,
+      "end_s": 33.75
+    },
+    {
+      "word": "without.",
+      "start_s": 33.785,
+      "end_s": 34.459
+    }
+  ]
+}

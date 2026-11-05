@@ -1,0 +1,13 @@
+{
+ "video": "videos/short-128/output/short-128.mp4",
+ "title": "Keeping AI Data In The US Costs 10% Extra",
+ "description": "Claude (US-only inference, 1.1x) and OpenAI (regional processing, +10% on eligible models) both charge ten percent more to keep requests in the US. A $2 model becomes $2.20. Sources: platform.claude.com/docs/en/about-claude/pricing, developers.openai.com/api/docs/pricing\n\nAI-generated visuals and voice. #Shorts #AI #AItools #openai",
+ "tags": [
+  "data residency",
+  "claude",
+  "openai",
+  "api pricing"
+ ],
+ "privacy": "private",
+ "publishAt": "2026-11-06T22:00:00Z"
+}

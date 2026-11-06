@@ -1,0 +1,388 @@
+{
+  "text": "OpenAI doubles Sol's price past two hundred seventy-two thousand tokens. GPT six point one Sol costs two dollars per million tokens in. Ten dollars out. But only for prompts up to two hundred seventy-two thousand tokens. Go longer and input doubles to four dollars. Output rises to fifteen. Cached input doubles too. Ten cents becomes twenty. Same model. Same call. Just a longer prompt. Stay under the line. OpenAI doubles Sol's price past two seventy-two K.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 35.788,
+  "words": [
+    {
+      "word": "OpenAI",
+      "start_s": 0.0,
+      "end_s": 0.592
+    },
+    {
+      "word": "doubles",
+      "start_s": 0.673,
+      "end_s": 0.987
+    },
+    {
+      "word": "Sol's",
+      "start_s": 1.022,
+      "end_s": 1.312
+    },
+    {
+      "word": "price",
+      "start_s": 1.358,
+      "end_s": 1.637
+    },
+    {
+      "word": "past",
+      "start_s": 1.672,
+      "end_s": 1.892
+    },
+    {
+      "word": "two",
+      "start_s": 1.927,
+      "end_s": 2.067
+    },
+    {
+      "word": "hundred",
+      "start_s": 2.125,
+      "end_s": 2.345
+    },
+    {
+      "word": "seventy-two",
+      "start_s": 2.392,
+      "end_s": 2.844
+    },
+    {
+      "word": "thousand",
+      "start_s": 2.914,
+      "end_s": 3.239
+    },
+    {
+      "word": "tokens.",
+      "start_s": 3.297,
+      "end_s": 3.936
+    },
+    {
+      "word": "GPT",
+      "start_s": 4.748,
+      "end_s": 5.166
+    },
+    {
+      "word": "six",
+      "start_s": 5.317,
+      "end_s": 5.526
+    },
+    {
+      "word": "point",
+      "start_s": 5.596,
+      "end_s": 5.793
+    },
+    {
+      "word": "one",
+      "start_s": 5.863,
+      "end_s": 6.223
+    },
+    {
+      "word": "Sol",
+      "start_s": 6.664,
+      "end_s": 6.943
+    },
+    {
+      "word": "costs",
+      "start_s": 7.012,
+      "end_s": 7.245
+    },
+    {
+      "word": "two",
+      "start_s": 7.279,
+      "end_s": 7.407
+    },
+    {
+      "word": "dollars",
+      "start_s": 7.465,
+      "end_s": 7.767
+    },
+    {
+      "word": "per",
+      "start_s": 7.825,
+      "end_s": 7.941
+    },
+    {
+      "word": "million",
+      "start_s": 7.999,
+      "end_s": 8.278
+    },
+    {
+      "word": "tokens",
+      "start_s": 8.324,
+      "end_s": 8.684
+    },
+    {
+      "word": "in.",
+      "start_s": 8.731,
+      "end_s": 9.056
+    },
+    {
+      "word": "Ten",
+      "start_s": 9.752,
+      "end_s": 9.961
+    },
+    {
+      "word": "dollars",
+      "start_s": 10.008,
+      "end_s": 10.31
+    },
+    {
+      "word": "out.",
+      "start_s": 10.356,
+      "end_s": 10.681
+    },
+    {
+      "word": "But",
+      "start_s": 11.378,
+      "end_s": 11.645
+    },
+    {
+      "word": "only",
+      "start_s": 11.738,
+      "end_s": 11.993
+    },
+    {
+      "word": "for",
+      "start_s": 12.051,
+      "end_s": 12.156
+    },
+    {
+      "word": "prompts",
+      "start_s": 12.225,
+      "end_s": 12.562
+    },
+    {
+      "word": "up",
+      "start_s": 12.597,
+      "end_s": 12.69
+    },
+    {
+      "word": "to",
+      "start_s": 12.736,
+      "end_s": 12.783
+    },
+    {
+      "word": "two",
+      "start_s": 12.852,
+      "end_s": 13.015
+    },
+    {
+      "word": "hundred",
+      "start_s": 13.084,
+      "end_s": 13.317
+    },
+    {
+      "word": "seventy-two",
+      "start_s": 13.363,
+      "end_s": 13.851
+    },
+    {
+      "word": "thousand",
+      "start_s": 13.92,
+      "end_s": 14.245
+    },
+    {
+      "word": "tokens.",
+      "start_s": 14.303,
+      "end_s": 14.907
+    },
+    {
+      "word": "Go",
+      "start_s": 15.859,
+      "end_s": 16.045
+    },
+    {
+      "word": "longer",
+      "start_s": 16.161,
+      "end_s": 16.533
+    },
+    {
+      "word": "and",
+      "start_s": 16.707,
+      "end_s": 16.904
+    },
+    {
+      "word": "input",
+      "start_s": 16.986,
+      "end_s": 17.311
+    },
+    {
+      "word": "doubles",
+      "start_s": 17.369,
+      "end_s": 17.67
+    },
+    {
+      "word": "to",
+      "start_s": 17.705,
+      "end_s": 17.775
+    },
+    {
+      "word": "four",
+      "start_s": 17.868,
+      "end_s": 18.088
+    },
+    {
+      "word": "dollars.",
+      "start_s": 18.135,
+      "end_s": 18.681
+    },
+    {
+      "word": "Output",
+      "start_s": 19.284,
+      "end_s": 19.644
+    },
+    {
+      "word": "rises",
+      "start_s": 19.691,
+      "end_s": 19.992
+    },
+    {
+      "word": "to",
+      "start_s": 20.039,
+      "end_s": 20.097
+    },
+    {
+      "word": "fifteen.",
+      "start_s": 20.167,
+      "end_s": 20.805
+    },
+    {
+      "word": "Cached",
+      "start_s": 21.502,
+      "end_s": 21.85
+    },
+    {
+      "word": "input",
+      "start_s": 21.897,
+      "end_s": 22.187
+    },
+    {
+      "word": "doubles",
+      "start_s": 22.233,
+      "end_s": 22.523
+    },
+    {
+      "word": "too.",
+      "start_s": 22.582,
+      "end_s": 22.988
+    },
+    {
+      "word": "Ten",
+      "start_s": 23.684,
+      "end_s": 23.917
+    },
+    {
+      "word": "cents",
+      "start_s": 23.986,
+      "end_s": 24.23
+    },
+    {
+      "word": "becomes",
+      "start_s": 24.277,
+      "end_s": 24.625
+    },
+    {
+      "word": "twenty.",
+      "start_s": 24.695,
+      "end_s": 25.24
+    },
+    {
+      "word": "Same",
+      "start_s": 25.937,
+      "end_s": 26.204
+    },
+    {
+      "word": "model.",
+      "start_s": 26.239,
+      "end_s": 26.668
+    },
+    {
+      "word": "Same",
+      "start_s": 27.365,
+      "end_s": 27.632
+    },
+    {
+      "word": "call.",
+      "start_s": 27.678,
+      "end_s": 28.131
+    },
+    {
+      "word": "Just",
+      "start_s": 28.828,
+      "end_s": 29.037
+    },
+    {
+      "word": "a",
+      "start_s": 29.083,
+      "end_s": 29.106
+    },
+    {
+      "word": "longer",
+      "start_s": 29.153,
+      "end_s": 29.408
+    },
+    {
+      "word": "prompt.",
+      "start_s": 29.455,
+      "end_s": 29.942
+    },
+    {
+      "word": "Stay",
+      "start_s": 30.894,
+      "end_s": 31.161
+    },
+    {
+      "word": "under",
+      "start_s": 31.208,
+      "end_s": 31.359
+    },
+    {
+      "word": "the",
+      "start_s": 31.405,
+      "end_s": 31.475
+    },
+    {
+      "word": "line.",
+      "start_s": 31.533,
+      "end_s": 31.939
+    },
+    {
+      "word": "OpenAI",
+      "start_s": 32.148,
+      "end_s": 32.705
+    },
+    {
+      "word": "doubles",
+      "start_s": 32.787,
+      "end_s": 33.147
+    },
+    {
+      "word": "Sol's",
+      "start_s": 33.239,
+      "end_s": 33.553
+    },
+    {
+      "word": "price",
+      "start_s": 33.599,
+      "end_s": 33.878
+    },
+    {
+      "word": "past",
+      "start_s": 33.913,
+      "end_s": 34.191
+    },
+    {
+      "word": "two",
+      "start_s": 34.308,
+      "end_s": 34.505
+    },
+    {
+      "word": "seventy-two",
+      "start_s": 34.575,
+      "end_s": 35.097
+    },
+    {
+      "word": "K.",
+      "start_s": 35.167,
+      "end_s": 35.759
+    }
+  ]
+}

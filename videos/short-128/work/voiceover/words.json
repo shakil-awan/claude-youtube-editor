@@ -1,0 +1,478 @@
+{
+  "text": "Google's cheaper Gemini costs more to cache. Gemini three point five Flash-Lite charges one dollar per million tokens per hour for cache storage. Gemini three point eight Flash charges fifty cents. Flash is the pricier model. Input is seventy-five cents, against thirty cents for Flash-Lite. But storing a cache on Flash costs half. A million tokens stored for a day is twelve dollars on Flash. Twenty-four on Flash-Lite. That holds until December thirty-first. On January first, Flash storage becomes one dollar too. Check storage before you switch. Google's cheaper Gemini costs more to cache.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 43.18,
+  "words": [
+    {
+      "word": "Google's",
+      "start_s": 0.0,
+      "end_s": 0.441
+    },
+    {
+      "word": "cheaper",
+      "start_s": 0.499,
+      "end_s": 0.848
+    },
+    {
+      "word": "Gemini",
+      "start_s": 0.917,
+      "end_s": 1.3
+    },
+    {
+      "word": "costs",
+      "start_s": 1.382,
+      "end_s": 1.683
+    },
+    {
+      "word": "more",
+      "start_s": 1.753,
+      "end_s": 1.95
+    },
+    {
+      "word": "to",
+      "start_s": 1.974,
+      "end_s": 2.02
+    },
+    {
+      "word": "cache.",
+      "start_s": 2.078,
+      "end_s": 2.682
+    },
+    {
+      "word": "Gemini",
+      "start_s": 3.379,
+      "end_s": 3.855
+    },
+    {
+      "word": "three",
+      "start_s": 3.947,
+      "end_s": 4.203
+    },
+    {
+      "word": "point",
+      "start_s": 4.261,
+      "end_s": 4.47
+    },
+    {
+      "word": "five",
+      "start_s": 4.54,
+      "end_s": 4.888
+    },
+    {
+      "word": "Flash-Lite",
+      "start_s": 5.004,
+      "end_s": 5.759
+    },
+    {
+      "word": "charges",
+      "start_s": 5.968,
+      "end_s": 6.362
+    },
+    {
+      "word": "one",
+      "start_s": 6.444,
+      "end_s": 6.641
+    },
+    {
+      "word": "dollar",
+      "start_s": 6.676,
+      "end_s": 6.931
+    },
+    {
+      "word": "per",
+      "start_s": 7.001,
+      "end_s": 7.129
+    },
+    {
+      "word": "million",
+      "start_s": 7.187,
+      "end_s": 7.523
+    },
+    {
+      "word": "tokens",
+      "start_s": 7.581,
+      "end_s": 7.964
+    },
+    {
+      "word": "per",
+      "start_s": 8.022,
+      "end_s": 8.15
+    },
+    {
+      "word": "hour",
+      "start_s": 8.208,
+      "end_s": 8.464
+    },
+    {
+      "word": "for",
+      "start_s": 8.545,
+      "end_s": 8.661
+    },
+    {
+      "word": "cache",
+      "start_s": 8.719,
+      "end_s": 9.021
+    },
+    {
+      "word": "storage.",
+      "start_s": 9.044,
+      "end_s": 9.613
+    },
+    {
+      "word": "Gemini",
+      "start_s": 10.728,
+      "end_s": 11.157
+    },
+    {
+      "word": "three",
+      "start_s": 11.238,
+      "end_s": 11.471
+    },
+    {
+      "word": "point",
+      "start_s": 11.529,
+      "end_s": 11.761
+    },
+    {
+      "word": "eight",
+      "start_s": 11.831,
+      "end_s": 12.028
+    },
+    {
+      "word": "Flash",
+      "start_s": 12.086,
+      "end_s": 12.376
+    },
+    {
+      "word": "charges",
+      "start_s": 12.423,
+      "end_s": 12.817
+    },
+    {
+      "word": "fifty",
+      "start_s": 12.887,
+      "end_s": 13.189
+    },
+    {
+      "word": "cents.",
+      "start_s": 13.247,
+      "end_s": 13.804
+    },
+    {
+      "word": "Flash",
+      "start_s": 14.617,
+      "end_s": 15.047
+    },
+    {
+      "word": "is",
+      "start_s": 15.105,
+      "end_s": 15.209
+    },
+    {
+      "word": "the",
+      "start_s": 15.244,
+      "end_s": 15.314
+    },
+    {
+      "word": "pricier",
+      "start_s": 15.36,
+      "end_s": 15.79
+    },
+    {
+      "word": "model.",
+      "start_s": 15.848,
+      "end_s": 16.323
+    },
+    {
+      "word": "Input",
+      "start_s": 16.927,
+      "end_s": 17.426
+    },
+    {
+      "word": "is",
+      "start_s": 17.484,
+      "end_s": 17.623
+    },
+    {
+      "word": "seventy-five",
+      "start_s": 17.682,
+      "end_s": 18.343
+    },
+    {
+      "word": "cents,",
+      "start_s": 18.378,
+      "end_s": 18.843
+    },
+    {
+      "word": "against",
+      "start_s": 18.993,
+      "end_s": 19.33
+    },
+    {
+      "word": "thirty",
+      "start_s": 19.4,
+      "end_s": 19.69
+    },
+    {
+      "word": "cents",
+      "start_s": 19.748,
+      "end_s": 19.992
+    },
+    {
+      "word": "for",
+      "start_s": 20.027,
+      "end_s": 20.131
+    },
+    {
+      "word": "Flash-Lite.",
+      "start_s": 20.178,
+      "end_s": 20.828
+    },
+    {
+      "word": "But",
+      "start_s": 21.153,
+      "end_s": 21.315
+    },
+    {
+      "word": "storing",
+      "start_s": 21.35,
+      "end_s": 21.664
+    },
+    {
+      "word": "a",
+      "start_s": 21.71,
+      "end_s": 21.733
+    },
+    {
+      "word": "cache",
+      "start_s": 21.791,
+      "end_s": 22.105
+    },
+    {
+      "word": "on",
+      "start_s": 22.128,
+      "end_s": 22.198
+    },
+    {
+      "word": "Flash",
+      "start_s": 22.267,
+      "end_s": 22.581
+    },
+    {
+      "word": "costs",
+      "start_s": 22.627,
+      "end_s": 22.906
+    },
+    {
+      "word": "half.",
+      "start_s": 22.976,
+      "end_s": 23.452
+    },
+    {
+      "word": "A",
+      "start_s": 24.148,
+      "end_s": 24.23
+    },
+    {
+      "word": "million",
+      "start_s": 24.346,
+      "end_s": 24.694
+    },
+    {
+      "word": "tokens",
+      "start_s": 24.752,
+      "end_s": 25.135
+    },
+    {
+      "word": "stored",
+      "start_s": 25.182,
+      "end_s": 25.46
+    },
+    {
+      "word": "for",
+      "start_s": 25.495,
+      "end_s": 25.611
+    },
+    {
+      "word": "a",
+      "start_s": 25.658,
+      "end_s": 25.681
+    },
+    {
+      "word": "day",
+      "start_s": 25.739,
+      "end_s": 25.983
+    },
+    {
+      "word": "is",
+      "start_s": 26.226,
+      "end_s": 26.389
+    },
+    {
+      "word": "twelve",
+      "start_s": 26.447,
+      "end_s": 26.784
+    },
+    {
+      "word": "dollars",
+      "start_s": 26.819,
+      "end_s": 27.12
+    },
+    {
+      "word": "on",
+      "start_s": 27.167,
+      "end_s": 27.237
+    },
+    {
+      "word": "Flash.",
+      "start_s": 27.283,
+      "end_s": 27.747
+    },
+    {
+      "word": "Twenty-four",
+      "start_s": 28.444,
+      "end_s": 29.036
+    },
+    {
+      "word": "on",
+      "start_s": 29.094,
+      "end_s": 29.164
+    },
+    {
+      "word": "Flash-Lite.",
+      "start_s": 29.222,
+      "end_s": 29.907
+    },
+    {
+      "word": "That",
+      "start_s": 30.603,
+      "end_s": 30.812
+    },
+    {
+      "word": "holds",
+      "start_s": 30.87,
+      "end_s": 31.149
+    },
+    {
+      "word": "until",
+      "start_s": 31.196,
+      "end_s": 31.416
+    },
+    {
+      "word": "December",
+      "start_s": 31.474,
+      "end_s": 31.881
+    },
+    {
+      "word": "thirty-first.",
+      "start_s": 31.95,
+      "end_s": 32.775
+    },
+    {
+      "word": "On",
+      "start_s": 33.727,
+      "end_s": 33.901
+    },
+    {
+      "word": "January",
+      "start_s": 33.982,
+      "end_s": 34.493
+    },
+    {
+      "word": "first,",
+      "start_s": 34.574,
+      "end_s": 35.05
+    },
+    {
+      "word": "Flash",
+      "start_s": 35.225,
+      "end_s": 35.55
+    },
+    {
+      "word": "storage",
+      "start_s": 35.596,
+      "end_s": 35.968
+    },
+    {
+      "word": "becomes",
+      "start_s": 36.002,
+      "end_s": 36.339
+    },
+    {
+      "word": "one",
+      "start_s": 36.42,
+      "end_s": 36.664
+    },
+    {
+      "word": "dollar",
+      "start_s": 36.711,
+      "end_s": 36.989
+    },
+    {
+      "word": "too.",
+      "start_s": 37.059,
+      "end_s": 37.454
+    },
+    {
+      "word": "Check",
+      "start_s": 38.15,
+      "end_s": 38.406
+    },
+    {
+      "word": "storage",
+      "start_s": 38.452,
+      "end_s": 38.789
+    },
+    {
+      "word": "before",
+      "start_s": 38.824,
+      "end_s": 39.137
+    },
+    {
+      "word": "you",
+      "start_s": 39.184,
+      "end_s": 39.265
+    },
+    {
+      "word": "switch.",
+      "start_s": 39.334,
+      "end_s": 39.822
+    },
+    {
+      "word": "Google's",
+      "start_s": 40.519,
+      "end_s": 40.867
+    },
+    {
+      "word": "cheaper",
+      "start_s": 40.913,
+      "end_s": 41.227
+    },
+    {
+      "word": "Gemini",
+      "start_s": 41.297,
+      "end_s": 41.668
+    },
+    {
+      "word": "costs",
+      "start_s": 41.738,
+      "end_s": 42.016
+    },
+    {
+      "word": "more",
+      "start_s": 42.074,
+      "end_s": 42.249
+    },
+    {
+      "word": "to",
+      "start_s": 42.272,
+      "end_s": 42.318
+    },
+    {
+      "word": "cache.",
+      "start_s": 42.376,
+      "end_s": 43.143
+    }
+  ]
+}

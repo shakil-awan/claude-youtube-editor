@@ -1,0 +1,8 @@
+{
+ "video": "videos/short-128/output/short-128.mp4",
+ "title": "Long Prompts Double On Sol And Gemini Pro. Not Sonnet",
+ "description": "Input price per 1M tokens: GPT-6.1 Sol $2 to $4 past 272K tokens; Gemini 3.1 Pro Preview $2 to $4 past 200K; Claude Sonnet 5.5 stays $2 across the full 1M window (Haiku 5.5 is the exception past 100K). Sources: developers.openai.com/api/docs/pricing, aistudio.google.com/docs/pricing, platform.claude.com/docs/en/about-claude/pricing\n\nAI-generated visuals and voice. #Shorts #AI #AItools #claude",
+ "tags": ["claude", "long context", "api pricing", "ai"],
+ "privacy": "private",
+ "publishAt": "2026-11-09T22:00:00Z"
+}

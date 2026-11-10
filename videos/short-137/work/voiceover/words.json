@@ -1,0 +1,403 @@
+{
+  "text": "Claude's top model just got twenty percent cheaper. Fable five point two costs eight dollars per million input tokens. Fable five point one cost ten. Output drops from fifty dollars to forty. Cache hits cost twenty cents. Fast mode doubles it, sixteen and eighty. Run a hundred million input tokens a month, and that is two hundred dollars saved. Pay ten for Fable five point one, and you overpay by two. Claude's top model just got twenty percent cheaper.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 30.642,
+  "words": [
+    {
+      "word": "Claude's",
+      "start_s": 0.0,
+      "end_s": 0.395
+    },
+    {
+      "word": "top",
+      "start_s": 0.441,
+      "end_s": 0.697
+    },
+    {
+      "word": "model",
+      "start_s": 0.755,
+      "end_s": 0.998
+    },
+    {
+      "word": "just",
+      "start_s": 1.068,
+      "end_s": 1.231
+    },
+    {
+      "word": "got",
+      "start_s": 1.265,
+      "end_s": 1.416
+    },
+    {
+      "word": "twenty",
+      "start_s": 1.463,
+      "end_s": 1.73
+    },
+    {
+      "word": "percent",
+      "start_s": 1.776,
+      "end_s": 2.067
+    },
+    {
+      "word": "cheaper.",
+      "start_s": 2.113,
+      "end_s": 2.601
+    },
+    {
+      "word": "Fable",
+      "start_s": 3.297,
+      "end_s": 3.669
+    },
+    {
+      "word": "five",
+      "start_s": 3.715,
+      "end_s": 3.947
+    },
+    {
+      "word": "point",
+      "start_s": 3.982,
+      "end_s": 4.18
+    },
+    {
+      "word": "two",
+      "start_s": 4.226,
+      "end_s": 4.447
+    },
+    {
+      "word": "costs",
+      "start_s": 4.563,
+      "end_s": 4.865
+    },
+    {
+      "word": "eight",
+      "start_s": 4.946,
+      "end_s": 5.155
+    },
+    {
+      "word": "dollars",
+      "start_s": 5.19,
+      "end_s": 5.492
+    },
+    {
+      "word": "per",
+      "start_s": 5.55,
+      "end_s": 5.689
+    },
+    {
+      "word": "million",
+      "start_s": 5.77,
+      "end_s": 6.095
+    },
+    {
+      "word": "input",
+      "start_s": 6.165,
+      "end_s": 6.467
+    },
+    {
+      "word": "tokens.",
+      "start_s": 6.49,
+      "end_s": 7.105
+    },
+    {
+      "word": "Fable",
+      "start_s": 7.802,
+      "end_s": 8.139
+    },
+    {
+      "word": "five",
+      "start_s": 8.185,
+      "end_s": 8.406
+    },
+    {
+      "word": "point",
+      "start_s": 8.452,
+      "end_s": 8.649
+    },
+    {
+      "word": "one",
+      "start_s": 8.731,
+      "end_s": 8.963
+    },
+    {
+      "word": "cost",
+      "start_s": 9.021,
+      "end_s": 9.3
+    },
+    {
+      "word": "ten.",
+      "start_s": 9.334,
+      "end_s": 9.718
+    },
+    {
+      "word": "Output",
+      "start_s": 10.414,
+      "end_s": 10.82
+    },
+    {
+      "word": "drops",
+      "start_s": 10.867,
+      "end_s": 11.146
+    },
+    {
+      "word": "from",
+      "start_s": 11.18,
+      "end_s": 11.308
+    },
+    {
+      "word": "fifty",
+      "start_s": 11.378,
+      "end_s": 11.633
+    },
+    {
+      "word": "dollars",
+      "start_s": 11.68,
+      "end_s": 11.981
+    },
+    {
+      "word": "to",
+      "start_s": 12.028,
+      "end_s": 12.086
+    },
+    {
+      "word": "forty.",
+      "start_s": 12.167,
+      "end_s": 12.643
+    },
+    {
+      "word": "Cache",
+      "start_s": 13.34,
+      "end_s": 13.7
+    },
+    {
+      "word": "hits",
+      "start_s": 13.746,
+      "end_s": 14.025
+    },
+    {
+      "word": "cost",
+      "start_s": 14.141,
+      "end_s": 14.385
+    },
+    {
+      "word": "twenty",
+      "start_s": 14.42,
+      "end_s": 14.663
+    },
+    {
+      "word": "cents.",
+      "start_s": 14.721,
+      "end_s": 15.255
+    },
+    {
+      "word": "Fast",
+      "start_s": 15.952,
+      "end_s": 16.265
+    },
+    {
+      "word": "mode",
+      "start_s": 16.323,
+      "end_s": 16.509
+    },
+    {
+      "word": "doubles",
+      "start_s": 16.544,
+      "end_s": 16.869
+    },
+    {
+      "word": "it,",
+      "start_s": 16.927,
+      "end_s": 17.136
+    },
+    {
+      "word": "sixteen",
+      "start_s": 17.287,
+      "end_s": 17.728
+    },
+    {
+      "word": "and",
+      "start_s": 17.763,
+      "end_s": 17.833
+    },
+    {
+      "word": "eighty.",
+      "start_s": 17.891,
+      "end_s": 18.309
+    },
+    {
+      "word": "Run",
+      "start_s": 19.005,
+      "end_s": 19.168
+    },
+    {
+      "word": "a",
+      "start_s": 19.203,
+      "end_s": 19.226
+    },
+    {
+      "word": "hundred",
+      "start_s": 19.296,
+      "end_s": 19.551
+    },
+    {
+      "word": "million",
+      "start_s": 19.586,
+      "end_s": 19.841
+    },
+    {
+      "word": "input",
+      "start_s": 19.911,
+      "end_s": 20.201
+    },
+    {
+      "word": "tokens",
+      "start_s": 20.236,
+      "end_s": 20.561
+    },
+    {
+      "word": "a",
+      "start_s": 20.596,
+      "end_s": 20.619
+    },
+    {
+      "word": "month,",
+      "start_s": 20.666,
+      "end_s": 20.967
+    },
+    {
+      "word": "and",
+      "start_s": 21.095,
+      "end_s": 21.235
+    },
+    {
+      "word": "that",
+      "start_s": 21.281,
+      "end_s": 21.397
+    },
+    {
+      "word": "is",
+      "start_s": 21.432,
+      "end_s": 21.513
+    },
+    {
+      "word": "two",
+      "start_s": 21.583,
+      "end_s": 21.745
+    },
+    {
+      "word": "hundred",
+      "start_s": 21.803,
+      "end_s": 22.024
+    },
+    {
+      "word": "dollars",
+      "start_s": 22.047,
+      "end_s": 22.337
+    },
+    {
+      "word": "saved.",
+      "start_s": 22.361,
+      "end_s": 22.802
+    },
+    {
+      "word": "Pay",
+      "start_s": 23.406,
+      "end_s": 23.591
+    },
+    {
+      "word": "ten",
+      "start_s": 23.661,
+      "end_s": 23.858
+    },
+    {
+      "word": "for",
+      "start_s": 23.916,
+      "end_s": 24.021
+    },
+    {
+      "word": "Fable",
+      "start_s": 24.091,
+      "end_s": 24.381
+    },
+    {
+      "word": "five",
+      "start_s": 24.427,
+      "end_s": 24.683
+    },
+    {
+      "word": "point",
+      "start_s": 24.729,
+      "end_s": 24.926
+    },
+    {
+      "word": "one,",
+      "start_s": 25.008,
+      "end_s": 25.391
+    },
+    {
+      "word": "and",
+      "start_s": 25.507,
+      "end_s": 25.658
+    },
+    {
+      "word": "you",
+      "start_s": 25.704,
+      "end_s": 25.786
+    },
+    {
+      "word": "overpay",
+      "start_s": 25.867,
+      "end_s": 26.227
+    },
+    {
+      "word": "by",
+      "start_s": 26.273,
+      "end_s": 26.378
+    },
+    {
+      "word": "two.",
+      "start_s": 26.436,
+      "end_s": 26.819
+    },
+    {
+      "word": "Claude's",
+      "start_s": 27.771,
+      "end_s": 28.131
+    },
+    {
+      "word": "top",
+      "start_s": 28.166,
+      "end_s": 28.386
+    },
+    {
+      "word": "model",
+      "start_s": 28.468,
+      "end_s": 28.769
+    },
+    {
+      "word": "just",
+      "start_s": 28.92,
+      "end_s": 29.118
+    },
+    {
+      "word": "got",
+      "start_s": 29.153,
+      "end_s": 29.292
+    },
+    {
+      "word": "twenty",
+      "start_s": 29.327,
+      "end_s": 29.547
+    },
+    {
+      "word": "percent",
+      "start_s": 29.594,
+      "end_s": 29.884
+    },
+    {
+      "word": "cheaper.",
+      "start_s": 29.919,
+      "end_s": 30.604
+    }
+  ]
+}

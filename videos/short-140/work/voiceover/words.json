@@ -1,0 +1,443 @@
+{
+  "text": "OpenAI's security AI costs twice its flagship. GPT six Cyber charges twenty dollars per million input tokens, and one hundred dollars out. GPT six Astra charges ten in, and fifty out. Same family. Double the bill. Now guess what happens past two hundred seventy two thousand tokens. Cyber jumps to forty in, and one hundred fifty out. And you cannot just sign up. It needs OpenAI's Daybreak Red approval. Last generation's Cyber model costs twelve fifty in, seventy five out. OpenAI's security AI costs twice its flagship.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 39.053,
+  "words": [
+    {
+      "word": "OpenAI's",
+      "start_s": 0.0,
+      "end_s": 0.58
+    },
+    {
+      "word": "security",
+      "start_s": 0.627,
+      "end_s": 1.091
+    },
+    {
+      "word": "AI",
+      "start_s": 1.149,
+      "end_s": 1.405
+    },
+    {
+      "word": "costs",
+      "start_s": 1.474,
+      "end_s": 1.741
+    },
+    {
+      "word": "twice",
+      "start_s": 1.776,
+      "end_s": 2.148
+    },
+    {
+      "word": "its",
+      "start_s": 2.183,
+      "end_s": 2.287
+    },
+    {
+      "word": "flagship.",
+      "start_s": 2.334,
+      "end_s": 2.961
+    },
+    {
+      "word": "GPT",
+      "start_s": 3.657,
+      "end_s": 4.156
+    },
+    {
+      "word": "six",
+      "start_s": 4.331,
+      "end_s": 4.667
+    },
+    {
+      "word": "Cyber",
+      "start_s": 5.271,
+      "end_s": 5.608
+    },
+    {
+      "word": "charges",
+      "start_s": 5.666,
+      "end_s": 6.002
+    },
+    {
+      "word": "twenty",
+      "start_s": 6.06,
+      "end_s": 6.374
+    },
+    {
+      "word": "dollars",
+      "start_s": 6.432,
+      "end_s": 6.745
+    },
+    {
+      "word": "per",
+      "start_s": 6.803,
+      "end_s": 6.92
+    },
+    {
+      "word": "million",
+      "start_s": 6.978,
+      "end_s": 7.268
+    },
+    {
+      "word": "input",
+      "start_s": 7.338,
+      "end_s": 7.651
+    },
+    {
+      "word": "tokens,",
+      "start_s": 7.686,
+      "end_s": 8.231
+    },
+    {
+      "word": "and",
+      "start_s": 8.382,
+      "end_s": 8.522
+    },
+    {
+      "word": "one",
+      "start_s": 8.615,
+      "end_s": 8.835
+    },
+    {
+      "word": "hundred",
+      "start_s": 8.882,
+      "end_s": 9.125
+    },
+    {
+      "word": "dollars",
+      "start_s": 9.16,
+      "end_s": 9.462
+    },
+    {
+      "word": "out.",
+      "start_s": 9.52,
+      "end_s": 9.834
+    },
+    {
+      "word": "GPT",
+      "start_s": 10.53,
+      "end_s": 10.971
+    },
+    {
+      "word": "six",
+      "start_s": 11.146,
+      "end_s": 11.505
+    },
+    {
+      "word": "Astra",
+      "start_s": 12.202,
+      "end_s": 12.585
+    },
+    {
+      "word": "charges",
+      "start_s": 12.632,
+      "end_s": 12.968
+    },
+    {
+      "word": "ten",
+      "start_s": 13.038,
+      "end_s": 13.259
+    },
+    {
+      "word": "in,",
+      "start_s": 13.317,
+      "end_s": 13.595
+    },
+    {
+      "word": "and",
+      "start_s": 13.769,
+      "end_s": 13.92
+    },
+    {
+      "word": "fifty",
+      "start_s": 13.99,
+      "end_s": 14.315
+    },
+    {
+      "word": "out.",
+      "start_s": 14.385,
+      "end_s": 14.698
+    },
+    {
+      "word": "Same",
+      "start_s": 15.395,
+      "end_s": 15.685
+    },
+    {
+      "word": "family.",
+      "start_s": 15.732,
+      "end_s": 16.219
+    },
+    {
+      "word": "Double",
+      "start_s": 16.3,
+      "end_s": 16.579
+    },
+    {
+      "word": "the",
+      "start_s": 16.602,
+      "end_s": 16.672
+    },
+    {
+      "word": "bill.",
+      "start_s": 16.707,
+      "end_s": 17.113
+    },
+    {
+      "word": "Now",
+      "start_s": 17.81,
+      "end_s": 17.961
+    },
+    {
+      "word": "guess",
+      "start_s": 18.019,
+      "end_s": 18.204
+    },
+    {
+      "word": "what",
+      "start_s": 18.228,
+      "end_s": 18.344
+    },
+    {
+      "word": "happens",
+      "start_s": 18.39,
+      "end_s": 18.704
+    },
+    {
+      "word": "past",
+      "start_s": 18.75,
+      "end_s": 18.959
+    },
+    {
+      "word": "two",
+      "start_s": 18.994,
+      "end_s": 19.11
+    },
+    {
+      "word": "hundred",
+      "start_s": 19.18,
+      "end_s": 19.412
+    },
+    {
+      "word": "seventy",
+      "start_s": 19.505,
+      "end_s": 19.76
+    },
+    {
+      "word": "two",
+      "start_s": 19.807,
+      "end_s": 19.935
+    },
+    {
+      "word": "thousand",
+      "start_s": 19.993,
+      "end_s": 20.306
+    },
+    {
+      "word": "tokens.",
+      "start_s": 20.364,
+      "end_s": 21.014
+    },
+    {
+      "word": "Cyber",
+      "start_s": 21.711,
+      "end_s": 22.071
+    },
+    {
+      "word": "jumps",
+      "start_s": 22.129,
+      "end_s": 22.338
+    },
+    {
+      "word": "to",
+      "start_s": 22.373,
+      "end_s": 22.431
+    },
+    {
+      "word": "forty",
+      "start_s": 22.5,
+      "end_s": 22.779
+    },
+    {
+      "word": "in,",
+      "start_s": 22.849,
+      "end_s": 23.139
+    },
+    {
+      "word": "and",
+      "start_s": 23.29,
+      "end_s": 23.429
+    },
+    {
+      "word": "one",
+      "start_s": 23.51,
+      "end_s": 23.638
+    },
+    {
+      "word": "hundred",
+      "start_s": 23.673,
+      "end_s": 23.894
+    },
+    {
+      "word": "fifty",
+      "start_s": 23.94,
+      "end_s": 24.207
+    },
+    {
+      "word": "out.",
+      "start_s": 24.265,
+      "end_s": 24.59
+    },
+    {
+      "word": "And",
+      "start_s": 25.403,
+      "end_s": 25.531
+    },
+    {
+      "word": "you",
+      "start_s": 25.589,
+      "end_s": 25.67
+    },
+    {
+      "word": "cannot",
+      "start_s": 25.74,
+      "end_s": 26.181
+    },
+    {
+      "word": "just",
+      "start_s": 26.239,
+      "end_s": 26.401
+    },
+    {
+      "word": "sign",
+      "start_s": 26.436,
+      "end_s": 26.657
+    },
+    {
+      "word": "up.",
+      "start_s": 26.715,
+      "end_s": 26.993
+    },
+    {
+      "word": "It",
+      "start_s": 27.597,
+      "end_s": 27.736
+    },
+    {
+      "word": "needs",
+      "start_s": 27.771,
+      "end_s": 27.98
+    },
+    {
+      "word": "OpenAI's",
+      "start_s": 28.05,
+      "end_s": 28.677
+    },
+    {
+      "word": "Daybreak",
+      "start_s": 28.735,
+      "end_s": 29.141
+    },
+    {
+      "word": "Red",
+      "start_s": 29.211,
+      "end_s": 29.35
+    },
+    {
+      "word": "approval.",
+      "start_s": 29.373,
+      "end_s": 29.989
+    },
+    {
+      "word": "Last",
+      "start_s": 31.103,
+      "end_s": 31.336
+    },
+    {
+      "word": "generation's",
+      "start_s": 31.37,
+      "end_s": 31.87
+    },
+    {
+      "word": "Cyber",
+      "start_s": 31.904,
+      "end_s": 32.218
+    },
+    {
+      "word": "model",
+      "start_s": 32.264,
+      "end_s": 32.485
+    },
+    {
+      "word": "costs",
+      "start_s": 32.543,
+      "end_s": 32.798
+    },
+    {
+      "word": "twelve",
+      "start_s": 32.845,
+      "end_s": 33.17
+    },
+    {
+      "word": "fifty",
+      "start_s": 33.205,
+      "end_s": 33.483
+    },
+    {
+      "word": "in,",
+      "start_s": 33.553,
+      "end_s": 33.925
+    },
+    {
+      "word": "seventy",
+      "start_s": 34.203,
+      "end_s": 34.517
+    },
+    {
+      "word": "five",
+      "start_s": 34.563,
+      "end_s": 34.784
+    },
+    {
+      "word": "out.",
+      "start_s": 34.819,
+      "end_s": 35.132
+    },
+    {
+      "word": "OpenAI's",
+      "start_s": 35.829,
+      "end_s": 36.444
+    },
+    {
+      "word": "security",
+      "start_s": 36.479,
+      "end_s": 36.932
+    },
+    {
+      "word": "AI",
+      "start_s": 37.001,
+      "end_s": 37.233
+    },
+    {
+      "word": "costs",
+      "start_s": 37.315,
+      "end_s": 37.57
+    },
+    {
+      "word": "twice",
+      "start_s": 37.617,
+      "end_s": 37.988
+    },
+    {
+      "word": "its",
+      "start_s": 38.023,
+      "end_s": 38.139
+    },
+    {
+      "word": "flagship.",
+      "start_s": 38.174,
+      "end_s": 39.01
+    }
+  ]
+}

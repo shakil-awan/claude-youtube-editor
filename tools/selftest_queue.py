@@ -16,6 +16,7 @@ Stdlib only, like the tools it covers.
 """
 import contextlib
 import datetime as dt
+from zoneinfo import ZoneInfo
 import io
 import sys
 from pathlib import Path
@@ -31,7 +32,7 @@ failures: list[str] = []
 
 # THE CLOCK IS FROZEN, AND THAT IS THE POINT (2026-09-07)
 # ------------------------------------------------------
-# Every fixture below is built from TODAY's two slots (15:00Z / 21:00Z). Run before ~14:15Z the
+# Every fixture below is built from TODAY's two slots (11:00 / 17:00 ET). Run before ~14:15Z the
 # suite passed; run after it, seven cases failed — next_slot.py had correctly stopped offering a
 # slot that was less than its 45-minute lead away, and the assertions still expected it. A
 # self-test whose verdict depends on the hour is worse than no self-test: it cries wolf every
@@ -63,10 +64,16 @@ next_slot.datetime = _FrozenDatetime          # `from datetime import datetime, 
 watchdog.dt = _FrozenModule                   # `import datetime as dt`
 
 
-def slot(day_offset: int, hour: int) -> dt.datetime:
-    """A UTC publish slot `day_offset` days out (15:00Z / 21:00Z = the 11:00/17:00 ET slots)."""
-    return dt.datetime.combine(TODAY + dt.timedelta(days=day_offset),
-                               dt.time(hour, 0), tzinfo=dt.timezone.utc)
+def slot(day_offset: int, et_hour: int) -> dt.datetime:
+    """A publish slot `day_offset` days out at `et_hour`:00 America/New_York, as UTC.
+
+    The slots are fixed in ET (11:00 / 17:00), so their UTC hour moves with DST: 15:00Z/21:00Z
+    in summer, 16:00Z/22:00Z in winter. Hard-coding the summer UTC hours made this suite fail
+    7 cases every winter while next_slot.py was right (found 2026-11-11, ten days after DST ended).
+    """
+    local = dt.datetime.combine(TODAY + dt.timedelta(days=day_offset), dt.time(et_hour, 0),
+                                tzinfo=ZoneInfo("America/New_York"))
+    return local.astimezone(dt.timezone.utc)
 
 
 def stamp(when: dt.datetime) -> str:
@@ -113,23 +120,23 @@ def run_watchdog(channel_slots, argv):
 print("-- next_slot.py")
 got, _ = run_next_slot([], ["--fill", "2"])
 check("--fill 2 on an empty queue asks for two full days",
-      got, [stamp(slot(0, 15)), stamp(slot(0, 21)), stamp(slot(1, 15)), stamp(slot(1, 21))])
+      got, [stamp(slot(0, 11)), stamp(slot(0, 17)), stamp(slot(1, 11)), stamp(slot(1, 17))])
 
 # The regression that mattered: a batch whose push was refused leaves NOTHING in the repo, so the
 # next batch must learn about those slots from the channel or it will double-book them.
-got, _ = run_next_slot([slot(0, 15), slot(0, 21)], ["--fill", "2"])
+got, _ = run_next_slot([slot(0, 11), slot(0, 17)], ["--fill", "2"])
 check("slots filled by an unpushed batch are not offered again",
-      got, [stamp(slot(1, 15)), stamp(slot(1, 21))])
+      got, [stamp(slot(1, 11)), stamp(slot(1, 17))])
 
-got, err = run_next_slot([slot(0, 15), slot(0, 21), slot(1, 15), slot(1, 21)], ["--fill", "2"])
+got, err = run_next_slot([slot(0, 11), slot(0, 17), slot(1, 11), slot(1, 17)], ["--fill", "2"])
 check("a full queue asks for nothing", got, [])
 check("a full queue says why on stderr", "queue already full" in err, True)
 
 got, _ = run_next_slot([], ["--fill", "3", "--max", "2"])
-check("--max caps a catch-up run", got, [stamp(slot(0, 15)), stamp(slot(0, 21))])
+check("--max caps a catch-up run", got, [stamp(slot(0, 11)), stamp(slot(0, 17))])
 
-got, _ = run_next_slot([], ["--fill", "1"], local={slot(0, 15)})
-check("a local publish.json not yet uploaded still holds its slot", got, [stamp(slot(0, 21))])
+got, _ = run_next_slot([], ["--fill", "1"], local={slot(0, 11)})
+check("a local publish.json not yet uploaded still holds its slot", got, [stamp(slot(0, 17))])
 
 
 def unavailable():
@@ -144,28 +151,28 @@ out, err = io.StringIO(), io.StringIO()
 with contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
     next_slot.main()
 check("an unreadable channel degrades to local-only instead of shipping nothing",
-      out.getvalue().split(), [stamp(slot(0, 15)), stamp(slot(0, 21))])
+      out.getvalue().split(), [stamp(slot(0, 11)), stamp(slot(0, 17))])
 check("…and says so loudly", "warning: channel not readable" in err.getvalue(), True)
 
 # ---------------------------------------------------------------- watchdog: what to alarm on
 print("-- watchdog.py")
-code, _, err = run_watchdog([slot(0, 15), slot(0, 21), slot(1, 15), slot(1, 21)], ["--hours", "24"])
+code, _, err = run_watchdog([slot(0, 11), slot(0, 17), slot(1, 11), slot(1, 17)], ["--hours", "24"])
 check("a full day with a full buffer is healthy and silent", (code, "WARN" in err), (0, False))
 
-code, _, err = run_watchdog([slot(0, 15), slot(0, 21)], ["--hours", "24"])
+code, _, err = run_watchdog([slot(0, 11), slot(0, 17)], ["--hours", "24"])
 check("a full day with an eaten buffer passes but warns", (code, "WATCHDOG WARN" in err), (0, True))
 
 # THE REGRESSION THIS FILE EXISTS FOR: one video is half a day, and used to report OK.
-code, out, _ = run_watchdog([slot(0, 15)], ["--hours", "24"])
+code, out, _ = run_watchdog([slot(0, 11)], ["--hours", "24"])
 check("a HALF day fails", (code, "WATCHDOG OK" in out), (1, False))
 
 code, _, _ = run_watchdog([], ["--hours", "24"])
 check("an empty day fails", code, 1)
 
-code, out, err = run_watchdog([slot(0, 15), slot(0, 21), slot(1, 15), slot(1, 21)], ["--quiet"])
+code, out, err = run_watchdog([slot(0, 11), slot(0, 17), slot(1, 11), slot(1, 17)], ["--quiet"])
 check("--quiet stays silent only when everything is healthy", (code, out, err), (0, "", ""))
 
-code, out, _ = run_watchdog([slot(0, 15), slot(0, 21)], ["--quiet"])
+code, out, _ = run_watchdog([slot(0, 11), slot(0, 17)], ["--quiet"])
 check("--quiet still reports an eaten buffer", (code, "SHORT" in out), (0, True))
 
 print("")

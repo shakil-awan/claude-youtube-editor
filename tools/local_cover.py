@@ -3,6 +3,7 @@
 Used when both image backends (Replicate, Gemini) are out of credit.
   python tools/local_cover.py wave  media/projects/short-105/cover.png
   python tools/local_cover.py coin  media/projects/short-106/cover.png
+  python tools/local_cover.py fork  media/projects/short-141/cover.png
 """
 import math
 import random
@@ -56,10 +57,25 @@ def coin(img):
     return glow_l
 
 
+def fork(img):
+    cx, cy = W // 2, 1500
+    glow_l = Image.new("RGB", (W, H), (0, 0, 0))
+    d = ImageDraw.Draw(glow_l)
+    # one trunk splitting into branches: a decision tree
+    d.line([(cx, 1880), (cx, cy)], fill=EMERALD, width=14)
+    for i, dx in enumerate((-380, -130, 130, 380)):
+        tx, ty = cx + dx, 900 + abs(dx) // 3
+        col = GOLD if i == 2 else EMERALD
+        d.line([(cx, cy), (tx, ty)], fill=col, width=12)
+        d.ellipse([tx - 46, ty - 46, tx + 46, ty + 46], outline=col, width=10)
+    d.ellipse([cx - 80, cy - 80, cx + 80, cy + 80], fill=GOLD)
+    return glow_l
+
+
 def main():
     kind, out = sys.argv[1], sys.argv[2]
     img = base()
-    layer = {"wave": wave, "coin": coin}[kind](img)
+    layer = {"wave": wave, "coin": coin, "fork": fork}[kind](img)
     soft = glow(layer, 28)
     img = Image.composite(img, img, Image.new("L", (W, H), 255))
     from PIL import ImageChops

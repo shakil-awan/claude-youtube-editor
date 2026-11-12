@@ -1,0 +1,508 @@
+{
+  "text": "Google's new AI never writes a word. And it costs ten cents per million tokens. It's called Gemini Decision, and it launched yesterday. You send it your data, ask up to one thousand questions, and it answers with probabilities. Yes or no. Pick an option. Score it on a rubric. So how much do the answers cost? Nothing. Output is always zero tokens, and your data is billed once, no matter how many questions you ask. Google's regular Gemini three point eight Flash charges seventy five cents in, and three seventy five out. Google's new AI never writes a word.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 40.255,
+  "words": [
+    {
+      "word": "Google's",
+      "start_s": 0.0,
+      "end_s": 0.395
+    },
+    {
+      "word": "new",
+      "start_s": 0.453,
+      "end_s": 0.569
+    },
+    {
+      "word": "AI",
+      "start_s": 0.639,
+      "end_s": 0.906
+    },
+    {
+      "word": "never",
+      "start_s": 0.975,
+      "end_s": 1.184
+    },
+    {
+      "word": "writes",
+      "start_s": 1.219,
+      "end_s": 1.474
+    },
+    {
+      "word": "a",
+      "start_s": 1.521,
+      "end_s": 1.544
+    },
+    {
+      "word": "word.",
+      "start_s": 1.602,
+      "end_s": 2.02
+    },
+    {
+      "word": "And",
+      "start_s": 2.717,
+      "end_s": 2.868
+    },
+    {
+      "word": "it",
+      "start_s": 2.926,
+      "end_s": 2.984
+    },
+    {
+      "word": "costs",
+      "start_s": 3.042,
+      "end_s": 3.344
+    },
+    {
+      "word": "ten",
+      "start_s": 3.39,
+      "end_s": 3.622
+    },
+    {
+      "word": "cents",
+      "start_s": 3.715,
+      "end_s": 3.971
+    },
+    {
+      "word": "per",
+      "start_s": 4.029,
+      "end_s": 4.168
+    },
+    {
+      "word": "million",
+      "start_s": 4.261,
+      "end_s": 4.586
+    },
+    {
+      "word": "tokens.",
+      "start_s": 4.644,
+      "end_s": 5.341
+    },
+    {
+      "word": "It's",
+      "start_s": 6.293,
+      "end_s": 6.467
+    },
+    {
+      "word": "called",
+      "start_s": 6.502,
+      "end_s": 6.711
+    },
+    {
+      "word": "Gemini",
+      "start_s": 6.757,
+      "end_s": 7.105
+    },
+    {
+      "word": "Decision,",
+      "start_s": 7.175,
+      "end_s": 7.767
+    },
+    {
+      "word": "and",
+      "start_s": 7.941,
+      "end_s": 8.069
+    },
+    {
+      "word": "it",
+      "start_s": 8.127,
+      "end_s": 8.185
+    },
+    {
+      "word": "launched",
+      "start_s": 8.243,
+      "end_s": 8.522
+    },
+    {
+      "word": "yesterday.",
+      "start_s": 8.58,
+      "end_s": 9.242
+    },
+    {
+      "word": "You",
+      "start_s": 10.194,
+      "end_s": 10.321
+    },
+    {
+      "word": "send",
+      "start_s": 10.403,
+      "end_s": 10.577
+    },
+    {
+      "word": "it",
+      "start_s": 10.623,
+      "end_s": 10.681
+    },
+    {
+      "word": "your",
+      "start_s": 10.716,
+      "end_s": 10.832
+    },
+    {
+      "word": "data,",
+      "start_s": 10.902,
+      "end_s": 11.482
+    },
+    {
+      "word": "ask",
+      "start_s": 11.656,
+      "end_s": 11.935
+    },
+    {
+      "word": "up",
+      "start_s": 11.993,
+      "end_s": 12.074
+    },
+    {
+      "word": "to",
+      "start_s": 12.121,
+      "end_s": 12.179
+    },
+    {
+      "word": "one",
+      "start_s": 12.272,
+      "end_s": 12.469
+    },
+    {
+      "word": "thousand",
+      "start_s": 12.504,
+      "end_s": 12.841
+    },
+    {
+      "word": "questions,",
+      "start_s": 12.899,
+      "end_s": 13.56
+    },
+    {
+      "word": "and",
+      "start_s": 13.735,
+      "end_s": 13.886
+    },
+    {
+      "word": "it",
+      "start_s": 13.932,
+      "end_s": 14.002
+    },
+    {
+      "word": "answers",
+      "start_s": 14.048,
+      "end_s": 14.385
+    },
+    {
+      "word": "with",
+      "start_s": 14.42,
+      "end_s": 14.536
+    },
+    {
+      "word": "probabilities.",
+      "start_s": 14.582,
+      "end_s": 15.395
+    },
+    {
+      "word": "Yes",
+      "start_s": 16.207,
+      "end_s": 16.416
+    },
+    {
+      "word": "or",
+      "start_s": 16.474,
+      "end_s": 16.556
+    },
+    {
+      "word": "no.",
+      "start_s": 16.614,
+      "end_s": 17.032
+    },
+    {
+      "word": "Pick",
+      "start_s": 17.728,
+      "end_s": 17.926
+    },
+    {
+      "word": "an",
+      "start_s": 17.972,
+      "end_s": 18.019
+    },
+    {
+      "word": "option.",
+      "start_s": 18.077,
+      "end_s": 18.611
+    },
+    {
+      "word": "Score",
+      "start_s": 19.307,
+      "end_s": 19.621
+    },
+    {
+      "word": "it",
+      "start_s": 19.656,
+      "end_s": 19.714
+    },
+    {
+      "word": "on",
+      "start_s": 19.748,
+      "end_s": 19.807
+    },
+    {
+      "word": "a",
+      "start_s": 19.853,
+      "end_s": 19.876
+    },
+    {
+      "word": "rubric.",
+      "start_s": 19.934,
+      "end_s": 20.48
+    },
+    {
+      "word": "So",
+      "start_s": 21.176,
+      "end_s": 21.374
+    },
+    {
+      "word": "how",
+      "start_s": 21.444,
+      "end_s": 21.56
+    },
+    {
+      "word": "much",
+      "start_s": 21.618,
+      "end_s": 21.792
+    },
+    {
+      "word": "do",
+      "start_s": 21.827,
+      "end_s": 21.896
+    },
+    {
+      "word": "the",
+      "start_s": 21.943,
+      "end_s": 22.012
+    },
+    {
+      "word": "answers",
+      "start_s": 22.059,
+      "end_s": 22.396
+    },
+    {
+      "word": "cost?",
+      "start_s": 22.465,
+      "end_s": 23.034
+    },
+    {
+      "word": "Nothing.",
+      "start_s": 23.731,
+      "end_s": 24.23
+    },
+    {
+      "word": "Output",
+      "start_s": 24.927,
+      "end_s": 25.31
+    },
+    {
+      "word": "is",
+      "start_s": 25.356,
+      "end_s": 25.437
+    },
+    {
+      "word": "always",
+      "start_s": 25.507,
+      "end_s": 25.879
+    },
+    {
+      "word": "zero",
+      "start_s": 25.948,
+      "end_s": 26.238
+    },
+    {
+      "word": "tokens,",
+      "start_s": 26.296,
+      "end_s": 26.947
+    },
+    {
+      "word": "and",
+      "start_s": 27.098,
+      "end_s": 27.237
+    },
+    {
+      "word": "your",
+      "start_s": 27.283,
+      "end_s": 27.399
+    },
+    {
+      "word": "data",
+      "start_s": 27.446,
+      "end_s": 27.678
+    },
+    {
+      "word": "is",
+      "start_s": 27.736,
+      "end_s": 27.829
+    },
+    {
+      "word": "billed",
+      "start_s": 27.899,
+      "end_s": 28.166
+    },
+    {
+      "word": "once,",
+      "start_s": 28.282,
+      "end_s": 28.653
+    },
+    {
+      "word": "no",
+      "start_s": 28.711,
+      "end_s": 28.804
+    },
+    {
+      "word": "matter",
+      "start_s": 28.851,
+      "end_s": 29.036
+    },
+    {
+      "word": "how",
+      "start_s": 29.094,
+      "end_s": 29.222
+    },
+    {
+      "word": "many",
+      "start_s": 29.257,
+      "end_s": 29.385
+    },
+    {
+      "word": "questions",
+      "start_s": 29.431,
+      "end_s": 29.803
+    },
+    {
+      "word": "you",
+      "start_s": 29.849,
+      "end_s": 29.93
+    },
+    {
+      "word": "ask.",
+      "start_s": 30.012,
+      "end_s": 30.453
+    },
+    {
+      "word": "Google's",
+      "start_s": 31.149,
+      "end_s": 31.533
+    },
+    {
+      "word": "regular",
+      "start_s": 31.591,
+      "end_s": 31.939
+    },
+    {
+      "word": "Gemini",
+      "start_s": 32.009,
+      "end_s": 32.427
+    },
+    {
+      "word": "three",
+      "start_s": 32.496,
+      "end_s": 32.717
+    },
+    {
+      "word": "point",
+      "start_s": 32.763,
+      "end_s": 32.972
+    },
+    {
+      "word": "eight",
+      "start_s": 33.03,
+      "end_s": 33.216
+    },
+    {
+      "word": "Flash",
+      "start_s": 33.297,
+      "end_s": 33.773
+    },
+    {
+      "word": "charges",
+      "start_s": 34.098,
+      "end_s": 34.458
+    },
+    {
+      "word": "seventy",
+      "start_s": 34.493,
+      "end_s": 34.783
+    },
+    {
+      "word": "five",
+      "start_s": 34.83,
+      "end_s": 35.039
+    },
+    {
+      "word": "cents",
+      "start_s": 35.073,
+      "end_s": 35.317
+    },
+    {
+      "word": "in,",
+      "start_s": 35.387,
+      "end_s": 35.747
+    },
+    {
+      "word": "and",
+      "start_s": 35.921,
+      "end_s": 36.06
+    },
+    {
+      "word": "three",
+      "start_s": 36.107,
+      "end_s": 36.316
+    },
+    {
+      "word": "seventy",
+      "start_s": 36.351,
+      "end_s": 36.641
+    },
+    {
+      "word": "five",
+      "start_s": 36.687,
+      "end_s": 36.896
+    },
+    {
+      "word": "out.",
+      "start_s": 36.931,
+      "end_s": 37.268
+    },
+    {
+      "word": "Google's",
+      "start_s": 37.964,
+      "end_s": 38.347
+    },
+    {
+      "word": "new",
+      "start_s": 38.405,
+      "end_s": 38.545
+    },
+    {
+      "word": "AI",
+      "start_s": 38.614,
+      "end_s": 38.916
+    },
+    {
+      "word": "never",
+      "start_s": 39.009,
+      "end_s": 39.207
+    },
+    {
+      "word": "writes",
+      "start_s": 39.241,
+      "end_s": 39.474
+    },
+    {
+      "word": "a",
+      "start_s": 39.508,
+      "end_s": 39.543
+    },
+    {
+      "word": "word.",
+      "start_s": 39.601,
+      "end_s": 40.217
+    }
+  ]
+}

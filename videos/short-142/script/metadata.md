@@ -1,0 +1,7 @@
+Title: Gemini 2.5 Flash Switches Dec 1. Audio Gets 70% Cheaper.
+Description: From Dec 1, 2026 every gemini-2.5-flash API request routes to Gemini 3.5 Flash-Lite. Text stays $0.30 in / $2.50 out per 1M tokens; audio input drops $1.00 to $0.30. Free Search grounding: 1,500/day on 2.5 Flash vs 5,000/month on Flash-Lite, then $14 per 1,000. Source: aistudio.google.com/docs/pricing
+Hashtags: #ai #aitools #gemini
+Slot: 2026-11-13T22:00:00Z
+Pinned comment: Do you use Search grounding enough to feel this?
+Affiliate: none.
+Video ID: qzpMhBCQ8xA

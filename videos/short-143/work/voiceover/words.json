@@ -1,0 +1,443 @@
+{
+  "text": "Google's new Gemini four Hydrogen costs one dollar fifty per million input tokens. It launched November twelfth, and it has a free tier. Output is seven fifty. Now compare Carbon, Google's bigger model. Two dollars today. But on December first, Carbon doubles to four dollars in, twenty out. Hydrogen has no price change listed. And Gemini three point eight Flash? Seventy five cents now. On January first it also becomes one fifty, exactly Hydrogen's price. So Hydrogen costs one dollar fifty. Carbon hits four on December first.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 39.602,
+  "words": [
+    {
+      "word": "Google's",
+      "start_s": 0.0,
+      "end_s": 0.441
+    },
+    {
+      "word": "new",
+      "start_s": 0.499,
+      "end_s": 0.662
+    },
+    {
+      "word": "Gemini",
+      "start_s": 0.755,
+      "end_s": 1.149
+    },
+    {
+      "word": "four",
+      "start_s": 1.265,
+      "end_s": 1.486
+    },
+    {
+      "word": "Hydrogen",
+      "start_s": 1.556,
+      "end_s": 2.009
+    },
+    {
+      "word": "costs",
+      "start_s": 2.078,
+      "end_s": 2.415
+    },
+    {
+      "word": "one",
+      "start_s": 2.508,
+      "end_s": 2.717
+    },
+    {
+      "word": "dollar",
+      "start_s": 2.763,
+      "end_s": 3.03
+    },
+    {
+      "word": "fifty",
+      "start_s": 3.111,
+      "end_s": 3.448
+    },
+    {
+      "word": "per",
+      "start_s": 3.518,
+      "end_s": 3.646
+    },
+    {
+      "word": "million",
+      "start_s": 3.704,
+      "end_s": 4.029
+    },
+    {
+      "word": "input",
+      "start_s": 4.098,
+      "end_s": 4.435
+    },
+    {
+      "word": "tokens.",
+      "start_s": 4.47,
+      "end_s": 5.074
+    },
+    {
+      "word": "It",
+      "start_s": 5.77,
+      "end_s": 5.909
+    },
+    {
+      "word": "launched",
+      "start_s": 5.979,
+      "end_s": 6.339
+    },
+    {
+      "word": "November",
+      "start_s": 6.455,
+      "end_s": 6.92
+    },
+    {
+      "word": "twelfth,",
+      "start_s": 6.966,
+      "end_s": 7.5
+    },
+    {
+      "word": "and",
+      "start_s": 7.651,
+      "end_s": 7.779
+    },
+    {
+      "word": "it",
+      "start_s": 7.837,
+      "end_s": 7.883
+    },
+    {
+      "word": "has",
+      "start_s": 7.93,
+      "end_s": 8.057
+    },
+    {
+      "word": "a",
+      "start_s": 8.104,
+      "end_s": 8.139
+    },
+    {
+      "word": "free",
+      "start_s": 8.208,
+      "end_s": 8.429
+    },
+    {
+      "word": "tier.",
+      "start_s": 8.475,
+      "end_s": 8.94
+    },
+    {
+      "word": "Output",
+      "start_s": 9.636,
+      "end_s": 10.077
+    },
+    {
+      "word": "is",
+      "start_s": 10.147,
+      "end_s": 10.286
+    },
+    {
+      "word": "seven",
+      "start_s": 10.368,
+      "end_s": 10.693
+    },
+    {
+      "word": "fifty.",
+      "start_s": 10.774,
+      "end_s": 11.389
+    },
+    {
+      "word": "Now",
+      "start_s": 12.086,
+      "end_s": 12.272
+    },
+    {
+      "word": "compare",
+      "start_s": 12.341,
+      "end_s": 12.701
+    },
+    {
+      "word": "Carbon,",
+      "start_s": 12.748,
+      "end_s": 13.224
+    },
+    {
+      "word": "Google's",
+      "start_s": 13.34,
+      "end_s": 13.7
+    },
+    {
+      "word": "bigger",
+      "start_s": 13.746,
+      "end_s": 13.955
+    },
+    {
+      "word": "model.",
+      "start_s": 14.002,
+      "end_s": 14.478
+    },
+    {
+      "word": "Two",
+      "start_s": 15.174,
+      "end_s": 15.36
+    },
+    {
+      "word": "dollars",
+      "start_s": 15.418,
+      "end_s": 15.743
+    },
+    {
+      "word": "today.",
+      "start_s": 15.801,
+      "end_s": 16.289
+    },
+    {
+      "word": "But",
+      "start_s": 16.985,
+      "end_s": 17.241
+    },
+    {
+      "word": "on",
+      "start_s": 17.322,
+      "end_s": 17.461
+    },
+    {
+      "word": "December",
+      "start_s": 17.519,
+      "end_s": 17.949
+    },
+    {
+      "word": "first,",
+      "start_s": 18.03,
+      "end_s": 18.576
+    },
+    {
+      "word": "Carbon",
+      "start_s": 18.785,
+      "end_s": 19.121
+    },
+    {
+      "word": "doubles",
+      "start_s": 19.179,
+      "end_s": 19.47
+    },
+    {
+      "word": "to",
+      "start_s": 19.504,
+      "end_s": 19.574
+    },
+    {
+      "word": "four",
+      "start_s": 19.644,
+      "end_s": 19.841
+    },
+    {
+      "word": "dollars",
+      "start_s": 19.899,
+      "end_s": 20.224
+    },
+    {
+      "word": "in,",
+      "start_s": 20.282,
+      "end_s": 20.584
+    },
+    {
+      "word": "twenty",
+      "start_s": 20.758,
+      "end_s": 21.06
+    },
+    {
+      "word": "out.",
+      "start_s": 21.118,
+      "end_s": 21.466
+    },
+    {
+      "word": "Hydrogen",
+      "start_s": 22.163,
+      "end_s": 22.651
+    },
+    {
+      "word": "has",
+      "start_s": 22.709,
+      "end_s": 22.86
+    },
+    {
+      "word": "no",
+      "start_s": 22.953,
+      "end_s": 23.092
+    },
+    {
+      "word": "price",
+      "start_s": 23.185,
+      "end_s": 23.498
+    },
+    {
+      "word": "change",
+      "start_s": 23.533,
+      "end_s": 23.835
+    },
+    {
+      "word": "listed.",
+      "start_s": 23.881,
+      "end_s": 24.346
+    },
+    {
+      "word": "And",
+      "start_s": 25.042,
+      "end_s": 25.216
+    },
+    {
+      "word": "Gemini",
+      "start_s": 25.309,
+      "end_s": 25.751
+    },
+    {
+      "word": "three",
+      "start_s": 25.832,
+      "end_s": 26.052
+    },
+    {
+      "word": "point",
+      "start_s": 26.099,
+      "end_s": 26.308
+    },
+    {
+      "word": "eight",
+      "start_s": 26.366,
+      "end_s": 26.517
+    },
+    {
+      "word": "Flash?",
+      "start_s": 26.54,
+      "end_s": 27.016
+    },
+    {
+      "word": "Seventy",
+      "start_s": 27.713,
+      "end_s": 28.038
+    },
+    {
+      "word": "five",
+      "start_s": 28.096,
+      "end_s": 28.305
+    },
+    {
+      "word": "cents",
+      "start_s": 28.34,
+      "end_s": 28.583
+    },
+    {
+      "word": "now.",
+      "start_s": 28.63,
+      "end_s": 28.99
+    },
+    {
+      "word": "On",
+      "start_s": 29.686,
+      "end_s": 29.837
+    },
+    {
+      "word": "January",
+      "start_s": 29.907,
+      "end_s": 30.371
+    },
+    {
+      "word": "first",
+      "start_s": 30.441,
+      "end_s": 30.708
+    },
+    {
+      "word": "it",
+      "start_s": 30.754,
+      "end_s": 30.824
+    },
+    {
+      "word": "also",
+      "start_s": 30.859,
+      "end_s": 31.056
+    },
+    {
+      "word": "becomes",
+      "start_s": 31.114,
+      "end_s": 31.416
+    },
+    {
+      "word": "one",
+      "start_s": 31.497,
+      "end_s": 31.672
+    },
+    {
+      "word": "fifty,",
+      "start_s": 31.73,
+      "end_s": 32.206
+    },
+    {
+      "word": "exactly",
+      "start_s": 32.531,
+      "end_s": 33.076
+    },
+    {
+      "word": "Hydrogen's",
+      "start_s": 33.134,
+      "end_s": 33.61
+    },
+    {
+      "word": "price.",
+      "start_s": 33.645,
+      "end_s": 34.074
+    },
+    {
+      "word": "So",
+      "start_s": 34.771,
+      "end_s": 34.945
+    },
+    {
+      "word": "Hydrogen",
+      "start_s": 35.026,
+      "end_s": 35.433
+    },
+    {
+      "word": "costs",
+      "start_s": 35.491,
+      "end_s": 35.746
+    },
+    {
+      "word": "one",
+      "start_s": 35.816,
+      "end_s": 36.037
+    },
+    {
+      "word": "dollar",
+      "start_s": 36.071,
+      "end_s": 36.315
+    },
+    {
+      "word": "fifty.",
+      "start_s": 36.373,
+      "end_s": 36.849
+    },
+    {
+      "word": "Carbon",
+      "start_s": 37.174,
+      "end_s": 37.511
+    },
+    {
+      "word": "hits",
+      "start_s": 37.546,
+      "end_s": 37.72
+    },
+    {
+      "word": "four",
+      "start_s": 37.778,
+      "end_s": 38.103
+    },
+    {
+      "word": "on",
+      "start_s": 38.219,
+      "end_s": 38.382
+    },
+    {
+      "word": "December",
+      "start_s": 38.428,
+      "end_s": 38.823
+    },
+    {
+      "word": "first.",
+      "start_s": 38.893,
+      "end_s": 39.566
+    }
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "text": "Claude Haiku five point five and GPT six Luna both cost ten cents. Past a hundred thousand tokens, Claude's costs five times more. Under a hundred thousand, they are identical. Ten cents in, fifty cents out, per million tokens. Even cache reads match, at one cent. But send Haiku a prompt over a hundred thousand tokens, and the whole request reprices. Fifty cents in. Two fifty out. Luna stays at ten cents all the way to two hundred seventy two thousand tokens. So what does Luna cost past that? Twenty cents in. Seventy five out. Still cheaper than Haiku. Same ten cents. Until your prompt gets long.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 43.912,
+  "words": [
+    {
+      "word": "Claude",
+      "start_s": 0.0,
+      "end_s": 0.372
+    },
+    {
+      "word": "Haiku",
+      "start_s": 0.395,
+      "end_s": 0.789
+    },
+    {
+      "word": "five",
+      "start_s": 0.906,
+      "end_s": 1.184
+    },
+    {
+      "word": "point",
+      "start_s": 1.219,
+      "end_s": 1.44
+    },
+    {
+      "word": "five",
+      "start_s": 1.498,
+      "end_s": 1.811
+    },
+    {
+      "word": "and",
+      "start_s": 1.858,
+      "end_s": 1.974
+    },
+    {
+      "word": "GPT",
+      "start_s": 2.055,
+      "end_s": 2.496
+    },
+    {
+      "word": "six",
+      "start_s": 2.647,
+      "end_s": 2.995
+    },
+    {
+      "word": "Luna",
+      "start_s": 3.692,
+      "end_s": 3.994
+    },
+    {
+      "word": "both",
+      "start_s": 4.052,
+      "end_s": 4.261
+    },
+    {
+      "word": "cost",
+      "start_s": 4.307,
+      "end_s": 4.574
+    },
+    {
+      "word": "ten",
+      "start_s": 4.621,
+      "end_s": 4.795
+    },
+    {
+      "word": "cents.",
+      "start_s": 4.876,
+      "end_s": 5.352
+    },
+    {
+      "word": "Past",
+      "start_s": 5.956,
+      "end_s": 6.258
+    },
+    {
+      "word": "a",
+      "start_s": 6.293,
+      "end_s": 6.327
+    },
+    {
+      "word": "hundred",
+      "start_s": 6.409,
+      "end_s": 6.699
+    },
+    {
+      "word": "thousand",
+      "start_s": 6.734,
+      "end_s": 7.07
+    },
+    {
+      "word": "tokens,",
+      "start_s": 7.129,
+      "end_s": 7.721
+    },
+    {
+      "word": "Claude's",
+      "start_s": 7.895,
+      "end_s": 8.243
+    },
+    {
+      "word": "costs",
+      "start_s": 8.29,
+      "end_s": 8.603
+    },
+    {
+      "word": "five",
+      "start_s": 8.661,
+      "end_s": 8.94
+    },
+    {
+      "word": "times",
+      "start_s": 8.975,
+      "end_s": 9.242
+    },
+    {
+      "word": "more.",
+      "start_s": 9.311,
+      "end_s": 9.683
+    },
+    {
+      "word": "Under",
+      "start_s": 10.495,
+      "end_s": 10.762
+    },
+    {
+      "word": "a",
+      "start_s": 10.832,
+      "end_s": 10.867
+    },
+    {
+      "word": "hundred",
+      "start_s": 10.948,
+      "end_s": 11.238
+    },
+    {
+      "word": "thousand,",
+      "start_s": 11.273,
+      "end_s": 11.691
+    },
+    {
+      "word": "they",
+      "start_s": 11.714,
+      "end_s": 11.889
+    },
+    {
+      "word": "are",
+      "start_s": 11.947,
+      "end_s": 12.109
+    },
+    {
+      "word": "identical.",
+      "start_s": 12.167,
+      "end_s": 12.934
+    },
+    {
+      "word": "Ten",
+      "start_s": 13.537,
+      "end_s": 13.769
+    },
+    {
+      "word": "cents",
+      "start_s": 13.839,
+      "end_s": 14.095
+    },
+    {
+      "word": "in,",
+      "start_s": 14.141,
+      "end_s": 14.373
+    },
+    {
+      "word": "fifty",
+      "start_s": 14.42,
+      "end_s": 14.71
+    },
+    {
+      "word": "cents",
+      "start_s": 14.768,
+      "end_s": 15.012
+    },
+    {
+      "word": "out,",
+      "start_s": 15.058,
+      "end_s": 15.36
+    },
+    {
+      "word": "per",
+      "start_s": 15.476,
+      "end_s": 15.697
+    },
+    {
+      "word": "million",
+      "start_s": 15.778,
+      "end_s": 16.091
+    },
+    {
+      "word": "tokens.",
+      "start_s": 16.138,
+      "end_s": 16.776
+    },
+    {
+      "word": "Even",
+      "start_s": 17.473,
+      "end_s": 17.74
+    },
+    {
+      "word": "cache",
+      "start_s": 17.809,
+      "end_s": 18.192
+    },
+    {
+      "word": "reads",
+      "start_s": 18.239,
+      "end_s": 18.459
+    },
+    {
+      "word": "match,",
+      "start_s": 18.529,
+      "end_s": 18.935
+    },
+    {
+      "word": "at",
+      "start_s": 18.97,
+      "end_s": 19.133
+    },
+    {
+      "word": "one",
+      "start_s": 19.202,
+      "end_s": 19.423
+    },
+    {
+      "word": "cent.",
+      "start_s": 19.469,
+      "end_s": 19.945
+    },
+    {
+      "word": "But",
+      "start_s": 20.642,
+      "end_s": 20.816
+    },
+    {
+      "word": "send",
+      "start_s": 20.886,
+      "end_s": 21.106
+    },
+    {
+      "word": "Haiku",
+      "start_s": 21.176,
+      "end_s": 21.524
+    },
+    {
+      "word": "a",
+      "start_s": 21.594,
+      "end_s": 21.629
+    },
+    {
+      "word": "prompt",
+      "start_s": 21.699,
+      "end_s": 22.012
+    },
+    {
+      "word": "over",
+      "start_s": 22.082,
+      "end_s": 22.291
+    },
+    {
+      "word": "a",
+      "start_s": 22.36,
+      "end_s": 22.395
+    },
+    {
+      "word": "hundred",
+      "start_s": 22.523,
+      "end_s": 22.825
+    },
+    {
+      "word": "thousand",
+      "start_s": 22.86,
+      "end_s": 23.196
+    },
+    {
+      "word": "tokens,",
+      "start_s": 23.243,
+      "end_s": 23.87
+    },
+    {
+      "word": "and",
+      "start_s": 24.021,
+      "end_s": 24.16
+    },
+    {
+      "word": "the",
+      "start_s": 24.206,
+      "end_s": 24.276
+    },
+    {
+      "word": "whole",
+      "start_s": 24.334,
+      "end_s": 24.543
+    },
+    {
+      "word": "request",
+      "start_s": 24.578,
+      "end_s": 24.926
+    },
+    {
+      "word": "reprices.",
+      "start_s": 24.984,
+      "end_s": 25.716
+    },
+    {
+      "word": "Fifty",
+      "start_s": 26.528,
+      "end_s": 26.877
+    },
+    {
+      "word": "cents",
+      "start_s": 26.935,
+      "end_s": 27.202
+    },
+    {
+      "word": "in.",
+      "start_s": 27.26,
+      "end_s": 27.538
+    },
+    {
+      "word": "Two",
+      "start_s": 27.689,
+      "end_s": 27.887
+    },
+    {
+      "word": "fifty",
+      "start_s": 27.956,
+      "end_s": 28.247
+    },
+    {
+      "word": "out.",
+      "start_s": 28.305,
+      "end_s": 28.618
+    },
+    {
+      "word": "Luna",
+      "start_s": 29.57,
+      "end_s": 29.837
+    },
+    {
+      "word": "stays",
+      "start_s": 29.895,
+      "end_s": 30.22
+    },
+    {
+      "word": "at",
+      "start_s": 30.29,
+      "end_s": 30.394
+    },
+    {
+      "word": "ten",
+      "start_s": 30.452,
+      "end_s": 30.661
+    },
+    {
+      "word": "cents",
+      "start_s": 30.743,
+      "end_s": 31.114
+    },
+    {
+      "word": "all",
+      "start_s": 31.323,
+      "end_s": 31.532
+    },
+    {
+      "word": "the",
+      "start_s": 31.579,
+      "end_s": 31.648
+    },
+    {
+      "word": "way",
+      "start_s": 31.695,
+      "end_s": 31.799
+    },
+    {
+      "word": "to",
+      "start_s": 31.846,
+      "end_s": 31.904
+    },
+    {
+      "word": "two",
+      "start_s": 31.962,
+      "end_s": 32.113
+    },
+    {
+      "word": "hundred",
+      "start_s": 32.182,
+      "end_s": 32.415
+    },
+    {
+      "word": "seventy",
+      "start_s": 32.484,
+      "end_s": 32.786
+    },
+    {
+      "word": "two",
+      "start_s": 32.833,
+      "end_s": 32.972
+    },
+    {
+      "word": "thousand",
+      "start_s": 33.041,
+      "end_s": 33.366
+    },
+    {
+      "word": "tokens.",
+      "start_s": 33.413,
+      "end_s": 34.016
+    },
+    {
+      "word": "So",
+      "start_s": 34.713,
+      "end_s": 34.864
+    },
+    {
+      "word": "what",
+      "start_s": 34.922,
+      "end_s": 35.05
+    },
+    {
+      "word": "does",
+      "start_s": 35.096,
+      "end_s": 35.235
+    },
+    {
+      "word": "Luna",
+      "start_s": 35.293,
+      "end_s": 35.514
+    },
+    {
+      "word": "cost",
+      "start_s": 35.584,
+      "end_s": 35.874
+    },
+    {
+      "word": "past",
+      "start_s": 35.932,
+      "end_s": 36.176
+    },
+    {
+      "word": "that?",
+      "start_s": 36.211,
+      "end_s": 36.571
+    },
+    {
+      "word": "Twenty",
+      "start_s": 37.267,
+      "end_s": 37.534
+    },
+    {
+      "word": "cents",
+      "start_s": 37.581,
+      "end_s": 37.813
+    },
+    {
+      "word": "in.",
+      "start_s": 37.871,
+      "end_s": 38.161
+    },
+    {
+      "word": "Seventy",
+      "start_s": 38.37,
+      "end_s": 38.707
+    },
+    {
+      "word": "five",
+      "start_s": 38.753,
+      "end_s": 39.009
+    },
+    {
+      "word": "out.",
+      "start_s": 39.043,
+      "end_s": 39.357
+    },
+    {
+      "word": "Still",
+      "start_s": 39.636,
+      "end_s": 39.868
+    },
+    {
+      "word": "cheaper",
+      "start_s": 39.926,
+      "end_s": 40.181
+    },
+    {
+      "word": "than",
+      "start_s": 40.216,
+      "end_s": 40.321
+    },
+    {
+      "word": "Haiku.",
+      "start_s": 40.367,
+      "end_s": 40.866
+    },
+    {
+      "word": "Same",
+      "start_s": 41.075,
+      "end_s": 41.319
+    },
+    {
+      "word": "ten",
+      "start_s": 41.354,
+      "end_s": 41.516
+    },
+    {
+      "word": "cents.",
+      "start_s": 41.586,
+      "end_s": 42.05
+    },
+    {
+      "word": "Until",
+      "start_s": 42.376,
+      "end_s": 42.619
+    },
+    {
+      "word": "your",
+      "start_s": 42.666,
+      "end_s": 42.77
+    },
+    {
+      "word": "prompt",
+      "start_s": 42.805,
+      "end_s": 43.049
+    },
+    {
+      "word": "gets",
+      "start_s": 43.084,
+      "end_s": 43.235
+    },
+    {
+      "word": "long.",
+      "start_s": 43.281,
+      "end_s": 43.885
+    }
+  ]
+}

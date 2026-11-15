@@ -1,0 +1,488 @@
+{
+  "text": "Every lab sells a faster lane. Google's costs one point eight times. Claude's and OpenAI's cost double. Gemini 4 Carbon priority is three sixty in, eighteen out. Standard is two and ten. Claude Fable five point two fast mode is sixteen in, eighty out. Standard is eight and forty. GPT six Astra fast is twenty in, a hundred out. Standard is ten and fifty. So Google's fast lane is the cheapest. But OpenAI has one more lane. Ultrafast. Sixty in, three hundred out. Six times standard. Google's fast lane costs less. OpenAI's fastest costs six times.",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 43.912,
+  "words": [
+    {
+      "word": "Every",
+      "start_s": 0.0,
+      "end_s": 0.267
+    },
+    {
+      "word": "lab",
+      "start_s": 0.325,
+      "end_s": 0.511
+    },
+    {
+      "word": "sells",
+      "start_s": 0.569,
+      "end_s": 0.789
+    },
+    {
+      "word": "a",
+      "start_s": 0.824,
+      "end_s": 0.848
+    },
+    {
+      "word": "faster",
+      "start_s": 0.894,
+      "end_s": 1.207
+    },
+    {
+      "word": "lane.",
+      "start_s": 1.277,
+      "end_s": 1.649
+    },
+    {
+      "word": "Google's",
+      "start_s": 2.148,
+      "end_s": 2.496
+    },
+    {
+      "word": "costs",
+      "start_s": 2.543,
+      "end_s": 2.902
+    },
+    {
+      "word": "one",
+      "start_s": 2.972,
+      "end_s": 3.17
+    },
+    {
+      "word": "point",
+      "start_s": 3.204,
+      "end_s": 3.402
+    },
+    {
+      "word": "eight",
+      "start_s": 3.448,
+      "end_s": 3.611
+    },
+    {
+      "word": "times.",
+      "start_s": 3.634,
+      "end_s": 4.145
+    },
+    {
+      "word": "Claude's",
+      "start_s": 4.458,
+      "end_s": 4.876
+    },
+    {
+      "word": "and",
+      "start_s": 4.992,
+      "end_s": 5.143
+    },
+    {
+      "word": "OpenAI's",
+      "start_s": 5.213,
+      "end_s": 5.851
+    },
+    {
+      "word": "cost",
+      "start_s": 5.909,
+      "end_s": 6.235
+    },
+    {
+      "word": "double.",
+      "start_s": 6.351,
+      "end_s": 6.85
+    },
+    {
+      "word": "Gemini",
+      "start_s": 7.523,
+      "end_s": 7.895
+    },
+    {
+      "word": "4",
+      "start_s": 8.011,
+      "end_s": 8.208
+    },
+    {
+      "word": "Carbon",
+      "start_s": 8.324,
+      "end_s": 8.615
+    },
+    {
+      "word": "priority",
+      "start_s": 8.661,
+      "end_s": 9.183
+    },
+    {
+      "word": "is",
+      "start_s": 9.427,
+      "end_s": 9.613
+    },
+    {
+      "word": "three",
+      "start_s": 9.694,
+      "end_s": 9.95
+    },
+    {
+      "word": "sixty",
+      "start_s": 10.008,
+      "end_s": 10.379
+    },
+    {
+      "word": "in,",
+      "start_s": 10.449,
+      "end_s": 10.751
+    },
+    {
+      "word": "eighteen",
+      "start_s": 10.948,
+      "end_s": 11.343
+    },
+    {
+      "word": "out.",
+      "start_s": 11.389,
+      "end_s": 11.726
+    },
+    {
+      "word": "Standard",
+      "start_s": 12.156,
+      "end_s": 12.643
+    },
+    {
+      "word": "is",
+      "start_s": 12.725,
+      "end_s": 12.887
+    },
+    {
+      "word": "two",
+      "start_s": 12.957,
+      "end_s": 13.177
+    },
+    {
+      "word": "and",
+      "start_s": 13.247,
+      "end_s": 13.34
+    },
+    {
+      "word": "ten.",
+      "start_s": 13.398,
+      "end_s": 13.804
+    },
+    {
+      "word": "Claude",
+      "start_s": 14.478,
+      "end_s": 14.814
+    },
+    {
+      "word": "Fable",
+      "start_s": 14.849,
+      "end_s": 15.221
+    },
+    {
+      "word": "five",
+      "start_s": 15.279,
+      "end_s": 15.569
+    },
+    {
+      "word": "point",
+      "start_s": 15.615,
+      "end_s": 15.848
+    },
+    {
+      "word": "two",
+      "start_s": 15.871,
+      "end_s": 16.138
+    },
+    {
+      "word": "fast",
+      "start_s": 16.335,
+      "end_s": 16.672
+    },
+    {
+      "word": "mode",
+      "start_s": 16.742,
+      "end_s": 17.009
+    },
+    {
+      "word": "is",
+      "start_s": 17.067,
+      "end_s": 17.218
+    },
+    {
+      "word": "sixteen",
+      "start_s": 17.276,
+      "end_s": 17.729
+    },
+    {
+      "word": "in,",
+      "start_s": 17.775,
+      "end_s": 18.042
+    },
+    {
+      "word": "eighty",
+      "start_s": 18.205,
+      "end_s": 18.472
+    },
+    {
+      "word": "out.",
+      "start_s": 18.518,
+      "end_s": 18.855
+    },
+    {
+      "word": "Standard",
+      "start_s": 19.528,
+      "end_s": 19.969
+    },
+    {
+      "word": "is",
+      "start_s": 20.016,
+      "end_s": 20.097
+    },
+    {
+      "word": "eight",
+      "start_s": 20.167,
+      "end_s": 20.341
+    },
+    {
+      "word": "and",
+      "start_s": 20.376,
+      "end_s": 20.434
+    },
+    {
+      "word": "forty.",
+      "start_s": 20.503,
+      "end_s": 20.991
+    },
+    {
+      "word": "GPT",
+      "start_s": 21.641,
+      "end_s": 22.082
+    },
+    {
+      "word": "six",
+      "start_s": 22.222,
+      "end_s": 22.5
+    },
+    {
+      "word": "Astra",
+      "start_s": 22.605,
+      "end_s": 22.93
+    },
+    {
+      "word": "fast",
+      "start_s": 22.988,
+      "end_s": 23.29
+    },
+    {
+      "word": "is",
+      "start_s": 23.336,
+      "end_s": 23.418
+    },
+    {
+      "word": "twenty",
+      "start_s": 23.464,
+      "end_s": 23.743
+    },
+    {
+      "word": "in,",
+      "start_s": 23.801,
+      "end_s": 24.103
+    },
+    {
+      "word": "a",
+      "start_s": 24.265,
+      "end_s": 24.335
+    },
+    {
+      "word": "hundred",
+      "start_s": 24.428,
+      "end_s": 24.706
+    },
+    {
+      "word": "out.",
+      "start_s": 24.753,
+      "end_s": 25.043
+    },
+    {
+      "word": "Standard",
+      "start_s": 25.693,
+      "end_s": 26.099
+    },
+    {
+      "word": "is",
+      "start_s": 26.134,
+      "end_s": 26.216
+    },
+    {
+      "word": "ten",
+      "start_s": 26.274,
+      "end_s": 26.448
+    },
+    {
+      "word": "and",
+      "start_s": 26.494,
+      "end_s": 26.564
+    },
+    {
+      "word": "fifty.",
+      "start_s": 26.622,
+      "end_s": 27.179
+    },
+    {
+      "word": "So",
+      "start_s": 27.829,
+      "end_s": 28.015
+    },
+    {
+      "word": "Google's",
+      "start_s": 28.085,
+      "end_s": 28.433
+    },
+    {
+      "word": "fast",
+      "start_s": 28.468,
+      "end_s": 28.723
+    },
+    {
+      "word": "lane",
+      "start_s": 28.781,
+      "end_s": 29.002
+    },
+    {
+      "word": "is",
+      "start_s": 29.048,
+      "end_s": 29.153
+    },
+    {
+      "word": "the",
+      "start_s": 29.211,
+      "end_s": 29.269
+    },
+    {
+      "word": "cheapest.",
+      "start_s": 29.304,
+      "end_s": 29.838
+    },
+    {
+      "word": "But",
+      "start_s": 30.488,
+      "end_s": 30.639
+    },
+    {
+      "word": "OpenAI",
+      "start_s": 30.685,
+      "end_s": 31.219
+    },
+    {
+      "word": "has",
+      "start_s": 31.278,
+      "end_s": 31.417
+    },
+    {
+      "word": "one",
+      "start_s": 31.498,
+      "end_s": 31.707
+    },
+    {
+      "word": "more",
+      "start_s": 31.742,
+      "end_s": 31.928
+    },
+    {
+      "word": "lane.",
+      "start_s": 31.974,
+      "end_s": 32.334
+    },
+    {
+      "word": "Ultrafast.",
+      "start_s": 33.1,
+      "end_s": 33.901
+    },
+    {
+      "word": "Sixty",
+      "start_s": 34.552,
+      "end_s": 34.923
+    },
+    {
+      "word": "in,",
+      "start_s": 34.981,
+      "end_s": 35.248
+    },
+    {
+      "word": "three",
+      "start_s": 35.353,
+      "end_s": 35.585
+    },
+    {
+      "word": "hundred",
+      "start_s": 35.631,
+      "end_s": 35.933
+    },
+    {
+      "word": "out.",
+      "start_s": 35.98,
+      "end_s": 36.27
+    },
+    {
+      "word": "Six",
+      "start_s": 36.92,
+      "end_s": 37.164
+    },
+    {
+      "word": "times",
+      "start_s": 37.222,
+      "end_s": 37.512
+    },
+    {
+      "word": "standard.",
+      "start_s": 37.593,
+      "end_s": 38.139
+    },
+    {
+      "word": "Google's",
+      "start_s": 38.836,
+      "end_s": 39.196
+    },
+    {
+      "word": "fast",
+      "start_s": 39.242,
+      "end_s": 39.509
+    },
+    {
+      "word": "lane",
+      "start_s": 39.59,
+      "end_s": 39.776
+    },
+    {
+      "word": "costs",
+      "start_s": 39.811,
+      "end_s": 40.101
+    },
+    {
+      "word": "less.",
+      "start_s": 40.171,
+      "end_s": 40.635
+    },
+    {
+      "word": "OpenAI's",
+      "start_s": 41.332,
+      "end_s": 41.97
+    },
+    {
+      "word": "fastest",
+      "start_s": 42.04,
+      "end_s": 42.458
+    },
+    {
+      "word": "costs",
+      "start_s": 42.504,
+      "end_s": 42.795
+    },
+    {
+      "word": "six",
+      "start_s": 42.888,
+      "end_s": 43.143
+    },
+    {
+      "word": "times.",
+      "start_s": 43.201,
+      "end_s": 43.886
+    }
+  ]
+}

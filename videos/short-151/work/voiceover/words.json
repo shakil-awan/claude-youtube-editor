@@ -1,0 +1,498 @@
+{
+  "text": "Google will cut Gemini 4's price in half. If it can use your prompts. Gemini 4 Hydrogen costs a dollar fifty per million input tokens, and seven fifty out. The new Contributor tier? Seventy five cents in. Three seventy five out. Exactly half. Gemini 4 Argon drops from two dollars to one. Same speed as standard. So what's the catch? On this tier, Google may use your prompts to improve its products and develop its AI. And it's invite only, for now. Half price on Gemini 4, if Google can use your prompts. Would you take that deal?",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model_id": "eleven_multilingual_v2",
+  "duration_s": 36.362,
+  "words": [
+    {
+      "word": "Google",
+      "start_s": 0.0,
+      "end_s": 0.337
+    },
+    {
+      "word": "will",
+      "start_s": 0.36,
+      "end_s": 0.488
+    },
+    {
+      "word": "cut",
+      "start_s": 0.522,
+      "end_s": 0.662
+    },
+    {
+      "word": "Gemini",
+      "start_s": 0.72,
+      "end_s": 1.057
+    },
+    {
+      "word": "4's",
+      "start_s": 1.138,
+      "end_s": 1.405
+    },
+    {
+      "word": "price",
+      "start_s": 1.463,
+      "end_s": 1.765
+    },
+    {
+      "word": "in",
+      "start_s": 1.811,
+      "end_s": 1.881
+    },
+    {
+      "word": "half.",
+      "start_s": 1.962,
+      "end_s": 2.357
+    },
+    {
+      "word": "If",
+      "start_s": 2.682,
+      "end_s": 2.821
+    },
+    {
+      "word": "it",
+      "start_s": 2.879,
+      "end_s": 2.937
+    },
+    {
+      "word": "can",
+      "start_s": 2.972,
+      "end_s": 3.088
+    },
+    {
+      "word": "use",
+      "start_s": 3.158,
+      "end_s": 3.309
+    },
+    {
+      "word": "your",
+      "start_s": 3.332,
+      "end_s": 3.437
+    },
+    {
+      "word": "prompts.",
+      "start_s": 3.483,
+      "end_s": 4.04
+    },
+    {
+      "word": "Gemini",
+      "start_s": 4.644,
+      "end_s": 5.039
+    },
+    {
+      "word": "4",
+      "start_s": 5.132,
+      "end_s": 5.341
+    },
+    {
+      "word": "Hydrogen",
+      "start_s": 5.433,
+      "end_s": 5.851
+    },
+    {
+      "word": "costs",
+      "start_s": 5.909,
+      "end_s": 6.211
+    },
+    {
+      "word": "a",
+      "start_s": 6.281,
+      "end_s": 6.327
+    },
+    {
+      "word": "dollar",
+      "start_s": 6.478,
+      "end_s": 6.85
+    },
+    {
+      "word": "fifty",
+      "start_s": 6.931,
+      "end_s": 7.221
+    },
+    {
+      "word": "per",
+      "start_s": 7.291,
+      "end_s": 7.407
+    },
+    {
+      "word": "million",
+      "start_s": 7.454,
+      "end_s": 7.755
+    },
+    {
+      "word": "input",
+      "start_s": 7.837,
+      "end_s": 8.173
+    },
+    {
+      "word": "tokens,",
+      "start_s": 8.208,
+      "end_s": 8.789
+    },
+    {
+      "word": "and",
+      "start_s": 8.963,
+      "end_s": 9.114
+    },
+    {
+      "word": "seven",
+      "start_s": 9.207,
+      "end_s": 9.509
+    },
+    {
+      "word": "fifty",
+      "start_s": 9.578,
+      "end_s": 9.88
+    },
+    {
+      "word": "out.",
+      "start_s": 9.938,
+      "end_s": 10.286
+    },
+    {
+      "word": "The",
+      "start_s": 10.983,
+      "end_s": 11.099
+    },
+    {
+      "word": "new",
+      "start_s": 11.169,
+      "end_s": 11.285
+    },
+    {
+      "word": "Contributor",
+      "start_s": 11.343,
+      "end_s": 11.796
+    },
+    {
+      "word": "tier?",
+      "start_s": 11.842,
+      "end_s": 12.214
+    },
+    {
+      "word": "Seventy",
+      "start_s": 12.423,
+      "end_s": 12.736
+    },
+    {
+      "word": "five",
+      "start_s": 12.783,
+      "end_s": 12.98
+    },
+    {
+      "word": "cents",
+      "start_s": 13.015,
+      "end_s": 13.247
+    },
+    {
+      "word": "in.",
+      "start_s": 13.305,
+      "end_s": 13.584
+    },
+    {
+      "word": "Three",
+      "start_s": 13.758,
+      "end_s": 14.036
+    },
+    {
+      "word": "seventy",
+      "start_s": 14.083,
+      "end_s": 14.408
+    },
+    {
+      "word": "five",
+      "start_s": 14.466,
+      "end_s": 14.687
+    },
+    {
+      "word": "out.",
+      "start_s": 14.733,
+      "end_s": 15.012
+    },
+    {
+      "word": "Exactly",
+      "start_s": 15.256,
+      "end_s": 15.732
+    },
+    {
+      "word": "half.",
+      "start_s": 15.79,
+      "end_s": 16.184
+    },
+    {
+      "word": "Gemini",
+      "start_s": 16.881,
+      "end_s": 17.264
+    },
+    {
+      "word": "4",
+      "start_s": 17.357,
+      "end_s": 17.566
+    },
+    {
+      "word": "Argon",
+      "start_s": 17.682,
+      "end_s": 18.03
+    },
+    {
+      "word": "drops",
+      "start_s": 18.077,
+      "end_s": 18.367
+    },
+    {
+      "word": "from",
+      "start_s": 18.402,
+      "end_s": 18.553
+    },
+    {
+      "word": "two",
+      "start_s": 18.623,
+      "end_s": 18.785
+    },
+    {
+      "word": "dollars",
+      "start_s": 18.832,
+      "end_s": 19.122
+    },
+    {
+      "word": "to",
+      "start_s": 19.168,
+      "end_s": 19.238
+    },
+    {
+      "word": "one.",
+      "start_s": 19.331,
+      "end_s": 19.667
+    },
+    {
+      "word": "Same",
+      "start_s": 20.364,
+      "end_s": 20.631
+    },
+    {
+      "word": "speed",
+      "start_s": 20.666,
+      "end_s": 20.921
+    },
+    {
+      "word": "as",
+      "start_s": 20.956,
+      "end_s": 21.014
+    },
+    {
+      "word": "standard.",
+      "start_s": 21.037,
+      "end_s": 21.572
+    },
+    {
+      "word": "So",
+      "start_s": 22.268,
+      "end_s": 22.419
+    },
+    {
+      "word": "what's",
+      "start_s": 22.465,
+      "end_s": 22.651
+    },
+    {
+      "word": "the",
+      "start_s": 22.686,
+      "end_s": 22.756
+    },
+    {
+      "word": "catch?",
+      "start_s": 22.791,
+      "end_s": 23.278
+    },
+    {
+      "word": "On",
+      "start_s": 23.975,
+      "end_s": 24.149
+    },
+    {
+      "word": "this",
+      "start_s": 24.195,
+      "end_s": 24.323
+    },
+    {
+      "word": "tier,",
+      "start_s": 24.393,
+      "end_s": 24.869
+    },
+    {
+      "word": "Google",
+      "start_s": 25.078,
+      "end_s": 25.368
+    },
+    {
+      "word": "may",
+      "start_s": 25.391,
+      "end_s": 25.496
+    },
+    {
+      "word": "use",
+      "start_s": 25.565,
+      "end_s": 25.705
+    },
+    {
+      "word": "your",
+      "start_s": 25.739,
+      "end_s": 25.832
+    },
+    {
+      "word": "prompts",
+      "start_s": 25.879,
+      "end_s": 26.157
+    },
+    {
+      "word": "to",
+      "start_s": 26.181,
+      "end_s": 26.239
+    },
+    {
+      "word": "improve",
+      "start_s": 26.32,
+      "end_s": 26.599
+    },
+    {
+      "word": "its",
+      "start_s": 26.633,
+      "end_s": 26.738
+    },
+    {
+      "word": "products",
+      "start_s": 26.784,
+      "end_s": 27.179
+    },
+    {
+      "word": "and",
+      "start_s": 27.214,
+      "end_s": 27.284
+    },
+    {
+      "word": "develop",
+      "start_s": 27.33,
+      "end_s": 27.632
+    },
+    {
+      "word": "its",
+      "start_s": 27.678,
+      "end_s": 27.794
+    },
+    {
+      "word": "AI.",
+      "start_s": 27.853,
+      "end_s": 28.375
+    },
+    {
+      "word": "And",
+      "start_s": 28.7,
+      "end_s": 28.839
+    },
+    {
+      "word": "it's",
+      "start_s": 28.897,
+      "end_s": 29.014
+    },
+    {
+      "word": "invite",
+      "start_s": 29.048,
+      "end_s": 29.35
+    },
+    {
+      "word": "only,",
+      "start_s": 29.397,
+      "end_s": 29.803
+    },
+    {
+      "word": "for",
+      "start_s": 29.849,
+      "end_s": 30.0
+    },
+    {
+      "word": "now.",
+      "start_s": 30.047,
+      "end_s": 30.442
+    },
+    {
+      "word": "Half",
+      "start_s": 31.254,
+      "end_s": 31.486
+    },
+    {
+      "word": "price",
+      "start_s": 31.556,
+      "end_s": 31.846
+    },
+    {
+      "word": "on",
+      "start_s": 31.892,
+      "end_s": 31.974
+    },
+    {
+      "word": "Gemini",
+      "start_s": 32.032,
+      "end_s": 32.345
+    },
+    {
+      "word": "4,",
+      "start_s": 32.438,
+      "end_s": 32.821
+    },
+    {
+      "word": "if",
+      "start_s": 33.03,
+      "end_s": 33.216
+    },
+    {
+      "word": "Google",
+      "start_s": 33.297,
+      "end_s": 33.599
+    },
+    {
+      "word": "can",
+      "start_s": 33.622,
+      "end_s": 33.727
+    },
+    {
+      "word": "use",
+      "start_s": 33.785,
+      "end_s": 33.936
+    },
+    {
+      "word": "your",
+      "start_s": 33.971,
+      "end_s": 34.075
+    },
+    {
+      "word": "prompts.",
+      "start_s": 34.121,
+      "end_s": 34.597
+    },
+    {
+      "word": "Would",
+      "start_s": 34.772,
+      "end_s": 34.981
+    },
+    {
+      "word": "you",
+      "start_s": 35.027,
+      "end_s": 35.132
+    },
+    {
+      "word": "take",
+      "start_s": 35.19,
+      "end_s": 35.375
+    },
+    {
+      "word": "that",
+      "start_s": 35.41,
+      "end_s": 35.538
+    },
+    {
+      "word": "deal?",
+      "start_s": 35.584,
+      "end_s": 36.13
+    }
+  ]
+}
